@@ -18,6 +18,13 @@ namespace MonitorPipeline
             foreach (Document doc in corpus.Documents)
             {
                 Console.WriteLine(doc.Name);
+                int i = 0;
+                string category;
+                while ((category = doc.Features.GetFeatureValue("category" + ++i)) != null)
+                {
+                    Console.WriteLine(category);
+                }
+                Console.WriteLine();              
             }
         }
     }

@@ -1,5 +1,16 @@
-﻿using System;
-using System.Text;
+﻿/*==========================================================================;
+ *
+ *  This file is part of LATINO. See http://latino.sf.net
+ *
+ *  File:    ZeroMqReceiverComponent.cs
+ *  Desc:    ZeroMQ receiver component
+ *  Created: Sep-2012
+ *
+ *  Author:  Miha Grcar
+ *
+ ***************************************************************************/
+
+using System;
 using System.IO;
 using System.Xml;
 using System.Threading;
@@ -9,6 +20,12 @@ using Messaging;
 
 namespace MonitorPipeline
 {
+    /* .-----------------------------------------------------------------------
+       |
+       |  Class ZeroMqReceiverComponent
+       |
+       '-----------------------------------------------------------------------
+    */
     public class ZeroMqReceiverComponent : StreamDataProducer
     {
         private Thread mThread
@@ -35,10 +52,8 @@ namespace MonitorPipeline
                             {
                                 try
                                 {
-                                    XmlReaderSettings settings = new XmlReaderSettings();
-                                    settings.CheckCharacters = false;
                                     DocumentCorpus dc = new DocumentCorpus();
-                                    XmlReader reader = XmlReader.Create(new StringReader(message), settings);
+                                    XmlReader reader = new XmlTextReader(new StringReader(message));
                                     dc.ReadXml(reader);
                                     reader.Close();
                                     DispatchData(dc);
