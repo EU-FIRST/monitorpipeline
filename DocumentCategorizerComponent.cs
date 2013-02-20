@@ -33,6 +33,8 @@ namespace MonitorPipeline
             = null;
         private static Dictionary<string, IModel<string>> mCategorizer
             = null;
+        private double mThresh
+            = 0.9;
 
         public DocumentCategorizerComponent() : base(typeof(DocumentCategorizerComponent))
         {
@@ -49,6 +51,12 @@ namespace MonitorPipeline
             mCategorizer = Utils.LoadDictionary<string, IModel<string>>(binReader);
             binReader.Close();
             Logger.GetLogger(typeof(DocumentCategorizerComponent)).Info("CategorizerComponent", "Done.");
+        }
+
+        public double Threshold 
+        {
+            get { return mThresh; }
+            set { mThresh = value; }
         }
 
         private static void GetPredictedCategories(string prefix, double thresh, SparseVector<double> vec, ArrayList<string> categories)
@@ -81,7 +89,7 @@ namespace MonitorPipeline
                 foreach (TextBlock block in blocks) { text.AppendLine(block.Text); }
                 SparseVector<double> docVec = mBowSpace.ProcessDocument(text.ToString());
                 ArrayList<string> categories = new ArrayList<string>();
-                GetPredictedCategories(/*prefix=*/"", /*thresh=*/0.9, docVec, categories); // *** threshold hardcoded (make configurable)
+                GetPredictedCategories(/*prefix=*/"", mThresh, docVec, categories); 
                 int i = 0;
                 foreach (string category in categories)
                 {
