@@ -1,4 +1,5 @@
-﻿using Latino;
+﻿using System;
+using Latino;
 using Latino.Workflows;
 using Latino.Workflows.WebMining;
 using Latino.Workflows.TextMining;
@@ -9,6 +10,9 @@ namespace MonitorPipeline
 {
     class Program
     {
+        private static string HTML_FOLDER
+            = Utils.GetConfigValue("HtmlOutputFolder");
+
         private static bool Filter(Document doc, Logger logger)
         {
             int i = 0;
@@ -22,26 +26,42 @@ namespace MonitorPipeline
 
         static void Main(string[] args)
         {
+            Logger logger = Logger.GetRootLogger();
             const int NUM_PIPES = 4;
             ZeroMqReceiverComponent zmqRcv = new ZeroMqReceiverComponent();
             zmqRcv.DispatchPolicy = DispatchPolicy.BalanceLoadMax;
             for (int i = 0; i < NUM_PIPES; i++)
             {
+                DocumentFilterComponent rcv = new DocumentFilterComponent();
+                rcv.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(
+                    delegate(Document doc, Logger log) 
+                    {
+                        Console.WriteLine("RCV " + doc.Name);
+                        return true;
+                    });                
                 DocumentCategorizerComponent cc = new DocumentCategorizerComponent();
                 cc.BlockSelector = "TextBlock/Content";
                 DocumentFilterComponent dfc = new DocumentFilterComponent();
                 dfc.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(Filter);                
                 EntityRecognitionComponent erc = new EntityRecognitionComponent(Utils.GetConfigValue("EntityRecognitionOntologies", "."));
                 erc.BlockSelector = "TextBlock/Content";
-                //DocumentCorpusWriterComponent dcwc = new DocumentCorpusWriterComponent(null, null, @"C:\Work\MonitorPipeline\Html");
-                BowComponent bowc = new BowComponent();
-                zmqRcv.Subscribe(cc);
+                //DocumentCorpusWriterComponent dcwc = new DocumentCorpusWriterComponent(null, null, HTML_FOLDER);
+                DocumentFilterComponent snd = new DocumentFilterComponent();
+                rcv.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(
+                    delegate(Document doc, Logger log)
+                    {
+                        Console.WriteLine("SND " + doc.Name);
+                        return true;
+                    });                                
+                zmqRcv.Subscribe(rcv);
+                rcv.Subscribe(cc);
                 cc.Subscribe(dfc);
                 dfc.Subscribe(erc);
-                //erc.Subscribe(dcwc);                
-                erc.Subscribe(bowc);
+                //erc.Subscribe(dcwc);
+                erc.Subscribe(snd);
             }
             zmqRcv.Start();
+            logger.Info("Main", "The pipeline is running.");
         }
     }
 }

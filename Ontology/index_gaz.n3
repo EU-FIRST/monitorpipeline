@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://project-first.eu/ontology#> .
+
+:index_EURO_STOXX_50_EUR
+	:identifiedBy :gaz_index_EURO_STOXX_50_EUR .
+:gaz_index_EURO_STOXX_50_EUR
+	:term "EURO STOXX 50" ;
+	:term "EURO STOXX" ;
+	a :Gazetteer .
+
+:index_STOXX_EUROPE_50_EUR
+	:identifiedBy :gaz_index_STOXX_EUROPE_50_EUR .
+:gaz_index_STOXX_EUROPE_50_EUR
+	:term "STOXX EUROPE 50" ;
+	:term "STOXX EUROPE" ;
+	a :Gazetteer .
+
+:index_FTSE_100_INDEX
+	:identifiedBy :gaz_index_FTSE_100_INDEX .
+:gaz_index_FTSE_100_INDEX
+	:term "FTSE 100" ;
+	:term "FTSE100" ;
+	:term "FTSE" ;
+	:term "footsie" ;
+	a :Gazetteer .
+
+:index_GERMANY_DAX_TR
+	:identifiedBy :gaz_index_GERMANY_DAX_TR .
+:gaz_index_GERMANY_DAX_TR
+	:term "DAX" ;
+	a :Gazetteer .
+
+:index_FRANCE_CAC_40
+	:identifiedBy :gaz_index_FRANCE_CAC_40 .
+:gaz_index_FRANCE_CAC_40
+	:term "CAC 40" ;
+	:term "CAC40" ;
+	a :Gazetteer .
+
+:index_FTSE_MIB_INDEX
+	:identifiedBy :gaz_index_FTSE_MIB_INDEX .
+:gaz_index_FTSE_MIB_INDEX
+	:term "FTSE MIB" ;
+	a :Gazetteer .
+
+:index_SPAIN_IBEX_35
+	:identifiedBy :gaz_index_SPAIN_IBEX_35 .
+:gaz_index_SPAIN_IBEX_35
+	:term "IBEX 35" ;
+	:term "IBEX35" ;
+	a :Gazetteer .
+
+:index_SWITZERLAND_SMI
+	:identifiedBy :gaz_index_SWITZERLAND_SMI .
+:gaz_index_SWITZERLAND_SMI
+	:term "Swiss Market Index" ;
+	:term "SMI" ;
+	a :Gazetteer .
+
+:index_NETHERLANDS_AEX_INDEX
+	:identifiedBy :gaz_index_NETHERLANDS_AEX_INDEX .
+:gaz_index_NETHERLANDS_AEX_INDEX
+	:term "Amsterdam Exchange Index" ;
+	:term "AEX" ;
+	a :Gazetteer .
+
+:index_BELGIUM_BEL_20
+	:identifiedBy :gaz_index_BELGIUM_BEL_20 .
+:gaz_index_BELGIUM_BEL_20
+	:term "BEL-20" ;
+	:term "BEL20" ;
+	a :Gazetteer .
+
+:index_PORTUGAL_PSI_20
+	:identifiedBy :gaz_index_PORTUGAL_PSI_20 .
+:gaz_index_PORTUGAL_PSI_20
+	:term "Portuguese Stock Index" ;
+	:term "PSI-20" ;
+	:term "PSI20" ;
+	a :Gazetteer .
+
+:index_OMX_HELSINKI_25
+	:identifiedBy :gaz_index_OMX_HELSINKI_25 .
+:gaz_index_OMX_HELSINKI_25
+	:term "OMX Helsinki 25" ;
+	:term "OMXH25" ;
+	a :Gazetteer .
+
+:index_OMX_STOCKHOLM_30_INDEX
+	:identifiedBy :gaz_index_OMX_STOCKHOLM_30_INDEX .
+:gaz_index_OMX_STOCKHOLM_30_INDEX
+	:term "OMX Stockholm 30" ;
+	:term "OMXS30" ;
+	a :Gazetteer .
+
+:index_DOW_JONES_INDUSTRIAL_AVERAGE
+	:identifiedBy :gaz_index_DOW_JONES_INDUSTRIAL_AVERAGE .
+:gaz_index_DOW_JONES_INDUSTRIAL_AVERAGE
+	:term "Dow Jones industrial Average" ;
+	:term "Industrial Average" ;
+	:term "Dow Jones" ;
+	:term "Dow 30" ;
+	:term "Dow" ;
+	a :Gazetteer .
+
+:index_S_P_500_INDEX
+	:identifiedBy :gaz_index_S_P_500_INDEX .
+:gaz_index_S_P_500_INDEX
+	:term "S&P 500" ;
+	a :Gazetteer .
+
+:index_NASDAQ_100
+	:identifiedBy :gaz_index_NASDAQ_100 .
+:gaz_index_NASDAQ_100
+	:term "NASDAQ-100" ;
+	a :Gazetteer .
+
+:index_DOW_JONES_ASIAN_TITANS_50_INDEX_USD
+	:identifiedBy :gaz_index_DOW_JONES_ASIAN_TITANS_50_INDEX_USD .
+:gaz_index_DOW_JONES_ASIAN_TITANS_50_INDEX_USD
+	:term "Dow Jones Asian Titans 50" ;
+	:term "Dow Jones Asian Titans" ;
+	a :Gazetteer .
+
+:index_AUSTRIA_ATX
+	:identifiedBy :gaz_index_AUSTRIA_ATX .
+:gaz_index_AUSTRIA_ATX
+	:term "ATX" ;
+	:term "Australian Traded Index" ;
+	a :Gazetteer .
+

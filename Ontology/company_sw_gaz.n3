@@ -1,0 +1,3419 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://project-first.eu/ontology#> .
+
+:gaz_comp_AIR_LIQUIDE_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_ALLIANZ_SE :imports :gaz_Germany_StopWords .
+
+:gaz_comp_ANHEUSER_BUSCH_INBEV :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_ARCELORMITTAL_S_A :imports :gaz_Luxembourg_StopWords .
+
+:gaz_comp_ASSICURAZIONI_GENERALI_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_AXA_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_BANCO_SANTANDER_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_BASF_SE :imports :gaz_Germany_StopWords .
+
+:gaz_comp_BAYER_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_BAYERISCHE_MOTOREN_WERKE_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_BANCO_BILBAO_VIZCAYA_ARGENTARIA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_BNP_PARIBAS_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_CARREFOUR_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_CRH_PLC :imports :gaz_Ireland_StopWords .
+
+:gaz_comp_DAIMLER_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_DANONE_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_DEUTSCHE_BANK_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_DEUTSCHE_BOERSE_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_DEUTSCHE_TELEKOM_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_E_ON_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_ENEL_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_ENI_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_FRANCE_TELECOM_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_GDF_SUEZ_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_IBERDROLA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_INDUSTRIA_DE_DISENO_TEXTIL_S_A_INDITEX :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ING_GROEP_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_INTESA_SANPAOLO_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_L_OREAL_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_LVMH_MO_T_HENNESSY_LOUIS_VUITTON_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_MUENCHENER_RUECKVERSICHERUNGS_GESELLSCHAFT_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_NOKIA_CORP :imports :gaz_Finland_StopWords .
+
+:gaz_comp_KONINKLIJKE_PHILIPS_ELECTRONICS_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_REPSOL_YPF_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_RWE_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_COMPAGNIE_DE_SAINT_GOBAIN_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_SANOFI_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_SAP_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_SCHNEIDER_ELECTRIC_SA :imports :gaz_France_StopWords .
+
+:gaz_comp_SIEMENS_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_SOCIETE_GENERALE_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_TELECOM_ITALIA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_TELEFONICA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_TOTAL_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_UNIBAIL_RODAMCO_SE :imports :gaz_France_StopWords .
+
+:gaz_comp_UNICREDIT_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_UNILEVER_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_VINCI_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_VIVENDI_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_VOLKSWAGEN_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_ABB_LTD :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_ANGLO_AMERICAN_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ASTRAZENECA_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BARCLAYS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BG_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BHP_BILLITON_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BRITISH_AMERICAN_TOBACCO_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_CREDIT_SUISSE_GROUP_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_DIAGEO_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ERICSSON_LM :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_GLAXOSMITHKLINE_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_HENNES_MAURITZ :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_HSBC_HOLDINGS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_IMPERIAL_TOBACCO_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_NATIONAL_GRID_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_NESTLE_S_A :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_NOVARTIS_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_RIO_TINTO_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ROCHE_HOLDING_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_ROYAL_DUTCH_SHELL_PLC :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_STANDARD_CHARTERED_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_TESCO_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_UBS_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_UNILEVER_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_VODAFONE_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ZURICH_INSURANCE_GROUP_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_ANTOFAGASTA_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ARM_HOLDINGS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ASSOCIATED_BRITISH_FOODS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_AVIVA_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BAE_SYSTEMS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BRITISH_LAND_CO_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BRITISH_SKY_BROADCASTING_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BT_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_BURBERRY_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_THE_CAPITA_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_CARNIVAL_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_CENTRICA_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_COMPASS_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_CRODA_INTERNATIONAL_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_EURASIAN_NATURAL_RESOURCES_CORPORATION_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_EVRAZ_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_EXPERIAN_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_FRESNILLO_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_GKN_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_GLENCORE_INTERNATIONAL_PLC :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_ICAP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_IMI_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_INTERNATIONAL_CONSOLIDATED_AIRLINES_GROUP_S_A :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_INTERNATIONAL_POWER_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ITV_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_JOHNSON_MATTHEY_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_KAZAKHMYS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_KINGFISHER_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_LLOYDS_BANKING_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_MAN_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_MARKS_SPENCER_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_MORRISON_SUPERMARKETS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_NEXT_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_PEARSON_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_PETROFAC_LTD :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_POLYMETAL_INTERNATIONAL_PLC :imports :gaz_Jersey_StopWords .
+
+:gaz_comp_PRUDENTIAL_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_RANDGOLD_RESOURCES_LTD :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_RECKITT_BENCKISER_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_REXAM_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ROLLS_ROYCE_HOLDINGS_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_THE_ROYAL_BANK_OF_SCOTLAND_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_RSA_INSURANCE_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_SABMILLER_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_THE_SAGE_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_J_SAINSBURY_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_SERCO_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_SEVERN_TRENT_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_SHIRE_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_SMITH_NEPHEW_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_SMITHS_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_SCOTTISH_AND_SOUTHERN_ENERGY_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_STANDARD_LIFE_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_TATE_LYLE_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_TULLOW_OIL_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_UNITED_UTILITIES_GROUP_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_VEDANTA_RESOURCES_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_XSTRATA_PLC :imports :Great_gaz_Britain_StopWords .
+
+:gaz_comp_ADIDAS_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_BEIERSDORF_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_COMMERZBANK_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_DEUTSCHE_LUFTHANSA_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_DEUTSCHE_POST_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_FRESENIUS_MEDICAL_CARE_AG_CO_KGAA :imports :gaz_Germany_StopWords .
+
+:gaz_comp_FRESENIUS_SE_CO_KGAA :imports :gaz_Germany_StopWords .
+
+:gaz_comp_HEIDELBERGCEMENT_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_HENKEL_AG_CO_KGAA :imports :gaz_Germany_StopWords .
+
+:gaz_comp_INFINEON_TECHNOLOGIES_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_K_S_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_LINDE_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_MAN_SE :imports :gaz_Germany_StopWords .
+
+:gaz_comp_MERCK_KGAA :imports :gaz_Germany_StopWords .
+
+:gaz_comp_METRO_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_THYSSENKRUPP_AG :imports :gaz_Germany_StopWords .
+
+:gaz_comp_ACCOR_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_ALCATEL_LUCENT :imports :gaz_France_StopWords .
+
+:gaz_comp_ALSTOM_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_BOUYGUES_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_CAP_GEMINI_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_CREDIT_AGRICOLE_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_EUROPEAN_AERONAUTIC_DEFENCE_AND_SPACE_COMPANY_EADS :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_ELECTRICITE_DE_FRANCE_E_D_F :imports :gaz_France_StopWords .
+
+:gaz_comp_ESSILOR_INTERNATIONAL_SA :imports :gaz_France_StopWords .
+
+:gaz_comp_LAFARGE_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_LEGRAND_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_MICHELIN_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_PERNOD_RICARD_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_PEUGEOT_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_PPR_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_PUBLICIS_GROUPE_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_RENAULT_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_SAFRAN :imports :gaz_France_StopWords .
+
+:gaz_comp_STMICROELECTRONICS_N_V :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_TECHNIP_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_VALLOUREC :imports :gaz_France_StopWords .
+
+:gaz_comp_VEOLIA_ENVIRONNEMENT_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_A2A_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_ANSALDO_STS_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_ATLANTIA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_AUTOGRILL_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_AZIMUT_HOLDING_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_BANCA_MONTE_DEI_PASCHI_DI_SIENA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_BANCA_POPOLARE_DELL_EMILIA_ROMAGNA_S_C_A_R_L :imports :gaz_Italy_StopWords .
+
+:gaz_comp_BANCA_POPOLARE_DI_MILANO_S_C_A_R_L :imports :gaz_Italy_StopWords .
+
+:gaz_comp_BANCO_POPOLARE_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_BUZZI_UNICEM_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_DAVIDE_CAMPARI_MILANO_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_DIASORIN_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_ENEL_GREEN_POWER_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_EXOR_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_FIAT_INDUSTRIAL_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_FIAT_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_FINMECCANICA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_IMPREGILO_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_LOTTOMATICA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_LUXOTTICA_GROUP_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_MEDIASET_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_MEDIOBANCA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_MEDIOLANUM_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_PARMALAT_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_PIRELLI_C_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_PRYSMIAN_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_SAIPEM_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_SALVATORE_FERRAGAMO_ITALIA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_SNAM_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_TENARIS_S_A :imports :gaz_Luxembourg_StopWords .
+
+:gaz_comp_TOD_S_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_TERNA_S_P_A :imports :gaz_Italy_StopWords .
+
+:gaz_comp_UNIONE_DI_BANCHE_ITALIANE_SCPA :imports :gaz_Italy_StopWords .
+
+:gaz_comp_ABENGOA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ABERTIS_INFRAESTRUCTURAS_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ACCIONA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ACERINOX_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ACS_ACTIVIDADES_DE_CONSTRUCCION_Y_SERVICIOS_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_AMADEUS_IT_HOLDING_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_BANCO_POPULAR_ESPANOL_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_BANKIA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_BANKINTER_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_BANCO_DE_SABADELL_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_BOLSAS_Y_MERCADOS_ESPANOLES_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_CAIXABANK_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_DISTRIBUIDORA_INTERNACIONAL_DE_ALIMENTACION_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ENAGAS_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ENDESA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_FOMENTO_DE_CONSTRUCCIONES_Y_CONTRATAS_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_GAMESA_CORPORACION_TECNOLOGICA_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_GAS_NATURAL_SDG_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_GRIFOLS_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_INDRA_SISTEMAS_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_MAPFRE_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_MEDIASET_ESPANA_COMUNICACION_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_OBRASCON_HUARTE_LAIN_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_RED_ELECTRICA_CORPORACION_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_SACYR_VALLEHERMOSO_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_TECNICAS_REUNIDAS_S_A :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ACTELION_LTD :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_ADECCO_S_A :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_COMPAGNIE_FINANCIERE_RICHEMONT_SA :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_GIVAUDAN_SA :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_HOLCIM_LTD :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_JULIUS_BAER_GRUPPE_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_SGS_S_A :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_THE_SWATCH_GROUP_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_SWISS_RE_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_SWISSCOM_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_SYNGENTA_AG :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_SYNTHES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_TRANSOCEAN_LTD :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_AEGON_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_AIR_FRANCE_KLM_S_A :imports :gaz_France_StopWords .
+
+:gaz_comp_AKZO_NOBEL_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_APERAM_S_A :imports :gaz_Luxembourg_StopWords .
+
+:gaz_comp_ASML_HOLDING_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_CORIO_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_FUGRO_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_HEINEKEN_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_AHOLD_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_KONINKLIJKE_BOSKALIS_WESTMINSTER_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_KONINKLIJKE_DSM_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_KONINKLIJKE_KPN_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_POSTNL_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_RANDSTAD_HOLDING_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_REED_ELSEVIER_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_SBM_OFFSHORE_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_TNT_EXPRESS_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_TOMTOM_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_WOLTERS_KLUWER_N_V :imports :gaz_Netherlands_StopWords .
+
+:gaz_comp_AGEAS_SA_NV :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_BEFIMMO_SCA :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_BEKAERT :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_BELGACOM_S_A :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_COFINIMMO_SICAFI :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_COLRUYT :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_D_IETEREN_SA :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_DELHAIZE_GROUP :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_GBL :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_KBC :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_MOBISTAR :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_NYRSTAR_NV :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_SOLVAY :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_TELENET :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_UCB :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_UMICORE :imports :gaz_Belgium_StopWords .
+
+:gaz_comp_BPI_ES_1000 :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_BANCO_COMERCIAL_PORTUGU_S_S_A :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_BANCO_ESPIRITO_SANTO_S_A :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_BRISA :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_CIMPOR :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_EDP_RENOVAVEIS_SA :imports :gaz_Spain_StopWords .
+
+:gaz_comp_ENERGIAS_DE_PORTUGAL :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_GALP_ENERGIA :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_J_MARTINS_SGPS :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_MOTA_ENGIL :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_PORTUCEL_EMPRESA_PRODUTORA_DE_PASTA_E_PAPEL :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_PORTUGAL_TELECOM :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_REN :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_SEMAPA_SGPS :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_SONAE_S_A :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_SONAE_COM :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_ZON_MULTIMEDIA :imports :gaz_Portugal_StopWords .
+
+:gaz_comp_AMER_YHTYMA :imports :gaz_Finland_StopWords .
+
+:gaz_comp_CARGOTEC_CORP :imports :gaz_Finland_StopWords .
+
+:gaz_comp_ELISA_COMMS :imports :gaz_Finland_StopWords .
+
+:gaz_comp_FORTUM :imports :gaz_Finland_StopWords .
+
+:gaz_comp_KEMIRA :imports :gaz_Finland_StopWords .
+
+:gaz_comp_KESKO_CORP :imports :gaz_Finland_StopWords .
+
+:gaz_comp_KONECRANES_OYJ :imports :gaz_Finland_StopWords .
+
+:gaz_comp_METSO_CORP :imports :gaz_Finland_StopWords .
+
+:gaz_comp_NESTE_OIL_CORPORATION :imports :gaz_Finland_StopWords .
+
+:gaz_comp_NORDEA_BANK :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_ORION :imports :gaz_Finland_StopWords .
+
+:gaz_comp_OUTOKUMPU :imports :gaz_Finland_StopWords .
+
+:gaz_comp_OUTOTEC_OYJ :imports :gaz_Finland_StopWords .
+
+:gaz_comp_POHJOLA_BANK :imports :gaz_Finland_StopWords .
+
+:gaz_comp_SAMPO_PLC :imports :gaz_Finland_StopWords .
+
+:gaz_comp_STORA_ENSO :imports :gaz_Finland_StopWords .
+
+:gaz_comp_TELIASONERA_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_UPM_KYMMENE :imports :gaz_Finland_StopWords .
+
+:gaz_comp_WARTSILA :imports :gaz_Finland_StopWords .
+
+:gaz_comp_ALFA_LAVAL :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_ASSA_ABLOY_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_ATLAS_COPCO_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_BOLIDEN :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_ELECTROLUX_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_GETINGE :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_INVESTOR :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_LUNDIN_PETROLEUM :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_MODERN_TIMES :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SANDVIK_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SCANIA_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SECURITAS_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SEB_A :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SKANSKA_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SKF_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SVENSKA_CELLULOSA_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SWEDBANK :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_SWEDISH_MATCH :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_TELE2_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_VOLVO_AB :imports :gaz_Sweden_StopWords .
+
+:gaz_comp_3M_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALCOA_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AMERICAN_EXPRESS_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_AT_T_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BANK_OF_AMERICA_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_BOEING_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_CATERPILLAR_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CHEVRON_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CISCO_SYSTEMS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_THE_COCA_COLA_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_E_I_DUPONT_DE_NEMOURS_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_EXXONMOBIL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_GENERAL_ELECTRIC_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_HEWLETT_PACKARD_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_THE_HOME_DEPOT_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTEL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTERNATIONAL_BUSINESS_MACHINES_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_JOHNSON_JOHNSON :imports :gaz_USA_StopWords .
+
+:gaz_comp_JPMORGAN_CHASE_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_KRAFT_FOODS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MCDONALD_S_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_MERCK_CO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MICROSOFT_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_PFIZER_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_THE_PROCTER_GAMBLE_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_THE_TRAVELERS_COMPANIES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_UNITED_TECHNOLOGIES_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_VERIZON_COMMUNICATIONS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_WAL_MART_STORES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_WALT_DISNEY_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_ABBOTT_LABORATORIES :imports :gaz_USA_StopWords .
+
+:gaz_comp_ABERCROMBIE :imports :gaz_USA_StopWords .
+
+:gaz_comp_ACCENTURE_PLC :imports :gaz_Ireland_StopWords .
+
+:gaz_comp_ADOBE_SYSTEMS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ADVANCED_MICRO_DEVICES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_THE_AES_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_AFLAC_INCORPORATED :imports :gaz_USA_StopWords .
+
+:gaz_comp_AGILENT_TECHNOLOGIES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AIR_PRODS_CHEM :imports :gaz_USA_StopWords .
+
+:gaz_comp_AIRGAS :imports :gaz_USA_StopWords .
+
+:gaz_comp_AKAMAI_TECHNOLOGIES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALLEGHENY_TECHNOLOGIES_INCORPORATED :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALLERGAN_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALLSTATE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALPHA_NATURAL_RESOURCES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALTERA_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALTRIA_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AMAZON_COM_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AMERICAN_ELECTRIC_POWER_COMPANY_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AMERICAN_INTERNATIONAL_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AMERIPRISE_FINANCIAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AMGEN_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ANADARKO_PETROLEUM_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_ANALOG_DEVICES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_APACHE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_APOLLO_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_APPLE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_APPLIED_MATERIALS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ARCHER_DANIELS_MIDLAND_COMPANY :imports :gaz_USA_StopWords .
+
+:gaz_comp_AUTODESK_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AUTOMATIC_DATA_PROCESSING_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AUTONATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_AVERY_DENNISON_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_AVON_PRODUCTS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BAKER_HUGHES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BANK_OF_NEW_YORK_MELLON_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_C_R_BARD_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BAXTER_INTERNATIONAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BB_T_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_BECTON_DICKINSON :imports :gaz_USA_StopWords .
+
+:gaz_comp_BED_BATH_BEYOND_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BERKSHIRE_HATHAWAY_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BEST_BUY :imports :gaz_USA_StopWords .
+
+:gaz_comp_BIG_LOTS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BIOGEN_IDEC_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BLACKROCK_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_H_R_BLOCK :imports :gaz_USA_StopWords .
+
+:gaz_comp_BMC_SOFTWARE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BORG_WARNER_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_BOSTON_SCIENT :imports :gaz_USA_StopWords .
+
+:gaz_comp_BRISTOL_MYERS_SQUIBB_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_BROADCOM_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CA_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CABOT_OIL_GAS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CAMERON_INTERNATIONAL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CAMPBELL_SOUP_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_CAPITAL_ONE_FINANCIAL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CBS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CELGENE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CENTURYLINK_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CERNER_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CF_INDUSTRIES_HOLDINGS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_C_H_ROBINSON_WORLDWIDE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CHESAPEAKE_ENERGY_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CIGNA_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_CINTAS_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_CITIGROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CITRIX_SYSTEMS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CLIFFS_NATURAL_RES :imports :gaz_USA_StopWords .
+
+:gaz_comp_CLOROX :imports :gaz_USA_StopWords .
+
+:gaz_comp_CME_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_COACH_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_COGNIZANT_TECHNOLOGY_SOLUTIONS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_COLGATE_PALMOLIVE_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_COMCAST_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_COMERICA_INCORPORATED :imports :gaz_USA_StopWords .
+
+:gaz_comp_COMPUTER_SCIENCE :imports :gaz_USA_StopWords .
+
+:gaz_comp_CONAGRA_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CONOCOPHILLIPS :imports :gaz_USA_StopWords .
+
+:gaz_comp_CONSOL_ENERGY :imports :gaz_USA_StopWords .
+
+:gaz_comp_CONSOLIDATED_EDISON :imports :gaz_USA_StopWords .
+
+:gaz_comp_CORNING :imports :gaz_USA_StopWords .
+
+:gaz_comp_COSTCO_WHOLESALE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_COVIDIEN_PLC :imports :gaz_USA_StopWords .
+
+:gaz_comp_CSX_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_CUMMINS :imports :gaz_USA_StopWords .
+
+:gaz_comp_CVS_CAREMARK_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_DANAHER :imports :gaz_USA_StopWords .
+
+:gaz_comp_DAVITA :imports :gaz_USA_StopWords .
+
+:gaz_comp_DEAN_FOODS_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_DEERE_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_DELL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_DENBURY_RSC :imports :gaz_USA_StopWords .
+
+:gaz_comp_DENTSPLY_INTERNATIONAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_DEVON_ENERGY_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_DIAMOND_OFFSHORE :imports :gaz_USA_StopWords .
+
+:gaz_comp_DIRECTV :imports :gaz_USA_StopWords .
+
+:gaz_comp_DISCOVER_FINANCIAL_SERVICES :imports :gaz_USA_StopWords .
+
+:gaz_comp_DOLLAR_TREE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_THE_DOW_CHEMICAL_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_D_R_HORTON_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_DR_PEPPER_SNAPPLE_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_DUKE_ENERGY_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_E_TRADE_GROUP_E_TRADE_BANK_AG :imports :gaz_USA_StopWords .
+
+:gaz_comp_EASTMAN_CHEM :imports :gaz_USA_StopWords .
+
+:gaz_comp_EATON_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_EBAY_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ECOLAB :imports :gaz_USA_StopWords .
+
+:gaz_comp_EDISON_INTL :imports :gaz_USA_StopWords .
+
+:gaz_comp_EDWARDS_LIFESCIENCES :imports :gaz_USA_StopWords .
+
+:gaz_comp_EL_PASO_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_ELECTRONIC_ARTS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ELI_LILLY_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_EMC_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_EMERSON_ELECTRIC_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_ENTERGY_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_EOG_RESOURCES :imports :gaz_USA_StopWords .
+
+:gaz_comp_EQT_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_EQUIFAX :imports :gaz_USA_StopWords .
+
+:gaz_comp_ESTEE_LAUDER :imports :gaz_USA_StopWords .
+
+:gaz_comp_EXELON_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_EXPEDIA_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_EXPEDITORS_INTERNATIONAL_OF_WASHINGTON_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_EXPRESS_SCRIPTS_HOLDING_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_F5_NETWORKS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_FAMILY_DLR_STRS :imports :gaz_USA_StopWords .
+
+:gaz_comp_FASTENAL_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_FEDEX_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_FIFTH_THIRD_BANCORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_FIRST_SOLAR_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_FIRSTENERGY_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_FISERV_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_FLIR_SYSTEMS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_FLOWSERVE :imports :gaz_USA_StopWords .
+
+:gaz_comp_FLUOR_CORPS :imports :gaz_USA_StopWords .
+
+:gaz_comp_FMC :imports :gaz_USA_StopWords .
+
+:gaz_comp_FORD_MOTOR_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_FOREST_LABS :imports :gaz_USA_StopWords .
+
+:gaz_comp_FOSSIL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_FREEPORT_MCMORAN_COPPER_GOLD_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_FRONTIER_COMMUNICATIONS_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_GAMESTOP_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_GANNETT :imports :gaz_USA_StopWords .
+
+:gaz_comp_GAP :imports :gaz_USA_StopWords .
+
+:gaz_comp_GENERAL_DYNAMICS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_GENERAL_MILLS :imports :gaz_USA_StopWords .
+
+:gaz_comp_GENWORTH_FINANCIAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_GILEAD_SCIENCES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_GOLDMAN_SACHS_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_GOODYEAR_TIRE :imports :gaz_USA_StopWords .
+
+:gaz_comp_GOOGLE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_HALLIBURTON_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_HARLEY_DAVIDSON :imports :gaz_USA_StopWords .
+
+:gaz_comp_HARMAN_INTL :imports :gaz_USA_StopWords .
+
+:gaz_comp_THE_HARTFORD_FINANCIAL_SERVICES_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_HASBRO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_H_J_HEINZ_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_HELMERICH_PAYNE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_HESS_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_HONEYWELL_INTERNATIONAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_HOSPIRA_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_HUMANA :imports :gaz_USA_StopWords .
+
+:gaz_comp_HUNTINGTON_BANCSHARES :imports :gaz_USA_StopWords .
+
+:gaz_comp_ILLINOIS_TOOL :imports :gaz_USA_StopWords .
+
+:gaz_comp_INGERSOLL_RAND_PLC :imports :gaz_Ireland_StopWords .
+
+:gaz_comp_INTEGRYS_ENERGY_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTERNATIONAL_FLAVORS_FRAGANCES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTL_GAME_TECH :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTERNATIONAL_PAPER_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTERPUBLIC_GRP :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTUIT_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_INTUITIVE_SURGICAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_INVESCO_LTD :imports :gaz_USA_StopWords .
+
+:gaz_comp_IRON_MOUNTAIN :imports :gaz_USA_StopWords .
+
+:gaz_comp_J_C_PENNEY :imports :gaz_USA_StopWords .
+
+:gaz_comp_JABIL_CIRCUIT :imports :gaz_USA_StopWords .
+
+:gaz_comp_JDS_UNIPHASE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_JOHNSON_CONTROLS :imports :gaz_USA_StopWords .
+
+:gaz_comp_JOY_GLOBAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_JUNIPER_NETWORKS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_KELLOGG :imports :gaz_USA_StopWords .
+
+:gaz_comp_KEYCORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_KIMBERLY_CLARK :imports :gaz_USA_StopWords .
+
+:gaz_comp_KLA_TENCOR_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_KOHL_S_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_KROGER :imports :gaz_USA_StopWords .
+
+:gaz_comp_L_3_COMMUNICATIONS_HLDGS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_LENNAR :imports :gaz_USA_StopWords .
+
+:gaz_comp_LEXMARK_INTL :imports :gaz_USA_StopWords .
+
+:gaz_comp_LIFE_TECHNOLOGIES_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_LIMITED_BRANDS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_LINCOLN_NATIONAL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_LINEAR_TECHNOLOGY_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_LOCKHEED_MARTIN_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_LORILLARD_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_LOWE_S_COMPANIES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_LSI_LOGIC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MACYS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MARATHON_OIL :imports :gaz_USA_StopWords .
+
+:gaz_comp_MARATHON_PETROLEUM_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_MARSH_MCLENNAN_COS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MASCO :imports :gaz_USA_StopWords .
+
+:gaz_comp_MASTERCARD_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MATTEL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MCCORMICK :imports :gaz_USA_StopWords .
+
+:gaz_comp_MCGRAW_HILL_COMPANIES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MCKESSON_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_MEAD_JOHNSON_NUTRITION_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_MEDTRONIC_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_METLIFE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MICROCHIP_TECHNOLOGY_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MICRON_TECHNOLOGY_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MOLEX_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MONSANTO_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_MOODY_S_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_MORGAN_STANLEY :imports :gaz_USA_StopWords .
+
+:gaz_comp_MOSAIC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MOTOROLA_SOLUTIONS :imports :gaz_USA_StopWords .
+
+:gaz_comp_MYLAN_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NASDAQ_OMX_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NATIONAL_OILWELL_VARCO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NETAPP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NETFLIX_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NEWFIELD_EXPLORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_NEWMONT_MINING :imports :gaz_USA_StopWords .
+
+:gaz_comp_NEWS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_NIKE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NOBLE_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_NOBLE_ENERGY :imports :gaz_USA_StopWords .
+
+:gaz_comp_NORDSTROM :imports :gaz_USA_StopWords .
+
+:gaz_comp_NORFOLK_SOUTHERN_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_NORTHERN_TRUST :imports :gaz_USA_StopWords .
+
+:gaz_comp_NORTHROP_GRUMMAN :imports :gaz_USA_StopWords .
+
+:gaz_comp_NOVELLUS_SYSTEMS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NRG_ENERGY_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_NUCOR :imports :gaz_USA_StopWords .
+
+:gaz_comp_NVIDIA_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_NYSE_EURONEXT :imports :gaz_USA_StopWords .
+
+:gaz_comp_OCCIDENTAL_PETROLEUM_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_ORACLE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_O_REILLY_AUTOMOTIVE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PACCAR_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PALL :imports :gaz_USA_StopWords .
+
+:gaz_comp_PARKER_HANNIFIN :imports :gaz_USA_StopWords .
+
+:gaz_comp_PATTERSON_COMPANIES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PAYCHEX_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PEABODY_ENERGY_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_PEPSICO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PERKINELMER :imports :gaz_USA_StopWords .
+
+:gaz_comp_PERRIGO_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_PHILIP_MORRIS_INTERNATIONAL_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PIONEER_NATURAL_RESOURCES_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_PITNEY_BOWES :imports :gaz_USA_StopWords .
+
+:gaz_comp_PLUM_CREEK_TIMBER_CO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PPL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_PRAXAIR :imports :gaz_USA_StopWords .
+
+:gaz_comp_PRICELINE_COM_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PRINCIPAL_FINANCIAL_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_PRUDENTIAL_FINANCIAL :imports :gaz_USA_StopWords .
+
+:gaz_comp_PUBL_SVC_ENTER :imports :gaz_USA_StopWords .
+
+:gaz_comp_PULTE_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_QUALCOMM_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_QUANTA_SERVICES :imports :gaz_USA_StopWords .
+
+:gaz_comp_QUEST_DIAG :imports :gaz_USA_StopWords .
+
+:gaz_comp_RAYTHEON_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_RED_HAT :imports :gaz_USA_StopWords .
+
+:gaz_comp_REGIONS_FINANCIAL_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_REPUBLIC_SERVICES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_REYNOLDS_AMERICAN :imports :gaz_USA_StopWords .
+
+:gaz_comp_ROCKWELL_AUTOMATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_ROCKWELL_COLLINS :imports :gaz_USA_StopWords .
+
+:gaz_comp_ROPER_INDUST :imports :gaz_USA_StopWords .
+
+:gaz_comp_ROSS_STORES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ROWAN_COMPANIES :imports :gaz_USA_StopWords .
+
+:gaz_comp_SALESFORCE_COM_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_SANDISK_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_SARA_LEE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_SCHLUMBERGER_LIMITED :imports :gaz_USA_StopWords .
+
+:gaz_comp_CHARLES_SCHWAB :imports :gaz_USA_StopWords .
+
+:gaz_comp_SEALED_AIR :imports :gaz_USA_StopWords .
+
+:gaz_comp_SEARS_HOLDINGS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_SEMPRA_ENERGY :imports :gaz_USA_StopWords .
+
+:gaz_comp_SIGMA_ALDRICH_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_SIMON_PROPERTY_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_SLM_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_J_M_SMUCKER_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_SOUTHERN_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_SOUTHWEST_AIRLINES_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_SOUTHWESTERN_ENERGY_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_SPRINT_NEXTEL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_ST_JUDE_MEDICAL :imports :gaz_USA_StopWords .
+
+:gaz_comp_STANLEY_BLACK_DECKER :imports :gaz_USA_StopWords .
+
+:gaz_comp_STAPLES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_STARBUCKS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_STATE_STREET :imports :gaz_USA_StopWords .
+
+:gaz_comp_STERICYCLE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_STRYKER :imports :gaz_USA_StopWords .
+
+:gaz_comp_SUNOCO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_SUNTRUST_BANKS :imports :gaz_USA_StopWords .
+
+:gaz_comp_SYMANTEC_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_SYSCO :imports :gaz_USA_StopWords .
+
+:gaz_comp_TARGET_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_TYCO_ELECTRONICS :imports :gaz_USA_StopWords .
+
+:gaz_comp_TENET_HEALTHCARE :imports :gaz_USA_StopWords .
+
+:gaz_comp_TESORO_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_TEXAS_INSTRUMENTS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_TEXTRON :imports :gaz_USA_StopWords .
+
+:gaz_comp_THERMO_FISHER_SCIENTIFIC :imports :gaz_USA_StopWords .
+
+:gaz_comp_TIFFANY :imports :gaz_USA_StopWords .
+
+:gaz_comp_TIME_WARNER_CABLE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_TIME_WARNER_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_TITANIUM_METALS_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_TJX :imports :gaz_USA_StopWords .
+
+:gaz_comp_TYCO_INTERNATIONAL_LTD :imports :gaz_Switzerland_StopWords .
+
+:gaz_comp_TYSON_FOODS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_UNION_PACIFIC_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_UNITED_PARCEL_SERVICE_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_UNITED_STATES_STEEL_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_UNITEDHEALTH_GROUP_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_URBAN_OUTFITTERS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_U_S_BANCORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_VF :imports :gaz_USA_StopWords .
+
+:gaz_comp_VALERO_ENERGY_CORPORATION :imports :gaz_USA_StopWords .
+
+:gaz_comp_VARIAN_MEDICAL :imports :gaz_USA_StopWords .
+
+:gaz_comp_VERISIGN_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_VIACOM :imports :gaz_USA_StopWords .
+
+:gaz_comp_VISA_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_WALGREEN_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_WASTE_MANAGEMENT :imports :gaz_USA_StopWords .
+
+:gaz_comp_WATERS :imports :gaz_USA_StopWords .
+
+:gaz_comp_WELLPOINT_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_WELLS_FARGO_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_WESTERN_DIGITAL :imports :gaz_USA_StopWords .
+
+:gaz_comp_WESTERN_UNION :imports :gaz_USA_StopWords .
+
+:gaz_comp_WEYERHAEUSER_CO :imports :gaz_USA_StopWords .
+
+:gaz_comp_WHIRLPOOL_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_WHOLE_FOODS_MARKET_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_WILLIAMS_COMPANIES_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_WINDSTREAM_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_WYNN_RESORTS_LTD :imports :gaz_USA_StopWords .
+
+:gaz_comp_XCEL_ENERGY_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_XEROX_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_XILINX_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_YAHOO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_YUM_BRANDS :imports :gaz_USA_StopWords .
+
+:gaz_comp_ZIMMER_HOLDINGS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ZIONS_BANCORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_ACTIVISION_BLIZZARD_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_ALEXION_PHARMACEUTICALS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_AVAGO_TECHNOLOGIES_LTD :imports :gaz_Singapore_StopWords .
+
+:gaz_comp_BAIDU_INC :imports :gaz_China_StopWords .
+
+:gaz_comp_CHECK_POINT_SOFTWARE_TECHNOLOGIES_LTD :imports :gaz_USA_StopWords .
+
+:gaz_comp_CTRIP_COM_INTERNATIONAL_LTD :imports :gaz_China_StopWords .
+
+:gaz_comp_FLEXTRONICS_INTERNATIONAL_LTD :imports :gaz_Singapore_StopWords .
+
+:gaz_comp_GARMIN_LTD :imports :gaz_USA_StopWords .
+
+:gaz_comp_GREEN_MOUNTAIN_COFFEE_ROASTERS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_HENRY_SCHEIN_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_INFOSYS_LTD :imports :gaz_India_StopWords .
+
+:gaz_comp_LAM_RESEARCH_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_LIBERTY_MEDIA_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_MARVELL_TECHNOLOGY_GROUP_LTD :imports :gaz_USA_StopWords .
+
+:gaz_comp_MAXIM_INTEGRATED_PRODUCTS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_MONSTER_BEVERAGE_CORP :imports :gaz_USA_StopWords .
+
+:gaz_comp_NUANCE_COMMUNICATIONS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_RESEARCH_IN_MOTION_LTD :imports :gaz_Canada_StopWords .
+
+:gaz_comp_SEAGATE_TECHNOLOGY_PLC :imports :gaz_USA_StopWords .
+
+:gaz_comp_SIRIUS_XM_RADIO_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_TEVA_PHARMACEUTICAL_INDUSTRIES_LTD :imports :gaz_Israel_StopWords .
+
+:gaz_comp_VERTEX_PHARMACEUTICALS_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_VIRGIN_MEDIA_INC :imports :gaz_USA_StopWords .
+
+:gaz_comp_WARNER_CHILCOTT_PLC :imports :gaz_Ireland_StopWords .
+
+:gaz_comp_ANZ_BANKING_GRP :imports :gaz_Australia_StopWords .
+
+:gaz_comp_CANON :imports :gaz_Japan_StopWords .
+
+:gaz_comp_CHEUNG_KONG :imports :Hong_gaz_Kong_StopWords .
+
+:gaz_comp_CHINA_MOBILE_LTD :imports :Hong_gaz_Kong_StopWords .
+
+:gaz_comp_CLP_HOLDINGS_LTD :imports :Hong_gaz_Kong_StopWords .
+
+:gaz_comp_COMMONWEALTH_BK :imports :gaz_Australia_StopWords .
+
+:gaz_comp_DBS_GROUP_HLD :imports :gaz_Singapore_StopWords .
+
+:gaz_comp_EAST_JAPAN_RY :imports :gaz_Japan_StopWords .
+
+:gaz_comp_FUJI_PHOTO_FILM :imports :gaz_Japan_StopWords .
+
+:gaz_comp_HANG_SENG_BANK :imports :Hong_gaz_Kong_StopWords .
+
+:gaz_comp_HITACHI :imports :gaz_Japan_StopWords .
+
+:gaz_comp_HONDA_MOTOR :imports :gaz_Japan_StopWords .
+
+:gaz_comp_HUTCHISON_WHAMPOA_LTD :imports :Hong_gaz_Kong_StopWords .
+
+:gaz_comp_KYOCERA_CORP :imports :gaz_Japan_StopWords .
+
+:gaz_comp_MITSUB_UFJ_FIN_GROUP :imports :gaz_Japan_StopWords .
+
+:gaz_comp_NATL_AUST_BANK :imports :gaz_Australia_StopWords .
+
+:gaz_comp_NINTENDO_CO_LTD :imports :gaz_Japan_StopWords .
+
+:gaz_comp_NISSAN_MOTOR :imports :gaz_Japan_StopWords .
+
+:gaz_comp_NOMURA_HOLDINGS_LTD :imports :gaz_Japan_StopWords .
+
+:gaz_comp_NTT_DOCOMO_INC :imports :gaz_Japan_StopWords .
+
+:gaz_comp_PANASONIC_CORP :imports :gaz_Japan_StopWords .
+
+:gaz_comp_RIO_TINTO :imports :gaz_Australia_StopWords .
+
+:gaz_comp_SHARP_CORP :imports :gaz_Japan_StopWords .
+
+:gaz_comp_SHIN_ETSU_CHEM :imports :gaz_Japan_StopWords .
+
+:gaz_comp_SONY :imports :gaz_Japan_StopWords .
+
+:gaz_comp_SUMITOMO_MITSUI_FINANCIAL_GROUP :imports :gaz_Japan_StopWords .
+
+:gaz_comp_SUN_HUNG_KAI_PTS :imports :Hong_gaz_Kong_StopWords .
+
+:gaz_comp_TAKEDA_CHEM_INDS :imports :gaz_Japan_StopWords .
+
+:gaz_comp_TELSTRA_CORP_LTD :imports :gaz_Australia_StopWords .
+
+:gaz_comp_TOKYO_ELEC_PWR :imports :gaz_Japan_StopWords .
+
+:gaz_comp_TOSHIBA :imports :gaz_Japan_StopWords .
+
+:gaz_comp_TOYOTA_MOTOR_CO :imports :gaz_Japan_StopWords .
+
+:gaz_comp_UTD_OVERSEAS_BK :imports :gaz_Singapore_StopWords .
+
+:gaz_comp_WESTPAC :imports :gaz_Australia_StopWords .
+
+:gaz_comp_WOOLWORTHS :imports :gaz_Australia_StopWords .
+
+:gaz_comp_ANDRITZ_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_CA_IMMOBILIEN_ANLAGEN_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_CONWERT_IMMOBILIEN_INVEST_SE :imports :gaz_Austria_StopWords .
+
+:gaz_comp_ERSTE_GROUP_BANK_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_EVN_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_IMMOFINANZ_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_MAYR_MELNHOF_KARTON_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_OESTERREICHISCHE_POST_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_OMV_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_RAIFFEISEN_BANK_INTERNATIONAL_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_RHI_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_SCHOELLER_BLECKMANN_OILFIELD_EQUIPMENT_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_STRABAG_SE :imports :gaz_Austria_StopWords .
+
+:gaz_comp_TELEKOM_AUSTRIA_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_VERBUND_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_VIENNA_INSURANCE_GROUP_AG_WIENER_VERSICHERUNG_GRUP :imports :gaz_Austria_StopWords .
+
+:gaz_comp_VOESTALPINE_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_WIENERBERGER_AG :imports :gaz_Austria_StopWords .
+
+:gaz_comp_ZUMTOBEL_AG :imports :gaz_Austria_StopWords .
+
+:gaz_France_StopWords
+	:stopWord "A" ;
+		# AIR LIQUIDE S.A. | Air Liquide S.A. | Air Liquide SA
+		# AXA S.A. | Axa SA
+		# BNP PARIBAS S.A. | BNP Paribas S.A. | BNP Paribas SA
+		# CARREFOUR S.A. | Carrefour S.A. | Carrefour SA
+		# DANONE S.A. | Danone S.A. | Groupe Danone
+		# FRANCE TELECOM S.A. | France Telecom S.A. | France Telecom SA
+		# GDF SUEZ S.A. | GDF Suez S.A. | GDF Suez Ord Shs
+		# L'OREAL S.A. | L'Oreal S.A. | L'oreal SA | L'Oreal SA
+		# LVMH MOËT HENNESSY LOUIS VUITTON S.A. | LVMH Moët Hennessy Louis Vuitton S.A. | LVMH Moet Hennessy Louis Vuitton SA
+		# COMPAGNIE DE SAINT-GOBAIN S.A. | Compagnie de Saint-Gobain S.A. | Compagnie de Saint Gobain SA
+		# SANOFI S.A. | Sanofi S.A. | Sanofi SA
+		# SOCIETE GENERALE S.A. | Societe Generale S.A. | Societe Generale
+		# TOTAL S.A. | Total S.A. | Total SA
+		# VINCI S.A. | Vinci
+		# VIVENDI S.A. | Vivendi SA
+		# ACCOR S.A. | Accor SA
+		# ALSTOM S.A. | Alstom S.A. | Alstom SA
+		# BOUYGUES S.A. | Bouygues S.A. | Bouygues SA
+		# CAP GEMINI S.A. | Cap Gemini S.A. | Cap Gemini SA
+		# CREDIT AGRICOLE S.A. | Credit Agricole S.A. | Credit Agricole SA
+		# LAFARGE S.A. | Lafarge S.A. | Lafarge SA
+		# LEGRAND S.A. | Legrand S.A. | Legrand SNC
+		# MICHELIN S.A. | Michelin S.A. | Compagnie Generale des Etablissements Michelin
+		# PERNOD-RICARD S.A. | Pernod-Ricard S.A. | Pernod Ricard SA
+		# PEUGEOT S.A. | Peugeot S.A. | Peugeot SA
+		# PPR S.A. | PPR SA | Ppr SA
+		# PUBLICIS GROUPE S.A. | Publicis Groupe S.A. | Publicis Groupe SA
+		# RENAULT S.A. | Renault S.A. | Renault SA
+		# TECHNIP S.A. | Technip S.A. | Technip SA
+		# VEOLIA ENVIRONNEMENT S.A. | Veolia Environnement S.A. | Veolia Environnement Ve SA
+		# AIR FRANCE-KLM S.A. | Air France-KLM S.A. | AIR France-KLM
+	:stopWord "S" ;
+		# AIR LIQUIDE S.A. | Air Liquide S.A. | Air Liquide SA
+		# AXA S.A. | Axa SA
+		# BNP PARIBAS S.A. | BNP Paribas S.A. | BNP Paribas SA
+		# CARREFOUR S.A. | Carrefour S.A. | Carrefour SA
+		# DANONE S.A. | Danone S.A. | Groupe Danone
+		# FRANCE TELECOM S.A. | France Telecom S.A. | France Telecom SA
+		# GDF SUEZ S.A. | GDF Suez S.A. | GDF Suez Ord Shs
+		# L'OREAL S.A. | L'Oreal S.A. | L'oreal SA | L'Oreal SA
+		# LVMH MOËT HENNESSY LOUIS VUITTON S.A. | LVMH Moët Hennessy Louis Vuitton S.A. | LVMH Moet Hennessy Louis Vuitton SA
+		# COMPAGNIE DE SAINT-GOBAIN S.A. | Compagnie de Saint-Gobain S.A. | Compagnie de Saint Gobain SA
+		# SANOFI S.A. | Sanofi S.A. | Sanofi SA
+		# SOCIETE GENERALE S.A. | Societe Generale S.A. | Societe Generale
+		# TOTAL S.A. | Total S.A. | Total SA
+		# VINCI S.A. | Vinci
+		# VIVENDI S.A. | Vivendi SA
+		# ACCOR S.A. | Accor SA
+		# ALSTOM S.A. | Alstom S.A. | Alstom SA
+		# BOUYGUES S.A. | Bouygues S.A. | Bouygues SA
+		# CAP GEMINI S.A. | Cap Gemini S.A. | Cap Gemini SA
+		# CREDIT AGRICOLE S.A. | Credit Agricole S.A. | Credit Agricole SA
+		# LAFARGE S.A. | Lafarge S.A. | Lafarge SA
+		# LEGRAND S.A. | Legrand S.A. | Legrand SNC
+		# MICHELIN S.A. | Michelin S.A. | Compagnie Generale des Etablissements Michelin
+		# PERNOD-RICARD S.A. | Pernod-Ricard S.A. | Pernod Ricard SA
+		# PEUGEOT S.A. | Peugeot S.A. | Peugeot SA
+		# PPR S.A. | PPR SA | Ppr SA
+		# PUBLICIS GROUPE S.A. | Publicis Groupe S.A. | Publicis Groupe SA
+		# RENAULT S.A. | Renault S.A. | Renault SA
+		# TECHNIP S.A. | Technip S.A. | Technip SA
+		# VEOLIA ENVIRONNEMENT S.A. | Veolia Environnement S.A. | Veolia Environnement Ve SA
+		# AIR FRANCE-KLM S.A. | Air France-KLM S.A. | AIR France-KLM
+	:stopWord "SA" ;
+		# AIR LIQUIDE S.A. | Air Liquide S.A. | Air Liquide SA
+		# AXA S.A. | Axa SA
+		# BNP PARIBAS S.A. | BNP Paribas S.A. | BNP Paribas SA
+		# CARREFOUR S.A. | Carrefour S.A. | Carrefour SA
+		# FRANCE TELECOM S.A. | France Telecom S.A. | France Telecom SA
+		# L'OREAL S.A. | L'Oreal S.A. | L'oreal SA | L'Oreal SA
+		# LVMH MOËT HENNESSY LOUIS VUITTON S.A. | LVMH Moët Hennessy Louis Vuitton S.A. | LVMH Moet Hennessy Louis Vuitton SA
+		# COMPAGNIE DE SAINT-GOBAIN S.A. | Compagnie de Saint-Gobain S.A. | Compagnie de Saint Gobain SA
+		# SANOFI S.A. | Sanofi S.A. | Sanofi SA
+		# TOTAL S.A. | Total S.A. | Total SA
+		# VIVENDI S.A. | Vivendi SA
+		# ACCOR S.A. | Accor SA
+		# ALCATEL-LUCENT | Alcatel-Lucent | Alcatel Lucent SA
+		# ALSTOM S.A. | Alstom S.A. | Alstom SA
+		# BOUYGUES S.A. | Bouygues S.A. | Bouygues SA
+		# CAP GEMINI S.A. | Cap Gemini S.A. | Cap Gemini SA
+		# CREDIT AGRICOLE S.A. | Credit Agricole S.A. | Credit Agricole SA
+		# ELECTRICITE DE FRANCE (E.D.F.) | Electricite de France (E.D.F.) | Electricite de France SA
+		# LAFARGE S.A. | Lafarge S.A. | Lafarge SA
+		# PERNOD-RICARD S.A. | Pernod-Ricard S.A. | Pernod Ricard SA
+		# PEUGEOT S.A. | Peugeot S.A. | Peugeot SA
+		# PPR S.A. | PPR SA | Ppr SA
+		# PUBLICIS GROUPE S.A. | Publicis Groupe S.A. | Publicis Groupe SA
+		# RENAULT S.A. | Renault S.A. | Renault SA
+		# SAFRAN | Safran SA
+		# TECHNIP S.A. | Technip S.A. | Technip SA
+		# VALLOUREC | Vallourec | Vallourec SA
+		# VEOLIA ENVIRONNEMENT S.A. | Veolia Environnement S.A. | Veolia Environnement Ve SA
+	:stopWord "GENERALE" ;
+		# ESSILOR INTERNATIONAL SA | Essilor International SA | Essilor International (Cie Generale D Optique) SA
+		# MICHELIN S.A. | Michelin S.A. | Compagnie Generale des Etablissements Michelin
+	:stopWord "D" ;
+		# ELECTRICITE DE FRANCE (E.D.F.) | Electricite de France (E.D.F.) | Electricite de France SA
+		# ESSILOR INTERNATIONAL SA | Essilor International SA | Essilor International (Cie Generale D Optique) SA
+	:stopWord "SNC" ;
+		# LEGRAND S.A. | Legrand S.A. | Legrand SNC
+	:stopWord "OPTIQUE" ;
+		# ESSILOR INTERNATIONAL SA | Essilor International SA | Essilor International (Cie Generale D Optique) SA
+	:stopWord "DES" ;
+		# MICHELIN S.A. | Michelin S.A. | Compagnie Generale des Etablissements Michelin
+	:stopWord "ETABLISSEMENTS" ;
+		# MICHELIN S.A. | Michelin S.A. | Compagnie Generale des Etablissements Michelin
+	:stopWord "COMPAGNIE" ;
+		# MICHELIN S.A. | Michelin S.A. | Compagnie Generale des Etablissements Michelin
+	:stopWord "VE" ;
+		# VEOLIA ENVIRONNEMENT S.A. | Veolia Environnement S.A. | Veolia Environnement Ve SA
+	:stopWord "SHS" ;
+		# GDF SUEZ S.A. | GDF Suez S.A. | GDF Suez Ord Shs
+	:stopWord "ORD" ;
+		# GDF SUEZ S.A. | GDF Suez S.A. | GDF Suez Ord Shs
+	:stopWord "GROUPE" ;
+		# DANONE S.A. | Danone S.A. | Groupe Danone
+	:stopWord "CIE" ;
+		# ESSILOR INTERNATIONAL SA | Essilor International SA | Essilor International (Cie Generale D Optique) SA
+	:stopWord "F" ;
+		# ELECTRICITE DE FRANCE (E.D.F.) | Electricite de France (E.D.F.) | Electricite de France SA
+	:stopWord "E" ;
+		# ELECTRICITE DE FRANCE (E.D.F.) | Electricite de France (E.D.F.) | Electricite de France SA
+	a :Gazetteer .
+
+:gaz_Germany_StopWords
+	:stopWord "SHS" ;
+		# BASF SE | BASF N Ord Shs
+		# VOLKSWAGEN AG | Volkswagen AG | Volkswagen Non-Voting Pref Shs
+		# ADIDAS AG | adidas AG | Adidas N Ord Shs
+		# HENKEL AG & CO. KGAA | Henkel AG & Co. KGaA | Henkel & KGAA Pref Shs
+		# K+S AG | K+S Ord Shs
+	:stopWord "AG" ;
+		# VOLKSWAGEN AG | Volkswagen AG | Volkswagen Non-Voting Pref Shs
+		# ADIDAS AG | adidas AG | Adidas N Ord Shs
+		# HENKEL AG & CO. KGAA | Henkel AG & Co. KGaA | Henkel & KGAA Pref Shs
+		# K+S AG | K+S Ord Shs
+	:stopWord "ORD" ;
+		# BASF SE | BASF N Ord Shs
+		# ADIDAS AG | adidas AG | Adidas N Ord Shs
+		# K+S AG | K+S Ord Shs
+	:stopWord "PREF" ;
+		# VOLKSWAGEN AG | Volkswagen AG | Volkswagen Non-Voting Pref Shs
+		# HENKEL AG & CO. KGAA | Henkel AG & Co. KGaA | Henkel & KGAA Pref Shs
+	:stopWord "N" ;
+		# BASF SE | BASF N Ord Shs
+		# ADIDAS AG | adidas AG | Adidas N Ord Shs
+	:stopWord "MUENCHEN" ;
+		# MUENCHENER RUECKVERSICHERUNGS-GESELLSCHAFT AG | Münchener Rückversicherungs-Gesellschaft AG | Muenchener Rueckversicherungs Gesellschaft AG in Muenchen
+	:stopWord "NON" ;
+		# VOLKSWAGEN AG | Volkswagen AG | Volkswagen Non-Voting Pref Shs
+	:stopWord "CO" ;
+		# HENKEL AG & CO. KGAA | Henkel AG & Co. KGaA | Henkel & KGAA Pref Shs
+	:stopWord "VOTING" ;
+		# VOLKSWAGEN AG | Volkswagen AG | Volkswagen Non-Voting Pref Shs
+	:stopWord "IN" ;
+		# MUENCHENER RUECKVERSICHERUNGS-GESELLSCHAFT AG | Münchener Rückversicherungs-Gesellschaft AG | Muenchener Rueckversicherungs Gesellschaft AG in Muenchen
+	:stopWord "MOTOREN" ;
+		# BAYERISCHE MOTOREN WERKE AG | Bayerische Motoren Werke AG | BMW AG
+	:stopWord "BAYERISCHE" ;
+		# BAYERISCHE MOTOREN WERKE AG | Bayerische Motoren Werke AG | BMW AG
+	:stopWord "SE" ;
+		# BASF SE | BASF N Ord Shs
+	:stopWord "USA" ;
+		# DAIMLER AG | Daimler AG | Daimler AG (USA)
+	:stopWord "BMW" ;
+		# BAYERISCHE MOTOREN WERKE AG | Bayerische Motoren Werke AG | BMW AG
+	:stopWord "WERKE" ;
+		# BAYERISCHE MOTOREN WERKE AG | Bayerische Motoren Werke AG | BMW AG
+	a :Gazetteer .
+
+:gaz_Belgium_StopWords
+	:stopWord "SA" ;
+		# AGEAS SA/NV | ageas SA/NV | Ageas (Ex-Fortis) Ord Shs
+		# BELGACOM S.A. | Belgacom SA
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+		# GBL | Groupe Bruxelles Lambert (GBL) SA | Groupe Bruxelles Lambert SA
+		# KBC | KBC Groupe SA
+		# SOLVAY | Solvay SA
+		# UCB | U C B SA
+		# UMICORE | Umicore SA
+	:stopWord "NV" ;
+		# AGEAS SA/NV | ageas SA/NV | Ageas (Ex-Fortis) Ord Shs
+		# COLRUYT | Franz Colruyt Etablissementen | Etablissementen Fr Colruyt NV
+		# NYRSTAR NV | NYRSTAR NV NPV | Nyrstar
+		# TELENET | TELENET GRP HLDG | Telenet Group Holding NV
+	:stopWord "GROUPE" ;
+		# GBL | Groupe Bruxelles Lambert (GBL) SA | Groupe Bruxelles Lambert SA
+		# KBC | KBC Groupe SA
+	:stopWord "SHS" ;
+		# ANHEUSER-BUSCH INBEV | BE0003793107 | Anheuser Busch InBev Ord Shs
+		# AGEAS SA/NV | ageas SA/NV | Ageas (Ex-Fortis) Ord Shs
+	:stopWord "ORD" ;
+		# ANHEUSER-BUSCH INBEV | BE0003793107 | Anheuser Busch InBev Ord Shs
+		# AGEAS SA/NV | ageas SA/NV | Ageas (Ex-Fortis) Ord Shs
+	:stopWord "GROUP" ;
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+		# TELENET | TELENET GRP HLDG | Telenet Group Holding NV
+	:stopWord "LAMBERT" ;
+		# GBL | Groupe Bruxelles Lambert (GBL) SA | Groupe Bruxelles Lambert SA
+	:stopWord "BRUXELLES" ;
+		# GBL | Groupe Bruxelles Lambert (GBL) SA | Groupe Bruxelles Lambert SA
+	:stopWord "LION" ;
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+	:stopWord "GBL" ;
+		# GBL | Groupe Bruxelles Lambert (GBL) SA | Groupe Bruxelles Lambert SA
+	:stopWord "LE" ;
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+	:stopWord "NPV" ;
+		# NYRSTAR NV | NYRSTAR NV NPV | Nyrstar
+	:stopWord "U" ;
+		# UCB | U C B SA
+	:stopWord "C" ;
+		# UCB | U C B SA
+	:stopWord "B" ;
+		# UCB | U C B SA
+	:stopWord "UCB" ;
+		# UCB | U C B SA
+	:stopWord "GRP" ;
+		# TELENET | TELENET GRP HLDG | Telenet Group Holding NV
+	:stopWord "HLDG" ;
+		# TELENET | TELENET GRP HLDG | Telenet Group Holding NV
+	:stopWord "HOLDING" ;
+		# TELENET | TELENET GRP HLDG | Telenet Group Holding NV
+	:stopWord "CIE" ;
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+	:stopWord "EX" ;
+		# AGEAS SA/NV | ageas SA/NV | Ageas (Ex-Fortis) Ord Shs
+	:stopWord "FORTIS" ;
+		# AGEAS SA/NV | ageas SA/NV | Ageas (Ex-Fortis) Ord Shs
+	:stopWord "S" ;
+		# BELGACOM S.A. | Belgacom SA
+	:stopWord "BE0003793107" ;
+		# ANHEUSER-BUSCH INBEV | BE0003793107 | Anheuser Busch InBev Ord Shs
+	:stopWord "ANHEUSER" ;
+		# ANHEUSER-BUSCH INBEV | BE0003793107 | Anheuser Busch InBev Ord Shs
+	:stopWord "BUSCH" ;
+		# ANHEUSER-BUSCH INBEV | BE0003793107 | Anheuser Busch InBev Ord Shs
+	:stopWord "INBEV" ;
+		# ANHEUSER-BUSCH INBEV | BE0003793107 | Anheuser Busch InBev Ord Shs
+	:stopWord "ETABLISSEMENTS" ;
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+	:stopWord "FRERES" ;
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+	:stopWord "ET" ;
+		# DELHAIZE GROUP | Etablissements Delhaize Freres Et Cie Le Lion SA
+	:stopWord "FR" ;
+		# COLRUYT | Franz Colruyt Etablissementen | Etablissementen Fr Colruyt NV
+	:stopWord "A" ;
+		# BELGACOM S.A. | Belgacom SA
+	:stopWord "FRANZ" ;
+		# COLRUYT | Franz Colruyt Etablissementen | Etablissementen Fr Colruyt NV
+	:stopWord "ETABLISSEMENTEN" ;
+		# COLRUYT | Franz Colruyt Etablissementen | Etablissementen Fr Colruyt NV
+	a :Gazetteer .
+
+:gaz_Luxembourg_StopWords
+	:stopWord "SA" ;
+		# ARCELORMITTAL S.A. | ArcelorMittal S.A. | Arcelormittal SA | ArcelorMittal SA
+		# TENARIS S.A. | Tenaris S.A. | Tenaris SA
+		# APERAM S.A. | Aperam S.A. | Aperam SA
+	:stopWord "A" ;
+		# ARCELORMITTAL S.A. | ArcelorMittal S.A. | Arcelormittal SA | ArcelorMittal SA
+		# TENARIS S.A. | Tenaris S.A. | Tenaris SA
+		# APERAM S.A. | Aperam S.A. | Aperam SA
+	:stopWord "S" ;
+		# ARCELORMITTAL S.A. | ArcelorMittal S.A. | Arcelormittal SA | ArcelorMittal SA
+		# TENARIS S.A. | Tenaris S.A. | Tenaris SA
+		# APERAM S.A. | Aperam S.A. | Aperam SA
+	a :Gazetteer .
+
+:gaz_Italy_StopWords
+	:stopWord "A" ;
+		# ASSICURAZIONI GENERALI S.P.A. | Assicurazioni Generali S.p.A. | Assicurazioni Generali SpA
+		# ENEL S.P.A. | Enel S.p.A. | Enel SpA
+		# ENI S.P.A. | ENI S.p.A. | Eni SpA
+		# INTESA SANPAOLO S.P.A. | Intesa Sanpaolo S.p.A. | Intesa SanPaolo SpA | Intesa Sanpaolo SpA
+		# TELECOM ITALIA S.P.A. | Telecom Italia S.p.A. | Telecom Italia SpA
+		# UNICREDIT S.P.A. | UniCredit S.p.A. | UniCredit SpA
+		# A2A S.P.A. | A2A S.p.A. | A2A SpA
+		# ANSALDO STS S.P.A. | Ansaldo STS S.p.A. | Ansaldo STS SpA
+		# ATLANTIA S.P.A. | Atlantia S.p.A. | Atlantia SpA
+		# AUTOGRILL S.P.A. | Autogrill S.p.A. | Autogrill SpA
+		# AZIMUT HOLDING S.P.A. | Azimut Holding S.p.A. | Azimut Holding SpA
+		# BANCA MONTE DEI PASCHI DI SIENA S.P.A. | Banca Monte dei Paschi di Siena S.p.A. | Banca Monte dei Paschi di Siena SpA
+		# BANCA POPOLARE DI MILANO S.C.A.R.L | Banca Popolare di Milano S.C.a.R.L | Banca Popolare di Milano Scarl
+		# BANCO POPOLARE S.P.A. | Banco Popolare S.p.A. | Banco Popolare Sc
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+		# DAVIDE CAMPARI-MILANO S.P.A. | Davide Campari-Milano S.p.A. | Davide Campari Milano SpA
+		# DIASORIN S.P.A. | DiaSorin S.p.A. | Diasorin SpA
+		# FIAT INDUSTRIAL S.P.A. | Fiat Industrial S.p.A. | Fiat Industrial SpA
+		# FIAT S.P.A. | FIAT S.p.A. | Fiat SpA
+		# FINMECCANICA S.P.A. | Finmeccanica S.p.A. | Finmeccanica SpA
+		# IMPREGILO S.P.A. | IMPREGILO S.p.A. | Impregilo SpA
+		# LOTTOMATICA S.P.A. | Lottomatica S.p.A. | Lottomatica Group SpA
+		# LUXOTTICA GROUP S.P.A. | Luxottica Group S.p.A. | Luxottica Group SpA
+		# MEDIASET S.P.A. | Mediaset S.p.A. | Mediaset SpA
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+		# MEDIOLANUM S.P.A. | Mediolanum S.p.A. | Mediolanum SpA
+		# PARMALAT S.P.A. | Parmalat S.p.A. | Parmalat SpA
+		# PIRELLI & C. S.P.A. | Pirelli & C. S.p.A. | Pirelli & C SpA
+		# PRYSMIAN S.P.A. | Prysmian S.p.A. | Prysmian SpA
+		# SAIPEM S.P.A. | Saipem S.p.A. | Saipem SpA
+		# SALVATORE FERRAGAMO ITALIA S.P.A. | Salvatore Ferragamo Italia S.p.A. | Salvatore Ferragamo SpA
+		# SNAM S.P.A. | Snam S.p.A. | Snam SpA
+		# TOD'S S.P.A. | Tod's S.p.A. | Tods SpA
+		# TERNA S.P.A. | Terna S.p.A. | Terna Rete Elettrica Nazionale SpA
+	:stopWord "S" ;
+		# ASSICURAZIONI GENERALI S.P.A. | Assicurazioni Generali S.p.A. | Assicurazioni Generali SpA
+		# ENEL S.P.A. | Enel S.p.A. | Enel SpA
+		# ENI S.P.A. | ENI S.p.A. | Eni SpA
+		# INTESA SANPAOLO S.P.A. | Intesa Sanpaolo S.p.A. | Intesa SanPaolo SpA | Intesa Sanpaolo SpA
+		# TELECOM ITALIA S.P.A. | Telecom Italia S.p.A. | Telecom Italia SpA
+		# UNICREDIT S.P.A. | UniCredit S.p.A. | UniCredit SpA
+		# A2A S.P.A. | A2A S.p.A. | A2A SpA
+		# ANSALDO STS S.P.A. | Ansaldo STS S.p.A. | Ansaldo STS SpA
+		# ATLANTIA S.P.A. | Atlantia S.p.A. | Atlantia SpA
+		# AUTOGRILL S.P.A. | Autogrill S.p.A. | Autogrill SpA
+		# AZIMUT HOLDING S.P.A. | Azimut Holding S.p.A. | Azimut Holding SpA
+		# BANCA MONTE DEI PASCHI DI SIENA S.P.A. | Banca Monte dei Paschi di Siena S.p.A. | Banca Monte dei Paschi di Siena SpA
+		# BANCA POPOLARE DI MILANO S.C.A.R.L | Banca Popolare di Milano S.C.a.R.L | Banca Popolare di Milano Scarl
+		# BANCO POPOLARE S.P.A. | Banco Popolare S.p.A. | Banco Popolare Sc
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+		# DAVIDE CAMPARI-MILANO S.P.A. | Davide Campari-Milano S.p.A. | Davide Campari Milano SpA
+		# DIASORIN S.P.A. | DiaSorin S.p.A. | Diasorin SpA
+		# FIAT INDUSTRIAL S.P.A. | Fiat Industrial S.p.A. | Fiat Industrial SpA
+		# FIAT S.P.A. | FIAT S.p.A. | Fiat SpA
+		# FINMECCANICA S.P.A. | Finmeccanica S.p.A. | Finmeccanica SpA
+		# IMPREGILO S.P.A. | IMPREGILO S.p.A. | Impregilo SpA
+		# LOTTOMATICA S.P.A. | Lottomatica S.p.A. | Lottomatica Group SpA
+		# LUXOTTICA GROUP S.P.A. | Luxottica Group S.p.A. | Luxottica Group SpA
+		# MEDIASET S.P.A. | Mediaset S.p.A. | Mediaset SpA
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+		# MEDIOLANUM S.P.A. | Mediolanum S.p.A. | Mediolanum SpA
+		# PARMALAT S.P.A. | Parmalat S.p.A. | Parmalat SpA
+		# PIRELLI & C. S.P.A. | Pirelli & C. S.p.A. | Pirelli & C SpA
+		# PRYSMIAN S.P.A. | Prysmian S.p.A. | Prysmian SpA
+		# SAIPEM S.P.A. | Saipem S.p.A. | Saipem SpA
+		# SALVATORE FERRAGAMO ITALIA S.P.A. | Salvatore Ferragamo Italia S.p.A. | Salvatore Ferragamo SpA
+		# SNAM S.P.A. | Snam S.p.A. | Snam SpA
+		# TOD'S S.P.A. | Tod's S.p.A. | Tods SpA
+		# TERNA S.P.A. | Terna S.p.A. | Terna Rete Elettrica Nazionale SpA
+	:stopWord "P" ;
+		# ASSICURAZIONI GENERALI S.P.A. | Assicurazioni Generali S.p.A. | Assicurazioni Generali SpA
+		# ENEL S.P.A. | Enel S.p.A. | Enel SpA
+		# ENI S.P.A. | ENI S.p.A. | Eni SpA
+		# INTESA SANPAOLO S.P.A. | Intesa Sanpaolo S.p.A. | Intesa SanPaolo SpA | Intesa Sanpaolo SpA
+		# TELECOM ITALIA S.P.A. | Telecom Italia S.p.A. | Telecom Italia SpA
+		# UNICREDIT S.P.A. | UniCredit S.p.A. | UniCredit SpA
+		# A2A S.P.A. | A2A S.p.A. | A2A SpA
+		# ANSALDO STS S.P.A. | Ansaldo STS S.p.A. | Ansaldo STS SpA
+		# ATLANTIA S.P.A. | Atlantia S.p.A. | Atlantia SpA
+		# AUTOGRILL S.P.A. | Autogrill S.p.A. | Autogrill SpA
+		# AZIMUT HOLDING S.P.A. | Azimut Holding S.p.A. | Azimut Holding SpA
+		# BANCA MONTE DEI PASCHI DI SIENA S.P.A. | Banca Monte dei Paschi di Siena S.p.A. | Banca Monte dei Paschi di Siena SpA
+		# BANCO POPOLARE S.P.A. | Banco Popolare S.p.A. | Banco Popolare Sc
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+		# DAVIDE CAMPARI-MILANO S.P.A. | Davide Campari-Milano S.p.A. | Davide Campari Milano SpA
+		# DIASORIN S.P.A. | DiaSorin S.p.A. | Diasorin SpA
+		# FIAT INDUSTRIAL S.P.A. | Fiat Industrial S.p.A. | Fiat Industrial SpA
+		# FIAT S.P.A. | FIAT S.p.A. | Fiat SpA
+		# FINMECCANICA S.P.A. | Finmeccanica S.p.A. | Finmeccanica SpA
+		# IMPREGILO S.P.A. | IMPREGILO S.p.A. | Impregilo SpA
+		# LOTTOMATICA S.P.A. | Lottomatica S.p.A. | Lottomatica Group SpA
+		# LUXOTTICA GROUP S.P.A. | Luxottica Group S.p.A. | Luxottica Group SpA
+		# MEDIASET S.P.A. | Mediaset S.p.A. | Mediaset SpA
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+		# MEDIOLANUM S.P.A. | Mediolanum S.p.A. | Mediolanum SpA
+		# PARMALAT S.P.A. | Parmalat S.p.A. | Parmalat SpA
+		# PIRELLI & C. S.P.A. | Pirelli & C. S.p.A. | Pirelli & C SpA
+		# PRYSMIAN S.P.A. | Prysmian S.p.A. | Prysmian SpA
+		# SAIPEM S.P.A. | Saipem S.p.A. | Saipem SpA
+		# SALVATORE FERRAGAMO ITALIA S.P.A. | Salvatore Ferragamo Italia S.p.A. | Salvatore Ferragamo SpA
+		# SNAM S.P.A. | Snam S.p.A. | Snam SpA
+		# TOD'S S.P.A. | Tod's S.p.A. | Tods SpA
+		# TERNA S.P.A. | Terna S.p.A. | Terna Rete Elettrica Nazionale SpA
+	:stopWord "SPA" ;
+		# ASSICURAZIONI GENERALI S.P.A. | Assicurazioni Generali S.p.A. | Assicurazioni Generali SpA
+		# ENEL S.P.A. | Enel S.p.A. | Enel SpA
+		# ENI S.P.A. | ENI S.p.A. | Eni SpA
+		# INTESA SANPAOLO S.P.A. | Intesa Sanpaolo S.p.A. | Intesa SanPaolo SpA | Intesa Sanpaolo SpA
+		# TELECOM ITALIA S.P.A. | Telecom Italia S.p.A. | Telecom Italia SpA
+		# UNICREDIT S.P.A. | UniCredit S.p.A. | UniCredit SpA
+		# A2A S.P.A. | A2A S.p.A. | A2A SpA
+		# ANSALDO STS S.P.A. | Ansaldo STS S.p.A. | Ansaldo STS SpA
+		# ATLANTIA S.P.A. | Atlantia S.p.A. | Atlantia SpA
+		# AUTOGRILL S.P.A. | Autogrill S.p.A. | Autogrill SpA
+		# AZIMUT HOLDING S.P.A. | Azimut Holding S.p.A. | Azimut Holding SpA
+		# BANCA MONTE DEI PASCHI DI SIENA S.P.A. | Banca Monte dei Paschi di Siena S.p.A. | Banca Monte dei Paschi di Siena SpA
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+		# DAVIDE CAMPARI-MILANO S.P.A. | Davide Campari-Milano S.p.A. | Davide Campari Milano SpA
+		# DIASORIN S.P.A. | DiaSorin S.p.A. | Diasorin SpA
+		# FIAT INDUSTRIAL S.P.A. | Fiat Industrial S.p.A. | Fiat Industrial SpA
+		# FIAT S.P.A. | FIAT S.p.A. | Fiat SpA
+		# FINMECCANICA S.P.A. | Finmeccanica S.p.A. | Finmeccanica SpA
+		# IMPREGILO S.P.A. | IMPREGILO S.p.A. | Impregilo SpA
+		# LOTTOMATICA S.P.A. | Lottomatica S.p.A. | Lottomatica Group SpA
+		# LUXOTTICA GROUP S.P.A. | Luxottica Group S.p.A. | Luxottica Group SpA
+		# MEDIASET S.P.A. | Mediaset S.p.A. | Mediaset SpA
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+		# MEDIOLANUM S.P.A. | Mediolanum S.p.A. | Mediolanum SpA
+		# PARMALAT S.P.A. | Parmalat S.p.A. | Parmalat SpA
+		# PIRELLI & C. S.P.A. | Pirelli & C. S.p.A. | Pirelli & C SpA
+		# PRYSMIAN S.P.A. | Prysmian S.p.A. | Prysmian SpA
+		# SAIPEM S.P.A. | Saipem S.p.A. | Saipem SpA
+		# SALVATORE FERRAGAMO ITALIA S.P.A. | Salvatore Ferragamo Italia S.p.A. | Salvatore Ferragamo SpA
+		# SNAM S.P.A. | Snam S.p.A. | Snam SpA
+		# TOD'S S.P.A. | Tod's S.p.A. | Tods SpA
+		# TERNA S.P.A. | Terna S.p.A. | Terna Rete Elettrica Nazionale SpA
+	:stopWord "DI" ;
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+	:stopWord "FINANZIARIO" ;
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+	:stopWord "ITALIA" ;
+		# SALVATORE FERRAGAMO ITALIA S.P.A. | Salvatore Ferragamo Italia S.p.A. | Salvatore Ferragamo SpA
+	:stopWord "BANCA" ;
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+	:stopWord "CREDITO" ;
+		# MEDIOBANCA S.P.A. | Mediobanca S.p.A. | Mediobanca Banca Di Credito Finanziario SpA
+	:stopWord "TOD" ;
+		# TOD'S S.P.A. | Tod's S.p.A. | Tods SpA
+	:stopWord "ELETTRICA" ;
+		# TERNA S.P.A. | Terna S.p.A. | Terna Rete Elettrica Nazionale SpA
+	:stopWord "NAZIONALE" ;
+		# TERNA S.P.A. | Terna S.p.A. | Terna Rete Elettrica Nazionale SpA
+	:stopWord "TODS" ;
+		# TOD'S S.P.A. | Tod's S.p.A. | Tods SpA
+	:stopWord "RETE" ;
+		# TERNA S.P.A. | Terna S.p.A. | Terna Rete Elettrica Nazionale SpA
+	:stopWord "GROUP" ;
+		# LOTTOMATICA S.P.A. | Lottomatica S.p.A. | Lottomatica Group SpA
+	:stopWord "SCARL" ;
+		# BANCA POPOLARE DI MILANO S.C.A.R.L | Banca Popolare di Milano S.C.a.R.L | Banca Popolare di Milano Scarl
+	:stopWord "SC" ;
+		# BANCO POPOLARE S.P.A. | Banco Popolare S.p.A. | Banco Popolare Sc
+	:stopWord "R" ;
+		# BANCA POPOLARE DI MILANO S.C.A.R.L | Banca Popolare di Milano S.C.a.R.L | Banca Popolare di Milano Scarl
+	:stopWord "L" ;
+		# BANCA POPOLARE DI MILANO S.C.A.R.L | Banca Popolare di Milano S.C.a.R.L | Banca Popolare di Milano Scarl
+	:stopWord "SENZA" ;
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+	:stopWord "RAPPRESENTAZIONE" ;
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+	:stopWord "GRAFICA" ;
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+	:stopWord "VINCOLI" ;
+		# BUZZI UNICEM S.P.A. | Buzzi Unicem S.p.A. | Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica
+	:stopWord "C" ;
+		# BANCA POPOLARE DI MILANO S.C.A.R.L | Banca Popolare di Milano S.C.a.R.L | Banca Popolare di Milano Scarl
+	a :Gazetteer .
+
+:gaz_Spain_StopWords
+	:stopWord "A" ;
+		# BANCO SANTANDER S.A. | Banco Santander S.A. | Banco Santander SA
+		# IBERDROLA S.A. | Iberdrola S.A. | Iberdrola SA
+		# INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX) | Industria de Diseno Textil S.A. (inditex) | Inditex SA
+		# REPSOL YPF S.A. | Repsol YPF S.A. | Repsol YPF SA
+		# TELEFONICA S.A. | Telefonica S.A. | Telefonica SA
+		# ABENGOA S.A. | Abengoa S.A. | Abengoa SA
+		# ABERTIS INFRAESTRUCTURAS, S.A. | Abertis Infraestructuras, S.A. | Abertis Infraestructuras SA
+		# ACCIONA, S.A. | Acciona, S.A. | Acciona SA
+		# ACERINOX, S.A. | Acerinox, S.A. | Acerinox SA
+		# ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS S.A. | Acs, Actividades de Construccion y Servicios S.A. | Acs Actividades de Construccion y Servicios SA
+		# AMADEUS IT HOLDING S.A. | Amadeus IT Holding S.A. | Amadeus It Group SA
+		# BANCO POPULAR ESPANOL S.A. | Banco Popular Espanol S.A. | Banco Popular Espanol SA
+		# BANKIA S.A. | Bankia SA
+		# BANKINTER, S.A. | Bankinter, S.A. | Bankinter SA
+		# BANCO DE SABADELL S.A. | Banco de Sabadell S.A. | Banco de Sabadell SA
+		# BOLSAS Y MERCADOS ESPANOLES S.A. | Bolsas y Mercados Espanoles S.A. | Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y
+		# CAIXABANK S.A. | Caixabank S.A. | CaixaBank SA
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+		# ENAGAS S.A. | Enagas S.A. | Enagas SA
+		# ENDESA S.A. | Endesa S.A. | Endesa SA
+		# FOMENTO DE CONSTRUCCIONES Y CONTRATAS S.A. | Fomento de Construcciones y Contratas S.A. | Fomento de Construcciones y Contratas SA
+		# GAMESA CORPORACION TECNOLOGICA S.A. | Gamesa Corporacion Tecnologica S.A. | Gamesa Corporacion Tecnologica SA
+		# GAS NATURAL SDG S.A. | Gas Natural SDG S.A. | Gas Natural Sdg SA
+		# GRIFOLS S.A. | Grifols S.A. | Grifols SA
+		# INDRA SISTEMAS S.A. | Indra Sistemas S.A. | Indra Sistemas SA
+		# MAPFRE S.A. | Mapfre S.A. | Mapfre SA
+		# MEDIASET ESPANA COMUNICACION S.A. | Mediaset Espana Comunicacion S.A. | Mediaset Espana Comunicacion SA
+		# OBRASCON HUARTE LAIN S.A. | Obrascon Huarte Lain S.A. | Obrascon Huarte Lain SA
+		# RED ELECTRICA CORPORACION S.A. | Red Electrica Corporacion S.A. | Red Electrica Corporacion SA
+		# SACYR VALLEHERMOSO, S.A. | Sacyr Vallehermoso, S.A. | Sacyr Vallehermoso SA
+		# TECNICAS REUNIDAS, S.A. | Tecnicas Reunidas, S.A. | Tecnicas Reunidas SA
+	:stopWord "S" ;
+		# BANCO SANTANDER S.A. | Banco Santander S.A. | Banco Santander SA
+		# IBERDROLA S.A. | Iberdrola S.A. | Iberdrola SA
+		# INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX) | Industria de Diseno Textil S.A. (inditex) | Inditex SA
+		# REPSOL YPF S.A. | Repsol YPF S.A. | Repsol YPF SA
+		# TELEFONICA S.A. | Telefonica S.A. | Telefonica SA
+		# ABENGOA S.A. | Abengoa S.A. | Abengoa SA
+		# ABERTIS INFRAESTRUCTURAS, S.A. | Abertis Infraestructuras, S.A. | Abertis Infraestructuras SA
+		# ACCIONA, S.A. | Acciona, S.A. | Acciona SA
+		# ACERINOX, S.A. | Acerinox, S.A. | Acerinox SA
+		# ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS S.A. | Acs, Actividades de Construccion y Servicios S.A. | Acs Actividades de Construccion y Servicios SA
+		# AMADEUS IT HOLDING S.A. | Amadeus IT Holding S.A. | Amadeus It Group SA
+		# BANCO POPULAR ESPANOL S.A. | Banco Popular Espanol S.A. | Banco Popular Espanol SA
+		# BANKIA S.A. | Bankia SA
+		# BANKINTER, S.A. | Bankinter, S.A. | Bankinter SA
+		# BANCO DE SABADELL S.A. | Banco de Sabadell S.A. | Banco de Sabadell SA
+		# BOLSAS Y MERCADOS ESPANOLES S.A. | Bolsas y Mercados Espanoles S.A. | Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y
+		# CAIXABANK S.A. | Caixabank S.A. | CaixaBank SA
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+		# ENAGAS S.A. | Enagas S.A. | Enagas SA
+		# ENDESA S.A. | Endesa S.A. | Endesa SA
+		# FOMENTO DE CONSTRUCCIONES Y CONTRATAS S.A. | Fomento de Construcciones y Contratas S.A. | Fomento de Construcciones y Contratas SA
+		# GAMESA CORPORACION TECNOLOGICA S.A. | Gamesa Corporacion Tecnologica S.A. | Gamesa Corporacion Tecnologica SA
+		# GAS NATURAL SDG S.A. | Gas Natural SDG S.A. | Gas Natural Sdg SA
+		# GRIFOLS S.A. | Grifols S.A. | Grifols SA
+		# INDRA SISTEMAS S.A. | Indra Sistemas S.A. | Indra Sistemas SA
+		# MAPFRE S.A. | Mapfre S.A. | Mapfre SA
+		# MEDIASET ESPANA COMUNICACION S.A. | Mediaset Espana Comunicacion S.A. | Mediaset Espana Comunicacion SA
+		# OBRASCON HUARTE LAIN S.A. | Obrascon Huarte Lain S.A. | Obrascon Huarte Lain SA
+		# RED ELECTRICA CORPORACION S.A. | Red Electrica Corporacion S.A. | Red Electrica Corporacion SA
+		# SACYR VALLEHERMOSO, S.A. | Sacyr Vallehermoso, S.A. | Sacyr Vallehermoso SA
+		# TECNICAS REUNIDAS, S.A. | Tecnicas Reunidas, S.A. | Tecnicas Reunidas SA
+	:stopWord "SA" ;
+		# BANCO SANTANDER S.A. | Banco Santander S.A. | Banco Santander SA
+		# IBERDROLA S.A. | Iberdrola S.A. | Iberdrola SA
+		# INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX) | Industria de Diseno Textil S.A. (inditex) | Inditex SA
+		# REPSOL YPF S.A. | Repsol YPF S.A. | Repsol YPF SA
+		# TELEFONICA S.A. | Telefonica S.A. | Telefonica SA
+		# ABENGOA S.A. | Abengoa S.A. | Abengoa SA
+		# ABERTIS INFRAESTRUCTURAS, S.A. | Abertis Infraestructuras, S.A. | Abertis Infraestructuras SA
+		# ACCIONA, S.A. | Acciona, S.A. | Acciona SA
+		# ACERINOX, S.A. | Acerinox, S.A. | Acerinox SA
+		# ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS S.A. | Acs, Actividades de Construccion y Servicios S.A. | Acs Actividades de Construccion y Servicios SA
+		# AMADEUS IT HOLDING S.A. | Amadeus IT Holding S.A. | Amadeus It Group SA
+		# BANCO POPULAR ESPANOL S.A. | Banco Popular Espanol S.A. | Banco Popular Espanol SA
+		# BANKIA S.A. | Bankia SA
+		# BANKINTER, S.A. | Bankinter, S.A. | Bankinter SA
+		# BANCO DE SABADELL S.A. | Banco de Sabadell S.A. | Banco de Sabadell SA
+		# CAIXABANK S.A. | Caixabank S.A. | CaixaBank SA
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+		# ENAGAS S.A. | Enagas S.A. | Enagas SA
+		# ENDESA S.A. | Endesa S.A. | Endesa SA
+		# FOMENTO DE CONSTRUCCIONES Y CONTRATAS S.A. | Fomento de Construcciones y Contratas S.A. | Fomento de Construcciones y Contratas SA
+		# GAMESA CORPORACION TECNOLOGICA S.A. | Gamesa Corporacion Tecnologica S.A. | Gamesa Corporacion Tecnologica SA
+		# GAS NATURAL SDG S.A. | Gas Natural SDG S.A. | Gas Natural Sdg SA
+		# GRIFOLS S.A. | Grifols S.A. | Grifols SA
+		# INDRA SISTEMAS S.A. | Indra Sistemas S.A. | Indra Sistemas SA
+		# MAPFRE S.A. | Mapfre S.A. | Mapfre SA
+		# MEDIASET ESPANA COMUNICACION S.A. | Mediaset Espana Comunicacion S.A. | Mediaset Espana Comunicacion SA
+		# OBRASCON HUARTE LAIN S.A. | Obrascon Huarte Lain S.A. | Obrascon Huarte Lain SA
+		# RED ELECTRICA CORPORACION S.A. | Red Electrica Corporacion S.A. | Red Electrica Corporacion SA
+		# SACYR VALLEHERMOSO, S.A. | Sacyr Vallehermoso, S.A. | Sacyr Vallehermoso SA
+		# TECNICAS REUNIDAS, S.A. | Tecnicas Reunidas, S.A. | Tecnicas Reunidas SA
+	:stopWord "DE" ;
+		# INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX) | Industria de Diseno Textil S.A. (inditex) | Inditex SA
+		# BOLSAS Y MERCADOS ESPANOLES S.A. | Bolsas y Mercados Espanoles S.A. | Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+	:stopWord "HOLDING" ;
+		# AMADEUS IT HOLDING S.A. | Amadeus IT Holding S.A. | Amadeus It Group SA
+		# BOLSAS Y MERCADOS ESPANOLES S.A. | Bolsas y Mercados Espanoles S.A. | Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y
+	:stopWord "DISTRIBUIDORA" ;
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+	:stopWord "SOCIEDAD" ;
+		# BOLSAS Y MERCADOS ESPANOLES S.A. | Bolsas y Mercados Espanoles S.A. | Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y
+	:stopWord "INTERNACIONAL" ;
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+	:stopWord "ES0126775032" ;
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+	:stopWord "ALIMENTACION" ;
+		# DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A. | Distribuidora Internacional de Alimentacion S.A. | ES0126775032 | Distribuidora Internacional de Alimentacion SA
+	:stopWord "ESPANEOLES" ;
+		# BOLSAS Y MERCADOS ESPANOLES S.A. | Bolsas y Mercados Espanoles S.A. | Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y
+	:stopWord "TEXTIL" ;
+		# INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX) | Industria de Diseno Textil S.A. (inditex) | Inditex SA
+	:stopWord "DISENO" ;
+		# INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX) | Industria de Diseno Textil S.A. (inditex) | Inditex SA
+	:stopWord "INDUSTRIA" ;
+		# INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX) | Industria de Diseno Textil S.A. (inditex) | Inditex SA
+	:stopWord "ESPANOLES" ;
+		# BOLSAS Y MERCADOS ESPANOLES S.A. | Bolsas y Mercados Espanoles S.A. | Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y
+	:stopWord "GROUP" ;
+		# AMADEUS IT HOLDING S.A. | Amadeus IT Holding S.A. | Amadeus It Group SA
+	a :Gazetteer .
+
+:gaz_Ireland_StopWords
+	:stopWord "LTD" ;
+		# INGERSOLL-RAND PLC | Ingersoll-Rand PLC | Ingersoll Rand Public Ltd Co
+	:stopWord "CO" ;
+		# INGERSOLL-RAND PLC | Ingersoll-Rand PLC | Ingersoll Rand Public Ltd Co
+	:stopWord "PLC" ;
+		# INGERSOLL-RAND PLC | Ingersoll-Rand PLC | Ingersoll Rand Public Ltd Co
+	:stopWord "PUBLIC" ;
+		# INGERSOLL-RAND PLC | Ingersoll-Rand PLC | Ingersoll Rand Public Ltd Co
+	a :Gazetteer .
+
+:gaz_Netherlands_StopWords
+	:stopWord "V" ;
+		# ING GROEP N.V. | ING Groep N.V. | Ing Groep NV | ING Groep NV
+		# KONINKLIJKE PHILIPS ELECTRONICS N.V. | Koninklijke Philips Electronics N.V. | Koninklijke Philips Electronics NV
+		# UNILEVER N.V. | Unilever N.V. | Unilever NV
+		# EUROPEAN AERONAUTIC DEFENCE AND SPACE COMPANY EADS | European Aeronautic Defence and Space Company EADS N.V. | European Aeronautic Defence and Space Company NV - EADS
+		# AEGON N.V. | AEGON NV
+		# AKZO NOBEL N.V. | Akzo Nobel NV
+		# ASML HOLDING N.V. | ASML Holding N.V. | ASML Holding NV
+		# CORIO N.V. | Corio N.V. | Corio NV
+		# FUGRO N.V. | Fugro N.V. | Fugro NV
+		# HEINEKEN N.V. | Heineken NV
+		# AHOLD N.V. | Ahold N.V. | Koninklijke Ahold NV
+		# KONINKLIJKE BOSKALIS WESTMINSTER N.V. | Koninklijke Boskalis Westminster N.V. | Koninklijke Boskalis Westminster NV
+		# KONINKLIJKE DSM N.V. | Koninklijke DSM N.V. | Koninklijke Dsm NV
+		# KONINKLIJKE KPN N.V. | Koninklijke KPN N.V. | Koninklijke KPN NV
+		# POSTNL N.V. | PostNL N.V. | POSTNL Ord Shs
+		# RANDSTAD HOLDING N.V. | Randstad Holding N.V. | Randstad Holding NV
+		# REED ELSEVIER N.V. | Reed Elsevier N.V. | Reed Elsevier NV
+		# SBM OFFSHORE N.V. | SBM Offshore N.V. | SBM Offshore NV
+		# TNT EXPRESS N.V. | TNT Express NV
+		# TOMTOM N.V. | TomTom N.V. | Tomtom NV
+		# WOLTERS KLUWER N.V. | Wolters Kluwer N.V. | Wolters Kluwer NV
+	:stopWord "N" ;
+		# ING GROEP N.V. | ING Groep N.V. | Ing Groep NV | ING Groep NV
+		# KONINKLIJKE PHILIPS ELECTRONICS N.V. | Koninklijke Philips Electronics N.V. | Koninklijke Philips Electronics NV
+		# UNILEVER N.V. | Unilever N.V. | Unilever NV
+		# EUROPEAN AERONAUTIC DEFENCE AND SPACE COMPANY EADS | European Aeronautic Defence and Space Company EADS N.V. | European Aeronautic Defence and Space Company NV - EADS
+		# AEGON N.V. | AEGON NV
+		# AKZO NOBEL N.V. | Akzo Nobel NV
+		# ASML HOLDING N.V. | ASML Holding N.V. | ASML Holding NV
+		# CORIO N.V. | Corio N.V. | Corio NV
+		# FUGRO N.V. | Fugro N.V. | Fugro NV
+		# HEINEKEN N.V. | Heineken NV
+		# AHOLD N.V. | Ahold N.V. | Koninklijke Ahold NV
+		# KONINKLIJKE BOSKALIS WESTMINSTER N.V. | Koninklijke Boskalis Westminster N.V. | Koninklijke Boskalis Westminster NV
+		# KONINKLIJKE DSM N.V. | Koninklijke DSM N.V. | Koninklijke Dsm NV
+		# KONINKLIJKE KPN N.V. | Koninklijke KPN N.V. | Koninklijke KPN NV
+		# POSTNL N.V. | PostNL N.V. | POSTNL Ord Shs
+		# RANDSTAD HOLDING N.V. | Randstad Holding N.V. | Randstad Holding NV
+		# REED ELSEVIER N.V. | Reed Elsevier N.V. | Reed Elsevier NV
+		# SBM OFFSHORE N.V. | SBM Offshore N.V. | SBM Offshore NV
+		# TNT EXPRESS N.V. | TNT Express NV
+		# TOMTOM N.V. | TomTom N.V. | Tomtom NV
+		# WOLTERS KLUWER N.V. | Wolters Kluwer N.V. | Wolters Kluwer NV
+	:stopWord "NV" ;
+		# ING GROEP N.V. | ING Groep N.V. | Ing Groep NV | ING Groep NV
+		# KONINKLIJKE PHILIPS ELECTRONICS N.V. | Koninklijke Philips Electronics N.V. | Koninklijke Philips Electronics NV
+		# UNILEVER N.V. | Unilever N.V. | Unilever NV
+		# EUROPEAN AERONAUTIC DEFENCE AND SPACE COMPANY EADS | European Aeronautic Defence and Space Company EADS N.V. | European Aeronautic Defence and Space Company NV - EADS
+		# AEGON N.V. | AEGON NV
+		# AKZO NOBEL N.V. | Akzo Nobel NV
+		# ASML HOLDING N.V. | ASML Holding N.V. | ASML Holding NV
+		# CORIO N.V. | Corio N.V. | Corio NV
+		# FUGRO N.V. | Fugro N.V. | Fugro NV
+		# HEINEKEN N.V. | Heineken NV
+		# AHOLD N.V. | Ahold N.V. | Koninklijke Ahold NV
+		# KONINKLIJKE BOSKALIS WESTMINSTER N.V. | Koninklijke Boskalis Westminster N.V. | Koninklijke Boskalis Westminster NV
+		# KONINKLIJKE DSM N.V. | Koninklijke DSM N.V. | Koninklijke Dsm NV
+		# KONINKLIJKE KPN N.V. | Koninklijke KPN N.V. | Koninklijke KPN NV
+		# RANDSTAD HOLDING N.V. | Randstad Holding N.V. | Randstad Holding NV
+		# REED ELSEVIER N.V. | Reed Elsevier N.V. | Reed Elsevier NV
+		# SBM OFFSHORE N.V. | SBM Offshore N.V. | SBM Offshore NV
+		# TNT EXPRESS N.V. | TNT Express NV
+		# TOMTOM N.V. | TomTom N.V. | Tomtom NV
+		# WOLTERS KLUWER N.V. | Wolters Kluwer N.V. | Wolters Kluwer NV
+	:stopWord "SHS" ;
+		# POSTNL N.V. | PostNL N.V. | POSTNL Ord Shs
+	:stopWord "ORD" ;
+		# POSTNL N.V. | PostNL N.V. | POSTNL Ord Shs
+	:stopWord "KONINKLIJKE" ;
+		# AHOLD N.V. | Ahold N.V. | Koninklijke Ahold NV
+	a :Gazetteer .
+
+:gaz_Finland_StopWords
+	:stopWord "OYJ" ;
+		# NOKIA CORP. | Nokia Corp. | Nokia Oyj
+		# AMER YHTYMA | AMER A | Amer Sports Oyj
+		# CARGOTEC CORP. | Cargotec Oyj
+		# ELISA COMMS | Elisa Communications Oyj | Elisa Oyj
+		# FORTUM | Fortum Oyj
+		# KEMIRA | Kemira Oyj
+		# KESKO CORP. | Kesko Corporation | Kesko Oyj
+		# KONECRANES OYJ | Konecranes Oyj | Konecranes Abp
+		# METSO CORP. | Metso Oyj
+		# NESTE OIL CORPORATION | Neste Oil Oyj
+		# ORION | ORION CORP  B | Orion Oyj
+		# OUTOKUMPU | Outokumpu Oyj
+		# POHJOLA BANK | Pohjola Pankki Oyj
+		# SAMPO PLC | Sampo Oyj
+		# STORA ENSO | Stora Enso OYJ | Stora Enso Oyj
+		# UPM KYMMENE | UPM-Kymmene Oyj
+		# WARTSILA | Wartsila Oyj Abp
+	:stopWord "CORP" ;
+		# NOKIA CORP. | Nokia Corp. | Nokia Oyj
+		# CARGOTEC CORP. | Cargotec Oyj
+		# KESKO CORP. | Kesko Corporation | Kesko Oyj
+		# METSO CORP. | Metso Oyj
+		# ORION | ORION CORP  B | Orion Oyj
+	:stopWord "ABP" ;
+		# KONECRANES OYJ | Konecranes Oyj | Konecranes Abp
+		# WARTSILA | Wartsila Oyj Abp
+	:stopWord "CORPORATION" ;
+		# KESKO CORP. | Kesko Corporation | Kesko Oyj
+		# NESTE OIL CORPORATION | Neste Oil Oyj
+	:stopWord "PLC" ;
+		# SAMPO PLC | Sampo Oyj
+	:stopWord "PANKKI" ;
+		# POHJOLA BANK | Pohjola Pankki Oyj
+	:stopWord "BANK" ;
+		# POHJOLA BANK | Pohjola Pankki Oyj
+	:stopWord "B" ;
+		# ORION | ORION CORP  B | Orion Oyj
+	:stopWord "A" ;
+		# AMER YHTYMA | AMER A | Amer Sports Oyj
+	:stopWord "YHTYMA" ;
+		# AMER YHTYMA | AMER A | Amer Sports Oyj
+	:stopWord "SPORTS" ;
+		# AMER YHTYMA | AMER A | Amer Sports Oyj
+	:stopWord "COMMUNICATIONS" ;
+		# ELISA COMMS | Elisa Communications Oyj | Elisa Oyj
+	:stopWord "COMMS" ;
+		# ELISA COMMS | Elisa Communications Oyj | Elisa Oyj
+	a :Gazetteer .
+
+:gaz_Switzerland_StopWords
+	:stopWord "SA" ;
+		# NESTLE S.A. | Nestle S.A. | Nestle SA
+		# ADECCO S.A. | Adecco S.A. | Adecco SA
+		# SGS S.A. | SGS SA
+		# THE SWATCH GROUP AG | The Swatch Group AG | The Swatch Group SA
+	:stopWord "S" ;
+		# NESTLE S.A. | Nestle S.A. | Nestle SA
+		# ADECCO S.A. | Adecco S.A. | Adecco SA
+		# SGS S.A. | SGS SA
+	:stopWord "A" ;
+		# NESTLE S.A. | Nestle S.A. | Nestle SA
+		# ADECCO S.A. | Adecco S.A. | Adecco SA
+		# SGS S.A. | SGS SA
+	:stopWord "AG" ;
+		# THE SWATCH GROUP AG | The Swatch Group AG | The Swatch Group SA
+		# SWISS RE AG | Swiss Re AG | Swiss Reinsurance Group
+	:stopWord "GROUP" ;
+		# ZURICH INSURANCE GROUP AG | Zurich Insurance Group AG | Zurich Financial Services AG
+		# SWISS RE AG | Swiss Re AG | Swiss Reinsurance Group
+	:stopWord "RE" ;
+		# SWISS RE AG | Swiss Re AG | Swiss Reinsurance Group
+	:stopWord "NV" ;
+		# STMICROELECTRONICS N.V. | STMicroelectronics N.V. | STMicroelectronics NV
+	:stopWord "INC" ;
+		# TRANSOCEAN LTD. | Transocean Ltd. | Transocean Inc | Transocean LTD
+	:stopWord "LTD" ;
+		# TRANSOCEAN LTD. | Transocean Ltd. | Transocean Inc | Transocean LTD
+	:stopWord "REINSURANCE" ;
+		# SWISS RE AG | Swiss Re AG | Swiss Reinsurance Group
+	:stopWord "FINANCIAL" ;
+		# ZURICH INSURANCE GROUP AG | Zurich Insurance Group AG | Zurich Financial Services AG
+	:stopWord "INSURANCE" ;
+		# ZURICH INSURANCE GROUP AG | Zurich Insurance Group AG | Zurich Financial Services AG
+	:stopWord "USA" ;
+		# UBS AG | UBS AG (USA)
+	:stopWord "V" ;
+		# STMICROELECTRONICS N.V. | STMicroelectronics N.V. | STMicroelectronics NV
+	:stopWord "N" ;
+		# STMICROELECTRONICS N.V. | STMicroelectronics N.V. | STMicroelectronics NV
+	:stopWord "SERVICES" ;
+		# ZURICH INSURANCE GROUP AG | Zurich Insurance Group AG | Zurich Financial Services AG
+	a :Gazetteer .
+
+:Great_gaz_Britain_StopWords
+	:stopWord "AND" ;
+		# MARKS & SPENCER GROUP PLC | Marks & Spencer Group PLC | Marks And Spencer Group PLC
+		# SMITH & NEPHEW PLC | Smith & Nephew PLC | Smith and Nephew PLC
+		# SCOTTISH AND SOUTHERN ENERGY PLC | Scottish and Southern Energy plc | SSE PLC
+		# TATE & LYLE PLC | Tate & Lyle plc | Tate and Lyle PLC
+	:stopWord "THE" ;
+		# THE CAPITA GROUP PLC | The Capita Group Plc | Capita PLC
+		# THE ROYAL BANK OF SCOTLAND GROUP PLC | The Royal Bank of Scotland Group PLC | Royal Bank of Scotland Group PLC
+		# THE SAGE GROUP PLC | The Sage Group PLC | Sage Group PLC
+	:stopWord "ORD" ;
+		# SHIRE PLC | Shire plc | Shire Ord Shs
+	:stopWord "HOLDING" ;
+		# ROLLS ROYCE HOLDINGS PLC | Rolls Royce Holdings PLC | Rolls-Royce Holding PLC
+	:stopWord "PLC" ;
+		# SHIRE PLC | Shire plc | Shire Ord Shs
+	:stopWord "SHS" ;
+		# SHIRE PLC | Shire plc | Shire Ord Shs
+	:stopWord "ENERGY" ;
+		# SCOTTISH AND SOUTHERN ENERGY PLC | Scottish and Southern Energy plc | SSE PLC
+	:stopWord "SSE" ;
+		# SCOTTISH AND SOUTHERN ENERGY PLC | Scottish and Southern Energy plc | SSE PLC
+	:stopWord "SCOTTISH" ;
+		# SCOTTISH AND SOUTHERN ENERGY PLC | Scottish and Southern Energy plc | SSE PLC
+	:stopWord "SOUTHERN" ;
+		# SCOTTISH AND SOUTHERN ENERGY PLC | Scottish and Southern Energy plc | SSE PLC
+	:stopWord "CORP" ;
+		# EURASIAN NATURAL RESOURCES CORPORATION PLC | Eurasian Natural Resources Corporation plc | Eurasian Natural Resources Corp PLC
+	:stopWord "S" ;
+		# INTERNATIONAL CONSOLIDATED AIRLINES GROUP S.A. | International Consolidated Airlines Group S.A. | International Consolidated Airlines Group SA
+	:stopWord "GROUP" ;
+		# THE CAPITA GROUP PLC | The Capita Group Plc | Capita PLC
+	:stopWord "CORPORATION" ;
+		# EURASIAN NATURAL RESOURCES CORPORATION PLC | Eurasian Natural Resources Corporation plc | Eurasian Natural Resources Corp PLC
+	:stopWord "WM" ;
+		# MORRISON SUPERMARKETS PLC | Morrison Supermarkets PLC | WM Morrison Supermarkets PLC
+	:stopWord "HOLDINGS" ;
+		# ROLLS ROYCE HOLDINGS PLC | Rolls Royce Holdings PLC | Rolls-Royce Holding PLC
+	:stopWord "A" ;
+		# INTERNATIONAL CONSOLIDATED AIRLINES GROUP S.A. | International Consolidated Airlines Group S.A. | International Consolidated Airlines Group SA
+	:stopWord "SA" ;
+		# INTERNATIONAL CONSOLIDATED AIRLINES GROUP S.A. | International Consolidated Airlines Group S.A. | International Consolidated Airlines Group SA
+	a :Gazetteer .
+
+:gaz_Sweden_StopWords
+	:stopWord "AB" ;
+		# HENNES & MAURITZ | H & M Hennes & Mauritz AB
+		# NORDEA BANK | NORDEA BANK AB
+		# ALFA LAVAL | Alfa Corporate AB | Alfa Laval AB
+		# BOLIDEN | Boliden AB
+		# GETINGE | Getinge AB
+		# INVESTOR | INVESTOR AB | Investor AB
+		# LUNDIN PETROLEUM | Lundin Petroleum AB
+		# SEB A | Skandinaviska Enskilda Banken Ab | Skandinaviska Enskilda Banken AB
+		# SWEDBANK | Swedbank AB
+		# SWEDISH MATCH | SWEDISH MaTCH ADR | Swedish Match AB
+	:stopWord "M" ;
+		# ERICSSON (LM) | Telefonaktiebolaget L M Ericsson
+		# HENNES & MAURITZ | H & M Hennes & Mauritz AB
+	:stopWord "SEB" ;
+		# SEB A | Skandinaviska Enskilda Banken Ab | Skandinaviska Enskilda Banken AB
+	:stopWord "A" ;
+		# SEB A | Skandinaviska Enskilda Banken Ab | Skandinaviska Enskilda Banken AB
+	:stopWord "SKANDINAVISKA" ;
+		# SEB A | Skandinaviska Enskilda Banken Ab | Skandinaviska Enskilda Banken AB
+	:stopWord "SCA" ;
+		# SVENSKA CELLULOSA AB | Svenska Cellulosa AB | Svenska Cellulosa AB SCA
+	:stopWord "ADR" ;
+		# SWEDISH MATCH | SWEDISH MaTCH ADR | Swedish Match AB
+	:stopWord "ENSKILDA" ;
+		# SEB A | Skandinaviska Enskilda Banken Ab | Skandinaviska Enskilda Banken AB
+	:stopWord "BANKEN" ;
+		# SEB A | Skandinaviska Enskilda Banken Ab | Skandinaviska Enskilda Banken AB
+	:stopWord "L" ;
+		# ERICSSON (LM) | Telefonaktiebolaget L M Ericsson
+	:stopWord "TELEFONAKTIEBOLAGET" ;
+		# ERICSSON (LM) | Telefonaktiebolaget L M Ericsson
+	:stopWord "LM" ;
+		# ERICSSON (LM) | Telefonaktiebolaget L M Ericsson
+	:stopWord "H" ;
+		# HENNES & MAURITZ | H & M Hennes & Mauritz AB
+	:stopWord "GP" ;
+		# MODERN TIMES | MODERN TIMES GP
+	:stopWord "CORPORATE" ;
+		# ALFA LAVAL | Alfa Corporate AB | Alfa Laval AB
+	:stopWord "LAVAL" ;
+		# ALFA LAVAL | Alfa Corporate AB | Alfa Laval AB
+	a :Gazetteer .
+
+:gaz_Jersey_StopWords
+	a :Gazetteer .
+
+:gaz_USA_StopWords
+	:stopWord "CORP" ;
+		# CHEVRON CORP. | Chevron Corp. | Chevron Corp | Chevron Corporation
+		# EXXONMOBIL CORP. | ExxonMobil Corp. | Exxon Mobil Corp | Exxon Mobil Corporation
+		# INTEL CORP. | Intel Corp. | Intel Corp | Intel Corporation
+		# MCDONALD'S CORP. | McDonald's Corp. | McdonaldS Corp | McDonald's Corporation
+		# MICROSOFT CORP. | Microsoft Corp. | Microsoft Corp | Microsoft Corporation
+		# UNITED TECHNOLOGIES CORP. | United Technologies Corp. | United Technologies Corp | United Technologies Corporation
+		# THE AES CORPORATION | The AES Corporation | AES Corp
+		# ALLSTATE CORP. | Allstate Corp. | Allstate Corp | The Allstate Corporation
+		# ALTERA CORP. | Altera Corp. | Altera Corp | Altera Corporation
+		# ANADARKO PETROLEUM CORP. | Anadarko Petroleum Corp. | Anadarko Petroleum Corp | Anadarko Petroleum Corporation
+		# APACHE CORP. | Apache Corp. | Apache Corp | Apache Corporation
+		# AVERY DENNISON CORPORATION | Avery Dennison Corporation | Avery Dennison Corp
+		# BANK OF NEW YORK MELLON CORP. | Bank of New York Mellon Corp. | Bank Of New York Mellon Corp | The Bank of New York Mellon Corporation
+		# BB&T CORP. | BB&T Corp. | BB&T Corp | BB&T Corporation
+		# BOSTON SCIENT | Boston Scientific Corporation | Boston Scientific Corp
+		# BROADCOM CORP. | Broadcom Corp. | Broadcom Corp | Broadcom Corporation
+		# CABOT OIL & GAS CORP | Cabot Oil and Gas Corp | Cabot Oil & Gas Corporation
+		# CAMERON INTERNATIONAL CORP | Cameron International Corp | Cameron International Corporation
+		# CBS CORP. | CBS Corp. | CBS Corp | CBS Corporation
+		# CELGENE CORP. | Celgene Corp. | Celgene Corp | Celgene Corporation
+		# CERNER CORP. | Cerner Corp. | Cerner Corp | Cerner Corporation
+		# CHESAPEAKE ENERGY CORP. | Chesapeake Energy Corp | Chesapeake Energy Corporation
+		# CIGNA CORPORATION | Cigna Corporation | CIGNA Corp | CIGNA Corporation
+		# CINTAS CORPORATION | Cintas Corporation | Cintas Corp
+		# COMCAST CORP. | Comcast Corp. | Comcast Corp | Comcast Corporation
+		# COMPUTER SCIENCE | Computer Sciences Corp. | Computer Sciences Corp | Computer Sciences Corporation
+		# COSTCO WHOLESALE CORP. | Costco Wholesale Corp. | Costco Wholesale Corp | Costco Wholesale Corporation
+		# CSX CORP. | CSX Corp. | Csx Corp | CSX Corporation
+		# CVS CAREMARK CORP. | CVS Caremark Corp. | Cvs Caremark Corp | CVS Caremark Corporation
+		# DANAHER | Danaher Corporation | Danaher Corp
+		# DEVON ENERGY CORP. | Devon Energy Corp. | Devon Energy Corp | Devon Energy Corporation
+		# DUKE ENERGY CORPORATION | Duke Energy Corporation | Duke Energy Corp
+		# E*TRADE GROUP (E*TRADE BANK AG) | E*Trade Group (E*Trade Bank AG) | E*Trade Financial Corp | E TRADE Financial Corporation
+		# EATON CORP. | Eaton Corp. | Eaton Corp | Eaton Corporation
+		# EDWARDS LIFESCIENCES | EDWARDS LIFESCIENCES CORPORATION | Edwards Lifesciences Corp
+		# EMC CORP. | EMC Corp. | EMC Corp | EMC Corporation
+		# ENTERGY CORP. | Entergy Corp. | Entergy Corp | Entergy Corporation
+		# EQT CORP. | EQT CORPORATION | EQT Corp | EQT Corporation
+		# EXELON CORP. | Exelon Corp. | Exelon Corp | Exelon Corporation
+		# FEDEX CORP. | FedEx Corp. | Fedex Corp | FedEx Corporation
+		# FLOWSERVE | FLOWSERVE CORP | Flowserve Corp | Flowserve Corporation
+		# FLUOR CORPS | Fluor Corp | Fluor Corporation (NEW)
+		# FMC | FMC Corp. | FMC Corp | FMC Corporation
+		# FRONTIER COMMUNICATIONS CORPORATION | Frontier Communications Ord Shs | Frontier Communications Corp
+		# GENERAL DYNAMICS CORP. | General Dynamics Corp. | General Dynamics Corp | General Dynamics Corporation
+		# HESS CORPORATION | Hess Corp | Hess Corp.
+		# JDS UNIPHASE CORP. | Jds Uniphase Corp | JDS Uniphase Corporation
+		# KIMBERLY CLARK | Kimberly-Clark Corporation | Kimberly Clark Corp
+		# KLA-TENCOR CORP. | KLA-Tencor Corp. | KLA-Tencor Corp | KLA-Tencor Corporation
+		# KOHL'S CORP. | Kohl's Corporation | Kohl's Corp
+		# LENNAR | Lennar Corp. | Lennar Corp | Lennar Corporation
+		# LINCOLN NATIONAL CORP. | Lincoln National Corp. | Lincoln National Corp | Lincoln National Corporation
+		# LINEAR TECHNOLOGY CORP. | Linear Technology Corp. | Linear Technology Corp | Linear Technology Corporation
+		# LOCKHEED MARTIN CORP. | Lockheed Martin Corp. | Lockheed Martin Corp | Lockheed Martin Corporation
+		# LSI LOGIC | LSI Logic Corporation | Lsi Corp | LSI Corporation
+		# MARATHON OIL | Marathon Oil Corp. | Marathon Oil Corp | Marathon Oil Corporation
+		# MASCO | Masco Corporation | Masco Corp
+		# MCKESSON CORPORATION | McKesson Corp | McKesson Corporation
+		# MOODY'S CORPORATION | Moody's Corporation | Moodys Corp
+		# NEWMONT MINING | Newmont Mining Corporation | Newmont Mining Corp
+		# NEWS CORP. | News Corp. | News Ord Shs Class A | News Corp
+		# NOBLE CORPORATION | Noble Corporation | Noble Corp
+		# NORTHERN TRUST | Northern Trust Corporation | Northern Trust Corp
+		# NORTHROP GRUMMAN | Northrop Grumman Corp. | Northrop Grumman Corp | Northrop Grumman Corporation
+		# NUCOR | Nucor Corp. | Nucor Corp | Nucor Corporation
+		# NVIDIA CORP. | NVIDIA Corp. | Nvidia Corp | NVIDIA Corporation
+		# OCCIDENTAL PETROLEUM CORP. | Occidental Petroleum Corp. | Occidental Petroleum Corp | Occidental Petroleum Corporation
+		# ORACLE CORP. | Oracle Corp. | Oracle Corp | Oracle Corporation
+		# PALL | Pall Corporation | Pall Corp
+		# PARKER HANNIFIN | Parker-Hannifin Corporation | Parker Hannifin Corp
+		# PEABODY ENERGY CORP | Peabody Energy Corp | Peabody Energy Corporation
+		# PPL CORP. | PPL Corp. | PPL Corp | PPL Corporation
+		# REGIONS FINANCIAL CORPORATION | Regions Financial Corporation | Regions Financial Corp
+		# SANDISK CORP. | SanDisk Corp. | SanDisk Corp | SanDisk Corporation
+		# CHARLES SCHWAB | Charles Schwab Corp. | Charles Schwab Corp | The Charles Schwab Corporation
+		# SEALED AIR | Sealed Air Corp. | Sealed Air Corp
+		# SEARS HOLDINGS CORP. | Sears Holdings Corp. | Sears Holdings Corp | Sears Holdings Corporation
+		# SIGMA-ALDRICH CORP. | Sigma-Aldrich Corp. | Sigma Aldrich Corp | Sigma-Aldrich Corporation
+		# SLM CORPORATION | SLM Ord Shs | SLM Corp
+		# SPRINT NEXTEL CORP. | Sprint Nextel Corp. | Sprint Nextel Corp | Sprint Nextel Corporation
+		# STARBUCKS CORP. | Starbucks Corp. | Starbucks Corp | Starbucks Corporation
+		# STATE STREET | State Street Corporation | State Street Corp
+		# STRYKER | Stryker Corporation | Stryker Corp
+		# SYMANTEC CORP. | Symantec Corp. | Symantec Corp | Symantec Corporation
+		# SYSCO | Sysco Corporation | Sysco Corp | SYSCO Corporation
+		# TARGET CORP. | Target Corp. | Target Corp | Target Corporation
+		# TENET HEALTHCARE | Tenet Healthcare Corporation | Tenet Healthcare Corp
+		# TESORO CORPORATION | Tesoro Corp | Tesoro Corporation
+		# UNION PACIFIC CORP. | Union Pacific Corp. | Union Pacific Corp | Union Pacific Corporation
+		# UNITED STATES STEEL CORPORATION | United States Steel Corp | United States Steel Corporation
+		# VF | V.F. Corporation | VF Corp
+		# VALERO ENERGY CORPORATION | Valero Energy Corp | Valero Energy Corporation
+		# WATERS | Waters Corporation | Waters Corp
+		# WESTERN DIGITAL | Western Digital Corp. | Western Digital Corp
+		# WHIRLPOOL CORP. | Whirlpool Corp. | Whirlpool Corp | Whirlpool Corporation
+		# WINDSTREAM CORP | Windstream Corp. | Windstream Corp | Windstream Corporation
+		# XEROX CORP. | Xerox Corp. | Xerox Corp | Xerox Corporation
+		# LAM RESEARCH CORP. | Lam Research Corp. | Lam Research Corp | Lam Research Corporation
+	:stopWord "CORPORATION" ;
+		# CHEVRON CORP. | Chevron Corp. | Chevron Corp | Chevron Corporation
+		# EXXONMOBIL CORP. | ExxonMobil Corp. | Exxon Mobil Corp | Exxon Mobil Corporation
+		# INTEL CORP. | Intel Corp. | Intel Corp | Intel Corporation
+		# MCDONALD'S CORP. | McDonald's Corp. | McdonaldS Corp | McDonald's Corporation
+		# MICROSOFT CORP. | Microsoft Corp. | Microsoft Corp | Microsoft Corporation
+		# UNITED TECHNOLOGIES CORP. | United Technologies Corp. | United Technologies Corp | United Technologies Corporation
+		# THE AES CORPORATION | The AES Corporation | AES Corp
+		# ALLSTATE CORP. | Allstate Corp. | Allstate Corp | The Allstate Corporation
+		# ALTERA CORP. | Altera Corp. | Altera Corp | Altera Corporation
+		# ANADARKO PETROLEUM CORP. | Anadarko Petroleum Corp. | Anadarko Petroleum Corp | Anadarko Petroleum Corporation
+		# APACHE CORP. | Apache Corp. | Apache Corp | Apache Corporation
+		# AVERY DENNISON CORPORATION | Avery Dennison Corporation | Avery Dennison Corp
+		# BANK OF NEW YORK MELLON CORP. | Bank of New York Mellon Corp. | Bank Of New York Mellon Corp | The Bank of New York Mellon Corporation
+		# BB&T CORP. | BB&T Corp. | BB&T Corp | BB&T Corporation
+		# BOSTON SCIENT | Boston Scientific Corporation | Boston Scientific Corp
+		# BROADCOM CORP. | Broadcom Corp. | Broadcom Corp | Broadcom Corporation
+		# CABOT OIL & GAS CORP | Cabot Oil and Gas Corp | Cabot Oil & Gas Corporation
+		# CAMERON INTERNATIONAL CORP | Cameron International Corp | Cameron International Corporation
+		# CBS CORP. | CBS Corp. | CBS Corp | CBS Corporation
+		# CELGENE CORP. | Celgene Corp. | Celgene Corp | Celgene Corporation
+		# CERNER CORP. | Cerner Corp. | Cerner Corp | Cerner Corporation
+		# CHESAPEAKE ENERGY CORP. | Chesapeake Energy Corp | Chesapeake Energy Corporation
+		# CIGNA CORPORATION | Cigna Corporation | CIGNA Corp | CIGNA Corporation
+		# CINTAS CORPORATION | Cintas Corporation | Cintas Corp
+		# COMCAST CORP. | Comcast Corp. | Comcast Corp | Comcast Corporation
+		# COMPUTER SCIENCE | Computer Sciences Corp. | Computer Sciences Corp | Computer Sciences Corporation
+		# COSTCO WHOLESALE CORP. | Costco Wholesale Corp. | Costco Wholesale Corp | Costco Wholesale Corporation
+		# CSX CORP. | CSX Corp. | Csx Corp | CSX Corporation
+		# CVS CAREMARK CORP. | CVS Caremark Corp. | Cvs Caremark Corp | CVS Caremark Corporation
+		# DANAHER | Danaher Corporation | Danaher Corp
+		# DEAN FOODS CO | Suiza Foods Corporation | Dean Foods Co | Dean Foods Company
+		# DEVON ENERGY CORP. | Devon Energy Corp. | Devon Energy Corp | Devon Energy Corporation
+		# DUKE ENERGY CORPORATION | Duke Energy Corporation | Duke Energy Corp
+		# E*TRADE GROUP (E*TRADE BANK AG) | E*Trade Group (E*Trade Bank AG) | E*Trade Financial Corp | E TRADE Financial Corporation
+		# EATON CORP. | Eaton Corp. | Eaton Corp | Eaton Corporation
+		# EDWARDS LIFESCIENCES | EDWARDS LIFESCIENCES CORPORATION | Edwards Lifesciences Corp
+		# EMC CORP. | EMC Corp. | EMC Corp | EMC Corporation
+		# ENTERGY CORP. | Entergy Corp. | Entergy Corp | Entergy Corporation
+		# EQT CORP. | EQT CORPORATION | EQT Corp | EQT Corporation
+		# EXELON CORP. | Exelon Corp. | Exelon Corp | Exelon Corporation
+		# FEDEX CORP. | FedEx Corp. | Fedex Corp | FedEx Corporation
+		# FLOWSERVE | FLOWSERVE CORP | Flowserve Corp | Flowserve Corporation
+		# FLUOR CORPS | Fluor Corp | Fluor Corporation (NEW)
+		# FMC | FMC Corp. | FMC Corp | FMC Corporation
+		# FRONTIER COMMUNICATIONS CORPORATION | Frontier Communications Ord Shs | Frontier Communications Corp
+		# GENERAL DYNAMICS CORP. | General Dynamics Corp. | General Dynamics Corp | General Dynamics Corporation
+		# HESS CORPORATION | Hess Corp | Hess Corp.
+		# JDS UNIPHASE CORP. | Jds Uniphase Corp | JDS Uniphase Corporation
+		# KIMBERLY CLARK | Kimberly-Clark Corporation | Kimberly Clark Corp
+		# KLA-TENCOR CORP. | KLA-Tencor Corp. | KLA-Tencor Corp | KLA-Tencor Corporation
+		# KOHL'S CORP. | Kohl's Corporation | Kohl's Corp
+		# LENNAR | Lennar Corp. | Lennar Corp | Lennar Corporation
+		# LINCOLN NATIONAL CORP. | Lincoln National Corp. | Lincoln National Corp | Lincoln National Corporation
+		# LINEAR TECHNOLOGY CORP. | Linear Technology Corp. | Linear Technology Corp | Linear Technology Corporation
+		# LOCKHEED MARTIN CORP. | Lockheed Martin Corp. | Lockheed Martin Corp | Lockheed Martin Corporation
+		# LSI LOGIC | LSI Logic Corporation | Lsi Corp | LSI Corporation
+		# MARATHON OIL | Marathon Oil Corp. | Marathon Oil Corp | Marathon Oil Corporation
+		# MASCO | Masco Corporation | Masco Corp
+		# MCKESSON CORPORATION | McKesson Corp | McKesson Corporation
+		# MOODY'S CORPORATION | Moody's Corporation | Moodys Corp
+		# NEWMONT MINING | Newmont Mining Corporation | Newmont Mining Corp
+		# NOBLE CORPORATION | Noble Corporation | Noble Corp
+		# NORTHERN TRUST | Northern Trust Corporation | Northern Trust Corp
+		# NORTHROP GRUMMAN | Northrop Grumman Corp. | Northrop Grumman Corp | Northrop Grumman Corporation
+		# NUCOR | Nucor Corp. | Nucor Corp | Nucor Corporation
+		# NVIDIA CORP. | NVIDIA Corp. | Nvidia Corp | NVIDIA Corporation
+		# OCCIDENTAL PETROLEUM CORP. | Occidental Petroleum Corp. | Occidental Petroleum Corp | Occidental Petroleum Corporation
+		# ORACLE CORP. | Oracle Corp. | Oracle Corp | Oracle Corporation
+		# PALL | Pall Corporation | Pall Corp
+		# PARKER HANNIFIN | Parker-Hannifin Corporation | Parker Hannifin Corp
+		# PEABODY ENERGY CORP | Peabody Energy Corp | Peabody Energy Corporation
+		# PPL CORP. | PPL Corp. | PPL Corp | PPL Corporation
+		# PULTE CORPORATION | Pulte Corporation | Pultegroup Inc | PulteGroup, Inc.
+		# REGIONS FINANCIAL CORPORATION | Regions Financial Corporation | Regions Financial Corp
+		# SANDISK CORP. | SanDisk Corp. | SanDisk Corp | SanDisk Corporation
+		# CHARLES SCHWAB | Charles Schwab Corp. | Charles Schwab Corp | The Charles Schwab Corporation
+		# SEARS HOLDINGS CORP. | Sears Holdings Corp. | Sears Holdings Corp | Sears Holdings Corporation
+		# SIGMA-ALDRICH CORP. | Sigma-Aldrich Corp. | Sigma Aldrich Corp | Sigma-Aldrich Corporation
+		# SLM CORPORATION | SLM Ord Shs | SLM Corp
+		# SPRINT NEXTEL CORP. | Sprint Nextel Corp. | Sprint Nextel Corp | Sprint Nextel Corporation
+		# STARBUCKS CORP. | Starbucks Corp. | Starbucks Corp | Starbucks Corporation
+		# STATE STREET | State Street Corporation | State Street Corp
+		# STRYKER | Stryker Corporation | Stryker Corp
+		# SYMANTEC CORP. | Symantec Corp. | Symantec Corp | Symantec Corporation
+		# SYSCO | Sysco Corporation | Sysco Corp | SYSCO Corporation
+		# TARGET CORP. | Target Corp. | Target Corp | Target Corporation
+		# TENET HEALTHCARE | Tenet Healthcare Corporation | Tenet Healthcare Corp
+		# TESORO CORPORATION | Tesoro Corp | Tesoro Corporation
+		# UNION PACIFIC CORP. | Union Pacific Corp. | Union Pacific Corp | Union Pacific Corporation
+		# UNITED STATES STEEL CORPORATION | United States Steel Corp | United States Steel Corporation
+		# VF | V.F. Corporation | VF Corp
+		# VALERO ENERGY CORPORATION | Valero Energy Corp | Valero Energy Corporation
+		# WATERS | Waters Corporation | Waters Corp
+		# WHIRLPOOL CORP. | Whirlpool Corp. | Whirlpool Corp | Whirlpool Corporation
+		# WINDSTREAM CORP | Windstream Corp. | Windstream Corp | Windstream Corporation
+		# XEROX CORP. | Xerox Corp. | Xerox Corp | Xerox Corporation
+		# LAM RESEARCH CORP. | Lam Research Corp. | Lam Research Corp | Lam Research Corporation
+	:stopWord "INC" ;
+		# ADOBE SYSTEMS INC. | Adobe Systems Inc. | Adobe Systems Inc | Adobe Systems Incorporated
+		# AFLAC INCORPORATED | AFLAC Inc | AFLAC Incorporated
+		# AIR PRODS & CHEM | Air Products and Chemicals, Inc. | Air Products and Chemicals Inc | Air Products & Chemicals, Inc.
+		# AIRGAS | AIRGAS INC | Airgas Inc | Airgas, Inc.
+		# ALLEGHENY TECHNOLOGIES INCORPORATED | Allegheny Technologies Incorporated | Allegheny Technologies Inc
+		# AUTOMATIC DATA PROCESSING, INC. | Automatic Data Processing, Inc. | Automatic Data Processing Inc | Automatic Data Processing
+		# AUTONATION | Autonation Inc. | Autonation Inc | AutoNation, Inc.
+		# BAKER HUGHES INC. | Baker Hughes Inc. | Baker Hughes Inc | Baker Hughes Incorporated
+		# BERKSHIRE HATHAWAY INC. | Berkshire Hathaway Inc. | Berkshire Hathaway B Ord Shs
+		# BEST BUY | Best Buy Co., Inc. | Best BUY Co Inc
+		# H&R BLOCK | H&R Block, Inc. | H and R Block Inc
+		# CLIFFS NATURAL RES. | CLIFFS NATURAL RESOURCES INC | Cliffs Natural Resources Inc
+		# COMERICA INCORPORATED | Comerica Incorporated | Comerica Inc
+		# CONSOL ENERGY | Consol Inc. | CONSOL Energy Inc | CONSOL Energy Inc.
+		# CONSOLIDATED EDISON | CONSOLIDATED EDISON, INC. | Consolidated Edison Inc | Consolidated Edison, Inc.
+		# CORNING | Corning Inc. | Corning Inc | Corning Incorporated
+		# CUMMINS | CUMMINS INC. | Cummins Inc | Cummins Inc.
+		# DAVITA | DaVita Inc. | DaVita Inc
+		# DENBURY RSC | DENBURY RESOURCES INC | Denbury Resources Inc | Denbury Resources Inc.
+		# DIAMOND OFFSHORE | DIAMOND OFFSHRE DRILLING INC | Diamond Offshore Drilling Inc | Diamond Offshore Drilling, Inc.
+		# ECOLAB | Ecolab Inc. | Ecolab Inc
+		# EOG RESOURCES | EOG Resources, Inc. | EOG Resources Inc
+		# EQUIFAX | Equifax Inc. | Equifax Inc
+		# ESTEE LAUDER | Estee Lauder Companies, Inc. | Estee Lauder Companies Inc | The Estee Lauder Companies Inc.
+		# EXPEDITORS INTERNATIONAL OF WASHINGTON INC. | Expeditors International of Washington Inc. | Expeditors International of Washington Inc | Expeditors International of Washington
+		# EXPRESS SCRIPTS HOLDING INC. | Express Scripts Holding Inc. | Express Scripts Inc | Express Scripts Holding Co
+		# FAMILY DLR STRS | Family Dollar Stores, Inc. | Family Dollar Stores Inc
+		# FOREST LABS | Forest laboratories Inc. | Forest Laboratories Inc | Forest Laboratories, Inc.
+		# GANNETT | Gannett Co., Inc. | Gannett Co Inc
+		# GAP | Gap Inc. | Gap Inc | The Gap Inc.
+		# GENERAL MILLS | General Mills Inc. | General Mills Inc | General Mills, Inc.
+		# HARLEY DAVIDSON | Harley-Davidson | Harley-Davidson Inc | Harley-Davidson, Inc.
+		# HARMAN INTL | Harman International Industries Inc | Harman International Industries Inc./DE/
+		# THE HARTFORD FINANCIAL SERVICES GROUP INC. | The Hartford Financial Services Group Inc. | Hartford Financial Services Group Inc | Hartford Financial Services
+		# HUMANA | Humana Inc. | Humana Inc
+		# HUNTINGTON BANCSHARES | Huntington Bancshares Incorporated | Huntington Bancshares Inc
+		# ILLINOIS TOOL | Illinois Tool Works Inc. | Illinois Tool Works Inc
+		# INTERPUBLIC GRP | The Interpublic Group of Companies, Inc. | Interpublic Group of Companies Inc | Interpublic Group of Companies, Inc.
+		# IRON MOUNTAIN | Iron Mountain Inc. | Iron Mountain Inc | Iron Mountain Incorporated
+		# J.C. PENNEY | J. C. Penney Company Inc. | J C Penney Co Inc | J.C. Penney Company, Inc.
+		# JABIL CIRCUIT | Jabil Circuit, Inc. | Jabil Circuit Inc
+		# JOHNSON CONTROLS | Johnson Controls, Inc. | Johnson Controls Inc
+		# LEXMARK INTL | Lexmark Int. Grp., Inc. | Lexmark International Inc | Lexmark International, Inc.
+		# MASTERCARD INC. | MasterCard Inc. | MasterCard Inc | MasterCard Incorporated
+		# MCCORMICK | McCormick & Company  Mccormick | Mccormick and Co Inc | McCormick & Company, Incorporated
+		# MOLEX INC. | Molex Inc | Molex Incorporated
+		# MOTOROLA SOLUTIONS | Motorola Solutions Inc. | Motorola Solutions Inc
+		# MYLAN INC. | Mylan Inc. | Mylan Ord Shs
+		# NOBLE ENERGY | Noble Energy Inc. | Noble Energy Inc | Noble Energy, Inc.
+		# NORDSTROM | Nordstrom Inc | Nordstrom, Inc.
+		# PERKINELMER | Perkinelmer Inc. | PerkinElmer Inc | PerkinElmer, Inc.
+		# PITNEY BOWES | Pitney-Bowes Inc. | Pitney Bowes Inc | Pitney Bowes Inc.
+		# PRAXAIR | Praxair, Inc. | Praxair Inc
+		# PRICELINE.COM INC. | Priceline.com Inc. | Priceline.Com Inc | priceline.com Incorporated
+		# PRUDENTIAL FINANCIAL | Prudential Financial Inc. | Prudential Financial Inc | Prudential Financial, Inc.
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+		# PULTE CORPORATION | Pulte Corporation | Pultegroup Inc | PulteGroup, Inc.
+		# QUANTA SERVICES | Quanta Services Inc. | Quanta Services Inc
+		# QUEST DIAG | Quest Diagnostics Inc | Quest Diagnostics Incorporated
+		# RED HAT | Red Hat Inc. | Red Hat Inc | Red Hat, Inc.
+		# REYNOLDS AMERICAN | Reynolds American Inc. | Reynolds American Inc | Reynolds American, Inc.
+		# ROCKWELL AUTOMATION | Rockwell Automation Inc. | Rockwell Automation Inc | Rockwell Automation
+		# ROCKWELL COLLINS | Rockwell Collins Inc. | Rockwell Collins Inc | Rockwell Collins, Inc.
+		# ROPER INDUST | Roper Industries Inc. | Roper Industries Inc | Roper Industries, Inc.
+		# ROWAN COMPANIES | Rowan Companies Inc. | Rowan Companies Inc | Rowan Companies, Inc.
+		# ST JUDE MEDICAL | St. Jude Medical, Inc. | St Jude Medical Inc
+		# STANLEY BLACK & DECKER | Stanley Black & Decker Inc. | Stanley Black and Decker Inc | Stanley Black & Decker, Inc.
+		# SUNTRUST BANKS | Suntrust Banks Inc. | Suntrust Banks Inc | SunTrust Banks, Inc.
+		# TEXAS INSTRUMENTS INC. | Texas Instruments Inc. | Texas Instruments Inc | Texas Instruments Incorporated
+		# TEXTRON | Textron Inc. | Textron Inc
+		# THERMO FISHER SCIENTIFIC | Thermo Fisher Scientific Inc | Thermo Fisher Scientific Inc.
+		# TJX | The TJX Companies, Inc. | TJX Companies Inc
+		# VARIAN MEDICAL | VARIAN MEDICAL SYSTEMS INC | Varian Medical Systems Inc | Varian Medical Systems, Inc.
+		# VIACOM | VIACOM B | Viacom Ord Shs Class B | Viacom, Inc.
+		# WASTE MANAGEMENT | Waste Management Inc. | Waste Management Inc | Waste Management, Inc.
+		# YUM BRANDS | Yum! Brands Inc | Yum! Brands, Inc.
+		# VERTEX PHARMACEUTICALS INC. | Vertex Pharmaceuticals Inc. | Vertex Pharmaceuticals Inc | Vertex Pharmaceuticals Incorporated
+	:stopWord "CO" ;
+		# 3M CO. | 3M Co. | 3M Co | 3M Company
+		# AMERICAN EXPRESS CO. | American Express Co. | American Express Co | American Express Company
+		# BOEING CO. | Boeing Co. | Boeing Co | The Boeing Company
+		# THE COCA COLA CO. | The Coca Cola Co. | Coca-Cola Co | The Coca-Cola Company
+		# E.I. DUPONT DE NEMOURS & CO. | E.I. DuPont de Nemours & Co. | E I Du Pont De Nemours And Co | E.I. du Pont de Nemours & Company
+		# GENERAL ELECTRIC CO. | General Electric Co. | General Electric Co | General Electric Company
+		# HEWLETT-PACKARD CO. | Hewlett-Packard Co. | Hewlett Packard Co | Hewlett-Packard Company
+		# THE PROCTER & GAMBLE CO. | The Procter & Gamble Co. | Procter & Gamble Co | The Procter & Gamble Company
+		# WALT DISNEY CO. | Walt Disney Co. | Walt Disney Co | The Walt Disney Company
+		# ABERCROMBIE | Abercrombie & Fitch Co. | Abercrombie & Fitch Co
+		# AMERICAN ELECTRIC POWER COMPANY, INC. | American Electric Power Company, Inc. | American Electric Power Co Inc
+		# ARCHER DANIELS MIDLAND COMPANY | Archer Daniels Midland Company | Archer-Daniels-Midland Co
+		# BECTON DICKINSON | Becton, Dickinson and Company | Becton Dickinson And Co | Becton, Dickinson and Co.
+		# BEST BUY | Best Buy Co., Inc. | Best BUY Co Inc
+		# CAMPBELL SOUP CO. | Campbell Soup Co. | Campbell Soup Co | Campbell Soup Company
+		# CLOROX | Clorox Co. | The Clorox Co | The Clorox Company
+		# COLGATE-PALMOLIVE CO. | Colgate-Palmolive Co. | Colgate-Palmolive Co | Colgate-Palmolive Company
+		# DEAN FOODS CO | Suiza Foods Corporation | Dean Foods Co | Dean Foods Company
+		# DEERE & CO | Deere & Company | Deere & Co
+		# THE DOW CHEMICAL CO. | The Dow Chemical Co. | Dow Chemical Co | The Dow Chemical Company
+		# EASTMAN CHEM | Eastman Chemical Company | Eastman Chemical Co
+		# EXPRESS SCRIPTS HOLDING INC. | Express Scripts Holding Inc. | Express Scripts Inc | Express Scripts Holding Co
+		# FASTENAL CO. | Fastenal Co. | Fastenal Co | Fastenal Company
+		# FORD MOTOR CO. | Ford Motor Co. | Ford Motor Co | Ford Motor Company
+		# GANNETT | Gannett Co., Inc. | Gannett Co Inc
+		# GOODYEAR TIRE | Goodyear Tire & Rubber Company | The Goodyear Tire & Rubber Co | The Goodyear Tire & Rubber Company
+		# HALLIBURTON CO. | Halliburton Co. | Halliburton Co | Halliburton Company
+		# H.J. HEINZ CO. | H.J. Heinz Co. | H J Heinz Co | H.J. Heinz Company
+		# INTERNATIONAL PAPER CO. | International Paper Co | International Paper Company
+		# INVESCO LTD | Invesco PLC | Invesco Holding Co Ltd | Invesco Ltd.
+		# J.C. PENNEY | J. C. Penney Company Inc. | J C Penney Co Inc | J.C. Penney Company, Inc.
+		# KELLOGG | Kellogg Company | Kellogg Co
+		# KROGER | The Kroger Co. | Kroger Co
+		# MCCORMICK | McCormick & Company  Mccormick | Mccormick and Co Inc | McCormick & Company, Incorporated
+		# MONSANTO CO. | Monsanto Co. | Monsanto Co | Monsanto Company
+		# MOSAIC | Mosaic Co. | Mosaic Co
+		# NEWFIELD EXPLORATION | Newfield Exploration Co. | Newfield Exploration Co
+		# PERRIGO CO. | Perrigo Co. | Perrigo Co | Perrigo Company
+		# PIONEER NATURAL RESOURCES CO | Pioneer Natural Resources Co | Pioneer Natural Resources
+		# RAYTHEON CO. | Raytheon Co. | Raytheon Co | Raytheon Company
+		# J.M. SMUCKER CO. | J.M. SMUCKER COMPANY | J. M. Smucker Co | The J.M. Smucker Company
+		# SOUTHERN CO. | Southern Co. | Southern Co | The Southern Company
+		# SOUTHWESTERN ENERGY CO | Southwestern Energy Co | Southwestern Energy Company
+		# TIFFANY | Tiffany & Co. | Tiffany and Co
+		# WALGREEN CO. | Walgreen Co. | Walgreen Co | Walgreen Company
+		# WELLS FARGO & CO. | Wells Fargo & Co. | Wells Fargo & Co | Wells Fargo & Company
+		# WESTERN UNION | WESTERN UNION CO | Western Union Co | The Western Union Company
+		# WEYERHAEUSER CO. | Weyerhaeuser Co. | Weyerhaeuser Co | Weyerhaeuser Company
+	:stopWord "COMPANY" ;
+		# 3M CO. | 3M Co. | 3M Co | 3M Company
+		# AMERICAN EXPRESS CO. | American Express Co. | American Express Co | American Express Company
+		# BOEING CO. | Boeing Co. | Boeing Co | The Boeing Company
+		# THE COCA COLA CO. | The Coca Cola Co. | Coca-Cola Co | The Coca-Cola Company
+		# E.I. DUPONT DE NEMOURS & CO. | E.I. DuPont de Nemours & Co. | E I Du Pont De Nemours And Co | E.I. du Pont de Nemours & Company
+		# GENERAL ELECTRIC CO. | General Electric Co. | General Electric Co | General Electric Company
+		# HEWLETT-PACKARD CO. | Hewlett-Packard Co. | Hewlett Packard Co | Hewlett-Packard Company
+		# THE PROCTER & GAMBLE CO. | The Procter & Gamble Co. | Procter & Gamble Co | The Procter & Gamble Company
+		# WALT DISNEY CO. | Walt Disney Co. | Walt Disney Co | The Walt Disney Company
+		# AMERICAN ELECTRIC POWER COMPANY, INC. | American Electric Power Company, Inc. | American Electric Power Co Inc
+		# ARCHER DANIELS MIDLAND COMPANY | Archer Daniels Midland Company | Archer-Daniels-Midland Co
+		# BECTON DICKINSON | Becton, Dickinson and Company | Becton Dickinson And Co | Becton, Dickinson and Co.
+		# CAMPBELL SOUP CO. | Campbell Soup Co. | Campbell Soup Co | Campbell Soup Company
+		# CLOROX | Clorox Co. | The Clorox Co | The Clorox Company
+		# COLGATE-PALMOLIVE CO. | Colgate-Palmolive Co. | Colgate-Palmolive Co | Colgate-Palmolive Company
+		# DEAN FOODS CO | Suiza Foods Corporation | Dean Foods Co | Dean Foods Company
+		# DEERE & CO | Deere & Company | Deere & Co
+		# THE DOW CHEMICAL CO. | The Dow Chemical Co. | Dow Chemical Co | The Dow Chemical Company
+		# EASTMAN CHEM | Eastman Chemical Company | Eastman Chemical Co
+		# FASTENAL CO. | Fastenal Co. | Fastenal Co | Fastenal Company
+		# FORD MOTOR CO. | Ford Motor Co. | Ford Motor Co | Ford Motor Company
+		# GOODYEAR TIRE | Goodyear Tire & Rubber Company | The Goodyear Tire & Rubber Co | The Goodyear Tire & Rubber Company
+		# HALLIBURTON CO. | Halliburton Co. | Halliburton Co | Halliburton Company
+		# H.J. HEINZ CO. | H.J. Heinz Co. | H J Heinz Co | H.J. Heinz Company
+		# INTERNATIONAL PAPER CO. | International Paper Co | International Paper Company
+		# J.C. PENNEY | J. C. Penney Company Inc. | J C Penney Co Inc | J.C. Penney Company, Inc.
+		# KELLOGG | Kellogg Company | Kellogg Co
+		# MCCORMICK | McCormick & Company  Mccormick | Mccormick and Co Inc | McCormick & Company, Incorporated
+		# MONSANTO CO. | Monsanto Co. | Monsanto Co | Monsanto Company
+		# PERRIGO CO. | Perrigo Co. | Perrigo Co | Perrigo Company
+		# RAYTHEON CO. | Raytheon Co. | Raytheon Co | Raytheon Company
+		# J.M. SMUCKER CO. | J.M. SMUCKER COMPANY | J. M. Smucker Co | The J.M. Smucker Company
+		# SOUTHERN CO. | Southern Co. | Southern Co | The Southern Company
+		# SOUTHWESTERN ENERGY CO | Southwestern Energy Co | Southwestern Energy Company
+		# WALGREEN CO. | Walgreen Co. | Walgreen Co | Walgreen Company
+		# WELLS FARGO & CO. | Wells Fargo & Co. | Wells Fargo & Co | Wells Fargo & Company
+		# WESTERN UNION | WESTERN UNION CO | Western Union Co | The Western Union Company
+		# WEYERHAEUSER CO. | Weyerhaeuser Co. | Weyerhaeuser Co | Weyerhaeuser Company
+	:stopWord "THE" ;
+		# BOEING CO. | Boeing Co. | Boeing Co | The Boeing Company
+		# THE COCA COLA CO. | The Coca Cola Co. | Coca-Cola Co | The Coca-Cola Company
+		# THE HOME DEPOT INC. | The Home Depot Inc. | Home Depot Inc | The Home Depot, Inc.
+		# THE PROCTER & GAMBLE CO. | The Procter & Gamble Co. | Procter & Gamble Co | The Procter & Gamble Company
+		# THE TRAVELERS COMPANIES, INC. | The Travelers Companies, Inc. | Travelers Companies Inc
+		# WALT DISNEY CO. | Walt Disney Co. | Walt Disney Co | The Walt Disney Company
+		# THE AES CORPORATION | The AES Corporation | AES Corp
+		# ALLSTATE CORP. | Allstate Corp. | Allstate Corp | The Allstate Corporation
+		# BANK OF NEW YORK MELLON CORP. | Bank of New York Mellon Corp. | Bank Of New York Mellon Corp | The Bank of New York Mellon Corporation
+		# CLOROX | Clorox Co. | The Clorox Co | The Clorox Company
+		# THE DOW CHEMICAL CO. | The Dow Chemical Co. | Dow Chemical Co | The Dow Chemical Company
+		# ESTEE LAUDER | Estee Lauder Companies, Inc. | Estee Lauder Companies Inc | The Estee Lauder Companies Inc.
+		# GAP | Gap Inc. | Gap Inc | The Gap Inc.
+		# GOODYEAR TIRE | Goodyear Tire & Rubber Company | The Goodyear Tire & Rubber Co | The Goodyear Tire & Rubber Company
+		# THE HARTFORD FINANCIAL SERVICES GROUP INC. | The Hartford Financial Services Group Inc. | Hartford Financial Services Group Inc | Hartford Financial Services
+		# INTERPUBLIC GRP | The Interpublic Group of Companies, Inc. | Interpublic Group of Companies Inc | Interpublic Group of Companies, Inc.
+		# KROGER | The Kroger Co. | Kroger Co
+		# MCGRAW-HILL COMPANIES, INC. | McGraw-Hill Companies, Inc. | McGraw-Hill Companies Inc | The McGraw-Hill Companies, Inc.
+		# CHARLES SCHWAB | Charles Schwab Corp. | Charles Schwab Corp | The Charles Schwab Corporation
+		# J.M. SMUCKER CO. | J.M. SMUCKER COMPANY | J. M. Smucker Co | The J.M. Smucker Company
+		# SOUTHERN CO. | Southern Co. | Southern Co | The Southern Company
+		# TJX | The TJX Companies, Inc. | TJX Companies Inc
+		# WESTERN UNION | WESTERN UNION CO | Western Union Co | The Western Union Company
+	:stopWord "INCORPORATED" ;
+		# ADOBE SYSTEMS INC. | Adobe Systems Inc. | Adobe Systems Inc | Adobe Systems Incorporated
+		# AFLAC INCORPORATED | AFLAC Inc | AFLAC Incorporated
+		# ALLEGHENY TECHNOLOGIES INCORPORATED | Allegheny Technologies Incorporated | Allegheny Technologies Inc
+		# BAKER HUGHES INC. | Baker Hughes Inc. | Baker Hughes Inc | Baker Hughes Incorporated
+		# COMERICA INCORPORATED | Comerica Incorporated | Comerica Inc
+		# CORNING | Corning Inc. | Corning Inc | Corning Incorporated
+		# HUNTINGTON BANCSHARES | Huntington Bancshares Incorporated | Huntington Bancshares Inc
+		# IRON MOUNTAIN | Iron Mountain Inc. | Iron Mountain Inc | Iron Mountain Incorporated
+		# MASTERCARD INC. | MasterCard Inc. | MasterCard Inc | MasterCard Incorporated
+		# MCCORMICK | McCormick & Company  Mccormick | Mccormick and Co Inc | McCormick & Company, Incorporated
+		# MOLEX INC. | Molex Inc | Molex Incorporated
+		# PRICELINE.COM INC. | Priceline.com Inc. | Priceline.Com Inc | priceline.com Incorporated
+		# QUEST DIAG | Quest Diagnostics Inc | Quest Diagnostics Incorporated
+		# TEXAS INSTRUMENTS INC. | Texas Instruments Inc. | Texas Instruments Inc | Texas Instruments Incorporated
+		# VERTEX PHARMACEUTICALS INC. | Vertex Pharmaceuticals Inc. | Vertex Pharmaceuticals Inc | Vertex Pharmaceuticals Incorporated
+	:stopWord "AND" ;
+		# E.I. DUPONT DE NEMOURS & CO. | E.I. DuPont de Nemours & Co. | E I Du Pont De Nemours And Co | E.I. du Pont de Nemours & Company
+		# AIR PRODS & CHEM | Air Products and Chemicals, Inc. | Air Products and Chemicals Inc | Air Products & Chemicals, Inc.
+		# BECTON DICKINSON | Becton, Dickinson and Company | Becton Dickinson And Co | Becton, Dickinson and Co.
+		# H&R BLOCK | H&R Block, Inc. | H and R Block Inc
+		# CABOT OIL & GAS CORP | Cabot Oil and Gas Corp | Cabot Oil & Gas Corporation
+		# ELI LILLY & CO. | Eli Lilly & Co. | Eli Lilly And Co
+		# MARSH & MCLENNAN COS. INC. | Marsh & McLennan Cos. Inc. | Marsh and Mclennan Companies Inc | Marsh & McLennan Companies, Inc.
+		# MCCORMICK | McCormick & Company  Mccormick | Mccormick and Co Inc | McCormick & Company, Incorporated
+		# STANLEY BLACK & DECKER | Stanley Black & Decker Inc. | Stanley Black and Decker Inc | Stanley Black & Decker, Inc.
+		# TIFFANY | Tiffany & Co. | Tiffany and Co
+	:stopWord "ORD" ;
+		# BERKSHIRE HATHAWAY INC. | Berkshire Hathaway Inc. | Berkshire Hathaway B Ord Shs
+		# FRONTIER COMMUNICATIONS CORPORATION | Frontier Communications Ord Shs | Frontier Communications Corp
+		# MYLAN INC. | Mylan Inc. | Mylan Ord Shs
+		# NEWS CORP. | News Corp. | News Ord Shs Class A | News Corp
+		# SLM CORPORATION | SLM Ord Shs | SLM Corp
+		# VIACOM | VIACOM B | Viacom Ord Shs Class B | Viacom, Inc.
+	:stopWord "SHS" ;
+		# BERKSHIRE HATHAWAY INC. | Berkshire Hathaway Inc. | Berkshire Hathaway B Ord Shs
+		# FRONTIER COMMUNICATIONS CORPORATION | Frontier Communications Ord Shs | Frontier Communications Corp
+		# MYLAN INC. | Mylan Inc. | Mylan Ord Shs
+		# NEWS CORP. | News Corp. | News Ord Shs Class A | News Corp
+		# SLM CORPORATION | SLM Ord Shs | SLM Corp
+		# VIACOM | VIACOM B | Viacom Ord Shs Class B | Viacom, Inc.
+	:stopWord "S" ;
+		# MCDONALD'S CORP. | McDonald's Corp. | McdonaldS Corp | McDonald's Corporation
+		# LOWE'S COMPANIES INC. | Lowe's Companies Inc. | Lowes Companies Inc | Lowe's Companies, Inc.
+		# MACYS INC | Macy's Inc | Macy's, Inc.
+		# MOODY'S CORPORATION | Moody's Corporation | Moodys Corp
+		# U.S. BANCORP | U.S. Bancorp | US Bancorp
+	:stopWord "COMPANIES" ;
+		# ESTEE LAUDER | Estee Lauder Companies, Inc. | Estee Lauder Companies Inc | The Estee Lauder Companies Inc.
+		# INTERPUBLIC GRP | The Interpublic Group of Companies, Inc. | Interpublic Group of Companies Inc | Interpublic Group of Companies, Inc.
+		# MARSH & MCLENNAN COS. INC. | Marsh & McLennan Cos. Inc. | Marsh and Mclennan Companies Inc | Marsh & McLennan Companies, Inc.
+		# TJX | The TJX Companies, Inc. | TJX Companies Inc
+	:stopWord "GROUP" ;
+		# E*TRADE GROUP (E*TRADE BANK AG) | E*Trade Group (E*Trade Bank AG) | E*Trade Financial Corp | E TRADE Financial Corporation
+		# THE HARTFORD FINANCIAL SERVICES GROUP INC. | The Hartford Financial Services Group Inc. | Hartford Financial Services Group Inc | Hartford Financial Services
+		# INTERPUBLIC GRP | The Interpublic Group of Companies, Inc. | Interpublic Group of Companies Inc | Interpublic Group of Companies, Inc.
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "INTERNATIONAL" ;
+		# EDISON INTL | Edison International
+		# HARMAN INTL | Harman International Industries Inc | Harman International Industries Inc./DE/
+		# INTL GAME TECH | International Game Technology
+		# LEXMARK INTL | Lexmark Int. Grp., Inc. | Lexmark International Inc | Lexmark International, Inc.
+	:stopWord "INTL" ;
+		# EDISON INTL | Edison International
+		# HARMAN INTL | Harman International Industries Inc | Harman International Industries Inc./DE/
+		# INTL GAME TECH | International Game Technology
+		# LEXMARK INTL | Lexmark Int. Grp., Inc. | Lexmark International Inc | Lexmark International, Inc.
+	:stopWord "LTD" ;
+		# INVESCO LTD | Invesco PLC | Invesco Holding Co Ltd | Invesco Ltd.
+		# TYCO ELECTRONICS | TYCO ELECTRONICS LTD. | TE Connectivity Ltd | TE Connectivity Ltd.
+		# WYNN RESORTS LTD. | Wynn Resorts Ltd. | Wynn Resorts Ltd | Wynn Resorts, Limited
+	:stopWord "CLASS" ;
+		# NEWS CORP. | News Corp. | News Ord Shs Class A | News Corp
+		# VIACOM | VIACOM B | Viacom Ord Shs Class B | Viacom, Inc.
+	:stopWord "B" ;
+		# BERKSHIRE HATHAWAY INC. | Berkshire Hathaway Inc. | Berkshire Hathaway B Ord Shs
+		# VIACOM | VIACOM B | Viacom Ord Shs Class B | Viacom, Inc.
+	:stopWord "LIMITED" ;
+		# SCHLUMBERGER LIMITED | Schlumberger Limited | Schlumberger NV | Schlumberger Limited.
+		# WYNN RESORTS LTD. | Wynn Resorts Ltd. | Wynn Resorts Ltd | Wynn Resorts, Limited
+	:stopWord "HOLDING" ;
+		# EXPRESS SCRIPTS HOLDING INC. | Express Scripts Holding Inc. | Express Scripts Inc | Express Scripts Holding Co
+		# INVESCO LTD | Invesco PLC | Invesco Holding Co Ltd | Invesco Ltd.
+	:stopWord "RESOURCES" ;
+		# CLIFFS NATURAL RES. | CLIFFS NATURAL RESOURCES INC | Cliffs Natural Resources Inc
+		# DENBURY RSC | DENBURY RESOURCES INC | Denbury Resources Inc | Denbury Resources Inc.
+	:stopWord "INDUSTRIES" ;
+		# HARMAN INTL | Harman International Industries Inc | Harman International Industries Inc./DE/
+		# ROPER INDUST | Roper Industries Inc. | Roper Industries Inc | Roper Industries, Inc.
+	:stopWord "GRP" ;
+		# INTERPUBLIC GRP | The Interpublic Group of Companies, Inc. | Interpublic Group of Companies Inc | Interpublic Group of Companies, Inc.
+		# LEXMARK INTL | Lexmark Int. Grp., Inc. | Lexmark International Inc | Lexmark International, Inc.
+	:stopWord "CHEM" ;
+		# AIR PRODS & CHEM | Air Products and Chemicals, Inc. | Air Products and Chemicals Inc | Air Products & Chemicals, Inc.
+		# EASTMAN CHEM | Eastman Chemical Company | Eastman Chemical Co
+	:stopWord "PLC" ;
+		# INVESCO LTD | Invesco PLC | Invesco Holding Co Ltd | Invesco Ltd.
+		# SEAGATE TECHNOLOGY PLC | Seagate Technology PLC | Seagate Technology
+	:stopWord "FRAGRANCES" ;
+		# INTERNATIONAL FLAVORS & FRAGANCES INC. | International Flavors & Fragances Inc. | International Flavors & Fragrances Inc | International Flavors & Fragrances Inc.
+	:stopWord "MACY" ;
+		# MACYS INC | Macy's Inc | Macy's, Inc.
+	:stopWord "MACYS" ;
+		# MACYS INC | Macy's Inc | Macy's, Inc.
+	:stopWord "COS" ;
+		# MARSH & MCLENNAN COS. INC. | Marsh & McLennan Cos. Inc. | Marsh and Mclennan Companies Inc | Marsh & McLennan Companies, Inc.
+	:stopWord "MOODY" ;
+		# MOODY'S CORPORATION | Moody's Corporation | Moodys Corp
+	:stopWord "TECH" ;
+		# INTL GAME TECH | International Game Technology
+	:stopWord "MOODYS" ;
+		# MOODY'S CORPORATION | Moody's Corporation | Moodys Corp
+	:stopWord "LOGIC" ;
+		# LSI LOGIC | LSI Logic Corporation | Lsi Corp | LSI Corporation
+	:stopWord "HOLDINGS" ;
+		# L-3 COMMUNICATIONS HLDGS INC. | L-3 Communications Holdings Inc | L-3 Communications Holdings, Inc.
+	:stopWord "INT" ;
+		# LEXMARK INTL | Lexmark Int. Grp., Inc. | Lexmark International Inc | Lexmark International, Inc.
+	:stopWord "LOWE" ;
+		# LOWE'S COMPANIES INC. | Lowe's Companies Inc. | Lowes Companies Inc | Lowe's Companies, Inc.
+	:stopWord "HLDGS" ;
+		# L-3 COMMUNICATIONS HLDGS INC. | L-3 Communications Holdings Inc | L-3 Communications Holdings, Inc.
+	:stopWord "LOWES" ;
+		# LOWE'S COMPANIES INC. | Lowe's Companies Inc. | Lowes Companies Inc | Lowe's Companies, Inc.
+	:stopWord "TECHNOLOGY" ;
+		# INTL GAME TECH | International Game Technology
+	:stopWord "OF" ;
+		# INTERPUBLIC GRP | The Interpublic Group of Companies, Inc. | Interpublic Group of Companies Inc | Interpublic Group of Companies, Inc.
+	:stopWord "A" ;
+		# NEWS CORP. | News Corp. | News Ord Shs Class A | News Corp
+	:stopWord "CONNECTIVITY" ;
+		# TYCO ELECTRONICS | TYCO ELECTRONICS LTD. | TE Connectivity Ltd | TE Connectivity Ltd.
+	:stopWord "U" ;
+		# U.S. BANCORP | U.S. Bancorp | US Bancorp
+	:stopWord "US" ;
+		# U.S. BANCORP | U.S. Bancorp | US Bancorp
+	:stopWord "TYCO" ;
+		# TYCO ELECTRONICS | TYCO ELECTRONICS LTD. | TE Connectivity Ltd | TE Connectivity Ltd.
+	:stopWord "ELECTRONICS" ;
+		# TYCO ELECTRONICS | TYCO ELECTRONICS LTD. | TE Connectivity Ltd | TE Connectivity Ltd.
+	:stopWord "TE" ;
+		# TYCO ELECTRONICS | TYCO ELECTRONICS LTD. | TE Connectivity Ltd | TE Connectivity Ltd.
+	:stopWord "SYSTEMS" ;
+		# VARIAN MEDICAL | VARIAN MEDICAL SYSTEMS INC | Varian Medical Systems Inc | Varian Medical Systems, Inc.
+	:stopWord "BANCORP" ;
+		# ZIONS BANCORP | Zions Bancorporation
+	:stopWord "BANCORPORATION" ;
+		# ZIONS BANCORP | Zions Bancorporation
+	:stopWord "VF" ;
+		# VF | V.F. Corporation | VF Corp
+	:stopWord "V" ;
+		# VF | V.F. Corporation | VF Corp
+	:stopWord "F" ;
+		# VF | V.F. Corporation | VF Corp
+	:stopWord "NV" ;
+		# SCHLUMBERGER LIMITED | Schlumberger Limited | Schlumberger NV | Schlumberger Limited.
+	:stopWord "PUBLIC" ;
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "SERVICE" ;
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "ENTERPRISE" ;
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "PUBL" ;
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "SVC" ;
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "ENTER" ;
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "DIAG" ;
+		# QUEST DIAG | Quest Diagnostics Inc | Quest Diagnostics Incorporated
+	:stopWord "DIAGNOSTICS" ;
+		# QUEST DIAG | Quest Diagnostics Inc | Quest Diagnostics Incorporated
+	:stopWord "INDUST" ;
+		# ROPER INDUST | Roper Industries Inc. | Roper Industries Inc | Roper Industries, Inc.
+	:stopWord "INCORPOR" ;
+		# PUBL SVC ENTER | Public Service Enterprise Group Incorpor | Public Service Enterprise Group Inc | Public Service Enterprise Group Inc.
+	:stopWord "PULTE" ;
+		# PULTE CORPORATION | Pulte Corporation | Pultegroup Inc | PulteGroup, Inc.
+	:stopWord "PULTEGROUP" ;
+		# PULTE CORPORATION | Pulte Corporation | Pultegroup Inc | PulteGroup, Inc.
+	:stopWord "FRAGANCES" ;
+		# INTERNATIONAL FLAVORS & FRAGANCES INC. | International Flavors & Fragances Inc. | International Flavors & Fragrances Inc | International Flavors & Fragrances Inc.
+	:stopWord "SCIENT" ;
+		# BOSTON SCIENT | Boston Scientific Corporation | Boston Scientific Corp
+	:stopWord "SCIENTIFIC" ;
+		# BOSTON SCIENT | Boston Scientific Corporation | Boston Scientific Corp
+	:stopWord "BORGWARNER" ;
+		# BORG WARNER INC | Borg Warner Inc. | BorgWarner Inc | BorgWarner Inc.
+	:stopWord "BORG" ;
+		# BORG WARNER INC | Borg Warner Inc. | BorgWarner Inc | BorgWarner Inc.
+	:stopWord "WARNER" ;
+		# BORG WARNER INC | Borg Warner Inc. | BorgWarner Inc | BorgWarner Inc.
+	:stopWord "RES" ;
+		# CLIFFS NATURAL RES. | CLIFFS NATURAL RESOURCES INC | Cliffs Natural Resources Inc
+	:stopWord "ENERGY" ;
+		# CONSOL ENERGY | Consol Inc. | CONSOL Energy Inc | CONSOL Energy Inc.
+	:stopWord "DEAN" ;
+		# DEAN FOODS CO | Suiza Foods Corporation | Dean Foods Co | Dean Foods Company
+	:stopWord "FOODS" ;
+		# CONAGRA, INC. | ConAgra, Inc. | ConAgra Foods Inc | ConAgra Foods, Inc.
+	:stopWord "SCIENCE" ;
+		# COMPUTER SCIENCE | Computer Sciences Corp. | Computer Sciences Corp | Computer Sciences Corporation
+	:stopWord "SCIENCES" ;
+		# COMPUTER SCIENCE | Computer Sciences Corp. | Computer Sciences Corp | Computer Sciences Corporation
+	:stopWord "CHEMICALS" ;
+		# AIR PRODS & CHEM | Air Products and Chemicals, Inc. | Air Products and Chemicals Inc | Air Products & Chemicals, Inc.
+	:stopWord "EXXONMOBIL" ;
+		# EXXONMOBIL CORP. | ExxonMobil Corp. | Exxon Mobil Corp | Exxon Mobil Corporation
+	:stopWord "EXXON" ;
+		# EXXONMOBIL CORP. | ExxonMobil Corp. | Exxon Mobil Corp | Exxon Mobil Corporation
+	:stopWord "PONT" ;
+		# E.I. DUPONT DE NEMOURS & CO. | E.I. DuPont de Nemours & Co. | E I Du Pont De Nemours And Co | E.I. du Pont de Nemours & Company
+	:stopWord "DUPONT" ;
+		# E.I. DUPONT DE NEMOURS & CO. | E.I. DuPont de Nemours & Co. | E I Du Pont De Nemours And Co | E.I. du Pont de Nemours & Company
+	:stopWord "DU" ;
+		# E.I. DUPONT DE NEMOURS & CO. | E.I. DuPont de Nemours & Co. | E I Du Pont De Nemours And Co | E.I. du Pont de Nemours & Company
+	:stopWord "MOBIL" ;
+		# EXXONMOBIL CORP. | ExxonMobil Corp. | Exxon Mobil Corp | Exxon Mobil Corporation
+	:stopWord "PRODS" ;
+		# AIR PRODS & CHEM | Air Products and Chemicals, Inc. | Air Products and Chemicals Inc | Air Products & Chemicals, Inc.
+	:stopWord "PRODUCTS" ;
+		# AIR PRODS & CHEM | Air Products and Chemicals, Inc. | Air Products and Chemicals Inc | Air Products & Chemicals, Inc.
+	:stopWord "FITCH" ;
+		# ABERCROMBIE | Abercrombie & Fitch Co. | Abercrombie & Fitch Co
+	:stopWord "MCDONALD" ;
+		# MCDONALD'S CORP. | McDonald's Corp. | McdonaldS Corp | McDonald's Corporation
+	:stopWord "MCDONALDS" ;
+		# MCDONALD'S CORP. | McDonald's Corp. | McdonaldS Corp | McDonald's Corporation
+	:stopWord "STORES" ;
+		# FAMILY DLR STRS | Family Dollar Stores, Inc. | Family Dollar Stores Inc
+	:stopWord "CORPS" ;
+		# FLUOR CORPS | Fluor Corp | Fluor Corporation (NEW)
+	:stopWord "DOLLAR" ;
+		# FAMILY DLR STRS | Family Dollar Stores, Inc. | Family Dollar Stores Inc
+	:stopWord "DLR" ;
+		# FAMILY DLR STRS | Family Dollar Stores, Inc. | Family Dollar Stores Inc
+	:stopWord "STRS" ;
+		# FAMILY DLR STRS | Family Dollar Stores, Inc. | Family Dollar Stores Inc
+	:stopWord "NEW" ;
+		# FLUOR CORPS | Fluor Corp | Fluor Corporation (NEW)
+	:stopWord "DE" ;
+		# HARMAN INTL | Harman International Industries Inc | Harman International Industries Inc./DE/
+	:stopWord "WORKS" ;
+		# ILLINOIS TOOL | Illinois Tool Works Inc. | Illinois Tool Works Inc
+	:stopWord "RUBBER" ;
+		# GOODYEAR TIRE | Goodyear Tire & Rubber Company | The Goodyear Tire & Rubber Co | The Goodyear Tire & Rubber Company
+	:stopWord "LABS" ;
+		# FOREST LABS | Forest laboratories Inc. | Forest Laboratories Inc | Forest Laboratories, Inc.
+	:stopWord "LABORATORIES" ;
+		# FOREST LABS | Forest laboratories Inc. | Forest Laboratories Inc | Forest Laboratories, Inc.
+	:stopWord "CHEMICAL" ;
+		# EASTMAN CHEM | Eastman Chemical Company | Eastman Chemical Co
+	:stopWord "OFFSHRE" ;
+		# DIAMOND OFFSHORE | DIAMOND OFFSHRE DRILLING INC | Diamond Offshore Drilling Inc | Diamond Offshore Drilling, Inc.
+	:stopWord "DRILLING" ;
+		# DIAMOND OFFSHORE | DIAMOND OFFSHRE DRILLING INC | Diamond Offshore Drilling Inc | Diamond Offshore Drilling, Inc.
+	:stopWord "OFFSHORE" ;
+		# DIAMOND OFFSHORE | DIAMOND OFFSHRE DRILLING INC | Diamond Offshore Drilling Inc | Diamond Offshore Drilling, Inc.
+	:stopWord "SUIZA" ;
+		# DEAN FOODS CO | Suiza Foods Corporation | Dean Foods Co | Dean Foods Company
+	:stopWord "RSC" ;
+		# DENBURY RSC | DENBURY RESOURCES INC | Denbury Resources Inc | Denbury Resources Inc.
+	:stopWord "D" ;
+		# D.R. HORTON INC. | DR Horton Inc | D.R. Horton, Inc.
+	:stopWord "AG" ;
+		# E*TRADE GROUP (E*TRADE BANK AG) | E*Trade Group (E*Trade Bank AG) | E*Trade Financial Corp | E TRADE Financial Corporation
+	:stopWord "FINANCIAL" ;
+		# E*TRADE GROUP (E*TRADE BANK AG) | E*Trade Group (E*Trade Bank AG) | E*Trade Financial Corp | E TRADE Financial Corporation
+	:stopWord "BANK" ;
+		# E*TRADE GROUP (E*TRADE BANK AG) | E*Trade Group (E*Trade Bank AG) | E*Trade Financial Corp | E TRADE Financial Corporation
+	:stopWord "R" ;
+		# D.R. HORTON INC. | DR Horton Inc | D.R. Horton, Inc.
+	:stopWord "DR" ;
+		# D.R. HORTON INC. | DR Horton Inc | D.R. Horton, Inc.
+	a :Gazetteer .
+
+:gaz_Portugal_StopWords
+	:stopWord "SA" ;
+		# BPI    ES 1000 | BPI-SGPS SA
+		# BANCO COMERCIAL PORTUGUÊS S.A. | Banco Comercial Português S.A. | Banco Comercial Portugues SA
+		# BANCO ESPIRITO SANTO S.A. | Banco Espirito Santo S.A. | Banco Espirito Santo Sa | Banco Espirito Santo SA
+		# CIMPOR | CIMPOR Cimentos de Portugal SGPS SA
+		# ENERGIAS DE PORTUGAL | Energias de Portugal | EDP Energias de Portugal SA
+		# GALP ENERGIA | Galp Energia SGPS SA
+		# J MARTINS SGPS | Jeronimo Martins SGPS SA | Jeronimo Martins Sgps SA
+		# MOTA-ENGIL | Engil-Sociedade Gestora De Participacoes | Mota Engil SGPS SA
+		# PORTUCEL - EMPRESA PRODUTORA DE PASTA E PAPEL | PORTUCPortucel - Empresa Produtora de Pasta e Papel EL IND | Portucel Empresa Produtora De Pasta E Papel SA
+		# PORTUGAL TELECOM | Portugal Telekom SA | Portugal Telecom SGPS SA | Portugal Telecom Sgps SA
+		# SEMAPA SGPS | SEMAPA SOCIEDADE DE INVESTIMENTO E GESTAO SGPS SA
+	:stopWord "SGPS" ;
+		# BPI    ES 1000 | BPI-SGPS SA
+		# CIMPOR | CIMPOR Cimentos de Portugal SGPS SA
+		# GALP ENERGIA | Galp Energia SGPS SA
+		# MOTA-ENGIL | Engil-Sociedade Gestora De Participacoes | Mota Engil SGPS SA
+		# PORTUGAL TELECOM | Portugal Telekom SA | Portugal Telecom SGPS SA | Portugal Telecom Sgps SA
+		# SONAE.COM | Sonae SGPS S.A.
+	:stopWord "DE" ;
+		# CIMPOR | CIMPOR Cimentos de Portugal SGPS SA
+		# MOTA-ENGIL | Engil-Sociedade Gestora De Participacoes | Mota Engil SGPS SA
+		# SEMAPA SGPS | SEMAPA SOCIEDADE DE INVESTIMENTO E GESTAO SGPS SA
+		# ZON MULTIMEDIA | Zon Multimedia Servicos de Telecomunicacoes e Multimedia SGP
+	:stopWord "A" ;
+		# BANCO COMERCIAL PORTUGUÊS S.A. | Banco Comercial Português S.A. | Banco Comercial Portugues SA
+		# BANCO ESPIRITO SANTO S.A. | Banco Espirito Santo S.A. | Banco Espirito Santo Sa | Banco Espirito Santo SA
+		# SONAE.COM | Sonae SGPS S.A.
+	:stopWord "S" ;
+		# BANCO COMERCIAL PORTUGUÊS S.A. | Banco Comercial Português S.A. | Banco Comercial Portugues SA
+		# BANCO ESPIRITO SANTO S.A. | Banco Espirito Santo S.A. | Banco Espirito Santo Sa | Banco Espirito Santo SA
+		# SONAE.COM | Sonae SGPS S.A.
+	:stopWord "E" ;
+		# SEMAPA SGPS | SEMAPA SOCIEDADE DE INVESTIMENTO E GESTAO SGPS SA
+		# ZON MULTIMEDIA | Zon Multimedia Servicos de Telecomunicacoes e Multimedia SGP
+	:stopWord "SOCIEDADE" ;
+		# MOTA-ENGIL | Engil-Sociedade Gestora De Participacoes | Mota Engil SGPS SA
+		# SEMAPA SGPS | SEMAPA SOCIEDADE DE INVESTIMENTO E GESTAO SGPS SA
+	:stopWord "TELECOM" ;
+		# PORTUGAL TELECOM | Portugal Telekom SA | Portugal Telecom SGPS SA | Portugal Telecom Sgps SA
+	:stopWord "IND" ;
+		# PORTUCEL - EMPRESA PRODUTORA DE PASTA E PAPEL | PORTUCPortucel - Empresa Produtora de Pasta e Papel EL IND | Portucel Empresa Produtora De Pasta E Papel SA
+	:stopWord "RENE" ;
+		# REN | RENE.LIS
+	:stopWord "TELEKOM" ;
+		# PORTUGAL TELECOM | Portugal Telekom SA | Portugal Telecom SGPS SA | Portugal Telecom Sgps SA
+	:stopWord "REN" ;
+		# REN | RENE.LIS
+	:stopWord "LIS" ;
+		# REN | RENE.LIS
+	:stopWord "SERVICOS" ;
+		# ZON MULTIMEDIA | Zon Multimedia Servicos de Telecomunicacoes e Multimedia SGP
+	:stopWord "TELECOMUNICACOES" ;
+		# ZON MULTIMEDIA | Zon Multimedia Servicos de Telecomunicacoes e Multimedia SGP
+	:stopWord "SGP" ;
+		# ZON MULTIMEDIA | Zon Multimedia Servicos de Telecomunicacoes e Multimedia SGP
+	:stopWord "INVESTIMENTO" ;
+		# SEMAPA SGPS | SEMAPA SOCIEDADE DE INVESTIMENTO E GESTAO SGPS SA
+	:stopWord "GESTAO" ;
+		# SEMAPA SGPS | SEMAPA SOCIEDADE DE INVESTIMENTO E GESTAO SGPS SA
+	:stopWord "COM" ;
+		# SONAE.COM | Sonae SGPS S.A.
+	:stopWord "PORTUGAL" ;
+		# CIMPOR | CIMPOR Cimentos de Portugal SGPS SA
+	:stopWord "EDP" ;
+		# ENERGIAS DE PORTUGAL | Energias de Portugal | EDP Energias de Portugal SA
+	:stopWord "J" ;
+		# J MARTINS SGPS | Jeronimo Martins SGPS SA | Jeronimo Martins Sgps SA
+	:stopWord "ES" ;
+		# BPI    ES 1000 | BPI-SGPS SA
+	:stopWord "1000" ;
+		# BPI    ES 1000 | BPI-SGPS SA
+	:stopWord "CIMENTOS" ;
+		# CIMPOR | CIMPOR Cimentos de Portugal SGPS SA
+	:stopWord "JERONIMO" ;
+		# J MARTINS SGPS | Jeronimo Martins SGPS SA | Jeronimo Martins Sgps SA
+	:stopWord "PORTUCEL" ;
+		# PORTUCEL - EMPRESA PRODUTORA DE PASTA E PAPEL | PORTUCPortucel - Empresa Produtora de Pasta e Papel EL IND | Portucel Empresa Produtora De Pasta E Papel SA
+	:stopWord "PORTUCPORTUCEL" ;
+		# PORTUCEL - EMPRESA PRODUTORA DE PASTA E PAPEL | PORTUCPortucel - Empresa Produtora de Pasta e Papel EL IND | Portucel Empresa Produtora De Pasta E Papel SA
+	:stopWord "EL" ;
+		# PORTUCEL - EMPRESA PRODUTORA DE PASTA E PAPEL | PORTUCPortucel - Empresa Produtora de Pasta e Papel EL IND | Portucel Empresa Produtora De Pasta E Papel SA
+	:stopWord "MOTA" ;
+		# MOTA-ENGIL | Engil-Sociedade Gestora De Participacoes | Mota Engil SGPS SA
+	:stopWord "GESTORA" ;
+		# MOTA-ENGIL | Engil-Sociedade Gestora De Participacoes | Mota Engil SGPS SA
+	:stopWord "PARTICIPACOES" ;
+		# MOTA-ENGIL | Engil-Sociedade Gestora De Participacoes | Mota Engil SGPS SA
+	a :Gazetteer .
+
+:gaz_Singapore_StopWords
+	:stopWord "BANK" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+		# UTD OVERSEAS BK | United Overseas bank Ltd. | United Overseas Bank Ltd
+	:stopWord "LTD" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+		# UTD OVERSEAS BK | United Overseas bank Ltd. | United Overseas Bank Ltd
+	:stopWord "UNITED" ;
+		# UTD OVERSEAS BK | United Overseas bank Ltd. | United Overseas Bank Ltd
+	:stopWord "HOLDINGS" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+	:stopWord "BK" ;
+		# UTD OVERSEAS BK | United Overseas bank Ltd. | United Overseas Bank Ltd
+	:stopWord "UTD" ;
+		# UTD OVERSEAS BK | United Overseas bank Ltd. | United Overseas Bank Ltd
+	:stopWord "SINGAPORE" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+	:stopWord "GROUP" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+	:stopWord "DBS" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+	:stopWord "HLD" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+	:stopWord "OF" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+	:stopWord "DEVELOPMENT" ;
+		# DBS GROUP HLD | Development Bank of Singapore Ltd | DBS Group Holdings Ltd | Dbs Group Holdings Ltd
+	a :Gazetteer .
+
+:gaz_China_StopWords
+	:stopWord "ADR" ;
+		# BAIDU INC. | Baidu Inc. | Baidu Inc | Baidu.com, Inc. (ADR)
+		# CTRIP.COM INTERNATIONAL LTD. | Ctrip.com International Ltd. | Ctrip.com International Ltd | Ctrip.com International, Ltd. (ADR)
+	:stopWord "COM" ;
+		# BAIDU INC. | Baidu Inc. | Baidu Inc | Baidu.com, Inc. (ADR)
+	a :Gazetteer .
+
+:gaz_India_StopWords
+	:stopWord "ADR" ;
+		# INFOSYS LTD. | Infosys Ltd. | Infosys Ltd | Infosys Ltd ADR
+	a :Gazetteer .
+
+:gaz_Canada_StopWords
+	:stopWord "USA" ;
+		# RESEARCH IN MOTION LTD. | Research in Motion Ltd. | Research In Motion Ltd | Research In Motion Limited (USA)
+	:stopWord "LIMITED" ;
+		# RESEARCH IN MOTION LTD. | Research in Motion Ltd. | Research In Motion Ltd | Research In Motion Limited (USA)
+	:stopWord "LTD" ;
+		# RESEARCH IN MOTION LTD. | Research in Motion Ltd. | Research In Motion Ltd | Research In Motion Limited (USA)
+	a :Gazetteer .
+
+:gaz_Israel_StopWords
+	:stopWord "ONE" ;
+		# TEVA PHARMACEUTICAL INDUSTRIES LTD. | Teva Pharmaceutical Industries Ltd. | Teva Pharmaceutical Industries ADR Reptg One Ord Shs | Teva Pharmaceutical Industries Ltd (ADR)
+	:stopWord "ORD" ;
+		# TEVA PHARMACEUTICAL INDUSTRIES LTD. | Teva Pharmaceutical Industries Ltd. | Teva Pharmaceutical Industries ADR Reptg One Ord Shs | Teva Pharmaceutical Industries Ltd (ADR)
+	:stopWord "SHS" ;
+		# TEVA PHARMACEUTICAL INDUSTRIES LTD. | Teva Pharmaceutical Industries Ltd. | Teva Pharmaceutical Industries ADR Reptg One Ord Shs | Teva Pharmaceutical Industries Ltd (ADR)
+	:stopWord "LTD" ;
+		# TEVA PHARMACEUTICAL INDUSTRIES LTD. | Teva Pharmaceutical Industries Ltd. | Teva Pharmaceutical Industries ADR Reptg One Ord Shs | Teva Pharmaceutical Industries Ltd (ADR)
+	:stopWord "ADR" ;
+		# TEVA PHARMACEUTICAL INDUSTRIES LTD. | Teva Pharmaceutical Industries Ltd. | Teva Pharmaceutical Industries ADR Reptg One Ord Shs | Teva Pharmaceutical Industries Ltd (ADR)
+	:stopWord "REPTG" ;
+		# TEVA PHARMACEUTICAL INDUSTRIES LTD. | Teva Pharmaceutical Industries Ltd. | Teva Pharmaceutical Industries ADR Reptg One Ord Shs | Teva Pharmaceutical Industries Ltd (ADR)
+	a :Gazetteer .
+
+:gaz_Australia_StopWords
+	:stopWord "LTD" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+		# COMMONWEALTH BK | Commonwealth Bank Australia Ltd. | Commonwealth Bank Of Australia
+		# NATL AUST BANK | National Australia Bank Ltd. | National Australia Bank Ltd
+		# RIO TINTO | Rio Tinto Ltd. | Rio Tinto Ltd
+		# WOOLWORTHS | Woolworths LTD. | Woolworths Ltd
+	:stopWord "AUSTRALIA" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+		# COMMONWEALTH BK | Commonwealth Bank Australia Ltd. | Commonwealth Bank Of Australia
+		# NATL AUST BANK | National Australia Bank Ltd. | National Australia Bank Ltd
+	:stopWord "NATL" ;
+		# NATL AUST BANK | National Australia Bank Ltd. | National Australia Bank Ltd
+	:stopWord "OF" ;
+		# COMMONWEALTH BK | Commonwealth Bank Australia Ltd. | Commonwealth Bank Of Australia
+	:stopWord "BANK" ;
+		# COMMONWEALTH BK | Commonwealth Bank Australia Ltd. | Commonwealth Bank Of Australia
+	:stopWord "BANKING" ;
+		# WESTPAC | Westpac Banking Corp. | Westpac Banking Corp
+	:stopWord "CORP" ;
+		# WESTPAC | Westpac Banking Corp. | Westpac Banking Corp
+	:stopWord "AUST" ;
+		# NATL AUST BANK | National Australia Bank Ltd. | National Australia Bank Ltd
+	:stopWord "NATIONAL" ;
+		# NATL AUST BANK | National Australia Bank Ltd. | National Australia Bank Ltd
+	:stopWord "NEW" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+	:stopWord "GRP" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+	:stopWord "ANZ" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+	:stopWord "ZEALAND" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+	:stopWord "BK" ;
+		# COMMONWEALTH BK | Commonwealth Bank Australia Ltd. | Commonwealth Bank Of Australia
+	:stopWord "AND" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+	:stopWord "GROUP" ;
+		# ANZ BANKING GRP | AUSTRALIA & NEW ZEALAND BANKING GROUP LTD. | Australia And New Zealand Banking Group Ltd | Australia and New Zealand Banking Group Ltd
+	a :Gazetteer .
+
+:gaz_Japan_StopWords
+	:stopWord "CO" ;
+		# EAST JAPAN RY | East Japan Railway Company | East Japan Railway Co
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+		# HONDA MOTOR | Honda Motor Co.Ltd. | HONDA MOTOR CO LTD | Honda Motor Co Ltd
+		# NISSAN MOTOR | Nissan Motor Co., Ltd. | Nissan Motor Co Ltd
+		# SHIN ETSU CHEM | Shin-Etsu Chemical Co. Ltd. | Shin-Etsu Chemical Co Ltd
+		# TAKEDA CHEM INDS | Takeda Chemical Industries, Ltd. | Takeda Pharmaceutical Co Ltd
+		# TOKYO ELEC PWR | Tokyo Electric Power Co. Inc. | Tokyo Electric Power Co Incorporated
+		# TOYOTA MOTOR CO | Toyota Motor Corporation | TOYOTA MOTOR CORP
+	:stopWord "LTD" ;
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+		# HITACHI | Hitachi Ltd. | Hitachi Ltd
+		# HONDA MOTOR | Honda Motor Co.Ltd. | HONDA MOTOR CO LTD | Honda Motor Co Ltd
+		# NISSAN MOTOR | Nissan Motor Co., Ltd. | Nissan Motor Co Ltd
+		# NOMURA HOLDINGS LTD. | Nomura Holdings Ltd. | Nomura Holdings Inc
+		# SHIN ETSU CHEM | Shin-Etsu Chemical Co. Ltd. | Shin-Etsu Chemical Co Ltd
+		# TAKEDA CHEM INDS | Takeda Chemical Industries, Ltd. | Takeda Pharmaceutical Co Ltd
+	:stopWord "INC" ;
+		# CANON | Canon Inc. | Canon Inc
+		# MITSUB UFJ FIN GROUP | Mitsubishi UFJ Financial Group Inc. | Mitsubishi UFJ Financial Group Inc
+		# NOMURA HOLDINGS LTD. | Nomura Holdings Ltd. | Nomura Holdings Inc
+		# SUMITOMO MITSUI FINANCIAL GROUP | Sumitomo Mitsui Financial Group Inc
+		# TOKYO ELEC PWR | Tokyo Electric Power Co. Inc. | Tokyo Electric Power Co Incorporated
+	:stopWord "CORP" ;
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+		# SHARP CORP | Sharp Corporation | Sharp Corp
+		# SONY | Sony Corporation | Sony Corp
+		# TOSHIBA | Toshiba Corporation | TOSHIBA CORP | Toshiba Corp
+		# TOYOTA MOTOR CO | Toyota Motor Corporation | TOYOTA MOTOR CORP
+	:stopWord "CORPORATION" ;
+		# SHARP CORP | Sharp Corporation | Sharp Corp
+		# SONY | Sony Corporation | Sony Corp
+		# TOSHIBA | Toshiba Corporation | TOSHIBA CORP | Toshiba Corp
+		# TOYOTA MOTOR CO | Toyota Motor Corporation | TOYOTA MOTOR CORP
+	:stopWord "CHEM" ;
+		# SHIN ETSU CHEM | Shin-Etsu Chemical Co. Ltd. | Shin-Etsu Chemical Co Ltd
+		# TAKEDA CHEM INDS | Takeda Chemical Industries, Ltd. | Takeda Pharmaceutical Co Ltd
+	:stopWord "CHEMICAL" ;
+		# SHIN ETSU CHEM | Shin-Etsu Chemical Co. Ltd. | Shin-Etsu Chemical Co Ltd
+		# TAKEDA CHEM INDS | Takeda Chemical Industries, Ltd. | Takeda Pharmaceutical Co Ltd
+	:stopWord "INDS" ;
+		# TAKEDA CHEM INDS | Takeda Chemical Industries, Ltd. | Takeda Pharmaceutical Co Ltd
+	:stopWord "INCORPORATED" ;
+		# TOKYO ELEC PWR | Tokyo Electric Power Co. Inc. | Tokyo Electric Power Co Incorporated
+	:stopWord "PHARMACEUTICAL" ;
+		# TAKEDA CHEM INDS | Takeda Chemical Industries, Ltd. | Takeda Pharmaceutical Co Ltd
+	:stopWord "ELEC" ;
+		# TOKYO ELEC PWR | Tokyo Electric Power Co. Inc. | Tokyo Electric Power Co Incorporated
+	:stopWord "PWR" ;
+		# TOKYO ELEC PWR | Tokyo Electric Power Co. Inc. | Tokyo Electric Power Co Incorporated
+	:stopWord "ELECTRIC" ;
+		# TOKYO ELEC PWR | Tokyo Electric Power Co. Inc. | Tokyo Electric Power Co Incorporated
+	:stopWord "INDUSTRIES" ;
+		# TAKEDA CHEM INDS | Takeda Chemical Industries, Ltd. | Takeda Pharmaceutical Co Ltd
+	:stopWord "POWER" ;
+		# TOKYO ELEC PWR | Tokyo Electric Power Co. Inc. | Tokyo Electric Power Co Incorporated
+	:stopWord "FINANCIAL" ;
+		# MITSUB UFJ FIN GROUP | Mitsubishi UFJ Financial Group Inc. | Mitsubishi UFJ Financial Group Inc
+	:stopWord "FUJI" ;
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+	:stopWord "PHOTO" ;
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+	:stopWord "COMPANY" ;
+		# EAST JAPAN RY | East Japan Railway Company | East Japan Railway Co
+	:stopWord "RY" ;
+		# EAST JAPAN RY | East Japan Railway Company | East Japan Railway Co
+	:stopWord "RAILWAY" ;
+		# EAST JAPAN RY | East Japan Railway Company | East Japan Railway Co
+	:stopWord "FILM" ;
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+	:stopWord "FIN" ;
+		# MITSUB UFJ FIN GROUP | Mitsubishi UFJ Financial Group Inc. | Mitsubishi UFJ Financial Group Inc
+	:stopWord "MITSUBISHI" ;
+		# MITSUB UFJ FIN GROUP | Mitsubishi UFJ Financial Group Inc. | Mitsubishi UFJ Financial Group Inc
+	:stopWord "MITSUB" ;
+		# MITSUB UFJ FIN GROUP | Mitsubishi UFJ Financial Group Inc. | Mitsubishi UFJ Financial Group Inc
+	:stopWord "FUJIFILM" ;
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+	:stopWord "HOLDINGS" ;
+		# FUJI PHOTO FILM | Fuji Photo Film Co., Ltd. | FUJIFILM Holdings Corp | Fujifilm Holdings Corp
+	a :Gazetteer .
+
+:Hong_gaz_Kong_StopWords
+	:stopWord "LTD" ;
+		# CHEUNG KONG | Cheung Kong Holdings Ltd. | Cheung Kong (Holdings) Ltd
+		# HANG SENG BANK | Hang Seng Bank Ltd. | Hang Seng Bank Ltd
+		# SUN HUNG KAI PTS | Sun Hung Kai Properties Limited | Sun Hung Kai Properties Ltd
+	:stopWord "PTS" ;
+		# SUN HUNG KAI PTS | Sun Hung Kai Properties Limited | Sun Hung Kai Properties Ltd
+	:stopWord "PROPERTIES" ;
+		# SUN HUNG KAI PTS | Sun Hung Kai Properties Limited | Sun Hung Kai Properties Ltd
+	:stopWord "LIMITED" ;
+		# SUN HUNG KAI PTS | Sun Hung Kai Properties Limited | Sun Hung Kai Properties Ltd
+	:stopWord "HOLDINGS" ;
+		# CHEUNG KONG | Cheung Kong Holdings Ltd. | Cheung Kong (Holdings) Ltd
+	:stopWord "HONG" ;
+		# CHINA MOBILE LTD. | China Mobile (Hong-Kong) Ltd. | China Mobile Ltd
+	:stopWord "KONG" ;
+		# CHINA MOBILE LTD. | China Mobile (Hong-Kong) Ltd. | China Mobile Ltd
+	a :Gazetteer .
+
+:gaz_Austria_StopWords
+	:stopWord "SPARKASSEN" ;
+		# ERSTE GROUP BANK AG | Erste Group Bank AG | Erste Bank der Oesterreichischen Sparkassen AG
+	:stopWord "GRUP" ;
+		# VIENNA INSURANCE GROUP AG WIENER VERSICHERUNG GRUP | VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe | Vienna Insurance Group Wiener Versicherung Gruppe AG
+	:stopWord "GRUPPE" ;
+		# VIENNA INSURANCE GROUP AG WIENER VERSICHERUNG GRUP | VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe | Vienna Insurance Group Wiener Versicherung Gruppe AG
+	:stopWord "GROUP" ;
+		# ERSTE GROUP BANK AG | Erste Group Bank AG | Erste Bank der Oesterreichischen Sparkassen AG
+	:stopWord "DER" ;
+		# ERSTE GROUP BANK AG | Erste Group Bank AG | Erste Bank der Oesterreichischen Sparkassen AG
+	:stopWord "OESTERREICHISCHEN" ;
+		# ERSTE GROUP BANK AG | Erste Group Bank AG | Erste Bank der Oesterreichischen Sparkassen AG
+	a :Gazetteer .
+

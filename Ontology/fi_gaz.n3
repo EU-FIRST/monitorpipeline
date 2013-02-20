@@ -1,0 +1,6726 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://project-first.eu/ontology#> .
+
+:stock_AIR_LIQUIDE
+	:identifiedBy :gaz_stock_AIR_LIQUIDE .
+:gaz_stock_AIR_LIQUIDE
+	:term "AI" ;
+	:term "AIR" ;
+	a :Gazetteer .
+
+:stock_ALLIANZ
+	:identifiedBy :gaz_stock_ALLIANZ .
+:gaz_stock_ALLIANZ
+	:term "ALV" ;
+	a :Gazetteer .
+
+:stock_ANHEUSER_BUSCH_INB
+	:identifiedBy :gaz_stock_ANHEUSER_BUSCH_INB .
+:gaz_stock_ANHEUSER_BUSCH_INB
+	:term "ABI" ;
+	:term "ITK" ;
+	a :Gazetteer .
+
+:stock_ARCELORMITTAL
+	:identifiedBy :gaz_stock_ARCELORMITTAL .
+:gaz_stock_ARCELORMITTAL
+	:term "MT" ;
+	:term "ARRB" ;
+	a :Gazetteer .
+
+:stock_ASSICURAZIONI_GENERALI
+	:identifiedBy :gaz_stock_ASSICURAZIONI_GENERALI .
+:gaz_stock_ASSICURAZIONI_GENERALI
+	:term "G" ;
+	:term "ASG" ;
+	a :Gazetteer .
+
+:stock_AXA
+	:identifiedBy :gaz_stock_AXA .
+:gaz_stock_AXA
+	:term "CS" ;
+	:term "AXA" ;
+	a :Gazetteer .
+
+:stock_BANCO_SANTANDER_CENTRAL_HISP
+	:identifiedBy :gaz_stock_BANCO_SANTANDER_CENTRAL_HISP .
+:gaz_stock_BANCO_SANTANDER_CENTRAL_HISP
+	:term "SAN" ;
+	:term "BSD2" ;
+	a :Gazetteer .
+
+:stock_BASF
+	:identifiedBy :gaz_stock_BASF .
+:gaz_stock_BASF
+	:term "BAS" ;
+	a :Gazetteer .
+
+:stock_BAYER
+	:identifiedBy :gaz_stock_BAYER .
+:gaz_stock_BAYER
+	:term "BAYN" ;
+	a :Gazetteer .
+
+:stock_BMW
+	:identifiedBy :gaz_stock_BMW .
+:gaz_stock_BMW
+	:term "BMW" ;
+	a :Gazetteer .
+
+:stock_BANCO_BILBAO_VIZCAYA_ARGENTA
+	:identifiedBy :gaz_stock_BANCO_BILBAO_VIZCAYA_ARGENTA .
+:gaz_stock_BANCO_BILBAO_VIZCAYA_ARGENTA
+	:term "BBVA" ;
+	:term "BOY" ;
+	a :Gazetteer .
+
+:stock_BNP_PARIBAS
+	:identifiedBy :gaz_stock_BNP_PARIBAS .
+:gaz_stock_BNP_PARIBAS
+	:term "BNP" ;
+	a :Gazetteer .
+
+:stock_CARREFOUR
+	:identifiedBy :gaz_stock_CARREFOUR .
+:gaz_stock_CARREFOUR
+	:term "CA" ;
+	:term "CAR" ;
+	a :Gazetteer .
+
+:stock_CRH
+	:identifiedBy :gaz_stock_CRH .
+:gaz_stock_CRH
+	:term "CRH" ;
+	:term "CRG" ;
+	a :Gazetteer .
+
+:stock_DAIMLER
+	:identifiedBy :gaz_stock_DAIMLER .
+:gaz_stock_DAIMLER
+	:term "DAI" ;
+	a :Gazetteer .
+
+:stock_GROUPE_DANONE
+	:identifiedBy :gaz_stock_GROUPE_DANONE .
+:gaz_stock_GROUPE_DANONE
+	:term "BN" ;
+	:term "BSN" ;
+	a :Gazetteer .
+
+:stock_DT_BANK
+	:identifiedBy :gaz_stock_DT_BANK .
+:gaz_stock_DT_BANK
+	:term "DBK" ;
+	a :Gazetteer .
+
+:stock_DEUTSCHE_BOERSE
+	:identifiedBy :gaz_stock_DEUTSCHE_BOERSE .
+:gaz_stock_DEUTSCHE_BOERSE
+	:term "DB1" ;
+	a :Gazetteer .
+
+:stock_DEUTSCHE_TELEKOM
+	:identifiedBy :gaz_stock_DEUTSCHE_TELEKOM .
+:gaz_stock_DEUTSCHE_TELEKOM
+	:term "DTE" ;
+	a :Gazetteer .
+
+:stock_E_ON
+	:identifiedBy :gaz_stock_E_ON .
+:gaz_stock_E_ON
+	:term "EOAN" ;
+	a :Gazetteer .
+
+:stock_ENEL
+	:identifiedBy :gaz_stock_ENEL .
+:gaz_stock_ENEL
+	:term "ENEL" ;
+	:term "ENL" ;
+	a :Gazetteer .
+
+:stock_ENI
+	:identifiedBy :gaz_stock_ENI .
+:gaz_stock_ENI
+	:term "ENI" ;
+	a :Gazetteer .
+
+:stock_FRANCE_TELECOM
+	:identifiedBy :gaz_stock_FRANCE_TELECOM .
+:gaz_stock_FRANCE_TELECOM
+	:term "FTE" ;
+	a :Gazetteer .
+
+:stock_GDF_SUEZ
+	:identifiedBy :gaz_stock_GDF_SUEZ .
+:gaz_stock_GDF_SUEZ
+	:term "GSZ" ;
+	:term "GZF" ;
+	a :Gazetteer .
+
+:stock_IBERDROLA
+	:identifiedBy :gaz_stock_IBERDROLA .
+:gaz_stock_IBERDROLA
+	:term "IBE" ;
+	:term "IBE1" ;
+	a :Gazetteer .
+
+:stock_INDITEX
+	:identifiedBy :gaz_stock_INDITEX .
+:gaz_stock_INDITEX
+	:term "ITX" ;
+	:term "IXD" ;
+	a :Gazetteer .
+
+:stock_ING_GROEP_N_V
+	:identifiedBy :gaz_stock_ING_GROEP_N_V .
+:gaz_stock_ING_GROEP_N_V
+	:term "INGA" ;
+	:term "INN" ;
+	a :Gazetteer .
+
+:stock_INTESA_SANPAOLO
+	:identifiedBy :gaz_stock_INTESA_SANPAOLO .
+:gaz_stock_INTESA_SANPAOLO
+	:term "ISP" ;
+	:term "IES" ;
+	a :Gazetteer .
+
+:stock_L_OREAL
+	:identifiedBy :gaz_stock_L_OREAL .
+:gaz_stock_L_OREAL
+	:term "OR" ;
+	:term "LOR" ;
+	a :Gazetteer .
+
+:stock_LVMH_MOET_HENNESY
+	:identifiedBy :gaz_stock_LVMH_MOET_HENNESY .
+:gaz_stock_LVMH_MOET_HENNESY
+	:term "MC" ;
+	:term "MOH" ;
+	a :Gazetteer .
+
+:stock_MUNCH_RUCK
+	:identifiedBy :gaz_stock_MUNCH_RUCK .
+:gaz_stock_MUNCH_RUCK
+	:term "MUV2" ;
+	a :Gazetteer .
+
+:stock_NOKIA
+	:identifiedBy :gaz_stock_NOKIA .
+:gaz_stock_NOKIA
+	:term "NOK1V" ;
+	:term "NOA3" ;
+	a :Gazetteer .
+
+:stock_PHILIPS_ELECTRONICS
+	:identifiedBy :gaz_stock_PHILIPS_ELECTRONICS .
+:gaz_stock_PHILIPS_ELECTRONICS
+	:term "PHIA" ;
+	:term "PHI1" ;
+	a :Gazetteer .
+
+:stock_REPSOL_YPF
+	:identifiedBy :gaz_stock_REPSOL_YPF .
+:gaz_stock_REPSOL_YPF
+	:term "REP" ;
+	a :Gazetteer .
+
+:stock_RWE
+	:identifiedBy :gaz_stock_RWE .
+:gaz_stock_RWE
+	:term "RWE" ;
+	a :Gazetteer .
+
+:stock_SAINT_GOBAIN
+	:identifiedBy :gaz_stock_SAINT_GOBAIN .
+:gaz_stock_SAINT_GOBAIN
+	:term "SGO" ;
+	:term "GOB" ;
+	a :Gazetteer .
+
+:stock_SANOFI
+	:identifiedBy :gaz_stock_SANOFI .
+:gaz_stock_SANOFI
+	:term "SAN" ;
+	:term "SNW" ;
+	a :Gazetteer .
+
+:stock_SAP
+	:identifiedBy :gaz_stock_SAP .
+:gaz_stock_SAP
+	:term "SAP" ;
+	a :Gazetteer .
+
+:stock_SCHNEIDER_ELECTRIC
+	:identifiedBy :gaz_stock_SCHNEIDER_ELECTRIC .
+:gaz_stock_SCHNEIDER_ELECTRIC
+	:term "SU" ;
+	:term "SND" ;
+	a :Gazetteer .
+
+:stock_SIEMENS
+	:identifiedBy :gaz_stock_SIEMENS .
+:gaz_stock_SIEMENS
+	:term "SIE" ;
+	a :Gazetteer .
+
+:stock_SOC_GEN
+	:identifiedBy :gaz_stock_SOC_GEN .
+:gaz_stock_SOC_GEN
+	:term "GLE" ;
+	:term "SGE" ;
+	a :Gazetteer .
+
+:stock_TELECOM_ITALIA
+	:identifiedBy :gaz_stock_TELECOM_ITALIA .
+:gaz_stock_TELECOM_ITALIA
+	:term "TIT" ;
+	:term "TQI" ;
+	a :Gazetteer .
+
+:stock_TELEFONICA
+	:identifiedBy :gaz_stock_TELEFONICA .
+:gaz_stock_TELEFONICA
+	:term "TEF" ;
+	:term "TNE5" ;
+	a :Gazetteer .
+
+:stock_TOTAL
+	:identifiedBy :gaz_stock_TOTAL .
+:gaz_stock_TOTAL
+	:term "FP" ;
+	:term "TOTB" ;
+	a :Gazetteer .
+
+:stock_UNIBAIL_S_A_INH
+	:identifiedBy :gaz_stock_UNIBAIL_S_A_INH .
+:gaz_stock_UNIBAIL_S_A_INH
+	:term "UL" ;
+	:term "UBL" ;
+	a :Gazetteer .
+
+:stock_UNICREDIT
+	:identifiedBy :gaz_stock_UNICREDIT .
+:gaz_stock_UNICREDIT
+	:term "UCG" ;
+	:term "CRIH" ;
+	a :Gazetteer .
+
+:stock_UNILEVER_NV
+	:identifiedBy :gaz_stock_UNILEVER_NV .
+:gaz_stock_UNILEVER_NV
+	:term "UNA" ;
+	:term "UNI3" ;
+	a :Gazetteer .
+
+:stock_VINCI
+	:identifiedBy :gaz_stock_VINCI .
+:gaz_stock_VINCI
+	:term "DG" ;
+	:term "SQU" ;
+	a :Gazetteer .
+
+:stock_VIVENDI_UNIVERSAL
+	:identifiedBy :gaz_stock_VIVENDI_UNIVERSAL .
+:gaz_stock_VIVENDI_UNIVERSAL
+	:term "VIV" ;
+	:term "VVU" ;
+	a :Gazetteer .
+
+:stock_VW_VZ
+	:identifiedBy :gaz_stock_VW_VZ .
+:gaz_stock_VW_VZ
+	:term "VOW3" ;
+	a :Gazetteer .
+
+:stock_ABB
+	:identifiedBy :gaz_stock_ABB .
+:gaz_stock_ABB
+	:term "ABBN" ;
+	:term "ABJ" ;
+	a :Gazetteer .
+
+:stock_Anglo_American_PLC
+	:identifiedBy :gaz_stock_Anglo_American_PLC .
+:gaz_stock_Anglo_American_PLC
+	:term "AGL" ;
+	:term "NGLB" ;
+	a :Gazetteer .
+
+:stock_ASTRAZENECA
+	:identifiedBy :gaz_stock_ASTRAZENECA .
+:gaz_stock_ASTRAZENECA
+	:term "AZN" ;
+	:term "ZEG" ;
+	a :Gazetteer .
+
+:stock_BARCLAYS
+	:identifiedBy :gaz_stock_BARCLAYS .
+:gaz_stock_BARCLAYS
+	:term "BARC" ;
+	:term "BCY" ;
+	a :Gazetteer .
+
+:stock_BG_GROUP
+	:identifiedBy :gaz_stock_BG_GROUP .
+:gaz_stock_BG_GROUP
+	:term "BG." ;
+	:term "BGO" ;
+	a :Gazetteer .
+
+:stock_BHP_BILLITON
+	:identifiedBy :gaz_stock_BHP_BILLITON .
+:gaz_stock_BHP_BILLITON
+	:term "BLT" ;
+	:term "BIL" ;
+	a :Gazetteer .
+
+:stock_BP
+	:identifiedBy :gaz_stock_BP .
+:gaz_stock_BP
+	:term "BP." ;
+	:term "BPE5" ;
+	a :Gazetteer .
+
+:stock_BRITISH_AMERICAN_TOBACCO
+	:identifiedBy :gaz_stock_BRITISH_AMERICAN_TOBACCO .
+:gaz_stock_BRITISH_AMERICAN_TOBACCO
+	:term "BATS" ;
+	:term "BMT" ;
+	a :Gazetteer .
+
+:stock_CREDIT_SUISSE_GROUP
+	:identifiedBy :gaz_stock_CREDIT_SUISSE_GROUP .
+:gaz_stock_CREDIT_SUISSE_GROUP
+	:term "CSGN" ;
+	:term "CSX" ;
+	a :Gazetteer .
+
+:stock_DIAGEO
+	:identifiedBy :gaz_stock_DIAGEO .
+:gaz_stock_DIAGEO
+	:term "DGE" ;
+	:term "GUI" ;
+	a :Gazetteer .
+
+:stock_ERICSSON_B
+	:identifiedBy :gaz_stock_ERICSSON_B .
+:gaz_stock_ERICSSON_B
+	:term "ERIC B" ;
+	:term "ERCB" ;
+	a :Gazetteer .
+
+:stock_GLAXOSMITHKLINE
+	:identifiedBy :gaz_stock_GLAXOSMITHKLINE .
+:gaz_stock_GLAXOSMITHKLINE
+	:term "GSK" ;
+	:term "GS7" ;
+	a :Gazetteer .
+
+:stock_HENNES_MAURITZ
+	:identifiedBy :gaz_stock_HENNES_MAURITZ .
+:gaz_stock_HENNES_MAURITZ
+	:term "HM B" ;
+	:term "HMSB" ;
+	a :Gazetteer .
+
+:stock_HSBC_HOLDINGS
+	:identifiedBy :gaz_stock_HSBC_HOLDINGS .
+:gaz_stock_HSBC_HOLDINGS
+	:term "HSBA" ;
+	:term "HBC1" ;
+	a :Gazetteer .
+
+:stock_IMPERIAL_TOBACCO_GROUP
+	:identifiedBy :gaz_stock_IMPERIAL_TOBACCO_GROUP .
+:gaz_stock_IMPERIAL_TOBACCO_GROUP
+	:term "IMT" ;
+	:term "ITB" ;
+	a :Gazetteer .
+
+:stock_NATIONAL_GRID
+	:identifiedBy :gaz_stock_NATIONAL_GRID .
+:gaz_stock_NATIONAL_GRID
+	:term "NG" ;
+	:term "NNGE" ;
+	a :Gazetteer .
+
+:stock_NESTLE_SA
+	:identifiedBy :gaz_stock_NESTLE_SA .
+:gaz_stock_NESTLE_SA
+	:term "NESN" ;
+	:term "NESR" ;
+	a :Gazetteer .
+
+:stock_NOVARTIS
+	:identifiedBy :gaz_stock_NOVARTIS .
+:gaz_stock_NOVARTIS
+	:term "NOVN" ;
+	:term "NOT" ;
+	a :Gazetteer .
+
+:stock_RIO_TINTO
+	:identifiedBy :gaz_stock_RIO_TINTO .
+:gaz_stock_RIO_TINTO
+	:term "RIO" ;
+	:term "RIO1" ;
+	a :Gazetteer .
+
+:stock_ROCHE_GS
+	:identifiedBy :gaz_stock_ROCHE_GS .
+:gaz_stock_ROCHE_GS
+	:term "ROG" ;
+	:term "RHO5" ;
+	a :Gazetteer .
+
+:stock_ROYAL_DUTCH_SHELL
+	:identifiedBy :gaz_stock_ROYAL_DUTCH_SHELL .
+:gaz_stock_ROYAL_DUTCH_SHELL
+	:term "RDSA" ;
+	:term "R6C" ;
+	a :Gazetteer .
+
+:stock_STANDARD_CHARTERED
+	:identifiedBy :gaz_stock_STANDARD_CHARTERED .
+:gaz_stock_STANDARD_CHARTERED
+	:term "STAN" ;
+	:term "STD" ;
+	a :Gazetteer .
+
+:stock_TESCO
+	:identifiedBy :gaz_stock_TESCO .
+:gaz_stock_TESCO
+	:term "TSCO" ;
+	:term "TCO" ;
+	a :Gazetteer .
+
+:stock_UBS_AG
+	:identifiedBy :gaz_stock_UBS_AG .
+:gaz_stock_UBS_AG
+	:term "UBSN" ;
+	:term "UBRA" ;
+	a :Gazetteer .
+
+:stock_UNILEVER
+	:identifiedBy :gaz_stock_UNILEVER .
+:gaz_stock_UNILEVER
+	:term "ULVR" ;
+	:term "UNVB" ;
+	a :Gazetteer .
+
+:stock_VODAFONE_GRP
+	:identifiedBy :gaz_stock_VODAFONE_GRP .
+:gaz_stock_VODAFONE_GRP
+	:term "VOD" ;
+	:term "VODE" ;
+	a :Gazetteer .
+
+:stock_ZURICH_FINANCIAL_SERVICES
+	:identifiedBy :gaz_stock_ZURICH_FINANCIAL_SERVICES .
+:gaz_stock_ZURICH_FINANCIAL_SERVICES
+	:term "ZURN" ;
+	:term "ZFIN" ;
+	a :Gazetteer .
+
+:stock_ABERDEEN_ASSET_MGMT
+	:identifiedBy :gaz_stock_ABERDEEN_ASSET_MGMT .
+:gaz_stock_ABERDEEN_ASSET_MGMT
+	:term "ADN" ;
+	:term "324" ;
+	a :Gazetteer .
+
+:stock_ADMIRAL_GROUP
+	:identifiedBy :gaz_stock_ADMIRAL_GROUP .
+:gaz_stock_ADMIRAL_GROUP
+	:term "ADM" ;
+	:term "FLN" ;
+	a :Gazetteer .
+
+:stock_AGGREKO_ORD_13_549_775P
+	:identifiedBy :gaz_stock_AGGREKO_ORD_13_549_775P .
+:gaz_stock_AGGREKO_ORD_13_549_775P
+	:term "AGK" ;
+	:term "4A4A" ;
+	a :Gazetteer .
+
+:stock_AMEC
+	:identifiedBy :gaz_stock_AMEC .
+:gaz_stock_AMEC
+	:term "AMEC" ;
+	:term "AQ4" ;
+	a :Gazetteer .
+
+:stock_ANTOFAGASTA
+	:identifiedBy :gaz_stock_ANTOFAGASTA .
+:gaz_stock_ANTOFAGASTA
+	:term "ANTO" ;
+	:term "FG1" ;
+	a :Gazetteer .
+
+:stock_ARM_HOLDINGS
+	:identifiedBy :gaz_stock_ARM_HOLDINGS .
+:gaz_stock_ARM_HOLDINGS
+	:term "ARM" ;
+	a :Gazetteer .
+
+:stock_ASHMORE_ORD_0_01P
+	:identifiedBy :gaz_stock_ASHMORE_ORD_0_01P .
+:gaz_stock_ASHMORE_ORD_0_01P
+	:term "ASHM" ;
+	:term "A1B" ;
+	a :Gazetteer .
+
+:stock_ASSOCIATED_BRITISH_FOODS
+	:identifiedBy :gaz_stock_ASSOCIATED_BRITISH_FOODS .
+:gaz_stock_ASSOCIATED_BRITISH_FOODS
+	:term "ABF" ;
+	:term "AFO1" ;
+	a :Gazetteer .
+
+:stock_AVIVA
+	:identifiedBy :gaz_stock_AVIVA .
+:gaz_stock_AVIVA
+	:term "AV." ;
+	:term "GU8" ;
+	a :Gazetteer .
+
+:stock_BAE_SYSTEMS
+	:identifiedBy :gaz_stock_BAE_SYSTEMS .
+:gaz_stock_BAE_SYSTEMS
+	:term "BA" ;
+	:term "BSP" ;
+	a :Gazetteer .
+
+:stock_BRITISH_LAND_COMPANY
+	:identifiedBy :gaz_stock_BRITISH_LAND_COMPANY .
+:gaz_stock_BRITISH_LAND_COMPANY
+	:term "BLND" ;
+	:term "BLD" ;
+	a :Gazetteer .
+
+:stock_BRITISH_SKY_BROADCASTING
+	:identifiedBy :gaz_stock_BRITISH_SKY_BROADCASTING .
+:gaz_stock_BRITISH_SKY_BROADCASTING
+	:term "BSY" ;
+	:term "BSB" ;
+	a :Gazetteer .
+
+:stock_BT_GROUP
+	:identifiedBy :gaz_stock_BT_GROUP .
+:gaz_stock_BT_GROUP
+	:term "BT.A" ;
+	:term "BTQ" ;
+	a :Gazetteer .
+
+:stock_BUNZL
+	:identifiedBy :gaz_stock_BUNZL .
+:gaz_stock_BUNZL
+	:term "BNZL" ;
+	:term "BUZ1" ;
+	a :Gazetteer .
+
+:stock_BURBERRY_GROUP
+	:identifiedBy :gaz_stock_BURBERRY_GROUP .
+:gaz_stock_BURBERRY_GROUP
+	:term "BRBY" ;
+	:term "BB2" ;
+	a :Gazetteer .
+
+:stock_CAPITA_GROUP_ORD_2_066666P
+	:identifiedBy :gaz_stock_CAPITA_GROUP_ORD_2_066666P .
+:gaz_stock_CAPITA_GROUP_ORD_2_066666P
+	:term "CPI" ;
+	:term "CTAA" ;
+	a :Gazetteer .
+
+:stock_Capital_Shopping_Centres_Group_PLC
+	:identifiedBy :gaz_stock_Capital_Shopping_Centres_Group_PLC .
+:gaz_stock_Capital_Shopping_Centres_Group_PLC
+	:term "CSCG" ;
+	:term "LJ2" ;
+	a :Gazetteer .
+
+:stock_CARNIVAL
+	:identifiedBy :gaz_stock_CARNIVAL .
+:gaz_stock_CARNIVAL
+	:term "CCL" ;
+	:term "POH1" ;
+	a :Gazetteer .
+
+:stock_CENTRICA
+	:identifiedBy :gaz_stock_CENTRICA .
+:gaz_stock_CENTRICA
+	:term "CNA" ;
+	:term "CENB" ;
+	a :Gazetteer .
+
+:stock_COMPASS_GROUP
+	:identifiedBy :gaz_stock_COMPASS_GROUP .
+:gaz_stock_COMPASS_GROUP
+	:term "CPG" ;
+	:term "XGR" ;
+	a :Gazetteer .
+
+:stock_CRH_0
+	:identifiedBy :gaz_stock_CRH_0 .
+:gaz_stock_CRH_0
+	:term "CRH" ;
+	:term "CRG" ;
+	a :Gazetteer .
+
+:stock_CRODA_INTERNATIONAL
+	:identifiedBy :gaz_stock_CRODA_INTERNATIONAL .
+:gaz_stock_CRODA_INTERNATIONAL
+	:term "CRDA" ;
+	:term "6CM" ;
+	a :Gazetteer .
+
+:stock_EURSN_NAT_RES
+	:identifiedBy :gaz_stock_EURSN_NAT_RES .
+:gaz_stock_EURSN_NAT_RES
+	:term "ENRC" ;
+	:term "47E" ;
+	a :Gazetteer .
+
+:stock_EVRAZ_ORD_USD1_00
+	:identifiedBy :gaz_stock_EVRAZ_ORD_USD1_00 .
+:gaz_stock_EVRAZ_ORD_USD1_00
+	:term "EVR" ;
+	:term "EVZ" ;
+	a :Gazetteer .
+
+:stock_EXPERIAN
+	:identifiedBy :gaz_stock_EXPERIAN .
+:gaz_stock_EXPERIAN
+	:term "EXPN" ;
+	:term "J2B" ;
+	a :Gazetteer .
+
+:stock_FRESNILLO_ORD_USD0_50
+	:identifiedBy :gaz_stock_FRESNILLO_ORD_USD0_50 .
+:gaz_stock_FRESNILLO_ORD_USD0_50
+	:term "FRES" ;
+	:term "FNL" ;
+	a :Gazetteer .
+
+:stock_GROUP_4_SECURICOR
+	:identifiedBy :gaz_stock_GROUP_4_SECURICOR .
+:gaz_stock_GROUP_4_SECURICOR
+	:term "GFS" ;
+	:term "GHN" ;
+	a :Gazetteer .
+
+:stock_GKN
+	:identifiedBy :gaz_stock_GKN .
+:gaz_stock_GKN
+	:term "GKN" ;
+	a :Gazetteer .
+
+:stock_GLENCORE_ORD_USD0_01
+	:identifiedBy :gaz_stock_GLENCORE_ORD_USD0_01 .
+:gaz_stock_GLENCORE_ORD_USD0_01
+	:term "GLEN" ;
+	:term "8GC" ;
+	a :Gazetteer .
+
+:stock_HAMMERSON
+	:identifiedBy :gaz_stock_HAMMERSON .
+:gaz_stock_HAMMERSON
+	:term "HMSO" ;
+	:term "H2V" ;
+	a :Gazetteer .
+
+:stock_HARGREAVES_LANS_ORD_0_4P
+	:identifiedBy :gaz_stock_HARGREAVES_LANS_ORD_0_4P .
+:gaz_stock_HARGREAVES_LANS_ORD_0_4P
+	:term "HL." ;
+	:term "DMB" ;
+	a :Gazetteer .
+
+:stock_ICAP
+	:identifiedBy :gaz_stock_ICAP .
+:gaz_stock_ICAP
+	:term "IAP" ;
+	:term "GBNA" ;
+	a :Gazetteer .
+
+:stock_IMI
+	:identifiedBy :gaz_stock_IMI .
+:gaz_stock_IMI
+	:term "IMI" ;
+	a :Gazetteer .
+
+:stock_INTERCON_HTL
+	:identifiedBy :gaz_stock_INTERCON_HTL .
+:gaz_stock_INTERCON_HTL
+	:term "IHG" ;
+	:term "IC1A" ;
+	a :Gazetteer .
+
+:stock_INTERTEK_GROUP
+	:identifiedBy :gaz_stock_INTERTEK_GROUP .
+:gaz_stock_INTERTEK_GROUP
+	:term "ITRK" ;
+	:term "IT1" ;
+	a :Gazetteer .
+
+:stock_INTL_CONSOL_AIR_ORD_EUR0_50_CDI
+	:identifiedBy :gaz_stock_INTL_CONSOL_AIR_ORD_EUR0_50_CDI .
+:gaz_stock_INTL_CONSOL_AIR_ORD_EUR0_50_CDI
+	:term "IAG" ;
+	:term "INR" ;
+	a :Gazetteer .
+
+:stock_INTERNATIONAL_POWER
+	:identifiedBy :gaz_stock_INTERNATIONAL_POWER .
+:gaz_stock_INTERNATIONAL_POWER
+	:term "IPR" ;
+	:term "NPO" ;
+	a :Gazetteer .
+
+:stock_ITV
+	:identifiedBy :gaz_stock_ITV .
+:gaz_stock_ITV
+	:term "ITV" ;
+	:term "IJ7" ;
+	a :Gazetteer .
+
+:stock_JOHNSON_MATTHEY
+	:identifiedBy :gaz_stock_JOHNSON_MATTHEY .
+:gaz_stock_JOHNSON_MATTHEY
+	:term "JMAT" ;
+	:term "JMT" ;
+	a :Gazetteer .
+
+:stock_KAZAKHMYS
+	:identifiedBy :gaz_stock_KAZAKHMYS .
+:gaz_stock_KAZAKHMYS
+	:term "KAZ" ;
+	:term "KQ1" ;
+	a :Gazetteer .
+
+:stock_KINGFISHER
+	:identifiedBy :gaz_stock_KINGFISHER .
+:gaz_stock_KINGFISHER
+	:term "KGF" ;
+	:term "KFI1" ;
+	a :Gazetteer .
+
+:stock_LAND_SECURITIES_GROUP
+	:identifiedBy :gaz_stock_LAND_SECURITIES_GROUP .
+:gaz_stock_LAND_SECURITIES_GROUP
+	:term "LAND" ;
+	:term "LSU1" ;
+	a :Gazetteer .
+
+:stock_LEGAL_GENERAL_GROUP
+	:identifiedBy :gaz_stock_LEGAL_GENERAL_GROUP .
+:gaz_stock_LEGAL_GENERAL_GROUP
+	:term "LGEN" ;
+	:term "LGI" ;
+	a :Gazetteer .
+
+:stock_Lloyds_Banking_Group_PLC
+	:identifiedBy :gaz_stock_Lloyds_Banking_Group_PLC .
+:gaz_stock_Lloyds_Banking_Group_PLC
+	:term "LLOY" ;
+	:term "LLD" ;
+	a :Gazetteer .
+
+:stock_MAN_GR
+	:identifiedBy :gaz_stock_MAN_GR .
+:gaz_stock_MAN_GR
+	:term "EMG" ;
+	:term "EDF2" ;
+	a :Gazetteer .
+
+:stock_MARKS_SPENCER_GROUP
+	:identifiedBy :gaz_stock_MARKS_SPENCER_GROUP .
+:gaz_stock_MARKS_SPENCER_GROUP
+	:term "MKS" ;
+	:term "MA6" ;
+	a :Gazetteer .
+
+:stock_MEGGITT
+	:identifiedBy :gaz_stock_MEGGITT .
+:gaz_stock_MEGGITT
+	:term "MGGT" ;
+	:term "MGI" ;
+	a :Gazetteer .
+
+:stock_MORRISON_SUPERMARKETS
+	:identifiedBy :gaz_stock_MORRISON_SUPERMARKETS .
+:gaz_stock_MORRISON_SUPERMARKETS
+	:term "MRW" ;
+	:term "MZP" ;
+	a :Gazetteer .
+
+:stock_NEXT
+	:identifiedBy :gaz_stock_NEXT .
+:gaz_stock_NEXT
+	:term "NXT" ;
+	:term "NXG" ;
+	a :Gazetteer .
+
+:stock_OLD_MUTUAL_ORD_11_3_7P
+	:identifiedBy :gaz_stock_OLD_MUTUAL_ORD_11_3_7P .
+:gaz_stock_OLD_MUTUAL_ORD_11_3_7P
+	:term "OMUB" ;
+	a :Gazetteer .
+
+:stock_PEARSON
+	:identifiedBy :gaz_stock_PEARSON .
+:gaz_stock_PEARSON
+	:term "PSON" ;
+	:term "PES" ;
+	a :Gazetteer .
+
+:stock_Petrofac_Ld
+	:identifiedBy :gaz_stock_Petrofac_Ld .
+:gaz_stock_Petrofac_Ld
+	:term "PFC" ;
+	:term "P2F" ;
+	a :Gazetteer .
+
+:stock_POLYMET_INT_ORD_NPV
+	:identifiedBy :gaz_stock_POLYMET_INT_ORD_NPV .
+:gaz_stock_POLYMET_INT_ORD_NPV
+	:term "POLY" ;
+	:term "PM6" ;
+	a :Gazetteer .
+
+:stock_PRUDENTIAL
+	:identifiedBy :gaz_stock_PRUDENTIAL .
+:gaz_stock_PRUDENTIAL
+	:term "PRU" ;
+	a :Gazetteer .
+
+:stock_RANDGOLD_RESOURCES
+	:identifiedBy :gaz_stock_RANDGOLD_RESOURCES .
+:gaz_stock_RANDGOLD_RESOURCES
+	:term "RRS" ;
+	:term "RGR1" ;
+	a :Gazetteer .
+
+:stock_RCKTT_BNCKRS
+	:identifiedBy :gaz_stock_RCKTT_BNCKRS .
+:gaz_stock_RCKTT_BNCKRS
+	:term "RB." ;
+	:term "3RB" ;
+	a :Gazetteer .
+
+:stock_REED_ELSEVIER
+	:identifiedBy :gaz_stock_REED_ELSEVIER .
+:gaz_stock_REED_ELSEVIER
+	:term "REL" ;
+	:term "RDEB" ;
+	a :Gazetteer .
+
+:stock_Resolution_Ld
+	:identifiedBy :gaz_stock_Resolution_Ld .
+:gaz_stock_Resolution_Ld
+	:term "RSL" ;
+	:term "R20N" ;
+	a :Gazetteer .
+
+:stock_REXAM
+	:identifiedBy :gaz_stock_REXAM .
+:gaz_stock_REXAM
+	:term "REX" ;
+	:term "RXM" ;
+	a :Gazetteer .
+
+:stock_ROLLS_ROYCE_HLG_ORD_SHS_20P
+	:identifiedBy :gaz_stock_ROLLS_ROYCE_HLG_ORD_SHS_20P .
+:gaz_stock_ROLLS_ROYCE_HLG_ORD_SHS_20P
+	:term "RR." ;
+	:term "RRU" ;
+	a :Gazetteer .
+
+:stock_ROYAL_BANK_OF_SCOTLAND_GROUP
+	:identifiedBy :gaz_stock_ROYAL_BANK_OF_SCOTLAND_GROUP .
+:gaz_stock_ROYAL_BANK_OF_SCOTLAND_GROUP
+	:term "RBS" ;
+	:term "RYS" ;
+	a :Gazetteer .
+
+:stock_ROYAL_DUTCH_SHELL_PLC_B
+	:identifiedBy :gaz_stock_ROYAL_DUTCH_SHELL_PLC_B .
+:gaz_stock_ROYAL_DUTCH_SHELL_PLC_B
+	:term "RDSB" ;
+	:term "R6C3" ;
+	a :Gazetteer .
+
+:stock_ROYAL_SUN_ALLIANCE_INS_GRP
+	:identifiedBy :gaz_stock_ROYAL_SUN_ALLIANCE_INS_GRP .
+:gaz_stock_ROYAL_SUN_ALLIANCE_INS_GRP
+	:term "RSA" ;
+	:term "SUA1" ;
+	a :Gazetteer .
+
+:stock_SABMILLER
+	:identifiedBy :gaz_stock_SABMILLER .
+:gaz_stock_SABMILLER
+	:term "SAB" ;
+	:term "BRW1" ;
+	a :Gazetteer .
+
+:stock_SAGE_GROUP
+	:identifiedBy :gaz_stock_SAGE_GROUP .
+:gaz_stock_SAGE_GROUP
+	:term "SGE" ;
+	:term "SGK" ;
+	a :Gazetteer .
+
+:stock_SAINSBURY_J
+	:identifiedBy :gaz_stock_SAINSBURY_J .
+:gaz_stock_SAINSBURY_J
+	:term "SBRY" ;
+	:term "SUY1" ;
+	a :Gazetteer .
+
+:stock_SCHRODERS_PLC_NON_VOTING
+	:identifiedBy :gaz_stock_SCHRODERS_PLC_NON_VOTING .
+:gaz_stock_SCHRODERS_PLC_NON_VOTING
+	:term "SDRC" ;
+	:term "PYXA" ;
+	a :Gazetteer .
+
+:stock_SCHRODERS
+	:identifiedBy :gaz_stock_SCHRODERS .
+:gaz_stock_SCHRODERS
+	:term "SDR" ;
+	:term "PYX" ;
+	a :Gazetteer .
+
+:stock_SERCO_GROUP
+	:identifiedBy :gaz_stock_SERCO_GROUP .
+:gaz_stock_SERCO_GROUP
+	:term "SRP" ;
+	:term "SEO" ;
+	a :Gazetteer .
+
+:stock_SEVERN_TRNT
+	:identifiedBy :gaz_stock_SEVERN_TRNT .
+:gaz_stock_SEVERN_TRNT
+	:term "SVT" ;
+	:term "SVT1" ;
+	a :Gazetteer .
+
+:stock_SHIRE_PLC
+	:identifiedBy :gaz_stock_SHIRE_PLC .
+:gaz_stock_SHIRE_PLC
+	:term "SHP" ;
+	:term "S7E" ;
+	a :Gazetteer .
+
+:stock_SMITH_NEPHEW
+	:identifiedBy :gaz_stock_SMITH_NEPHEW .
+:gaz_stock_SMITH_NEPHEW
+	:term "SN" ;
+	:term "NPW1" ;
+	a :Gazetteer .
+
+:stock_SMITHS_GROUP
+	:identifiedBy :gaz_stock_SMITHS_GROUP .
+:gaz_stock_SMITHS_GROUP
+	:term "SMIN" ;
+	:term "QS2A" ;
+	a :Gazetteer .
+
+:stock_SCOTTISH_SOUTHERN_ENERGY
+	:identifiedBy :gaz_stock_SCOTTISH_SOUTHERN_ENERGY .
+:gaz_stock_SCOTTISH_SOUTHERN_ENERGY
+	:term "SSE" ;
+	:term "SCT" ;
+	a :Gazetteer .
+
+:stock_STANDARD_LIFE
+	:identifiedBy :gaz_stock_STANDARD_LIFE .
+:gaz_stock_STANDARD_LIFE
+	:term "SL" ;
+	:term "T3V" ;
+	a :Gazetteer .
+
+:stock_TATE_LYLE
+	:identifiedBy :gaz_stock_TATE_LYLE .
+:gaz_stock_TATE_LYLE
+	:term "TATE" ;
+	:term "TLY" ;
+	a :Gazetteer .
+
+:stock_TULLOW_OIL
+	:identifiedBy :gaz_stock_TULLOW_OIL .
+:gaz_stock_TULLOW_OIL
+	:term "TLW" ;
+	:term "TQW" ;
+	a :Gazetteer .
+
+:stock_UTD_UTILITIES_GRP
+	:identifiedBy :gaz_stock_UTD_UTILITIES_GRP .
+:gaz_stock_UTD_UTILITIES_GRP
+	:term "UU" ;
+	:term "UUEC" ;
+	a :Gazetteer .
+
+:stock_VEDANTA_RESOURCES
+	:identifiedBy :gaz_stock_VEDANTA_RESOURCES .
+:gaz_stock_VEDANTA_RESOURCES
+	:term "VED" ;
+	:term "VR9" ;
+	a :Gazetteer .
+
+:stock_WEIR_GROUP
+	:identifiedBy :gaz_stock_WEIR_GROUP .
+:gaz_stock_WEIR_GROUP
+	:term "WEIR" ;
+	:term "42W" ;
+	a :Gazetteer .
+
+:stock_Whitbread_PLC
+	:identifiedBy :gaz_stock_Whitbread_PLC .
+:gaz_stock_Whitbread_PLC
+	:term "WTB" ;
+	:term "WHF4" ;
+	a :Gazetteer .
+
+:stock_Wolseley_PLC
+	:identifiedBy :gaz_stock_Wolseley_PLC .
+:gaz_stock_Wolseley_PLC
+	:term "WOS" ;
+	:term "24W" ;
+	a :Gazetteer .
+
+:stock_WPP
+	:identifiedBy :gaz_stock_WPP .
+:gaz_stock_WPP
+	:term "WPP" ;
+	:term "PAU" ;
+	a :Gazetteer .
+
+:stock_XSTRATA
+	:identifiedBy :gaz_stock_XSTRATA .
+:gaz_stock_XSTRATA
+	:term "XTA" ;
+	:term "XTR" ;
+	a :Gazetteer .
+
+:stock_ADIDAS_AG
+	:identifiedBy :gaz_stock_ADIDAS_AG .
+:gaz_stock_ADIDAS_AG
+	:term "ADS" ;
+	a :Gazetteer .
+
+:stock_BEIERSDORF
+	:identifiedBy :gaz_stock_BEIERSDORF .
+:gaz_stock_BEIERSDORF
+	:term "BEI" ;
+	a :Gazetteer .
+
+:stock_COMMERZBANK
+	:identifiedBy :gaz_stock_COMMERZBANK .
+:gaz_stock_COMMERZBANK
+	:term "CBK" ;
+	a :Gazetteer .
+
+:stock_DEUTSCHE_LUFTHANSA_REG
+	:identifiedBy :gaz_stock_DEUTSCHE_LUFTHANSA_REG .
+:gaz_stock_DEUTSCHE_LUFTHANSA_REG
+	:term "LHA" ;
+	a :Gazetteer .
+
+:stock_DEUTSCHE_POST
+	:identifiedBy :gaz_stock_DEUTSCHE_POST .
+:gaz_stock_DEUTSCHE_POST
+	:term "DPW" ;
+	a :Gazetteer .
+
+:stock_FRESENIUS_MEDICAL_CARE
+	:identifiedBy :gaz_stock_FRESENIUS_MEDICAL_CARE .
+:gaz_stock_FRESENIUS_MEDICAL_CARE
+	:term "FME" ;
+	a :Gazetteer .
+
+:stock_FRES_SE_C
+	:identifiedBy :gaz_stock_FRES_SE_C .
+:gaz_stock_FRES_SE_C
+	:term "FRE" ;
+	a :Gazetteer .
+
+:stock_HEIDELBERGCEMENT
+	:identifiedBy :gaz_stock_HEIDELBERGCEMENT .
+:gaz_stock_HEIDELBERGCEMENT
+	:term "HEI" ;
+	a :Gazetteer .
+
+:stock_HENKEL_KGAA_VORZUG
+	:identifiedBy :gaz_stock_HENKEL_KGAA_VORZUG .
+:gaz_stock_HENKEL_KGAA_VORZUG
+	:term "HEN3" ;
+	a :Gazetteer .
+
+:stock_INFINEON_TECHNOLOGIES
+	:identifiedBy :gaz_stock_INFINEON_TECHNOLOGIES .
+:gaz_stock_INFINEON_TECHNOLOGIES
+	:term "IFX" ;
+	a :Gazetteer .
+
+:stock_K_S
+	:identifiedBy :gaz_stock_K_S .
+:gaz_stock_K_S
+	:term "SDF" ;
+	a :Gazetteer .
+
+:stock_LINDE
+	:identifiedBy :gaz_stock_LINDE .
+:gaz_stock_LINDE
+	:term "LIN" ;
+	a :Gazetteer .
+
+:stock_MAN
+	:identifiedBy :gaz_stock_MAN .
+:gaz_stock_MAN
+	:term "MAN" ;
+	a :Gazetteer .
+
+:stock_MERCK_KGAA
+	:identifiedBy :gaz_stock_MERCK_KGAA .
+:gaz_stock_MERCK_KGAA
+	:term "MRK" ;
+	a :Gazetteer .
+
+:stock_METRO
+	:identifiedBy :gaz_stock_METRO .
+:gaz_stock_METRO
+	:term "MEO" ;
+	a :Gazetteer .
+
+:stock_THYSSENKRUPP
+	:identifiedBy :gaz_stock_THYSSENKRUPP .
+:gaz_stock_THYSSENKRUPP
+	:term "TKA" ;
+	a :Gazetteer .
+
+:stock_ACCOR
+	:identifiedBy :gaz_stock_ACCOR .
+:gaz_stock_ACCOR
+	:term "AC" ;
+	:term "ACR" ;
+	a :Gazetteer .
+
+:stock_ALCATEL
+	:identifiedBy :gaz_stock_ALCATEL .
+:gaz_stock_ALCATEL
+	:term "ALU" ;
+	:term "CGE" ;
+	a :Gazetteer .
+
+:stock_ALSTOM
+	:identifiedBy :gaz_stock_ALSTOM .
+:gaz_stock_ALSTOM
+	:term "ALO" ;
+	:term "AOMD" ;
+	a :Gazetteer .
+
+:stock_BOUYGUES
+	:identifiedBy :gaz_stock_BOUYGUES .
+:gaz_stock_BOUYGUES
+	:term "EN" ;
+	:term "BYG" ;
+	a :Gazetteer .
+
+:stock_CAP_GEMINI
+	:identifiedBy :gaz_stock_CAP_GEMINI .
+:gaz_stock_CAP_GEMINI
+	:term "CAP" ;
+	:term "CGM" ;
+	a :Gazetteer .
+
+:stock_CREDIT_AGRICOLE
+	:identifiedBy :gaz_stock_CREDIT_AGRICOLE .
+:gaz_stock_CREDIT_AGRICOLE
+	:term "ACA" ;
+	:term "XCA" ;
+	a :Gazetteer .
+
+:stock_EUROPEAN_AERONAUTIC_DEFENCE
+	:identifiedBy :gaz_stock_EUROPEAN_AERONAUTIC_DEFENCE .
+:gaz_stock_EUROPEAN_AERONAUTIC_DEFENCE
+	:term "EAD" ;
+	a :Gazetteer .
+
+:stock_EDF
+	:identifiedBy :gaz_stock_EDF .
+:gaz_stock_EDF
+	:term "EDF" ;
+	:term "E2F" ;
+	a :Gazetteer .
+
+:stock_ESSILOR_INTERNATIONAL
+	:identifiedBy :gaz_stock_ESSILOR_INTERNATIONAL .
+:gaz_stock_ESSILOR_INTERNATIONAL
+	:term "EI" ;
+	:term "ESL" ;
+	a :Gazetteer .
+
+:stock_LAFARGE
+	:identifiedBy :gaz_stock_LAFARGE .
+:gaz_stock_LAFARGE
+	:term "LG" ;
+	:term "CIL" ;
+	a :Gazetteer .
+
+:stock_LEGRAND_PROMESSE
+	:identifiedBy :gaz_stock_LEGRAND_PROMESSE .
+:gaz_stock_LEGRAND_PROMESSE
+	:term "LR" ;
+	:term "LRC" ;
+	a :Gazetteer .
+
+:stock_MICHELIN_CGDE_B
+	:identifiedBy :gaz_stock_MICHELIN_CGDE_B .
+:gaz_stock_MICHELIN_CGDE_B
+	:term "ML" ;
+	:term "MCH" ;
+	a :Gazetteer .
+
+:stock_PERNOD_RICARD
+	:identifiedBy :gaz_stock_PERNOD_RICARD .
+:gaz_stock_PERNOD_RICARD
+	:term "RI" ;
+	:term "PER" ;
+	a :Gazetteer .
+
+:stock_PEUGEOT
+	:identifiedBy :gaz_stock_PEUGEOT .
+:gaz_stock_PEUGEOT
+	:term "UG" ;
+	:term "PEU" ;
+	a :Gazetteer .
+
+:stock_PPR
+	:identifiedBy :gaz_stock_PPR .
+:gaz_stock_PPR
+	:term "PP" ;
+	:term "PPX" ;
+	a :Gazetteer .
+
+:stock_PUBLICIS_GROUPE
+	:identifiedBy :gaz_stock_PUBLICIS_GROUPE .
+:gaz_stock_PUBLICIS_GROUPE
+	:term "PUB" ;
+	:term "PU4" ;
+	a :Gazetteer .
+
+:stock_RENAULT
+	:identifiedBy :gaz_stock_RENAULT .
+:gaz_stock_RENAULT
+	:term "RNO" ;
+	:term "RNL" ;
+	a :Gazetteer .
+
+:stock_SAFRAN_S_A_INH
+	:identifiedBy :gaz_stock_SAFRAN_S_A_INH .
+:gaz_stock_SAFRAN_S_A_INH
+	:term "SAF" ;
+	:term "SEJ1" ;
+	a :Gazetteer .
+
+:stock_STMICROELECTRONICS
+	:identifiedBy :gaz_stock_STMICROELECTRONICS .
+:gaz_stock_STMICROELECTRONICS
+	:term "STM" ;
+	:term "SGM" ;
+	a :Gazetteer .
+
+:stock_TECHNIP
+	:identifiedBy :gaz_stock_TECHNIP .
+:gaz_stock_TECHNIP
+	:term "TEC" ;
+	:term "THP" ;
+	a :Gazetteer .
+
+:stock_VALLOUREC
+	:identifiedBy :gaz_stock_VALLOUREC .
+:gaz_stock_VALLOUREC
+	:term "VK" ;
+	:term "VAC" ;
+	a :Gazetteer .
+
+:stock_VEOLIA_ENVIRONNEMENT
+	:identifiedBy :gaz_stock_VEOLIA_ENVIRONNEMENT .
+:gaz_stock_VEOLIA_ENVIRONNEMENT
+	:term "VIE" ;
+	:term "VVD" ;
+	a :Gazetteer .
+
+:stock_A2A_SPA
+	:identifiedBy :gaz_stock_A2A_SPA .
+:gaz_stock_A2A_SPA
+	:term "A2A" ;
+	:term "EAM" ;
+	a :Gazetteer .
+
+:stock_ANSALDO_STS
+	:identifiedBy :gaz_stock_ANSALDO_STS .
+:gaz_stock_ANSALDO_STS
+	:term "STS" ;
+	:term "W9X" ;
+	a :Gazetteer .
+
+:stock_ATLANTIA
+	:identifiedBy :gaz_stock_ATLANTIA .
+:gaz_stock_ATLANTIA
+	:term "ATL" ;
+	:term "AU9" ;
+	a :Gazetteer .
+
+:stock_AUTOGRILL
+	:identifiedBy :gaz_stock_AUTOGRILL .
+:gaz_stock_AUTOGRILL
+	:term "AGL" ;
+	:term "AUL" ;
+	a :Gazetteer .
+
+:stock_AZIMUT_HLDG
+	:identifiedBy :gaz_stock_AZIMUT_HLDG .
+:gaz_stock_AZIMUT_HLDG
+	:term "AZM" ;
+	:term "HDB" ;
+	a :Gazetteer .
+
+:stock_BANCA_MONTE_DEI_PASCHI_SIENA
+	:identifiedBy :gaz_stock_BANCA_MONTE_DEI_PASCHI_SIENA .
+:gaz_stock_BANCA_MONTE_DEI_PASCHI_SIENA
+	:term "BMPS" ;
+	:term "MPI" ;
+	a :Gazetteer .
+
+:stock_BCA_POP_EMIL
+	:identifiedBy :gaz_stock_BCA_POP_EMIL .
+:gaz_stock_BCA_POP_EMIL
+	:term "BPE" ;
+	:term "4BE" ;
+	a :Gazetteer .
+
+:stock_BCA_POP_MILANO
+	:identifiedBy :gaz_stock_BCA_POP_MILANO .
+:gaz_stock_BCA_POP_MILANO
+	:term "PMI" ;
+	:term "BPG" ;
+	a :Gazetteer .
+
+:stock_BANCO_POP
+	:identifiedBy :gaz_stock_BANCO_POP .
+:gaz_stock_BANCO_POP
+	:term "BP" ;
+	:term "B8Z" ;
+	a :Gazetteer .
+
+:stock_BUZZI_UNICHEM
+	:identifiedBy :gaz_stock_BUZZI_UNICHEM .
+:gaz_stock_BUZZI_UNICHEM
+	:term "BZU" ;
+	:term "UCM" ;
+	a :Gazetteer .
+
+:stock_DAVIDE_CAMPARI_DAVIDE_CAMPARI_ORD_SHS
+	:identifiedBy :gaz_stock_DAVIDE_CAMPARI_DAVIDE_CAMPARI_ORD_SHS .
+:gaz_stock_DAVIDE_CAMPARI_DAVIDE_CAMPARI_ORD_SHS
+	:term "CPR" ;
+	:term "DVC1" ;
+	a :Gazetteer .
+
+:stock_DIASORIN
+	:identifiedBy :gaz_stock_DIASORIN .
+:gaz_stock_DIASORIN
+	:term "DIA" ;
+	:term "34D" ;
+	a :Gazetteer .
+
+:stock_ENEL_GREE
+	:identifiedBy :gaz_stock_ENEL_GREE .
+:gaz_stock_ENEL_GREE
+	:term "EGPW" ;
+	:term "ENZ" ;
+	a :Gazetteer .
+
+:stock_EXOR
+	:identifiedBy :gaz_stock_EXOR .
+:gaz_stock_EXOR
+	:term "EXO" ;
+	:term "IFIC" ;
+	a :Gazetteer .
+
+:stock_FIAT_INDUSTRIAL_ORD_SHS
+	:identifiedBy :gaz_stock_FIAT_INDUSTRIAL_ORD_SHS .
+:gaz_stock_FIAT_INDUSTRIAL_ORD_SHS
+	:term "FI" ;
+	:term "FIM" ;
+	a :Gazetteer .
+
+:stock_FIAT
+	:identifiedBy :gaz_stock_FIAT .
+:gaz_stock_FIAT
+	:term "F" ;
+	:term "FIAT" ;
+	a :Gazetteer .
+
+:stock_FINMECCANICA
+	:identifiedBy :gaz_stock_FINMECCANICA .
+:gaz_stock_FINMECCANICA
+	:term "FNC" ;
+	:term "FMNB" ;
+	a :Gazetteer .
+
+:stock_IMPREGILO
+	:identifiedBy :gaz_stock_IMPREGILO .
+:gaz_stock_IMPREGILO
+	:term "IPG" ;
+	:term "IPJ1" ;
+	a :Gazetteer .
+
+:stock_LOTTOMATICA
+	:identifiedBy :gaz_stock_LOTTOMATICA .
+:gaz_stock_LOTTOMATICA
+	:term "LTO" ;
+	:term "N4G" ;
+	a :Gazetteer .
+
+:stock_LUXOTTICA_GROUP
+	:identifiedBy :gaz_stock_LUXOTTICA_GROUP .
+:gaz_stock_LUXOTTICA_GROUP
+	:term "LUX" ;
+	:term "LUXA" ;
+	a :Gazetteer .
+
+:stock_MEDIASET
+	:identifiedBy :gaz_stock_MEDIASET .
+:gaz_stock_MEDIASET
+	:term "MS" ;
+	:term "MDS" ;
+	a :Gazetteer .
+
+:stock_MEDIOBANCA
+	:identifiedBy :gaz_stock_MEDIOBANCA .
+:gaz_stock_MEDIOBANCA
+	:term "MB" ;
+	:term "ME9" ;
+	a :Gazetteer .
+
+:stock_MEDIOLANUM
+	:identifiedBy :gaz_stock_MEDIOLANUM .
+:gaz_stock_MEDIOLANUM
+	:term "MED" ;
+	:term "MUN" ;
+	a :Gazetteer .
+
+:stock_PARMALAT
+	:identifiedBy :gaz_stock_PARMALAT .
+:gaz_stock_PARMALAT
+	:term "PLT" ;
+	:term "P4I" ;
+	a :Gazetteer .
+
+:stock_PIRELLI_CO
+	:identifiedBy :gaz_stock_PIRELLI_CO .
+:gaz_stock_PIRELLI_CO
+	:term "PC" ;
+	:term "PIL3" ;
+	a :Gazetteer .
+
+:stock_PRYSMIAN_SPA
+	:identifiedBy :gaz_stock_PRYSMIAN_SPA .
+:gaz_stock_PRYSMIAN_SPA
+	:term "PRY" ;
+	:term "AEU" ;
+	a :Gazetteer .
+
+:stock_SAIPEM
+	:identifiedBy :gaz_stock_SAIPEM .
+:gaz_stock_SAIPEM
+	:term "SPM" ;
+	:term "SPE" ;
+	a :Gazetteer .
+
+:stock_SALE_FERR
+	:identifiedBy :gaz_stock_SALE_FERR .
+:gaz_stock_SALE_FERR
+	:term "SFER" ;
+	:term "S9L" ;
+	a :Gazetteer .
+
+:stock_SNAM_RETE_GAS
+	:identifiedBy :gaz_stock_SNAM_RETE_GAS .
+:gaz_stock_SNAM_RETE_GAS
+	:term "SRG" ;
+	:term "SNM" ;
+	a :Gazetteer .
+
+:stock_STMICROELECTRONICS_0
+	:identifiedBy :gaz_stock_STMICROELECTRONICS_0 .
+:gaz_stock_STMICROELECTRONICS_0
+	:term "STM" ;
+	:term "SGM" ;
+	a :Gazetteer .
+
+:stock_TENARIS
+	:identifiedBy :gaz_stock_TENARIS .
+:gaz_stock_TENARIS
+	:term "TEN" ;
+	:term "TW11" ;
+	a :Gazetteer .
+
+:stock_TOD_SSPA
+	:identifiedBy :gaz_stock_TOD_SSPA .
+:gaz_stock_TOD_SSPA
+	:term "TOD" ;
+	:term "TOB" ;
+	a :Gazetteer .
+
+:stock_TERNA
+	:identifiedBy :gaz_stock_TERNA .
+:gaz_stock_TERNA
+	:term "TRN" ;
+	:term "UEI" ;
+	a :Gazetteer .
+
+:stock_BANCHE_POPOLARI_UNITE_SCARL
+	:identifiedBy :gaz_stock_BANCHE_POPOLARI_UNITE_SCARL .
+:gaz_stock_BANCHE_POPOLARI_UNITE_SCARL
+	:term "UBI" ;
+	:term "BPD" ;
+	a :Gazetteer .
+
+:stock_ABENGOA
+	:identifiedBy :gaz_stock_ABENGOA .
+:gaz_stock_ABENGOA
+	:term "ABG" ;
+	:term "AYO" ;
+	a :Gazetteer .
+
+:stock_ABERTIS_INFRA_NOM
+	:identifiedBy :gaz_stock_ABERTIS_INFRA_NOM .
+:gaz_stock_ABERTIS_INFRA_NOM
+	:term "ABE" ;
+	:term "AUC" ;
+	a :Gazetteer .
+
+:stock_ACCIONA
+	:identifiedBy :gaz_stock_ACCIONA .
+:gaz_stock_ACCIONA
+	:term "ANA" ;
+	:term "AJ3" ;
+	a :Gazetteer .
+
+:stock_ACERINOX_SA
+	:identifiedBy :gaz_stock_ACERINOX_SA .
+:gaz_stock_ACERINOX_SA
+	:term "ACX" ;
+	:term "ACE1" ;
+	a :Gazetteer .
+
+:stock_ACS_ACTIV
+	:identifiedBy :gaz_stock_ACS_ACTIV .
+:gaz_stock_ACS_ACTIV
+	:term "ACS" ;
+	:term "OCI1" ;
+	a :Gazetteer .
+
+:stock_AMAT_IT
+	:identifiedBy :gaz_stock_AMAT_IT .
+:gaz_stock_AMAT_IT
+	:term "AMS" ;
+	:term "AI3A" ;
+	a :Gazetteer .
+
+:stock_ARCELORMITTAL_0
+	:identifiedBy :gaz_stock_ARCELORMITTAL_0 .
+:gaz_stock_ARCELORMITTAL_0
+	:term "MT" ;
+	:term "ARRB" ;
+	a :Gazetteer .
+
+:stock_BCO_POP_ESP_NOM
+	:identifiedBy :gaz_stock_BCO_POP_ESP_NOM .
+:gaz_stock_BCO_POP_ESP_NOM
+	:term "POP" ;
+	:term "POPA" ;
+	a :Gazetteer .
+
+:stock_BANKIA
+	:identifiedBy :gaz_stock_BANKIA .
+:gaz_stock_BANKIA
+	:term "BKIA" ;
+	:term "FV0" ;
+	a :Gazetteer .
+
+:stock_BANKINTER
+	:identifiedBy :gaz_stock_BANKINTER .
+:gaz_stock_BANKINTER
+	:term "BKT" ;
+	:term "BAKA" ;
+	a :Gazetteer .
+
+:stock_BCO_DE_SABADELL_BANCO_DE_SABADELL_ORD_SHS
+	:identifiedBy :gaz_stock_BCO_DE_SABADELL_BANCO_DE_SABADELL_ORD_SHS .
+:gaz_stock_BCO_DE_SABADELL_BANCO_DE_SABADELL_ORD_SHS
+	:term "SAB" ;
+	:term "BDSB" ;
+	a :Gazetteer .
+
+:stock_BOLSAS_Y
+	:identifiedBy :gaz_stock_BOLSAS_Y .
+:gaz_stock_BOLSAS_Y
+	:term "BME" ;
+	:term "M6O" ;
+	a :Gazetteer .
+
+:stock_CaixaBank
+	:identifiedBy :gaz_stock_CaixaBank .
+:gaz_stock_CaixaBank
+	:term "CABK" ;
+	:term "48CA" ;
+	a :Gazetteer .
+
+:stock_DISE_ALIM
+	:identifiedBy :gaz_stock_DISE_ALIM .
+:gaz_stock_DISE_ALIM
+	:term "DIA" ;
+	:term "DI6" ;
+	a :Gazetteer .
+
+:stock_ENAGAS
+	:identifiedBy :gaz_stock_ENAGAS .
+:gaz_stock_ENAGAS
+	:term "ENG" ;
+	:term "EG4" ;
+	a :Gazetteer .
+
+:stock_ENDESA
+	:identifiedBy :gaz_stock_ENDESA .
+:gaz_stock_ENDESA
+	:term "ELE" ;
+	:term "ENA" ;
+	a :Gazetteer .
+
+:stock_FERROVIAL
+	:identifiedBy :gaz_stock_FERROVIAL .
+:gaz_stock_FERROVIAL
+	:term "FER" ;
+	:term "UFG" ;
+	a :Gazetteer .
+
+:stock_FOMENTO_CON
+	:identifiedBy :gaz_stock_FOMENTO_CON .
+:gaz_stock_FOMENTO_CON
+	:term "FCC" ;
+	a :Gazetteer .
+
+:stock_GAMESA_CO
+	:identifiedBy :gaz_stock_GAMESA_CO .
+:gaz_stock_GAMESA_CO
+	:term "GAM" ;
+	:term "GTQ1" ;
+	a :Gazetteer .
+
+:stock_GAS_NATURAL_SDG_INH
+	:identifiedBy :gaz_stock_GAS_NATURAL_SDG_INH .
+:gaz_stock_GAS_NATURAL_SDG_INH
+	:term "GAS" ;
+	:term "GAN" ;
+	a :Gazetteer .
+
+:stock_GRIFOLS_S
+	:identifiedBy :gaz_stock_GRIFOLS_S .
+:gaz_stock_GRIFOLS_S
+	:term "GRF" ;
+	:term "OZT" ;
+	a :Gazetteer .
+
+:stock_INDRA_SISTMS_A
+	:identifiedBy :gaz_stock_INDRA_SISTMS_A .
+:gaz_stock_INDRA_SISTMS_A
+	:term "IDR" ;
+	:term "IDA" ;
+	a :Gazetteer .
+
+:stock_INTL_CONSOL_AIR_ORD_EUR0_50_CDI_0
+	:identifiedBy :gaz_stock_INTL_CONSOL_AIR_ORD_EUR0_50_CDI_0 .
+:gaz_stock_INTL_CONSOL_AIR_ORD_EUR0_50_CDI_0
+	:term "IAG" ;
+	:term "INR" ;
+	a :Gazetteer .
+
+:stock_MAPFRE_SA
+	:identifiedBy :gaz_stock_MAPFRE_SA .
+:gaz_stock_MAPFRE_SA
+	:term "MAP" ;
+	:term "CMAB" ;
+	a :Gazetteer .
+
+:stock_MEDT_ESPA
+	:identifiedBy :gaz_stock_MEDT_ESPA .
+:gaz_stock_MEDT_ESPA
+	:term "TL5" ;
+	:term "RWW" ;
+	a :Gazetteer .
+
+:stock_OBRASCON
+	:identifiedBy :gaz_stock_OBRASCON .
+:gaz_stock_OBRASCON
+	:term "OHL" ;
+	:term "HUA" ;
+	a :Gazetteer .
+
+:stock_RED_ELEC
+	:identifiedBy :gaz_stock_RED_ELEC .
+:gaz_stock_RED_ELEC
+	:term "REE" ;
+	:term "RE2" ;
+	a :Gazetteer .
+
+:stock_SACYR_VALLEHERM_INH
+	:identifiedBy :gaz_stock_SACYR_VALLEHERM_INH .
+:gaz_stock_SACYR_VALLEHERM_INH
+	:term "SYV" ;
+	:term "VHM" ;
+	a :Gazetteer .
+
+:stock_TECNICAS_RED
+	:identifiedBy :gaz_stock_TECNICAS_RED .
+:gaz_stock_TECNICAS_RED
+	:term "TRE" ;
+	:term "T5R" ;
+	a :Gazetteer .
+
+:stock_ACTELION
+	:identifiedBy :gaz_stock_ACTELION .
+:gaz_stock_ACTELION
+	:term "ATLN" ;
+	:term "ACT" ;
+	a :Gazetteer .
+
+:stock_ADECCO
+	:identifiedBy :gaz_stock_ADECCO .
+:gaz_stock_ADECCO
+	:term "ADEN" ;
+	:term "ADI1" ;
+	a :Gazetteer .
+
+:stock_CFR_A
+	:identifiedBy :gaz_stock_CFR_A .
+:gaz_stock_CFR_A
+	:term "CFR" ;
+	:term "RITB" ;
+	a :Gazetteer .
+
+:stock_GIVAUDAN
+	:identifiedBy :gaz_stock_GIVAUDAN .
+:gaz_stock_GIVAUDAN
+	:term "GIVN" ;
+	:term "GIN" ;
+	a :Gazetteer .
+
+:stock_HOLCIM
+	:identifiedBy :gaz_stock_HOLCIM .
+:gaz_stock_HOLCIM
+	:term "HOLN" ;
+	:term "HLBN" ;
+	a :Gazetteer .
+
+:stock_JULS_BAER
+	:identifiedBy :gaz_stock_JULS_BAER .
+:gaz_stock_JULS_BAER
+	:term "BAER" ;
+	:term "JGE" ;
+	a :Gazetteer .
+
+:stock_SGS
+	:identifiedBy :gaz_stock_SGS .
+:gaz_stock_SGS
+	:term "SGSN" ;
+	:term "SUVN" ;
+	a :Gazetteer .
+
+:stock_SWATCH_GROUP_I
+	:identifiedBy :gaz_stock_SWATCH_GROUP_I .
+:gaz_stock_SWATCH_GROUP_I
+	:term "UHR" ;
+	a :Gazetteer .
+
+:stock_SWIS_RE
+	:identifiedBy :gaz_stock_SWIS_RE .
+:gaz_stock_SWIS_RE
+	:term "SREN" ;
+	:term "SR9" ;
+	a :Gazetteer .
+
+:stock_SWISSCOM
+	:identifiedBy :gaz_stock_SWISSCOM .
+:gaz_stock_SWISSCOM
+	:term "SCMN" ;
+	:term "SWJ" ;
+	a :Gazetteer .
+
+:stock_SYNGENTA
+	:identifiedBy :gaz_stock_SYNGENTA .
+:gaz_stock_SYNGENTA
+	:term "SYNN" ;
+	:term "SVJ" ;
+	a :Gazetteer .
+
+:stock_SYNTHES
+	:identifiedBy :gaz_stock_SYNTHES .
+:gaz_stock_SYNTHES
+	:term "SYST" ;
+	:term "SRH1" ;
+	a :Gazetteer .
+
+:stock_TRNSOCEAN
+	:identifiedBy :gaz_stock_TRNSOCEAN .
+:gaz_stock_TRNSOCEAN
+	:term "RIG" ;
+	:term "TOJ" ;
+	a :Gazetteer .
+
+:stock_AEGON
+	:identifiedBy :gaz_stock_AEGON .
+:gaz_stock_AEGON
+	:term "AGN" ;
+	:term "AEND" ;
+	a :Gazetteer .
+
+:stock_AIR_FRANCE_KLM
+	:identifiedBy :gaz_stock_AIR_FRANCE_KLM .
+:gaz_stock_AIR_FRANCE_KLM
+	:term "AF" ;
+	:term "AFR" ;
+	a :Gazetteer .
+
+:stock_AKZO_NOBEL
+	:identifiedBy :gaz_stock_AKZO_NOBEL .
+:gaz_stock_AKZO_NOBEL
+	:term "AKZA" ;
+	:term "AKU" ;
+	a :Gazetteer .
+
+:stock_APERAM_ORD_APERAM_ORD_SHS
+	:identifiedBy :gaz_stock_APERAM_ORD_APERAM_ORD_SHS .
+:gaz_stock_APERAM_ORD_APERAM_ORD_SHS
+	:term "APAM" ;
+	:term "7AA" ;
+	a :Gazetteer .
+
+:stock_ASML_HOLDING_OR_ASML_HOLDING_ORD_SHS
+	:identifiedBy :gaz_stock_ASML_HOLDING_OR_ASML_HOLDING_ORD_SHS .
+:gaz_stock_ASML_HOLDING_OR_ASML_HOLDING_ORD_SHS
+	:term "ASML" ;
+	:term "ASMB" ;
+	a :Gazetteer .
+
+:stock_CORIO
+	:identifiedBy :gaz_stock_CORIO .
+:gaz_stock_CORIO
+	:term "CORA" ;
+	:term "CL6" ;
+	a :Gazetteer .
+
+:stock_FUGRO_NV
+	:identifiedBy :gaz_stock_FUGRO_NV .
+:gaz_stock_FUGRO_NV
+	:term "FUR" ;
+	:term "F3D" ;
+	a :Gazetteer .
+
+:stock_HEINEKEN
+	:identifiedBy :gaz_stock_HEINEKEN .
+:gaz_stock_HEINEKEN
+	:term "HEIA" ;
+	:term "HNK1" ;
+	a :Gazetteer .
+
+:stock_KONINKLIJKE_AHOLD
+	:identifiedBy :gaz_stock_KONINKLIJKE_AHOLD .
+:gaz_stock_KONINKLIJKE_AHOLD
+	:term "AH" ;
+	:term "AHOE" ;
+	a :Gazetteer .
+
+:stock_ROYAL_BOSK_WEST
+	:identifiedBy :gaz_stock_ROYAL_BOSK_WEST .
+:gaz_stock_ROYAL_BOSK_WEST
+	:term "BOKA" ;
+	:term "KBWA" ;
+	a :Gazetteer .
+
+:stock_DSM_NV
+	:identifiedBy :gaz_stock_DSM_NV .
+:gaz_stock_DSM_NV
+	:term "DSM" ;
+	:term "DSM2" ;
+	a :Gazetteer .
+
+:stock_KONINKLIJKE_KPN
+	:identifiedBy :gaz_stock_KONINKLIJKE_KPN .
+:gaz_stock_KONINKLIJKE_KPN
+	:term "KPN" ;
+	a :Gazetteer .
+
+:stock_POSTNL
+	:identifiedBy :gaz_stock_POSTNL .
+:gaz_stock_POSTNL
+	:term "PNL" ;
+	:term "TNTC" ;
+	a :Gazetteer .
+
+:stock_RANDSTAD_EUR0_10
+	:identifiedBy :gaz_stock_RANDSTAD_EUR0_10 .
+:gaz_stock_RANDSTAD_EUR0_10
+	:term "RAND" ;
+	:term "RSH" ;
+	a :Gazetteer .
+
+:stock_REED_ELS_NV
+	:identifiedBy :gaz_stock_REED_ELS_NV .
+:gaz_stock_REED_ELS_NV
+	:term "REN" ;
+	:term "ELVA" ;
+	a :Gazetteer .
+
+:stock_ROYAL_DUTCH_SHELL_0
+	:identifiedBy :gaz_stock_ROYAL_DUTCH_SHELL_0 .
+:gaz_stock_ROYAL_DUTCH_SHELL_0
+	:term "RDSA" ;
+	:term "R6C" ;
+	a :Gazetteer .
+
+:stock_SBM_OFFSHORE
+	:identifiedBy :gaz_stock_SBM_OFFSHORE .
+:gaz_stock_SBM_OFFSHORE
+	:term "SBMO" ;
+	:term "IHCB" ;
+	a :Gazetteer .
+
+:stock_TNT_EXPR
+	:identifiedBy :gaz_stock_TNT_EXPR .
+:gaz_stock_TNT_EXPR
+	:term "TNTE" ;
+	:term "2TN" ;
+	a :Gazetteer .
+
+:stock_TOMTOM_NV
+	:identifiedBy :gaz_stock_TOMTOM_NV .
+:gaz_stock_TOMTOM_NV
+	:term "TOM2" ;
+	:term "OEM" ;
+	a :Gazetteer .
+
+:stock_WOLTERS_KWOLT_KLUW
+	:identifiedBy :gaz_stock_WOLTERS_KWOLT_KLUW .
+:gaz_stock_WOLTERS_KWOLT_KLUW
+	:term "WKL" ;
+	:term "WOSB" ;
+	a :Gazetteer .
+
+:stock_ACKERMANS_ORD_ACKERMANS_ORD_SHS
+	:identifiedBy :gaz_stock_ACKERMANS_ORD_ACKERMANS_ORD_SHS .
+:gaz_stock_ACKERMANS_ORD_ACKERMANS_ORD_SHS
+	:term "ACKB" ;
+	:term "B3K" ;
+	a :Gazetteer .
+
+:stock_AGEAS_EX_FORTI_AGEAS_EX_FORTI
+	:identifiedBy :gaz_stock_AGEAS_EX_FORTI_AGEAS_EX_FORTI .
+:gaz_stock_AGEAS_EX_FORTI_AGEAS_EX_FORTI
+	:term "AGS" ;
+	:term "FO4" ;
+	a :Gazetteer .
+
+:stock_BEFIMMO_NPV_SICAFI
+	:identifiedBy :gaz_stock_BEFIMMO_NPV_SICAFI .
+:gaz_stock_BEFIMMO_NPV_SICAFI
+	:term "BEFB" ;
+	:term "VJ6" ;
+	a :Gazetteer .
+
+:stock_BEKAERT_D_ORD_SHS
+	:identifiedBy :gaz_stock_BEKAERT_D_ORD_SHS .
+:gaz_stock_BEKAERT_D_ORD_SHS
+	:term "BEKB" ;
+	:term "BK8N" ;
+	a :Gazetteer .
+
+:stock_BELGACOM
+	:identifiedBy :gaz_stock_BELGACOM .
+:gaz_stock_BELGACOM
+	:term "BELG" ;
+	:term "BX7" ;
+	a :Gazetteer .
+
+:stock_COFINIMMO_REIT_COFINIMMO_REIT
+	:identifiedBy :gaz_stock_COFINIMMO_REIT_COFINIMMO_REIT .
+:gaz_stock_COFINIMMO_REIT_COFINIMMO_REIT
+	:term "COFB" ;
+	:term "COF" ;
+	a :Gazetteer .
+
+:stock_COLRUYT_D_ORD_ETABLISSEMENTS_FR_COLRUYT_ORD_SHS
+	:identifiedBy :gaz_stock_COLRUYT_D_ORD_ETABLISSEMENTS_FR_COLRUYT_ORD_SHS .
+:gaz_stock_COLRUYT_D_ORD_ETABLISSEMENTS_FR_COLRUYT_ORD_SHS
+	:term "COLR" ;
+	:term "EFC1" ;
+	a :Gazetteer .
+
+:stock_SA_DIET
+	:identifiedBy :gaz_stock_SA_DIET .
+:gaz_stock_SA_DIET
+	:term "DIE" ;
+	:term "DJDA" ;
+	a :Gazetteer .
+
+:stock_DELHAIZE_ORD_GROUPE_DELHAIZE_ORD_SHS
+	:identifiedBy :gaz_stock_DELHAIZE_ORD_GROUPE_DELHAIZE_ORD_SHS .
+:gaz_stock_DELHAIZE_ORD_GROUPE_DELHAIZE_ORD_SHS
+	:term "DELB" ;
+	:term "DHZ" ;
+	a :Gazetteer .
+
+:stock_ELIA_SYST
+	:identifiedBy :gaz_stock_ELIA_SYST .
+:gaz_stock_ELIA_SYST
+	:term "ELI" ;
+	:term "E4S" ;
+	a :Gazetteer .
+
+:stock_GPE_BRUX_LAMBRT
+	:identifiedBy :gaz_stock_GPE_BRUX_LAMBRT .
+:gaz_stock_GPE_BRUX_LAMBRT
+	:term "0IN2" ;
+	:term "EAI" ;
+	a :Gazetteer .
+
+:stock_KBC_GR
+	:identifiedBy :gaz_stock_KBC_GR .
+:gaz_stock_KBC_GR
+	:term "KBC" ;
+	:term "KDB" ;
+	a :Gazetteer .
+
+:stock_MOBISTAR
+	:identifiedBy :gaz_stock_MOBISTAR .
+:gaz_stock_MOBISTAR
+	:term "MOBB" ;
+	:term "MOS" ;
+	a :Gazetteer .
+
+:stock_NYRSTAR_NV
+	:identifiedBy :gaz_stock_NYRSTAR_NV .
+:gaz_stock_NYRSTAR_NV
+	:term "NYR" ;
+	:term "3NY" ;
+	a :Gazetteer .
+
+:stock_SOLVAY_NPV
+	:identifiedBy :gaz_stock_SOLVAY_NPV .
+:gaz_stock_SOLVAY_NPV
+	:term "SOLB" ;
+	:term "SOL" ;
+	a :Gazetteer .
+
+:stock_TELENET_NPV
+	:identifiedBy :gaz_stock_TELENET_NPV .
+:gaz_stock_TELENET_NPV
+	:term "0GAF" ;
+	:term "T4I" ;
+	a :Gazetteer .
+
+:stock_UCB
+	:identifiedBy :gaz_stock_UCB .
+:gaz_stock_UCB
+	:term "UCB" ;
+	:term "UNC" ;
+	a :Gazetteer .
+
+:stock_UMICORE_ORDUMICORE_ORD_SHS
+	:identifiedBy :gaz_stock_UMICORE_ORDUMICORE_ORD_SHS .
+:gaz_stock_UMICORE_ORDUMICORE_ORD_SHS
+	:term "UMI" ;
+	:term "NVJN" ;
+	a :Gazetteer .
+
+:stock_ALTRI_SGPS_SA_O_ALTRI_SGPS_ORD_SHS
+	:identifiedBy :gaz_stock_ALTRI_SGPS_SA_O_ALTRI_SGPS_ORD_SHS .
+:gaz_stock_ALTRI_SGPS_SA_O_ALTRI_SGPS_ORD_SHS
+	:term "ALTR" ;
+	:term "ACJ" ;
+	a :Gazetteer .
+
+:stock_BANCO_BPI
+	:identifiedBy :gaz_stock_BANCO_BPI .
+:gaz_stock_BANCO_BPI
+	:term "BPI" ;
+	a :Gazetteer .
+
+:stock_BCO_COM_PORT_NOM
+	:identifiedBy :gaz_stock_BCO_COM_PORT_NOM .
+:gaz_stock_BCO_COM_PORT_NOM
+	:term "BCP" ;
+	a :Gazetteer .
+
+:stock_BCO_ESP_SAN
+	:identifiedBy :gaz_stock_BCO_ESP_SAN .
+:gaz_stock_BCO_ESP_SAN
+	:term "BES" ;
+	:term "BAT" ;
+	a :Gazetteer .
+
+:stock_BRISA_AUT_PRIV
+	:identifiedBy :gaz_stock_BRISA_AUT_PRIV .
+:gaz_stock_BRISA_AUT_PRIV
+	:term "BRI" ;
+	:term "BRQ" ;
+	a :Gazetteer .
+
+:stock_CIMPOR_CMNTS_PT
+	:identifiedBy :gaz_stock_CIMPOR_CMNTS_PT .
+:gaz_stock_CIMPOR_CMNTS_PT
+	:term "CPR" ;
+	:term "CPV" ;
+	a :Gazetteer .
+
+:stock_EDP_RENOV
+	:identifiedBy :gaz_stock_EDP_RENOV .
+:gaz_stock_EDP_RENOV
+	:term "EDPR" ;
+	:term "EDW" ;
+	a :Gazetteer .
+
+:stock_EDP_ENERGIAS_PORTUG
+	:identifiedBy :gaz_stock_EDP_ENERGIAS_PORTUG .
+:gaz_stock_EDP_ENERGIAS_PORTUG
+	:term "EDP" ;
+	a :Gazetteer .
+
+:stock_ESPIRITO_SANTO_ORD_NPV
+	:identifiedBy :gaz_stock_ESPIRITO_SANTO_ORD_NPV .
+:gaz_stock_ESPIRITO_SANTO_ORD_NPV
+	:term "ESF" ;
+	a :Gazetteer .
+
+:stock_GALP_ENERGIA_SGPS
+	:identifiedBy :gaz_stock_GALP_ENERGIA_SGPS .
+:gaz_stock_GALP_ENERGIA_SGPS
+	:term "GALP" ;
+	:term "GZ5" ;
+	a :Gazetteer .
+
+:stock_JERONIMO_MRTNS
+	:identifiedBy :gaz_stock_JERONIMO_MRTNS .
+:gaz_stock_JERONIMO_MRTNS
+	:term "0EXG" ;
+	:term "JEM" ;
+	a :Gazetteer .
+
+:stock_MOTA_ENGL_SGPS
+	:identifiedBy :gaz_stock_MOTA_ENGL_SGPS .
+:gaz_stock_MOTA_ENGL_SGPS
+	:term "EGL" ;
+	:term "M09" ;
+	a :Gazetteer .
+
+:stock_PORT_EMP_PROD
+	:identifiedBy :gaz_stock_PORT_EMP_PROD .
+:gaz_stock_PORT_EMP_PROD
+	:term "PTI" ;
+	:term "PO9" ;
+	a :Gazetteer .
+
+:stock_PORT_TEL_SG
+	:identifiedBy :gaz_stock_PORT_TEL_SG .
+:gaz_stock_PORT_TEL_SG
+	:term "PTC" ;
+	:term "PTCA" ;
+	a :Gazetteer .
+
+:stock_REDES_ENEREDES_ENE
+	:identifiedBy :gaz_stock_REDES_ENEREDES_ENE .
+:gaz_stock_REDES_ENEREDES_ENE
+	:term "RENE" ;
+	:term "RN4" ;
+	a :Gazetteer .
+
+:stock_SEMAPA_SOC
+	:identifiedBy :gaz_stock_SEMAPA_SOC .
+:gaz_stock_SEMAPA_SOC
+	:term "SEM" ;
+	:term "SQQ1" ;
+	a :Gazetteer .
+
+:stock_SONAE_INDUSTRIA
+	:identifiedBy :gaz_stock_SONAE_INDUSTRIA .
+:gaz_stock_SONAE_INDUSTRIA
+	:term "SONI" ;
+	:term "S4LA" ;
+	a :Gazetteer .
+
+:stock_SONAE_SGPS
+	:identifiedBy :gaz_stock_SONAE_SGPS .
+:gaz_stock_SONAE_SGPS
+	:term "SON" ;
+	:term "YSON" ;
+	a :Gazetteer .
+
+:stock_SONAE_COM
+	:identifiedBy :gaz_stock_SONAE_COM .
+:gaz_stock_SONAE_COM
+	:term "SNC" ;
+	:term "XOA1" ;
+	a :Gazetteer .
+
+:stock_ZON_MULTIMEDIA
+	:identifiedBy :gaz_stock_ZON_MULTIMEDIA .
+:gaz_stock_ZON_MULTIMEDIA
+	:term "ZON" ;
+	:term "PMV" ;
+	a :Gazetteer .
+
+:stock_AMER_SPORTS_A
+	:identifiedBy :gaz_stock_AMER_SPORTS_A .
+:gaz_stock_AMER_SPORTS_A
+	:term "AMEAS" ;
+	:term "AMY" ;
+	a :Gazetteer .
+
+:stock_CARGOTEC_CORP_B
+	:identifiedBy :gaz_stock_CARGOTEC_CORP_B .
+:gaz_stock_CARGOTEC_CORP_B
+	:term "CGCBV" ;
+	:term "C1C" ;
+	a :Gazetteer .
+
+:stock_ELISA_OYJ_A
+	:identifiedBy :gaz_stock_ELISA_OYJ_A .
+:gaz_stock_ELISA_OYJ_A
+	:term "ELI1V" ;
+	:term "EIA" ;
+	a :Gazetteer .
+
+:stock_FORTUM_OYJ
+	:identifiedBy :gaz_stock_FORTUM_OYJ .
+:gaz_stock_FORTUM_OYJ
+	:term "FUM1V" ;
+	:term "FOT" ;
+	a :Gazetteer .
+
+:stock_KEMIRA_OY
+	:identifiedBy :gaz_stock_KEMIRA_OY .
+:gaz_stock_KEMIRA_OY
+	:term "KRA1V" ;
+	:term "KEM" ;
+	a :Gazetteer .
+
+:stock_KESKO_B
+	:identifiedBy :gaz_stock_KESKO_B .
+:gaz_stock_KESKO_B
+	:term "KESBV" ;
+	:term "KEK" ;
+	a :Gazetteer .
+
+:stock_KONE_OYJ
+	:identifiedBy :gaz_stock_KONE_OYJ .
+:gaz_stock_KONE_OYJ
+	:term "KNEBV" ;
+	:term "KC4" ;
+	a :Gazetteer .
+
+:stock_KONECRANES_INTL
+	:identifiedBy :gaz_stock_KONECRANES_INTL .
+:gaz_stock_KONECRANES_INTL
+	:term "KCR1V" ;
+	:term "K34" ;
+	a :Gazetteer .
+
+:stock_METSO_CORP
+	:identifiedBy :gaz_stock_METSO_CORP .
+:gaz_stock_METSO_CORP
+	:term "MEO1V" ;
+	:term "VLM" ;
+	a :Gazetteer .
+
+:stock_NESTE_OIL_CORP
+	:identifiedBy :gaz_stock_NESTE_OIL_CORP .
+:gaz_stock_NESTE_OIL_CORP
+	:term "NES1V" ;
+	:term "NEF" ;
+	a :Gazetteer .
+
+:stock_NOKIAN_RE
+	:identifiedBy :gaz_stock_NOKIAN_RE .
+:gaz_stock_NOKIAN_RE
+	:term "NRE1V" ;
+	:term "NRE" ;
+	a :Gazetteer .
+
+:stock_NORDEA_BANK_FDR
+	:identifiedBy :gaz_stock_NORDEA_BANK_FDR .
+:gaz_stock_NORDEA_BANK_FDR
+	:term "NDA1V" ;
+	:term "NBZF" ;
+	a :Gazetteer .
+
+:stock_ORION_COR
+	:identifiedBy :gaz_stock_ORION_COR .
+:gaz_stock_ORION_COR
+	:term "ORNBV" ;
+	:term "OFK" ;
+	a :Gazetteer .
+
+:stock_OUTOKUMPU_A
+	:identifiedBy :gaz_stock_OUTOKUMPU_A .
+:gaz_stock_OUTOKUMPU_A
+	:term "OUT1V" ;
+	:term "OUTA" ;
+	a :Gazetteer .
+
+:stock_OUTOTEC_OYJ
+	:identifiedBy :gaz_stock_OUTOTEC_OYJ .
+:gaz_stock_OUTOTEC_OYJ
+	:term "OTE1V" ;
+	:term "M6Q" ;
+	a :Gazetteer .
+
+:stock_POHJOLA_BK_A
+	:identifiedBy :gaz_stock_POHJOLA_BK_A .
+:gaz_stock_POHJOLA_BK_A
+	:term "POH1S" ;
+	:term "OKB" ;
+	a :Gazetteer .
+
+:stock_RAUTARUUKKI_OYJ
+	:identifiedBy :gaz_stock_RAUTARUUKKI_OYJ .
+:gaz_stock_RAUTARUUKKI_OYJ
+	:term "RTRKS" ;
+	:term "RKKK" ;
+	a :Gazetteer .
+
+:stock_SAMPO_PLC
+	:identifiedBy :gaz_stock_SAMPO_PLC .
+:gaz_stock_SAMPO_PLC
+	:term "SAMAS" ;
+	:term "SMPA" ;
+	a :Gazetteer .
+
+:stock_SANOMA_COOY
+	:identifiedBy :gaz_stock_SANOMA_COOY .
+:gaz_stock_SANOMA_COOY
+	:term "SAA1V" ;
+	:term "SNQB" ;
+	a :Gazetteer .
+
+:stock_STORA_ENSO_OYJ_R
+	:identifiedBy :gaz_stock_STORA_ENSO_OYJ_R .
+:gaz_stock_STORA_ENSO_OYJ_R
+	:term "STERV" ;
+	:term "ENUR" ;
+	a :Gazetteer .
+
+:stock_TELIASONERA
+	:identifiedBy :gaz_stock_TELIASONERA .
+:gaz_stock_TELIASONERA
+	:term "TLSN" ;
+	:term "TLS" ;
+	a :Gazetteer .
+
+:stock_UPM_KYMMENE_OYJ
+	:identifiedBy :gaz_stock_UPM_KYMMENE_OYJ .
+:gaz_stock_UPM_KYMMENE_OYJ
+	:term "UPM1V" ;
+	:term "RPL" ;
+	a :Gazetteer .
+
+:stock_WARTSILA_OYJ_ABP
+	:identifiedBy :gaz_stock_WARTSILA_OYJ_ABP .
+:gaz_stock_WARTSILA_OYJ_ABP
+	:term "WRT1V" ;
+	:term "MTA" ;
+	a :Gazetteer .
+
+:stock_YIT_OYJ
+	:identifiedBy :gaz_stock_YIT_OYJ .
+:gaz_stock_YIT_OYJ
+	:term "YTY1V" ;
+	:term "YIT" ;
+	a :Gazetteer .
+
+:stock_ABB_0
+	:identifiedBy :gaz_stock_ABB_0 .
+:gaz_stock_ABB_0
+	:term "ABBN" ;
+	:term "ABJ" ;
+	a :Gazetteer .
+
+:stock_ALFA_LAVAL
+	:identifiedBy :gaz_stock_ALFA_LAVAL .
+:gaz_stock_ALFA_LAVAL
+	:term "ALFA" ;
+	:term "AA9" ;
+	a :Gazetteer .
+
+:stock_ASSA_ABLOY_B
+	:identifiedBy :gaz_stock_ASSA_ABLOY_B .
+:gaz_stock_ASSA_ABLOY_B
+	:term "ASSA B" ;
+	:term "ALZB" ;
+	a :Gazetteer .
+
+:stock_ASTRAZENECA_0
+	:identifiedBy :gaz_stock_ASTRAZENECA_0 .
+:gaz_stock_ASTRAZENECA_0
+	:term "AZN" ;
+	:term "ZEG" ;
+	a :Gazetteer .
+
+:stock_ATLAS_COPCO
+	:identifiedBy :gaz_stock_ATLAS_COPCO .
+:gaz_stock_ATLAS_COPCO
+	:term "ATCO A" ;
+	:term "ACOA" ;
+	a :Gazetteer .
+
+:stock_ATLAS_COPCO_B
+	:identifiedBy :gaz_stock_ATLAS_COPCO_B .
+:gaz_stock_ATLAS_COPCO_B
+	:term "ATCO B" ;
+	:term "ACOB" ;
+	a :Gazetteer .
+
+:stock_BOLIDEN
+	:identifiedBy :gaz_stock_BOLIDEN .
+:gaz_stock_BOLIDEN
+	:term "BOL" ;
+	:term "BWJ" ;
+	a :Gazetteer .
+
+:stock_ELECTROLUX_B
+	:identifiedBy :gaz_stock_ELECTROLUX_B .
+:gaz_stock_ELECTROLUX_B
+	:term "ELUX B" ;
+	:term "ELX" ;
+	a :Gazetteer .
+
+:stock_GETINGE_B
+	:identifiedBy :gaz_stock_GETINGE_B .
+:gaz_stock_GETINGE_B
+	:term "GETI B" ;
+	:term "GTN" ;
+	a :Gazetteer .
+
+:stock_INVESTOR_B
+	:identifiedBy :gaz_stock_INVESTOR_B .
+:gaz_stock_INVESTOR_B
+	:term "INVE B" ;
+	:term "IVSB" ;
+	a :Gazetteer .
+
+:stock_LUNDIN_PETR
+	:identifiedBy :gaz_stock_LUNDIN_PETR .
+:gaz_stock_LUNDIN_PETR
+	:term "LUPE" ;
+	:term "LYV" ;
+	a :Gazetteer .
+
+:stock_MTG_B
+	:identifiedBy :gaz_stock_MTG_B .
+:gaz_stock_MTG_B
+	:term "MTG B" ;
+	:term "MO7" ;
+	a :Gazetteer .
+
+:stock_NOKIA_0
+	:identifiedBy :gaz_stock_NOKIA_0 .
+:gaz_stock_NOKIA_0
+	:term "NOK1V" ;
+	:term "NOA3" ;
+	a :Gazetteer .
+
+:stock_NORDEA
+	:identifiedBy :gaz_stock_NORDEA .
+:gaz_stock_NORDEA
+	:term "NDA SEK" ;
+	:term "NDB" ;
+	a :Gazetteer .
+
+:stock_SANDVIK
+	:identifiedBy :gaz_stock_SANDVIK .
+:gaz_stock_SANDVIK
+	:term "SAND" ;
+	:term "SVKB" ;
+	a :Gazetteer .
+
+:stock_SCANIA_B
+	:identifiedBy :gaz_stock_SCANIA_B .
+:gaz_stock_SCANIA_B
+	:term "SCV B" ;
+	:term "SNAB" ;
+	a :Gazetteer .
+
+:stock_SECURITAS
+	:identifiedBy :gaz_stock_SECURITAS .
+:gaz_stock_SECURITAS
+	:term "SECU B" ;
+	:term "S7MB" ;
+	a :Gazetteer .
+
+:stock_SEB_A
+	:identifiedBy :gaz_stock_SEB_A .
+:gaz_stock_SEB_A
+	:term "SEB A" ;
+	:term "SEBA" ;
+	a :Gazetteer .
+
+:stock_SKANSKA
+	:identifiedBy :gaz_stock_SKANSKA .
+:gaz_stock_SKANSKA
+	:term "SKA B" ;
+	:term "SKNB" ;
+	a :Gazetteer .
+
+:stock_SKF_B
+	:identifiedBy :gaz_stock_SKF_B .
+:gaz_stock_SKF_B
+	:term "SKF B" ;
+	:term "SKFB" ;
+	a :Gazetteer .
+
+:stock_SSAB_A
+	:identifiedBy :gaz_stock_SSAB_A .
+:gaz_stock_SSAB_A
+	:term "SSAB A" ;
+	:term "SKWA" ;
+	a :Gazetteer .
+
+:stock_SCA_B
+	:identifiedBy :gaz_stock_SCA_B .
+:gaz_stock_SCA_B
+	:term "SCA B" ;
+	:term "SCA" ;
+	a :Gazetteer .
+
+:stock_SHB_A
+	:identifiedBy :gaz_stock_SHB_A .
+:gaz_stock_SHB_A
+	:term "SHB A" ;
+	:term "SVHA" ;
+	a :Gazetteer .
+
+:stock_SWEDBANK_A
+	:identifiedBy :gaz_stock_SWEDBANK_A .
+:gaz_stock_SWEDBANK_A
+	:term "SWED A" ;
+	:term "FRYA" ;
+	a :Gazetteer .
+
+:stock_SWEDISH_MATCH
+	:identifiedBy :gaz_stock_SWEDISH_MATCH .
+:gaz_stock_SWEDISH_MATCH
+	:term "SWMA" ;
+	:term "SWM" ;
+	a :Gazetteer .
+
+:stock_TELE2_B
+	:identifiedBy :gaz_stock_TELE2_B .
+:gaz_stock_TELE2_B
+	:term "TEL2 B" ;
+	:term "NCYB" ;
+	a :Gazetteer .
+
+:stock_TELIASONERA_0
+	:identifiedBy :gaz_stock_TELIASONERA_0 .
+:gaz_stock_TELIASONERA_0
+	:term "TLSN" ;
+	:term "TLS" ;
+	a :Gazetteer .
+
+:stock_VOLVO_B
+	:identifiedBy :gaz_stock_VOLVO_B .
+:gaz_stock_VOLVO_B
+	:term "VOLV B" ;
+	:term "VOL1" ;
+	a :Gazetteer .
+
+:stock_3M
+	:identifiedBy :gaz_stock_3M .
+:gaz_stock_3M
+	:term "MMM" ;
+	a :Gazetteer .
+
+:stock_ALCOA
+	:identifiedBy :gaz_stock_ALCOA .
+:gaz_stock_ALCOA
+	:term "AA" ;
+	:term "ALU" ;
+	a :Gazetteer .
+
+:stock_AMEXCO
+	:identifiedBy :gaz_stock_AMEXCO .
+:gaz_stock_AMEXCO
+	:term "AXP" ;
+	:term "AEC1" ;
+	a :Gazetteer .
+
+:stock_AT_T_INC
+	:identifiedBy :gaz_stock_AT_T_INC .
+:gaz_stock_AT_T_INC
+	:term "T" ;
+	:term "SOBA" ;
+	a :Gazetteer .
+
+:stock_BANK_AMERICA
+	:identifiedBy :gaz_stock_BANK_AMERICA .
+:gaz_stock_BANK_AMERICA
+	:term "BAC" ;
+	:term "NCB" ;
+	a :Gazetteer .
+
+:stock_BOEING
+	:identifiedBy :gaz_stock_BOEING .
+:gaz_stock_BOEING
+	:term "BA" ;
+	:term "BCO" ;
+	a :Gazetteer .
+
+:stock_CATERPILLAR
+	:identifiedBy :gaz_stock_CATERPILLAR .
+:gaz_stock_CATERPILLAR
+	:term "CAT" ;
+	:term "CAT1" ;
+	a :Gazetteer .
+
+:stock_CHEVRON
+	:identifiedBy :gaz_stock_CHEVRON .
+:gaz_stock_CHEVRON
+	:term "CVX" ;
+	:term "CHV" ;
+	a :Gazetteer .
+
+:stock_CISCO_SYSTEMS
+	:identifiedBy :gaz_stock_CISCO_SYSTEMS .
+:gaz_stock_CISCO_SYSTEMS
+	:term "CSCO" ;
+	:term "CIS" ;
+	a :Gazetteer .
+
+:stock_COCA_COLA
+	:identifiedBy :gaz_stock_COCA_COLA .
+:gaz_stock_COCA_COLA
+	:term "KO" ;
+	:term "CCC3" ;
+	a :Gazetteer .
+
+:stock_DU_PONT
+	:identifiedBy :gaz_stock_DU_PONT .
+:gaz_stock_DU_PONT
+	:term "DD" ;
+	:term "DUP" ;
+	a :Gazetteer .
+
+:stock_EXXON_MOB
+	:identifiedBy :gaz_stock_EXXON_MOB .
+:gaz_stock_EXXON_MOB
+	:term "XOM" ;
+	:term "XONA" ;
+	a :Gazetteer .
+
+:stock_GEN_ELEC
+	:identifiedBy :gaz_stock_GEN_ELEC .
+:gaz_stock_GEN_ELEC
+	:term "GE" ;
+	:term "GEC" ;
+	a :Gazetteer .
+
+:stock_HEWLETT_PACKARD
+	:identifiedBy :gaz_stock_HEWLETT_PACKARD .
+:gaz_stock_HEWLETT_PACKARD
+	:term "HPQ" ;
+	:term "HWP" ;
+	a :Gazetteer .
+
+:stock_HOME_DEPOT
+	:identifiedBy :gaz_stock_HOME_DEPOT .
+:gaz_stock_HOME_DEPOT
+	:term "HD" ;
+	:term "HDI" ;
+	a :Gazetteer .
+
+:stock_INTEL
+	:identifiedBy :gaz_stock_INTEL .
+:gaz_stock_INTEL
+	:term "INTC" ;
+	:term "INL" ;
+	a :Gazetteer .
+
+:stock_IBM
+	:identifiedBy :gaz_stock_IBM .
+:gaz_stock_IBM
+	:term "IBM" ;
+	a :Gazetteer .
+
+:stock_JOHNSON_JOHNSON
+	:identifiedBy :gaz_stock_JOHNSON_JOHNSON .
+:gaz_stock_JOHNSON_JOHNSON
+	:term "JNJ" ;
+	a :Gazetteer .
+
+:stock_JPMORGAN_CHASE
+	:identifiedBy :gaz_stock_JPMORGAN_CHASE .
+:gaz_stock_JPMORGAN_CHASE
+	:term "JPM" ;
+	:term "CMC" ;
+	a :Gazetteer .
+
+:stock_KRAFT_FOODS
+	:identifiedBy :gaz_stock_KRAFT_FOODS .
+:gaz_stock_KRAFT_FOODS
+	:term "KFT" ;
+	:term "KTF" ;
+	a :Gazetteer .
+
+:stock_MC_DONALDS
+	:identifiedBy :gaz_stock_MC_DONALDS .
+:gaz_stock_MC_DONALDS
+	:term "MCD" ;
+	:term "MDO" ;
+	a :Gazetteer .
+
+:stock_MERCK_CO
+	:identifiedBy :gaz_stock_MERCK_CO .
+:gaz_stock_MERCK_CO
+	:term "MRK" ;
+	:term "6MK" ;
+	a :Gazetteer .
+
+:stock_MICROSOFT
+	:identifiedBy :gaz_stock_MICROSOFT .
+:gaz_stock_MICROSOFT
+	:term "MSFT" ;
+	:term "MSF" ;
+	a :Gazetteer .
+
+:stock_PFIZER
+	:identifiedBy :gaz_stock_PFIZER .
+:gaz_stock_PFIZER
+	:term "PFE" ;
+	a :Gazetteer .
+
+:stock_PROCT_GAMB
+	:identifiedBy :gaz_stock_PROCT_GAMB .
+:gaz_stock_PROCT_GAMB
+	:term "PG" ;
+	:term "PRG" ;
+	a :Gazetteer .
+
+:stock_TRAVELERS_CO_S
+	:identifiedBy :gaz_stock_TRAVELERS_CO_S .
+:gaz_stock_TRAVELERS_CO_S
+	:term "TRV" ;
+	:term "PA9" ;
+	a :Gazetteer .
+
+:stock_UTD_TECHNOL
+	:identifiedBy :gaz_stock_UTD_TECHNOL .
+:gaz_stock_UTD_TECHNOL
+	:term "UTX" ;
+	:term "UTC1" ;
+	a :Gazetteer .
+
+:stock_VERIZON
+	:identifiedBy :gaz_stock_VERIZON .
+:gaz_stock_VERIZON
+	:term "VZ" ;
+	:term "BAC" ;
+	a :Gazetteer .
+
+:stock_WAL_MART_STORES
+	:identifiedBy :gaz_stock_WAL_MART_STORES .
+:gaz_stock_WAL_MART_STORES
+	:term "WMT" ;
+	a :Gazetteer .
+
+:stock_DISNEY_WALT_CO
+	:identifiedBy :gaz_stock_DISNEY_WALT_CO .
+:gaz_stock_DISNEY_WALT_CO
+	:term "DIS" ;
+	:term "WDP" ;
+	a :Gazetteer .
+
+:stock_ABBOTT_LABOR
+	:identifiedBy :gaz_stock_ABBOTT_LABOR .
+:gaz_stock_ABBOTT_LABOR
+	:term "ABT" ;
+	:term "ABL" ;
+	a :Gazetteer .
+
+:stock_ABERCROMBIE_A
+	:identifiedBy :gaz_stock_ABERCROMBIE_A .
+:gaz_stock_ABERCROMBIE_A
+	:term "ANF" ;
+	:term "AFT" ;
+	a :Gazetteer .
+
+:stock_ACCENTURE
+	:identifiedBy :gaz_stock_ACCENTURE .
+:gaz_stock_ACCENTURE
+	:term "ACN" ;
+	:term "CSA" ;
+	a :Gazetteer .
+
+:stock_ACE_LTD
+	:identifiedBy :gaz_stock_ACE_LTD .
+:gaz_stock_ACE_LTD
+	:term "ACE" ;
+	:term "AEX" ;
+	a :Gazetteer .
+
+:stock_ADOBE_SYST
+	:identifiedBy :gaz_stock_ADOBE_SYST .
+:gaz_stock_ADOBE_SYST
+	:term "ADBE" ;
+	:term "ADB" ;
+	a :Gazetteer .
+
+:stock_ADVANCED_MIC_DEV
+	:identifiedBy :gaz_stock_ADVANCED_MIC_DEV .
+:gaz_stock_ADVANCED_MIC_DEV
+	:term "AMD" ;
+	a :Gazetteer .
+
+:stock_AES_CORP_USD0_01
+	:identifiedBy :gaz_stock_AES_CORP_USD0_01 .
+:gaz_stock_AES_CORP_USD0_01
+	:term "AES" ;
+	a :Gazetteer .
+
+:stock_AETNA_NEW
+	:identifiedBy :gaz_stock_AETNA_NEW .
+:gaz_stock_AETNA_NEW
+	:term "AET" ;
+	:term "HE8" ;
+	a :Gazetteer .
+
+:stock_AFLAC
+	:identifiedBy :gaz_stock_AFLAC .
+:gaz_stock_AFLAC
+	:term "AFL" ;
+	a :Gazetteer .
+
+:stock_ARGLNT_TECH
+	:identifiedBy :gaz_stock_ARGLNT_TECH .
+:gaz_stock_ARGLNT_TECH
+	:term "A" ;
+	:term "AG8" ;
+	a :Gazetteer .
+
+:stock_AGL_RESOURCES
+	:identifiedBy :gaz_stock_AGL_RESOURCES .
+:gaz_stock_AGL_RESOURCES
+	:term "GAS" ;
+	:term "AG5" ;
+	a :Gazetteer .
+
+:stock_AIR_PROD_CHEM
+	:identifiedBy :gaz_stock_AIR_PROD_CHEM .
+:gaz_stock_AIR_PROD_CHEM
+	:term "APD" ;
+	:term "AP3" ;
+	a :Gazetteer .
+
+:stock_AIRGAS
+	:identifiedBy :gaz_stock_AIRGAS .
+:gaz_stock_AIRGAS
+	:term "ARG" ;
+	:term "AAS" ;
+	a :Gazetteer .
+
+:stock_AKAMAI_TECH
+	:identifiedBy :gaz_stock_AKAMAI_TECH .
+:gaz_stock_AKAMAI_TECH
+	:term "AKAM" ;
+	:term "AK3" ;
+	a :Gazetteer .
+
+:stock_ALLEGHNY_TECH
+	:identifiedBy :gaz_stock_ALLEGHNY_TECH .
+:gaz_stock_ALLEGHNY_TECH
+	:term "ATI" ;
+	:term "ATD" ;
+	a :Gazetteer .
+
+:stock_ALLERGAN
+	:identifiedBy :gaz_stock_ALLERGAN .
+:gaz_stock_ALLERGAN
+	:term "AGN" ;
+	:term "AG4" ;
+	a :Gazetteer .
+
+:stock_ALLSTATE_CORP
+	:identifiedBy :gaz_stock_ALLSTATE_CORP .
+:gaz_stock_ALLSTATE_CORP
+	:term "ALL" ;
+	:term "ALS" ;
+	a :Gazetteer .
+
+:stock_ALPHA_NAT
+	:identifiedBy :gaz_stock_ALPHA_NAT .
+:gaz_stock_ALPHA_NAT
+	:term "ANR" ;
+	:term "LFA" ;
+	a :Gazetteer .
+
+:stock_ALTERA_CORP
+	:identifiedBy :gaz_stock_ALTERA_CORP .
+:gaz_stock_ALTERA_CORP
+	:term "ALTR" ;
+	:term "ALR" ;
+	a :Gazetteer .
+
+:stock_ALTRIA_GROUP
+	:identifiedBy :gaz_stock_ALTRIA_GROUP .
+:gaz_stock_ALTRIA_GROUP
+	:term "MO" ;
+	:term "PHM7" ;
+	a :Gazetteer .
+
+:stock_AMAZON_COM
+	:identifiedBy :gaz_stock_AMAZON_COM .
+:gaz_stock_AMAZON_COM
+	:term "AMZN" ;
+	:term "AMZ" ;
+	a :Gazetteer .
+
+:stock_AMEREN_CRP
+	:identifiedBy :gaz_stock_AMEREN_CRP .
+:gaz_stock_AMEREN_CRP
+	:term "AEE" ;
+	:term "AE4" ;
+	a :Gazetteer .
+
+:stock_AMER_ELECT_POWER
+	:identifiedBy :gaz_stock_AMER_ELECT_POWER .
+:gaz_stock_AMER_ELECT_POWER
+	:term "AEP" ;
+	a :Gazetteer .
+
+:stock_AMER_INT_GRP
+	:identifiedBy :gaz_stock_AMER_INT_GRP .
+:gaz_stock_AMER_INT_GRP
+	:term "AIG" ;
+	:term "AINN" ;
+	a :Gazetteer .
+
+:stock_AMEN_TOWE
+	:identifiedBy :gaz_stock_AMEN_TOWE .
+:gaz_stock_AMEN_TOWE
+	:term "AMT" ;
+	:term "A0T" ;
+	a :Gazetteer .
+
+:stock_AMERIPRISE_FINCL
+	:identifiedBy :gaz_stock_AMERIPRISE_FINCL .
+:gaz_stock_AMERIPRISE_FINCL
+	:term "AMP" ;
+	:term "A4S" ;
+	a :Gazetteer .
+
+:stock_AMERISOURAMERISORB
+	:identifiedBy :gaz_stock_AMERISOURAMERISORB .
+:gaz_stock_AMERISOURAMERISORB
+	:term "ABC" ;
+	:term "ABG" ;
+	a :Gazetteer .
+
+:stock_AMGEN
+	:identifiedBy :gaz_stock_AMGEN .
+:gaz_stock_AMGEN
+	:term "AMGN" ;
+	:term "AMG" ;
+	a :Gazetteer .
+
+:stock_AMPHENOL_A
+	:identifiedBy :gaz_stock_AMPHENOL_A .
+:gaz_stock_AMPHENOL_A
+	:term "APH" ;
+	:term "XPH" ;
+	a :Gazetteer .
+
+:stock_ANADARKO_PET
+	:identifiedBy :gaz_stock_ANADARKO_PET .
+:gaz_stock_ANADARKO_PET
+	:term "APC" ;
+	:term "AAZ" ;
+	a :Gazetteer .
+
+:stock_ANALOG_DEVICES
+	:identifiedBy :gaz_stock_ANALOG_DEVICES .
+:gaz_stock_ANALOG_DEVICES
+	:term "ADI" ;
+	:term "ANL" ;
+	a :Gazetteer .
+
+:stock_AON
+	:identifiedBy :gaz_stock_AON .
+:gaz_stock_AON
+	:term "AON" ;
+	:term "9H6" ;
+	a :Gazetteer .
+
+:stock_APACHE_CP
+	:identifiedBy :gaz_stock_APACHE_CP .
+:gaz_stock_APACHE_CP
+	:term "APA" ;
+	a :Gazetteer .
+
+:stock_APRT_INV
+	:identifiedBy :gaz_stock_APRT_INV .
+:gaz_stock_APRT_INV
+	:term "AIV" ;
+	a :Gazetteer .
+
+:stock_APOLLO_GRP
+	:identifiedBy :gaz_stock_APOLLO_GRP .
+:gaz_stock_APOLLO_GRP
+	:term "APOL" ;
+	:term "APO" ;
+	a :Gazetteer .
+
+:stock_APPLE_INC
+	:identifiedBy :gaz_stock_APPLE_INC .
+:gaz_stock_APPLE_INC
+	:term "AAPL" ;
+	:term "APC" ;
+	a :Gazetteer .
+
+:stock_APPLIED_MATERIALS
+	:identifiedBy :gaz_stock_APPLIED_MATERIALS .
+:gaz_stock_APPLIED_MATERIALS
+	:term "AMAT" ;
+	:term "AP2" ;
+	a :Gazetteer .
+
+:stock_ARCHER_DAN
+	:identifiedBy :gaz_stock_ARCHER_DAN .
+:gaz_stock_ARCHER_DAN
+	:term "ADM" ;
+	a :Gazetteer .
+
+:stock_ASSURANT
+	:identifiedBy :gaz_stock_ASSURANT .
+:gaz_stock_ASSURANT
+	:term "AIZ" ;
+	:term "ZAS" ;
+	a :Gazetteer .
+
+:stock_AUTODESK_NPV
+	:identifiedBy :gaz_stock_AUTODESK_NPV .
+:gaz_stock_AUTODESK_NPV
+	:term "ADSK" ;
+	:term "AUD" ;
+	a :Gazetteer .
+
+:stock_AUTOMATIC_DATA_PRO
+	:identifiedBy :gaz_stock_AUTOMATIC_DATA_PRO .
+:gaz_stock_AUTOMATIC_DATA_PRO
+	:term "ADP" ;
+	a :Gazetteer .
+
+:stock_AUTONATION
+	:identifiedBy :gaz_stock_AUTONATION .
+:gaz_stock_AUTONATION
+	:term "AN" ;
+	:term "RWI" ;
+	a :Gazetteer .
+
+:stock_AUTOZONE
+	:identifiedBy :gaz_stock_AUTOZONE .
+:gaz_stock_AUTOZONE
+	:term "AZO" ;
+	:term "AZ5" ;
+	a :Gazetteer .
+
+:stock_AVALONBAY_COMM
+	:identifiedBy :gaz_stock_AVALONBAY_COMM .
+:gaz_stock_AVALONBAY_COMM
+	:term "AVB" ;
+	:term "WV8" ;
+	a :Gazetteer .
+
+:stock_AVERY_DENN
+	:identifiedBy :gaz_stock_AVERY_DENN .
+:gaz_stock_AVERY_DENN
+	:term "AVY" ;
+	:term "AV3" ;
+	a :Gazetteer .
+
+:stock_AVON_PRDCTS
+	:identifiedBy :gaz_stock_AVON_PRDCTS .
+:gaz_stock_AVON_PRDCTS
+	:term "AVP" ;
+	a :Gazetteer .
+
+:stock_BAKER_HUGHES
+	:identifiedBy :gaz_stock_BAKER_HUGHES .
+:gaz_stock_BAKER_HUGHES
+	:term "BHI" ;
+	:term "BHU" ;
+	a :Gazetteer .
+
+:stock_BALL_CRP
+	:identifiedBy :gaz_stock_BALL_CRP .
+:gaz_stock_BALL_CRP
+	:term "BLL" ;
+	:term "BL8" ;
+	a :Gazetteer .
+
+:stock_BANK_OF_NY_MELLON
+	:identifiedBy :gaz_stock_BANK_OF_NY_MELLON .
+:gaz_stock_BANK_OF_NY_MELLON
+	:term "BK" ;
+	:term "BN9" ;
+	a :Gazetteer .
+
+:stock_BARD_CR
+	:identifiedBy :gaz_stock_BARD_CR .
+:gaz_stock_BARD_CR
+	:term "BCR" ;
+	:term "BR6" ;
+	a :Gazetteer .
+
+:stock_BAXTER_INTL
+	:identifiedBy :gaz_stock_BAXTER_INTL .
+:gaz_stock_BAXTER_INTL
+	:term "BAX" ;
+	:term "BTL" ;
+	a :Gazetteer .
+
+:stock_BB_T_CP_USD5
+	:identifiedBy :gaz_stock_BB_T_CP_USD5 .
+:gaz_stock_BB_T_CP_USD5
+	:term "BBT" ;
+	:term "BBK" ;
+	a :Gazetteer .
+
+:stock_BEAM
+	:identifiedBy :gaz_stock_BEAM .
+:gaz_stock_BEAM
+	:term "BEAM" ;
+	:term "BJM" ;
+	a :Gazetteer .
+
+:stock_BECT_DICKIN_USD1
+	:identifiedBy :gaz_stock_BECT_DICKIN_USD1 .
+:gaz_stock_BECT_DICKIN_USD1
+	:term "BDX" ;
+	:term "BOX" ;
+	a :Gazetteer .
+
+:stock_BED_BATH
+	:identifiedBy :gaz_stock_BED_BATH .
+:gaz_stock_BED_BATH
+	:term "BBBY" ;
+	:term "BBY" ;
+	a :Gazetteer .
+
+:stock_BEMIS
+	:identifiedBy :gaz_stock_BEMIS .
+:gaz_stock_BEMIS
+	:term "BMS" ;
+	:term "BE7" ;
+	a :Gazetteer .
+
+:stock_BERK_HATH_CL_B
+	:identifiedBy :gaz_stock_BERK_HATH_CL_B .
+:gaz_stock_BERK_HATH_CL_B
+	:term "BRK.B" ;
+	:term "BRYN" ;
+	a :Gazetteer .
+
+:stock_BEST_BUY_CO
+	:identifiedBy :gaz_stock_BEST_BUY_CO .
+:gaz_stock_BEST_BUY_CO
+	:term "BBY" ;
+	:term "BUY" ;
+	a :Gazetteer .
+
+:stock_BIG_LOTS_INC
+	:identifiedBy :gaz_stock_BIG_LOTS_INC .
+:gaz_stock_BIG_LOTS_INC
+	:term "BIG" ;
+	:term "4B3" ;
+	a :Gazetteer .
+
+:stock_BIOGEN_IDEC
+	:identifiedBy :gaz_stock_BIOGEN_IDEC .
+:gaz_stock_BIOGEN_IDEC
+	:term "BIIB" ;
+	:term "IDP" ;
+	a :Gazetteer .
+
+:stock_BLACKROCK_INC_A
+	:identifiedBy :gaz_stock_BLACKROCK_INC_A .
+:gaz_stock_BLACKROCK_INC_A
+	:term "BLK" ;
+	:term "BLQA" ;
+	a :Gazetteer .
+
+:stock_BLOCK_H_R_NPV
+	:identifiedBy :gaz_stock_BLOCK_H_R_NPV .
+:gaz_stock_BLOCK_H_R_NPV
+	:term "HRB" ;
+	a :Gazetteer .
+
+:stock_BMC_SFTWRE_USD0_01
+	:identifiedBy :gaz_stock_BMC_SFTWRE_USD0_01 .
+:gaz_stock_BMC_SFTWRE_USD0_01
+	:term "BMC" ;
+	:term "BMS" ;
+	a :Gazetteer .
+
+:stock_BORG_WRN
+	:identifiedBy :gaz_stock_BORG_WRN .
+:gaz_stock_BORG_WRN
+	:term "BWA" ;
+	:term "BGW" ;
+	a :Gazetteer .
+
+:stock_BOSTN_PROP_USD0_01
+	:identifiedBy :gaz_stock_BOSTN_PROP_USD0_01 .
+:gaz_stock_BOSTN_PROP_USD0_01
+	:term "BXP" ;
+	:term "BO9" ;
+	a :Gazetteer .
+
+:stock_BOSTON_SCIENTIFIC
+	:identifiedBy :gaz_stock_BOSTON_SCIENTIFIC .
+:gaz_stock_BOSTON_SCIENTIFIC
+	:term "BSX" ;
+	a :Gazetteer .
+
+:stock_BRISTOL_MYERS_SQUIBBDL_10
+	:identifiedBy :gaz_stock_BRISTOL_MYERS_SQUIBBDL_10 .
+:gaz_stock_BRISTOL_MYERS_SQUIBBDL_10
+	:term "BMY" ;
+	:term "BRM" ;
+	a :Gazetteer .
+
+:stock_BROADCOM_CORP
+	:identifiedBy :gaz_stock_BROADCOM_CORP .
+:gaz_stock_BROADCOM_CORP
+	:term "BRCM" ;
+	:term "BDMA" ;
+	a :Gazetteer .
+
+:stock_BROWN_FORMAN_B_15C
+	:identifiedBy :gaz_stock_BROWN_FORMAN_B_15C .
+:gaz_stock_BROWN_FORMAN_B_15C
+	:term "BF.B" ;
+	:term "BF5B" ;
+	a :Gazetteer .
+
+:stock_CA_INC
+	:identifiedBy :gaz_stock_CA_INC .
+:gaz_stock_CA_INC
+	:term "CA" ;
+	:term "CAS" ;
+	a :Gazetteer .
+
+:stock_CABLEVSN_NY_GP
+	:identifiedBy :gaz_stock_CABLEVSN_NY_GP .
+:gaz_stock_CABLEVSN_NY_GP
+	:term "CVC" ;
+	:term "CVY" ;
+	a :Gazetteer .
+
+:stock_CABOT_OIL_A_USD
+	:identifiedBy :gaz_stock_CABOT_OIL_A_USD .
+:gaz_stock_CABOT_OIL_A_USD
+	:term "COG" ;
+	:term "XCQ" ;
+	a :Gazetteer .
+
+:stock_CAMERON_INTL
+	:identifiedBy :gaz_stock_CAMERON_INTL .
+:gaz_stock_CAMERON_INTL
+	:term "CAM" ;
+	:term "YCZ" ;
+	a :Gazetteer .
+
+:stock_CAMPBELL
+	:identifiedBy :gaz_stock_CAMPBELL .
+:gaz_stock_CAMPBELL
+	:term "CPB" ;
+	:term "CSC" ;
+	a :Gazetteer .
+
+:stock_CAP1_FINL
+	:identifiedBy :gaz_stock_CAP1_FINL .
+:gaz_stock_CAP1_FINL
+	:term "COF" ;
+	:term "CFX" ;
+	a :Gazetteer .
+
+:stock_CARD_HLTH_NPV
+	:identifiedBy :gaz_stock_CARD_HLTH_NPV .
+:gaz_stock_CARD_HLTH_NPV
+	:term "CAH" ;
+	:term "CLH" ;
+	a :Gazetteer .
+
+:stock_CAREFUSIO
+	:identifiedBy :gaz_stock_CAREFUSIO .
+:gaz_stock_CAREFUSIO
+	:term "CFN" ;
+	:term "TCF" ;
+	a :Gazetteer .
+
+:stock_CARMAX
+	:identifiedBy :gaz_stock_CARMAX .
+:gaz_stock_CARMAX
+	:term "KMX" ;
+	:term "XA4" ;
+	a :Gazetteer .
+
+:stock_CRNVL_CORP
+	:identifiedBy :gaz_stock_CRNVL_CORP .
+:gaz_stock_CRNVL_CORP
+	:term "CCL" ;
+	:term "CVC1" ;
+	a :Gazetteer .
+
+:stock_CBRE_GROU
+	:identifiedBy :gaz_stock_CBRE_GROU .
+:gaz_stock_CBRE_GROU
+	:term "CBG" ;
+	:term "RF6" ;
+	a :Gazetteer .
+
+:stock_CBS_CLS_B_COM_STK
+	:identifiedBy :gaz_stock_CBS_CLS_B_COM_STK .
+:gaz_stock_CBS_CLS_B_COM_STK
+	:term "CBS" ;
+	:term "C5S" ;
+	a :Gazetteer .
+
+:stock_CELGENE
+	:identifiedBy :gaz_stock_CELGENE .
+:gaz_stock_CELGENE
+	:term "CELG" ;
+	:term "CG3" ;
+	a :Gazetteer .
+
+:stock_CNTRPNT_ENRGY
+	:identifiedBy :gaz_stock_CNTRPNT_ENRGY .
+:gaz_stock_CNTRPNT_ENRGY
+	:term "CNP" ;
+	:term "HOU" ;
+	a :Gazetteer .
+
+:stock_CNTYR_LNK
+	:identifiedBy :gaz_stock_CNTYR_LNK .
+:gaz_stock_CNTYR_LNK
+	:term "CTL" ;
+	:term "CYT" ;
+	a :Gazetteer .
+
+:stock_CERNER_CRP
+	:identifiedBy :gaz_stock_CERNER_CRP .
+:gaz_stock_CERNER_CRP
+	:term "CERN" ;
+	:term "CRE" ;
+	a :Gazetteer .
+
+:stock_CF_INDUST
+	:identifiedBy :gaz_stock_CF_INDUST .
+:gaz_stock_CF_INDUST
+	:term "CF" ;
+	:term "C4F" ;
+	a :Gazetteer .
+
+:stock_CH_ROBNSN_W_WIDE
+	:identifiedBy :gaz_stock_CH_ROBNSN_W_WIDE .
+:gaz_stock_CH_ROBNSN_W_WIDE
+	:term "CHRW" ;
+	:term "CH1A" ;
+	a :Gazetteer .
+
+:stock_CHESP_ENEGY
+	:identifiedBy :gaz_stock_CHESP_ENEGY .
+:gaz_stock_CHESP_ENEGY
+	:term "CHK" ;
+	:term "CS1" ;
+	a :Gazetteer .
+
+:stock_CHIPOTLE_MEXICAN
+	:identifiedBy :gaz_stock_CHIPOTLE_MEXICAN .
+:gaz_stock_CHIPOTLE_MEXICAN
+	:term "CMG" ;
+	:term "C9F" ;
+	a :Gazetteer .
+
+:stock_CHUBB_CP
+	:identifiedBy :gaz_stock_CHUBB_CP .
+:gaz_stock_CHUBB_CP
+	:term "CB" ;
+	:term "HUB" ;
+	a :Gazetteer .
+
+:stock_CIGNA_CP
+	:identifiedBy :gaz_stock_CIGNA_CP .
+:gaz_stock_CIGNA_CP
+	:term "CI" ;
+	:term "CGN" ;
+	a :Gazetteer .
+
+:stock_CINCINNATI_FINCL
+	:identifiedBy :gaz_stock_CINCINNATI_FINCL .
+:gaz_stock_CINCINNATI_FINCL
+	:term "CINF" ;
+	:term "CCJ" ;
+	a :Gazetteer .
+
+:stock_CINTAS_NPV
+	:identifiedBy :gaz_stock_CINTAS_NPV .
+:gaz_stock_CINTAS_NPV
+	:term "CTAS" ;
+	:term "CIT" ;
+	a :Gazetteer .
+
+:stock_CITIGROUP_USD0_01
+	:identifiedBy :gaz_stock_CITIGROUP_USD0_01 .
+:gaz_stock_CITIGROUP_USD0_01
+	:term "C" ;
+	:term "TRVC" ;
+	a :Gazetteer .
+
+:stock_CITRIX_SYSTEMS
+	:identifiedBy :gaz_stock_CITRIX_SYSTEMS .
+:gaz_stock_CITRIX_SYSTEMS
+	:term "CTXS" ;
+	:term "CTX" ;
+	a :Gazetteer .
+
+:stock_CLIFFS_NAT_RES
+	:identifiedBy :gaz_stock_CLIFFS_NAT_RES .
+:gaz_stock_CLIFFS_NAT_RES
+	:term "CLF" ;
+	:term "CVA" ;
+	a :Gazetteer .
+
+:stock_CLOROX_CO
+	:identifiedBy :gaz_stock_CLOROX_CO .
+:gaz_stock_CLOROX_CO
+	:term "CLX" ;
+	:term "CXX" ;
+	a :Gazetteer .
+
+:stock_CME_GROUP_INC_A
+	:identifiedBy :gaz_stock_CME_GROUP_INC_A .
+:gaz_stock_CME_GROUP_INC_A
+	:term "CME" ;
+	:term "MX4A" ;
+	a :Gazetteer .
+
+:stock_CMS_ENERGY
+	:identifiedBy :gaz_stock_CMS_ENERGY .
+:gaz_stock_CMS_ENERGY
+	:term "CMS" ;
+	:term "CSG" ;
+	a :Gazetteer .
+
+:stock_COACH_INC
+	:identifiedBy :gaz_stock_COACH_INC .
+:gaz_stock_COACH_INC
+	:term "COH" ;
+	:term "COY" ;
+	a :Gazetteer .
+
+:stock_COCA_ENTE
+	:identifiedBy :gaz_stock_COCA_ENTE .
+:gaz_stock_COCA_ENTE
+	:term "CCE" ;
+	:term "CKK" ;
+	a :Gazetteer .
+
+:stock_COGNIZANT_TEC
+	:identifiedBy :gaz_stock_COGNIZANT_TEC .
+:gaz_stock_COGNIZANT_TEC
+	:term "CTSH" ;
+	:term "COZ" ;
+	a :Gazetteer .
+
+:stock_COLGATE
+	:identifiedBy :gaz_stock_COLGATE .
+:gaz_stock_COLGATE
+	:term "CL" ;
+	:term "CPA" ;
+	a :Gazetteer .
+
+:stock_COMCAST_CORP_NEW
+	:identifiedBy :gaz_stock_COMCAST_CORP_NEW .
+:gaz_stock_COMCAST_CORP_NEW
+	:term "CMCSA" ;
+	:term "CTP2" ;
+	a :Gazetteer .
+
+:stock_COMERCIA_INC
+	:identifiedBy :gaz_stock_COMERCIA_INC .
+:gaz_stock_COMERCIA_INC
+	:term "CMA" ;
+	:term "CA3" ;
+	a :Gazetteer .
+
+:stock_COMSCICOMSTKUSD
+	:identifiedBy :gaz_stock_COMSCICOMSTKUSD .
+:gaz_stock_COMSCICOMSTKUSD
+	:term "CSC" ;
+	:term "CS9" ;
+	a :Gazetteer .
+
+:stock_CONAGRA_FOODS
+	:identifiedBy :gaz_stock_CONAGRA_FOODS .
+:gaz_stock_CONAGRA_FOODS
+	:term "CAG" ;
+	:term "CAO" ;
+	a :Gazetteer .
+
+:stock_CONOCOPHILLIPS
+	:identifiedBy :gaz_stock_CONOCOPHILLIPS .
+:gaz_stock_CONOCOPHILLIPS
+	:term "COP" ;
+	:term "YCP" ;
+	a :Gazetteer .
+
+:stock_CONSOL_ENE
+	:identifiedBy :gaz_stock_CONSOL_ENE .
+:gaz_stock_CONSOL_ENE
+	:term "CNX" ;
+	:term "CGD" ;
+	a :Gazetteer .
+
+:stock_CONSOL_EDS_USD0_10
+	:identifiedBy :gaz_stock_CONSOL_EDS_USD0_10 .
+:gaz_stock_CONSOL_EDS_USD0_10
+	:term "ED" ;
+	:term "EDC" ;
+	a :Gazetteer .
+
+:stock_CONSTEL_A
+	:identifiedBy :gaz_stock_CONSTEL_A .
+:gaz_stock_CONSTEL_A
+	:term "STZ" ;
+	:term "CB1A" ;
+	a :Gazetteer .
+
+:stock_COOR_INDU
+	:identifiedBy :gaz_stock_COOR_INDU .
+:gaz_stock_COOR_INDU
+	:term "CBE" ;
+	:term "8CS" ;
+	a :Gazetteer .
+
+:stock_CORNING
+	:identifiedBy :gaz_stock_CORNING .
+:gaz_stock_CORNING
+	:term "GLW" ;
+	a :Gazetteer .
+
+:stock_COSTCO_WHOLESALE
+	:identifiedBy :gaz_stock_COSTCO_WHOLESALE .
+:gaz_stock_COSTCO_WHOLESALE
+	:term "COST" ;
+	:term "CTO" ;
+	a :Gazetteer .
+
+:stock_COV_HLTHCR
+	:identifiedBy :gaz_stock_COV_HLTHCR .
+:gaz_stock_COV_HLTHCR
+	:term "CVH" ;
+	:term "HCA" ;
+	a :Gazetteer .
+
+:stock_COVIDIEN
+	:identifiedBy :gaz_stock_COVIDIEN .
+:gaz_stock_COVIDIEN
+	:term "COV" ;
+	:term "6COP" ;
+	a :Gazetteer .
+
+:stock_CROWN_CASTLE_INT
+	:identifiedBy :gaz_stock_CROWN_CASTLE_INT .
+:gaz_stock_CROWN_CASTLE_INT
+	:term "CCI" ;
+	:term "CW4" ;
+	a :Gazetteer .
+
+:stock_CSX_CORP
+	:identifiedBy :gaz_stock_CSX_CORP .
+:gaz_stock_CSX_CORP
+	:term "CSX" ;
+	:term "CXR" ;
+	a :Gazetteer .
+
+:stock_CUMMINS_INC_COM
+	:identifiedBy :gaz_stock_CUMMINS_INC_COM .
+:gaz_stock_CUMMINS_INC_COM
+	:term "CMI" ;
+	:term "CUM" ;
+	a :Gazetteer .
+
+:stock_CVS_CAREMARK_CORP
+	:identifiedBy :gaz_stock_CVS_CAREMARK_CORP .
+:gaz_stock_CVS_CAREMARK_CORP
+	:term "CVS" ;
+	a :Gazetteer .
+
+:stock_DANAHER_CORP
+	:identifiedBy :gaz_stock_DANAHER_CORP .
+:gaz_stock_DANAHER_CORP
+	:term "DHR" ;
+	:term "DAP" ;
+	a :Gazetteer .
+
+:stock_DARDEN_RESTCSN
+	:identifiedBy :gaz_stock_DARDEN_RESTCSN .
+:gaz_stock_DARDEN_RESTCSN
+	:term "DRI" ;
+	:term "DDN" ;
+	a :Gazetteer .
+
+:stock_DAVITA_INC
+	:identifiedBy :gaz_stock_DAVITA_INC .
+:gaz_stock_DAVITA_INC
+	:term "DVA" ;
+	:term "TRL" ;
+	a :Gazetteer .
+
+:stock_DEAN_FOODS
+	:identifiedBy :gaz_stock_DEAN_FOODS .
+:gaz_stock_DEAN_FOODS
+	:term "DF" ;
+	:term "SJ2" ;
+	a :Gazetteer .
+
+:stock_DEERE_CO
+	:identifiedBy :gaz_stock_DEERE_CO .
+:gaz_stock_DEERE_CO
+	:term "DE" ;
+	:term "DCO" ;
+	a :Gazetteer .
+
+:stock_DELL
+	:identifiedBy :gaz_stock_DELL .
+:gaz_stock_DELL
+	:term "DELL" ;
+	:term "DLCA" ;
+	a :Gazetteer .
+
+:stock_DENBURY_RES
+	:identifiedBy :gaz_stock_DENBURY_RES .
+:gaz_stock_DENBURY_RES
+	:term "DNR" ;
+	:term "HGJ" ;
+	a :Gazetteer .
+
+:stock_DENTSPLY_INTL
+	:identifiedBy :gaz_stock_DENTSPLY_INTL .
+:gaz_stock_DENTSPLY_INTL
+	:term "XRAY" ;
+	:term "DY2" ;
+	a :Gazetteer .
+
+:stock_DEVON_ENERGY
+	:identifiedBy :gaz_stock_DEVON_ENERGY .
+:gaz_stock_DEVON_ENERGY
+	:term "DVN" ;
+	:term "DY6" ;
+	a :Gazetteer .
+
+:stock_DEVRY_INC
+	:identifiedBy :gaz_stock_DEVRY_INC .
+:gaz_stock_DEVRY_INC
+	:term "DV" ;
+	:term "DVY" ;
+	a :Gazetteer .
+
+:stock_DIAMOND_ODMD_OFFSH
+	:identifiedBy :gaz_stock_DIAMOND_ODMD_OFFSH .
+:gaz_stock_DIAMOND_ODMD_OFFSH
+	:term "DO" ;
+	:term "DO1" ;
+	a :Gazetteer .
+
+:stock_DIRECTV
+	:identifiedBy :gaz_stock_DIRECTV .
+:gaz_stock_DIRECTV
+	:term "DTV" ;
+	:term "DIG" ;
+	a :Gazetteer .
+
+:stock_DISCOVER
+	:identifiedBy :gaz_stock_DISCOVER .
+:gaz_stock_DISCOVER
+	:term "DFS" ;
+	:term "DC7" ;
+	a :Gazetteer .
+
+:stock_DISCOVERY_COM_A
+	:identifiedBy :gaz_stock_DISCOVERY_COM_A .
+:gaz_stock_DISCOVERY_COM_A
+	:term "DISCA" ;
+	:term "DC6" ;
+	a :Gazetteer .
+
+:stock_DOLLAR_TREE_INC
+	:identifiedBy :gaz_stock_DOLLAR_TREE_INC .
+:gaz_stock_DOLLAR_TREE_INC
+	:term "DLTR" ;
+	:term "DT3" ;
+	a :Gazetteer .
+
+:stock_DOMINION_RES_VIRG
+	:identifiedBy :gaz_stock_DOMINION_RES_VIRG .
+:gaz_stock_DOMINION_RES_VIRG
+	:term "D" ;
+	:term "DOD" ;
+	a :Gazetteer .
+
+:stock_DONNELLY_R_R
+	:identifiedBy :gaz_stock_DONNELLY_R_R .
+:gaz_stock_DONNELLY_R_R
+	:term "RRD" ;
+	:term "DLL" ;
+	a :Gazetteer .
+
+:stock_DOVER_CRP
+	:identifiedBy :gaz_stock_DOVER_CRP .
+:gaz_stock_DOVER_CRP
+	:term "DOV" ;
+	a :Gazetteer .
+
+:stock_DOW_CHEM
+	:identifiedBy :gaz_stock_DOW_CHEM .
+:gaz_stock_DOW_CHEM
+	:term "DOW" ;
+	:term "DCH1" ;
+	a :Gazetteer .
+
+:stock_DR_HORTON
+	:identifiedBy :gaz_stock_DR_HORTON .
+:gaz_stock_DR_HORTON
+	:term "DHI" ;
+	:term "HO2" ;
+	a :Gazetteer .
+
+:stock_DR_PEPPER_SNAPPLE
+	:identifiedBy :gaz_stock_DR_PEPPER_SNAPPLE .
+:gaz_stock_DR_PEPPER_SNAPPLE
+	:term "DPS" ;
+	:term "DP5" ;
+	a :Gazetteer .
+
+:stock_DTE_ENERGY
+	:identifiedBy :gaz_stock_DTE_ENERGY .
+:gaz_stock_DTE_ENERGY
+	:term "DTE" ;
+	:term "DGY" ;
+	a :Gazetteer .
+
+:stock_DUKE_ENER
+	:identifiedBy :gaz_stock_DUKE_ENER .
+:gaz_stock_DUKE_ENER
+	:term "DUK" ;
+	:term "D2M" ;
+	a :Gazetteer .
+
+:stock_DUN_BRADST_DEL
+	:identifiedBy :gaz_stock_DUN_BRADST_DEL .
+:gaz_stock_DUN_BRADST_DEL
+	:term "DNB" ;
+	:term "DB5" ;
+	a :Gazetteer .
+
+:stock_E_TRADE_FIN
+	:identifiedBy :gaz_stock_E_TRADE_FIN .
+:gaz_stock_E_TRADE_FIN
+	:term "ETFC" ;
+	:term "ETRA" ;
+	a :Gazetteer .
+
+:stock_EASTMN_CHEM
+	:identifiedBy :gaz_stock_EASTMN_CHEM .
+:gaz_stock_EASTMN_CHEM
+	:term "EMN" ;
+	:term "EAC" ;
+	a :Gazetteer .
+
+:stock_EATON_CP
+	:identifiedBy :gaz_stock_EATON_CP .
+:gaz_stock_EATON_CP
+	:term "ETN" ;
+	:term "ECC" ;
+	a :Gazetteer .
+
+:stock_EBAY
+	:identifiedBy :gaz_stock_EBAY .
+:gaz_stock_EBAY
+	:term "EBAY" ;
+	:term "EBA" ;
+	a :Gazetteer .
+
+:stock_ECOLAB
+	:identifiedBy :gaz_stock_ECOLAB .
+:gaz_stock_ECOLAB
+	:term "ECL" ;
+	:term "ECJ" ;
+	a :Gazetteer .
+
+:stock_EDISON_INTL
+	:identifiedBy :gaz_stock_EDISON_INTL .
+:gaz_stock_EDISON_INTL
+	:term "EIX" ;
+	a :Gazetteer .
+
+:stock_EDWARDS_LIFESCI
+	:identifiedBy :gaz_stock_EDWARDS_LIFESCI .
+:gaz_stock_EDWARDS_LIFESCI
+	:term "EW" ;
+	:term "EWL" ;
+	a :Gazetteer .
+
+:stock_EL_PASO_CORP
+	:identifiedBy :gaz_stock_EL_PASO_CORP .
+:gaz_stock_EL_PASO_CORP
+	:term "EP" ;
+	:term "EPE" ;
+	a :Gazetteer .
+
+:stock_EL_ARTS
+	:identifiedBy :gaz_stock_EL_ARTS .
+:gaz_stock_EL_ARTS
+	:term "EA" ;
+	:term "ERT" ;
+	a :Gazetteer .
+
+:stock_LILLY_ELI
+	:identifiedBy :gaz_stock_LILLY_ELI .
+:gaz_stock_LILLY_ELI
+	:term "LLY" ;
+	a :Gazetteer .
+
+:stock_EMC_CORP_MASS
+	:identifiedBy :gaz_stock_EMC_CORP_MASS .
+:gaz_stock_EMC_CORP_MASS
+	:term "EMC" ;
+	:term "EMP" ;
+	a :Gazetteer .
+
+:stock_EMERS_ELEC
+	:identifiedBy :gaz_stock_EMERS_ELEC .
+:gaz_stock_EMERS_ELEC
+	:term "EMR" ;
+	a :Gazetteer .
+
+:stock_ENTERGY
+	:identifiedBy :gaz_stock_ENTERGY .
+:gaz_stock_ENTERGY
+	:term "ETR" ;
+	:term "ETY" ;
+	a :Gazetteer .
+
+:stock_EOG_RESRCS
+	:identifiedBy :gaz_stock_EOG_RESRCS .
+:gaz_stock_EOG_RESRCS
+	:term "EOG" ;
+	:term "EO5" ;
+	a :Gazetteer .
+
+:stock_EQT
+	:identifiedBy :gaz_stock_EQT .
+:gaz_stock_EQT
+	:term "EQT" ;
+	:term "EQ6" ;
+	a :Gazetteer .
+
+:stock_EQUIFAX
+	:identifiedBy :gaz_stock_EQUIFAX .
+:gaz_stock_EQUIFAX
+	:term "EFX" ;
+	a :Gazetteer .
+
+:stock_EQTY_RES_SHS
+	:identifiedBy :gaz_stock_EQTY_RES_SHS .
+:gaz_stock_EQTY_RES_SHS
+	:term "EQR" ;
+	a :Gazetteer .
+
+:stock_ESTEE_LAUDER
+	:identifiedBy :gaz_stock_ESTEE_LAUDER .
+:gaz_stock_ESTEE_LAUDER
+	:term "EL" ;
+	:term "ELAA" ;
+	a :Gazetteer .
+
+:stock_EXELON
+	:identifiedBy :gaz_stock_EXELON .
+:gaz_stock_EXELON
+	:term "EXC" ;
+	:term "PEO" ;
+	a :Gazetteer .
+
+:stock_EXPEDIA
+	:identifiedBy :gaz_stock_EXPEDIA .
+:gaz_stock_EXPEDIA
+	:term "EXPE" ;
+	:term "E3X1" ;
+	a :Gazetteer .
+
+:stock_EXPDTR_INT_WSHTON
+	:identifiedBy :gaz_stock_EXPDTR_INT_WSHTON .
+:gaz_stock_EXPDTR_INT_WSHTON
+	:term "EXPD" ;
+	:term "EW1" ;
+	a :Gazetteer .
+
+:stock_EXPS_SCRI
+	:identifiedBy :gaz_stock_EXPS_SCRI .
+:gaz_stock_EXPS_SCRI
+	:term "ESRX" ;
+	:term "4XS" ;
+	a :Gazetteer .
+
+:stock_F5_NETWRK_INC
+	:identifiedBy :gaz_stock_F5_NETWRK_INC .
+:gaz_stock_F5_NETWRK_INC
+	:term "FFIV" ;
+	:term "FFV" ;
+	a :Gazetteer .
+
+:stock_FAMILY_DOLLAR
+	:identifiedBy :gaz_stock_FAMILY_DOLLAR .
+:gaz_stock_FAMILY_DOLLAR
+	:term "FDO" ;
+	:term "FAY" ;
+	a :Gazetteer .
+
+:stock_FASTNAL
+	:identifiedBy :gaz_stock_FASTNAL .
+:gaz_stock_FASTNAL
+	:term "FAST" ;
+	:term "FAS" ;
+	a :Gazetteer .
+
+:stock_FED_INV_B
+	:identifiedBy :gaz_stock_FED_INV_B .
+:gaz_stock_FED_INV_B
+	:term "FII" ;
+	:term "3KC" ;
+	a :Gazetteer .
+
+:stock_FEDEX_CORP
+	:identifiedBy :gaz_stock_FEDEX_CORP .
+:gaz_stock_FEDEX_CORP
+	:term "FDX" ;
+	a :Gazetteer .
+
+:stock_FIDELITY_NTL_INFO
+	:identifiedBy :gaz_stock_FIDELITY_NTL_INFO .
+:gaz_stock_FIDELITY_NTL_INFO
+	:term "FIS" ;
+	:term "ZGY" ;
+	a :Gazetteer .
+
+:stock_5TH_3RD_BANCO
+	:identifiedBy :gaz_stock_5TH_3RD_BANCO .
+:gaz_stock_5TH_3RD_BANCO
+	:term "FITB" ;
+	:term "FFH" ;
+	a :Gazetteer .
+
+:stock_1ST_HORIZ
+	:identifiedBy :gaz_stock_1ST_HORIZ .
+:gaz_stock_1ST_HORIZ
+	:term "FHN" ;
+	:term "FT2" ;
+	a :Gazetteer .
+
+:stock_FIRST_SOLAR
+	:identifiedBy :gaz_stock_FIRST_SOLAR .
+:gaz_stock_FIRST_SOLAR
+	:term "FSLR" ;
+	:term "F3A" ;
+	a :Gazetteer .
+
+:stock_FIRST_ENERGY_USD_1
+	:identifiedBy :gaz_stock_FIRST_ENERGY_USD_1 .
+:gaz_stock_FIRST_ENERGY_USD_1
+	:term "FE" ;
+	:term "FE7" ;
+	a :Gazetteer .
+
+:stock_FISERV
+	:identifiedBy :gaz_stock_FISERV .
+:gaz_stock_FISERV
+	:term "FISV" ;
+	:term "FIV" ;
+	a :Gazetteer .
+
+:stock_FLIR_SUS
+	:identifiedBy :gaz_stock_FLIR_SUS .
+:gaz_stock_FLIR_SUS
+	:term "FLIR" ;
+	:term "FL4" ;
+	a :Gazetteer .
+
+:stock_FLOWSERVE
+	:identifiedBy :gaz_stock_FLOWSERVE .
+:gaz_stock_FLOWSERVE
+	:term "FLS" ;
+	:term "FWV" ;
+	a :Gazetteer .
+
+:stock_FLUOR
+	:identifiedBy :gaz_stock_FLUOR .
+:gaz_stock_FLUOR
+	:term "FLR" ;
+	:term "FLU" ;
+	a :Gazetteer .
+
+:stock_FMC_CP
+	:identifiedBy :gaz_stock_FMC_CP .
+:gaz_stock_FMC_CP
+	:term "FMC" ;
+	:term "FMQ" ;
+	a :Gazetteer .
+
+:stock_FMC_TCHNLGS
+	:identifiedBy :gaz_stock_FMC_TCHNLGS .
+:gaz_stock_FMC_TCHNLGS
+	:term "FTI" ;
+	:term "FMH" ;
+	a :Gazetteer .
+
+:stock_FORD
+	:identifiedBy :gaz_stock_FORD .
+:gaz_stock_FORD
+	:term "FMC1" ;
+	a :Gazetteer .
+
+:stock_FOREST_LABS
+	:identifiedBy :gaz_stock_FOREST_LABS .
+:gaz_stock_FOREST_LABS
+	:term "FRX" ;
+	:term "FQX" ;
+	a :Gazetteer .
+
+:stock_FOSSIL_INC
+	:identifiedBy :gaz_stock_FOSSIL_INC .
+:gaz_stock_FOSSIL_INC
+	:term "FOSL" ;
+	:term "FSL" ;
+	a :Gazetteer .
+
+:stock_FRANKLIN_RES
+	:identifiedBy :gaz_stock_FRANKLIN_RES .
+:gaz_stock_FRANKLIN_RES
+	:term "BEN" ;
+	:term "FRK" ;
+	a :Gazetteer .
+
+:stock_FREEPRT_MCMRN_COPP
+	:identifiedBy :gaz_stock_FREEPRT_MCMRN_COPP .
+:gaz_stock_FREEPRT_MCMRN_COPP
+	:term "FCX" ;
+	:term "FPMB" ;
+	a :Gazetteer .
+
+:stock_FRONTIER_COMM
+	:identifiedBy :gaz_stock_FRONTIER_COMM .
+:gaz_stock_FRONTIER_COMM
+	:term "FTR" ;
+	:term "YC5" ;
+	a :Gazetteer .
+
+:stock_GAMESTOP
+	:identifiedBy :gaz_stock_GAMESTOP .
+:gaz_stock_GAMESTOP
+	:term "GME" ;
+	:term "GS2C" ;
+	a :Gazetteer .
+
+:stock_GANNETT
+	:identifiedBy :gaz_stock_GANNETT .
+:gaz_stock_GANNETT
+	:term "GCI" ;
+	:term "GTT" ;
+	a :Gazetteer .
+
+:stock_GAP
+	:identifiedBy :gaz_stock_GAP .
+:gaz_stock_GAP
+	:term "GPS" ;
+	:term "GAP" ;
+	a :Gazetteer .
+
+:stock_GEN_DYN
+	:identifiedBy :gaz_stock_GEN_DYN .
+:gaz_stock_GEN_DYN
+	:term "GD" ;
+	:term "GDX" ;
+	a :Gazetteer .
+
+:stock_GEN_MLLS
+	:identifiedBy :gaz_stock_GEN_MLLS .
+:gaz_stock_GEN_MLLS
+	:term "GIS" ;
+	:term "GRM" ;
+	a :Gazetteer .
+
+:stock_GENUNE_PRTS
+	:identifiedBy :gaz_stock_GENUNE_PRTS .
+:gaz_stock_GENUNE_PRTS
+	:term "GPC" ;
+	:term "GPT" ;
+	a :Gazetteer .
+
+:stock_GENWORTH
+	:identifiedBy :gaz_stock_GENWORTH .
+:gaz_stock_GENWORTH
+	:term "GNW" ;
+	:term "GGK" ;
+	a :Gazetteer .
+
+:stock_GILEAD_SCIENCES
+	:identifiedBy :gaz_stock_GILEAD_SCIENCES .
+:gaz_stock_GILEAD_SCIENCES
+	:term "GILD" ;
+	:term "GIS" ;
+	a :Gazetteer .
+
+:stock_GLD_SACHS
+	:identifiedBy :gaz_stock_GLD_SACHS .
+:gaz_stock_GLD_SACHS
+	:term "GS" ;
+	:term "GOS" ;
+	a :Gazetteer .
+
+:stock_GOODRICH
+	:identifiedBy :gaz_stock_GOODRICH .
+:gaz_stock_GOODRICH
+	:term "GR" ;
+	:term "GR9" ;
+	a :Gazetteer .
+
+:stock_GOODYEAR
+	:identifiedBy :gaz_stock_GOODYEAR .
+:gaz_stock_GOODYEAR
+	:term "GT" ;
+	:term "GTR" ;
+	a :Gazetteer .
+
+:stock_GOOGLE
+	:identifiedBy :gaz_stock_GOOGLE .
+:gaz_stock_GOOGLE
+	:term "GOOG" ;
+	:term "GGQ1" ;
+	a :Gazetteer .
+
+:stock_GRAINGER_WW
+	:identifiedBy :gaz_stock_GRAINGER_WW .
+:gaz_stock_GRAINGER_WW
+	:term "GWW" ;
+	a :Gazetteer .
+
+:stock_HALLIBURTON
+	:identifiedBy :gaz_stock_HALLIBURTON .
+:gaz_stock_HALLIBURTON
+	:term "HAL" ;
+	a :Gazetteer .
+
+:stock_Harley_Davidson_Inc
+	:identifiedBy :gaz_stock_Harley_Davidson_Inc .
+:gaz_stock_Harley_Davidson_Inc
+	:term "HOG" ;
+	:term "HAR" ;
+	a :Gazetteer .
+
+:stock_HARMAN_INTL
+	:identifiedBy :gaz_stock_HARMAN_INTL .
+:gaz_stock_HARMAN_INTL
+	:term "HAR" ;
+	:term "HII" ;
+	a :Gazetteer .
+
+:stock_HARRIS_CRP
+	:identifiedBy :gaz_stock_HARRIS_CRP .
+:gaz_stock_HARRIS_CRP
+	:term "HRS" ;
+	a :Gazetteer .
+
+:stock_HARTFORD_FINL_USD
+	:identifiedBy :gaz_stock_HARTFORD_FINL_USD .
+:gaz_stock_HARTFORD_FINL_USD
+	:term "HIG" ;
+	:term "HFF" ;
+	a :Gazetteer .
+
+:stock_HASBRO
+	:identifiedBy :gaz_stock_HASBRO .
+:gaz_stock_HASBRO
+	:term "HAS" ;
+	a :Gazetteer .
+
+:stock_HCP
+	:identifiedBy :gaz_stock_HCP .
+:gaz_stock_HCP
+	:term "HCP" ;
+	:term "HC5" ;
+	a :Gazetteer .
+
+:stock_HLTH_CARE_REIT_1
+	:identifiedBy :gaz_stock_HLTH_CARE_REIT_1 .
+:gaz_stock_HLTH_CARE_REIT_1
+	:term "HCN" ;
+	:term "HCW" ;
+	a :Gazetteer .
+
+:stock_HEINZ_HJ
+	:identifiedBy :gaz_stock_HEINZ_HJ .
+:gaz_stock_HEINZ_HJ
+	:term "HNZ" ;
+	:term "HJH" ;
+	a :Gazetteer .
+
+:stock_HELMERICH
+	:identifiedBy :gaz_stock_HELMERICH .
+:gaz_stock_HELMERICH
+	:term "HP" ;
+	:term "HPC" ;
+	a :Gazetteer .
+
+:stock_HERSHEY_CO
+	:identifiedBy :gaz_stock_HERSHEY_CO .
+:gaz_stock_HERSHEY_CO
+	:term "HSY" ;
+	a :Gazetteer .
+
+:stock_HESS_CORP
+	:identifiedBy :gaz_stock_HESS_CORP .
+:gaz_stock_HESS_CORP
+	:term "HES" ;
+	:term "AHC" ;
+	a :Gazetteer .
+
+:stock_HONEYWELL_INTL
+	:identifiedBy :gaz_stock_HONEYWELL_INTL .
+:gaz_stock_HONEYWELL_INTL
+	:term "HON" ;
+	:term "ALD" ;
+	a :Gazetteer .
+
+:stock_HORMEL_FOODS
+	:identifiedBy :gaz_stock_HORMEL_FOODS .
+:gaz_stock_HORMEL_FOODS
+	:term "HRL" ;
+	:term "HO7" ;
+	a :Gazetteer .
+
+:stock_HOSPIRA_I
+	:identifiedBy :gaz_stock_HOSPIRA_I .
+:gaz_stock_HOSPIRA_I
+	:term "HSP" ;
+	:term "HOS" ;
+	a :Gazetteer .
+
+:stock_HOST_HOTELS_RESORT
+	:identifiedBy :gaz_stock_HOST_HOTELS_RESORT .
+:gaz_stock_HOST_HOTELS_RESORT
+	:term "HST" ;
+	:term "HMT" ;
+	a :Gazetteer .
+
+:stock_HUDSON_CITY_BNCP
+	:identifiedBy :gaz_stock_HUDSON_CITY_BNCP .
+:gaz_stock_HUDSON_CITY_BNCP
+	:term "HCBK" ;
+	:term "HC4" ;
+	a :Gazetteer .
+
+:stock_HUMANA_INC
+	:identifiedBy :gaz_stock_HUMANA_INC .
+:gaz_stock_HUMANA_INC
+	:term "HUM" ;
+	a :Gazetteer .
+
+:stock_HUNTINGTON_NPV
+	:identifiedBy :gaz_stock_HUNTINGTON_NPV .
+:gaz_stock_HUNTINGTON_NPV
+	:term "HBAN" ;
+	:term "HU3" ;
+	a :Gazetteer .
+
+:stock_ILL_TOOL_NPV
+	:identifiedBy :gaz_stock_ILL_TOOL_NPV .
+:gaz_stock_ILL_TOOL_NPV
+	:term "ITW" ;
+	:term "ILT" ;
+	a :Gazetteer .
+
+:stock_INGERSOLL
+	:identifiedBy :gaz_stock_INGERSOLL .
+:gaz_stock_INGERSOLL
+	:term "IR" ;
+	:term "2IS" ;
+	a :Gazetteer .
+
+:stock_INTEGRYS_ENRGY_GRP
+	:identifiedBy :gaz_stock_INTEGRYS_ENRGY_GRP .
+:gaz_stock_INTEGRYS_ENRGY_GRP
+	:term "TEG" ;
+	:term "WP1" ;
+	a :Gazetteer .
+
+:stock_INTERCONT
+	:identifiedBy :gaz_stock_INTERCONT .
+:gaz_stock_INTERCONT
+	:term "ICE" ;
+	:term "I5E" ;
+	a :Gazetteer .
+
+:stock_INT_FLAVORS
+	:identifiedBy :gaz_stock_INT_FLAVORS .
+:gaz_stock_INT_FLAVORS
+	:term "IFF" ;
+	a :Gazetteer .
+
+:stock_INTL_GAME_TECH
+	:identifiedBy :gaz_stock_INTL_GAME_TECH .
+:gaz_stock_INTL_GAME_TECH
+	:term "IGT" ;
+	a :Gazetteer .
+
+:stock_INT_PAPER
+	:identifiedBy :gaz_stock_INT_PAPER .
+:gaz_stock_INT_PAPER
+	:term "IP" ;
+	:term "INP" ;
+	a :Gazetteer .
+
+:stock_INTPUB_GR
+	:identifiedBy :gaz_stock_INTPUB_GR .
+:gaz_stock_INTPUB_GR
+	:term "IPG" ;
+	a :Gazetteer .
+
+:stock_INTUIT
+	:identifiedBy :gaz_stock_INTUIT .
+:gaz_stock_INTUIT
+	:term "INTU" ;
+	:term "ITU" ;
+	a :Gazetteer .
+
+:stock_INTUITIVE_SURGICAL
+	:identifiedBy :gaz_stock_INTUITIVE_SURGICAL .
+:gaz_stock_INTUITIVE_SURGICAL
+	:term "ISRG" ;
+	:term "IUI1" ;
+	a :Gazetteer .
+
+:stock_INVESCO_LTD
+	:identifiedBy :gaz_stock_INVESCO_LTD .
+:gaz_stock_INVESCO_LTD
+	:term "IVZ" ;
+	:term "3IW" ;
+	a :Gazetteer .
+
+:stock_IRON_MOUNTN_INC_PA
+	:identifiedBy :gaz_stock_IRON_MOUNTN_INC_PA .
+:gaz_stock_IRON_MOUNTN_INC_PA
+	:term "IRM" ;
+	:term "IM6" ;
+	a :Gazetteer .
+
+:stock_J_C_Penney
+	:identifiedBy :gaz_stock_J_C_Penney .
+:gaz_stock_J_C_Penney
+	:term "JCP" ;
+	a :Gazetteer .
+
+:stock_JABIL_CIRCT
+	:identifiedBy :gaz_stock_JABIL_CIRCT .
+:gaz_stock_JABIL_CIRCT
+	:term "JBL" ;
+	a :Gazetteer .
+
+:stock_JACOBS_ENG_GR
+	:identifiedBy :gaz_stock_JACOBS_ENG_GR .
+:gaz_stock_JACOBS_ENG_GR
+	:term "JEC" ;
+	:term "JEG" ;
+	a :Gazetteer .
+
+:stock_JDS_UNIPHASE
+	:identifiedBy :gaz_stock_JDS_UNIPHASE .
+:gaz_stock_JDS_UNIPHASE
+	:term "JDSU" ;
+	:term "UNS1" ;
+	a :Gazetteer .
+
+:stock_Johnson_Controls_Inc
+	:identifiedBy :gaz_stock_Johnson_Controls_Inc .
+:gaz_stock_Johnson_Controls_Inc
+	:term "JCI" ;
+	:term "JCN" ;
+	a :Gazetteer .
+
+:stock_JOY_GLOBL_INC
+	:identifiedBy :gaz_stock_JOY_GLOBL_INC .
+:gaz_stock_JOY_GLOBL_INC
+	:term "JOY" ;
+	:term "JO3" ;
+	a :Gazetteer .
+
+:stock_JUNIPER_NETWORKS
+	:identifiedBy :gaz_stock_JUNIPER_NETWORKS .
+:gaz_stock_JUNIPER_NETWORKS
+	:term "JNPR" ;
+	:term "JNP" ;
+	a :Gazetteer .
+
+:stock_KELLOGG_CO
+	:identifiedBy :gaz_stock_KELLOGG_CO .
+:gaz_stock_KELLOGG_CO
+	:term "K" ;
+	:term "KEL" ;
+	a :Gazetteer .
+
+:stock_KEYCORP
+	:identifiedBy :gaz_stock_KEYCORP .
+:gaz_stock_KEYCORP
+	:term "KEY" ;
+	a :Gazetteer .
+
+:stock_KIMBERLY_CLARK
+	:identifiedBy :gaz_stock_KIMBERLY_CLARK .
+:gaz_stock_KIMBERLY_CLARK
+	:term "KMB" ;
+	:term "KMY" ;
+	a :Gazetteer .
+
+:stock_KIMCO
+	:identifiedBy :gaz_stock_KIMCO .
+:gaz_stock_KIMCO
+	:term "KIM" ;
+	:term "KIC" ;
+	a :Gazetteer .
+
+:stock_KLA_TENCOR_CORP
+	:identifiedBy :gaz_stock_KLA_TENCOR_CORP .
+:gaz_stock_KLA_TENCOR_CORP
+	:term "KLAC" ;
+	:term "KLA" ;
+	a :Gazetteer .
+
+:stock_KOHLS_CORP
+	:identifiedBy :gaz_stock_KOHLS_CORP .
+:gaz_stock_KOHLS_CORP
+	:term "KSS" ;
+	:term "KHP" ;
+	a :Gazetteer .
+
+:stock_KROGER
+	:identifiedBy :gaz_stock_KROGER .
+:gaz_stock_KROGER
+	:term "KR" ;
+	:term "KOG" ;
+	a :Gazetteer .
+
+:stock_L3_COMM
+	:identifiedBy :gaz_stock_L3_COMM .
+:gaz_stock_L3_COMM
+	:term "LLL" ;
+	:term "LCX" ;
+	a :Gazetteer .
+
+:stock_LABORATORY_AMER
+	:identifiedBy :gaz_stock_LABORATORY_AMER .
+:gaz_stock_LABORATORY_AMER
+	:term "LH" ;
+	:term "LAB" ;
+	a :Gazetteer .
+
+:stock_LEGG_MASOLEGG_MASN
+	:identifiedBy :gaz_stock_LEGG_MASOLEGG_MASN .
+:gaz_stock_LEGG_MASOLEGG_MASN
+	:term "LM" ;
+	:term "LGG" ;
+	a :Gazetteer .
+
+:stock_LEGGETT_PLATT_0_01
+	:identifiedBy :gaz_stock_LEGGETT_PLATT_0_01 .
+:gaz_stock_LEGGETT_PLATT_0_01
+	:term "LEG" ;
+	:term "LP1" ;
+	a :Gazetteer .
+
+:stock_LENNAR
+	:identifiedBy :gaz_stock_LENNAR .
+:gaz_stock_LENNAR
+	:term "LEN" ;
+	:term "LNN" ;
+	a :Gazetteer .
+
+:stock_LEUCADIA_NATL
+	:identifiedBy :gaz_stock_LEUCADIA_NATL .
+:gaz_stock_LEUCADIA_NATL
+	:term "LUK" ;
+	:term "LN3" ;
+	a :Gazetteer .
+
+:stock_LEXMAX_INTL_A
+	:identifiedBy :gaz_stock_LEXMAX_INTL_A .
+:gaz_stock_LEXMAX_INTL_A
+	:term "LXK" ;
+	a :Gazetteer .
+
+:stock_LIFE_TECH
+	:identifiedBy :gaz_stock_LIFE_TECH .
+:gaz_stock_LIFE_TECH
+	:term "LIFE" ;
+	:term "IVN" ;
+	a :Gazetteer .
+
+:stock_LTD_BRNDS_INC
+	:identifiedBy :gaz_stock_LTD_BRNDS_INC .
+:gaz_stock_LTD_BRNDS_INC
+	:term "LTD" ;
+	a :Gazetteer .
+
+:stock_LINCOLN_NATL
+	:identifiedBy :gaz_stock_LINCOLN_NATL .
+:gaz_stock_LINCOLN_NATL
+	:term "LNC" ;
+	:term "LCO" ;
+	a :Gazetteer .
+
+:stock_LINEAR_TECH_CORP
+	:identifiedBy :gaz_stock_LINEAR_TECH_CORP .
+:gaz_stock_LINEAR_TECH_CORP
+	:term "LLTC" ;
+	:term "LTC" ;
+	a :Gazetteer .
+
+:stock_LOCKHEED_MARTIN
+	:identifiedBy :gaz_stock_LOCKHEED_MARTIN .
+:gaz_stock_LOCKHEED_MARTIN
+	:term "LMT" ;
+	:term "LOM" ;
+	a :Gazetteer .
+
+:stock_LOEWS_CORP
+	:identifiedBy :gaz_stock_LOEWS_CORP .
+:gaz_stock_LOEWS_CORP
+	:term "L" ;
+	:term "LTR" ;
+	a :Gazetteer .
+
+:stock_LORILLARD
+	:identifiedBy :gaz_stock_LORILLARD .
+:gaz_stock_LORILLARD
+	:term "LO" ;
+	:term "LLV" ;
+	a :Gazetteer .
+
+:stock_LOWE_S_COS
+	:identifiedBy :gaz_stock_LOWE_S_COS .
+:gaz_stock_LOWE_S_COS
+	:term "LOW" ;
+	:term "LWE" ;
+	a :Gazetteer .
+
+:stock_LSI_CORPOLSI
+	:identifiedBy :gaz_stock_LSI_CORPOLSI .
+:gaz_stock_LSI_CORPOLSI
+	:term "LSI" ;
+	:term "LOG" ;
+	a :Gazetteer .
+
+:stock_M_T_BK_CP
+	:identifiedBy :gaz_stock_M_T_BK_CP .
+:gaz_stock_M_T_BK_CP
+	:term "MTB" ;
+	:term "MTZ" ;
+	a :Gazetteer .
+
+:stock_MACY_S
+	:identifiedBy :gaz_stock_MACY_S .
+:gaz_stock_MACY_S
+	:term "M" ;
+	:term "FDO" ;
+	a :Gazetteer .
+
+:stock_MARATHON_OIL
+	:identifiedBy :gaz_stock_MARATHON_OIL .
+:gaz_stock_MARATHON_OIL
+	:term "MRO" ;
+	:term "USS" ;
+	a :Gazetteer .
+
+:stock_MARN_PETR
+	:identifiedBy :gaz_stock_MARN_PETR .
+:gaz_stock_MARN_PETR
+	:term "MPC" ;
+	:term "MPN" ;
+	a :Gazetteer .
+
+:stock_MARRIOTT_INT_A
+	:identifiedBy :gaz_stock_MARRIOTT_INT_A .
+:gaz_stock_MARRIOTT_INT_A
+	:term "MAR" ;
+	a :Gazetteer .
+
+:stock_MARSH_MCLN
+	:identifiedBy :gaz_stock_MARSH_MCLN .
+:gaz_stock_MARSH_MCLN
+	:term "MMC" ;
+	:term "MSN" ;
+	a :Gazetteer .
+
+:stock_MASCO
+	:identifiedBy :gaz_stock_MASCO .
+:gaz_stock_MASCO
+	:term "MAS" ;
+	:term "MSQ" ;
+	a :Gazetteer .
+
+:stock_MASTERCD
+	:identifiedBy :gaz_stock_MASTERCD .
+:gaz_stock_MASTERCD
+	:term "MA" ;
+	:term "M4I" ;
+	a :Gazetteer .
+
+:stock_MATTEL
+	:identifiedBy :gaz_stock_MATTEL .
+:gaz_stock_MATTEL
+	:term "MAT" ;
+	:term "MTT" ;
+	a :Gazetteer .
+
+:stock_MCCORMICK_NV_NPV
+	:identifiedBy :gaz_stock_MCCORMICK_NV_NPV .
+:gaz_stock_MCCORMICK_NV_NPV
+	:term "MKC" ;
+	:term "MCX" ;
+	a :Gazetteer .
+
+:stock_MCGRAW_HILL
+	:identifiedBy :gaz_stock_MCGRAW_HILL .
+:gaz_stock_MCGRAW_HILL
+	:term "MHP" ;
+	:term "MHL" ;
+	a :Gazetteer .
+
+:stock_MCKESSON_CORP
+	:identifiedBy :gaz_stock_MCKESSON_CORP .
+:gaz_stock_MCKESSON_CORP
+	:term "MCK" ;
+	a :Gazetteer .
+
+:stock_MEAD_JOHN
+	:identifiedBy :gaz_stock_MEAD_JOHN .
+:gaz_stock_MEAD_JOHN
+	:term "MJN" ;
+	:term "0MJA" ;
+	a :Gazetteer .
+
+:stock_MEADWESTVACO
+	:identifiedBy :gaz_stock_MEADWESTVACO .
+:gaz_stock_MEADWESTVACO
+	:term "MWV" ;
+	:term "MVA" ;
+	a :Gazetteer .
+
+:stock_MEDTRONIC
+	:identifiedBy :gaz_stock_MEDTRONIC .
+:gaz_stock_MEDTRONIC
+	:term "MDT" ;
+	a :Gazetteer .
+
+:stock_METLIFE_INC
+	:identifiedBy :gaz_stock_METLIFE_INC .
+:gaz_stock_METLIFE_INC
+	:term "MET" ;
+	:term "MWZ" ;
+	a :Gazetteer .
+
+:stock_METROPCS
+	:identifiedBy :gaz_stock_METROPCS .
+:gaz_stock_METROPCS
+	:term "PCS" ;
+	:term "PU9" ;
+	a :Gazetteer .
+
+:stock_MICROCHIP_TECH
+	:identifiedBy :gaz_stock_MICROCHIP_TECH .
+:gaz_stock_MICROCHIP_TECH
+	:term "MCHP" ;
+	:term "MCP" ;
+	a :Gazetteer .
+
+:stock_MICRON_TECHN
+	:identifiedBy :gaz_stock_MICRON_TECHN .
+:gaz_stock_MICRON_TECHN
+	:term "MU" ;
+	:term "MTE" ;
+	a :Gazetteer .
+
+:stock_MOLEX
+	:identifiedBy :gaz_stock_MOLEX .
+:gaz_stock_MOLEX
+	:term "MOLX" ;
+	:term "MOX" ;
+	a :Gazetteer .
+
+:stock_MOLSON_COORS_B
+	:identifiedBy :gaz_stock_MOLSON_COORS_B .
+:gaz_stock_MOLSON_COORS_B
+	:term "TAP" ;
+	:term "NY7" ;
+	a :Gazetteer .
+
+:stock_MONSANTO_MNSNT
+	:identifiedBy :gaz_stock_MONSANTO_MNSNT .
+:gaz_stock_MONSANTO_MNSNT
+	:term "MON" ;
+	:term "MOO" ;
+	a :Gazetteer .
+
+:stock_MOODYS
+	:identifiedBy :gaz_stock_MOODYS .
+:gaz_stock_MOODYS
+	:term "MCO" ;
+	:term "DUT" ;
+	a :Gazetteer .
+
+:stock_MORGAN_STANLEY
+	:identifiedBy :gaz_stock_MORGAN_STANLEY .
+:gaz_stock_MORGAN_STANLEY
+	:term "MS" ;
+	:term "DWD" ;
+	a :Gazetteer .
+
+:stock_MOSC_CO
+	:identifiedBy :gaz_stock_MOSC_CO .
+:gaz_stock_MOSC_CO
+	:term "MOS" ;
+	:term "02M" ;
+	a :Gazetteer .
+
+:stock_MOTA_MOBI
+	:identifiedBy :gaz_stock_MOTA_MOBI .
+:gaz_stock_MOTA_MOBI
+	:term "MMI" ;
+	:term "MT8" ;
+	a :Gazetteer .
+
+:stock_MOTA_SOLU
+	:identifiedBy :gaz_stock_MOTA_SOLU .
+:gaz_stock_MOTA_SOLU
+	:term "MSI" ;
+	:term "MTLA" ;
+	a :Gazetteer .
+
+:stock_MURPHY_OIL_CORP
+	:identifiedBy :gaz_stock_MURPHY_OIL_CORP .
+:gaz_stock_MURPHY_OIL_CORP
+	:term "MUR" ;
+	:term "MUQ" ;
+	a :Gazetteer .
+
+:stock_MYLAN
+	:identifiedBy :gaz_stock_MYLAN .
+:gaz_stock_MYLAN
+	:term "MYL" ;
+	a :Gazetteer .
+
+:stock_NABORS_INDS
+	:identifiedBy :gaz_stock_NABORS_INDS .
+:gaz_stock_NABORS_INDS
+	:term "NBR" ;
+	:term "NBI" ;
+	a :Gazetteer .
+
+:stock_NASDAQ_OMNAS_STK_M
+	:identifiedBy :gaz_stock_NASDAQ_OMNAS_STK_M .
+:gaz_stock_NASDAQ_OMNAS_STK_M
+	:term "NDAQ" ;
+	:term "NAQ" ;
+	a :Gazetteer .
+
+:stock_NAT_OILWELL_VARCO
+	:identifiedBy :gaz_stock_NAT_OILWELL_VARCO .
+:gaz_stock_NAT_OILWELL_VARCO
+	:term "NOV" ;
+	:term "NO8" ;
+	a :Gazetteer .
+
+:stock_NETWORK_APPLIANCE
+	:identifiedBy :gaz_stock_NETWORK_APPLIANCE .
+:gaz_stock_NETWORK_APPLIANCE
+	:term "NTAP" ;
+	:term "NTA" ;
+	a :Gazetteer .
+
+:stock_NETFLIX
+	:identifiedBy :gaz_stock_NETFLIX .
+:gaz_stock_NETFLIX
+	:term "NFLX" ;
+	:term "NFC" ;
+	a :Gazetteer .
+
+:stock_NEWELL_RUBBERMAID
+	:identifiedBy :gaz_stock_NEWELL_RUBBERMAID .
+:gaz_stock_NEWELL_RUBBERMAID
+	:term "NWL" ;
+	a :Gazetteer .
+
+:stock_NEWFIELD_EXP
+	:identifiedBy :gaz_stock_NEWFIELD_EXP .
+:gaz_stock_NEWFIELD_EXP
+	:term "NFX" ;
+	:term "NX9" ;
+	a :Gazetteer .
+
+:stock_NEWMONT
+	:identifiedBy :gaz_stock_NEWMONT .
+:gaz_stock_NEWMONT
+	:term "NEM" ;
+	:term "NMM" ;
+	a :Gazetteer .
+
+:stock_NEWS_CORP_CLS_A
+	:identifiedBy :gaz_stock_NEWS_CORP_CLS_A .
+:gaz_stock_NEWS_CORP_CLS_A
+	:term "NWSA" ;
+	:term "NXWA" ;
+	a :Gazetteer .
+
+:stock_NEXTR_EGY
+	:identifiedBy :gaz_stock_NEXTR_EGY .
+:gaz_stock_NEXTR_EGY
+	:term "NEE" ;
+	:term "FP3" ;
+	a :Gazetteer .
+
+:stock_NIKE
+	:identifiedBy :gaz_stock_NIKE .
+:gaz_stock_NIKE
+	:term "NKE" ;
+	a :Gazetteer .
+
+:stock_NISOURCE
+	:identifiedBy :gaz_stock_NISOURCE .
+:gaz_stock_NISOURCE
+	:term "NI" ;
+	:term "NOU" ;
+	a :Gazetteer .
+
+:stock_NOBLE
+	:identifiedBy :gaz_stock_NOBLE .
+:gaz_stock_NOBLE
+	:term "NE" ;
+	:term "N0L" ;
+	a :Gazetteer .
+
+:stock_NOBLE_ENGY
+	:identifiedBy :gaz_stock_NOBLE_ENGY .
+:gaz_stock_NOBLE_ENGY
+	:term "NBL" ;
+	:term "NB6" ;
+	a :Gazetteer .
+
+:stock_NORDSTROM
+	:identifiedBy :gaz_stock_NORDSTROM .
+:gaz_stock_NORDSTROM
+	:term "JWN" ;
+	:term "NRD" ;
+	a :Gazetteer .
+
+:stock_NRFLK_STHRN
+	:identifiedBy :gaz_stock_NRFLK_STHRN .
+:gaz_stock_NRFLK_STHRN
+	:term "NSC" ;
+	:term "NFS" ;
+	a :Gazetteer .
+
+:stock_NRTHEAST_UTL
+	:identifiedBy :gaz_stock_NRTHEAST_UTL .
+:gaz_stock_NRTHEAST_UTL
+	:term "NU" ;
+	:term "NWJ" ;
+	a :Gazetteer .
+
+:stock_NRTHN_TST
+	:identifiedBy :gaz_stock_NRTHN_TST .
+:gaz_stock_NRTHN_TST
+	:term "NTRS" ;
+	:term "NT4" ;
+	a :Gazetteer .
+
+:stock_NRTHROP_GRUM
+	:identifiedBy :gaz_stock_NRTHROP_GRUM .
+:gaz_stock_NRTHROP_GRUM
+	:term "NOC" ;
+	:term "NTH" ;
+	a :Gazetteer .
+
+:stock_NOVELLUS_SYS
+	:identifiedBy :gaz_stock_NOVELLUS_SYS .
+:gaz_stock_NOVELLUS_SYS
+	:term "NVLS" ;
+	:term "NVS" ;
+	a :Gazetteer .
+
+:stock_NRG_ENERGY
+	:identifiedBy :gaz_stock_NRG_ENERGY .
+:gaz_stock_NRG_ENERGY
+	:term "NRG" ;
+	:term "NRA" ;
+	a :Gazetteer .
+
+:stock_NUCOR_CORP
+	:identifiedBy :gaz_stock_NUCOR_CORP .
+:gaz_stock_NUCOR_CORP
+	:term "NUE" ;
+	:term "NUO" ;
+	a :Gazetteer .
+
+:stock_NVIDIA_CORP
+	:identifiedBy :gaz_stock_NVIDIA_CORP .
+:gaz_stock_NVIDIA_CORP
+	:term "NVDA" ;
+	:term "NVD" ;
+	a :Gazetteer .
+
+:stock_NYSE_EURO
+	:identifiedBy :gaz_stock_NYSE_EURO .
+:gaz_stock_NYSE_EURO
+	:term "NYX" ;
+	:term "NYE" ;
+	a :Gazetteer .
+
+:stock_OCC_PETROL
+	:identifiedBy :gaz_stock_OCC_PETROL .
+:gaz_stock_OCC_PETROL
+	:term "OXY" ;
+	:term "OPC" ;
+	a :Gazetteer .
+
+:stock_OMNICOM_GP
+	:identifiedBy :gaz_stock_OMNICOM_GP .
+:gaz_stock_OMNICOM_GP
+	:term "OMC" ;
+	:term "OCN" ;
+	a :Gazetteer .
+
+:stock_ONEOK_NPV
+	:identifiedBy :gaz_stock_ONEOK_NPV .
+:gaz_stock_ONEOK_NPV
+	:term "OKE" ;
+	:term "ONK" ;
+	a :Gazetteer .
+
+:stock_ORACLE_CORP
+	:identifiedBy :gaz_stock_ORACLE_CORP .
+:gaz_stock_ORACLE_CORP
+	:term "ORCL" ;
+	:term "ORC" ;
+	a :Gazetteer .
+
+:stock_OREY_AUTO
+	:identifiedBy :gaz_stock_OREY_AUTO .
+:gaz_stock_OREY_AUTO
+	:term "ORLY" ;
+	:term "OM6" ;
+	a :Gazetteer .
+
+:stock_OWENS_ILL
+	:identifiedBy :gaz_stock_OWENS_ILL .
+:gaz_stock_OWENS_ILL
+	:term "OI" ;
+	:term "OIL" ;
+	a :Gazetteer .
+
+:stock_PACCAR_INC
+	:identifiedBy :gaz_stock_PACCAR_INC .
+:gaz_stock_PACCAR_INC
+	:term "PCAR" ;
+	:term "PAE" ;
+	a :Gazetteer .
+
+:stock_PALL_CORP
+	:identifiedBy :gaz_stock_PALL_CORP .
+:gaz_stock_PALL_CORP
+	:term "PLL" ;
+	:term "PA5" ;
+	a :Gazetteer .
+
+:stock_PRK_HANNFN
+	:identifiedBy :gaz_stock_PRK_HANNFN .
+:gaz_stock_PRK_HANNFN
+	:term "PH" ;
+	:term "PAR" ;
+	a :Gazetteer .
+
+:stock_PATTERSON
+	:identifiedBy :gaz_stock_PATTERSON .
+:gaz_stock_PATTERSON
+	:term "PDCO" ;
+	:term "PD2" ;
+	a :Gazetteer .
+
+:stock_PAYCHEX
+	:identifiedBy :gaz_stock_PAYCHEX .
+:gaz_stock_PAYCHEX
+	:term "PAYX" ;
+	:term "PCX" ;
+	a :Gazetteer .
+
+:stock_PEABODY_ENERGY
+	:identifiedBy :gaz_stock_PEABODY_ENERGY .
+:gaz_stock_PEABODY_ENERGY
+	:term "BTU" ;
+	:term "PE5" ;
+	a :Gazetteer .
+
+:stock_PEOPLE_S
+	:identifiedBy :gaz_stock_PEOPLE_S .
+:gaz_stock_PEOPLE_S
+	:term "PBCT" ;
+	:term "PP21" ;
+	a :Gazetteer .
+
+:stock_PEPCO
+	:identifiedBy :gaz_stock_PEPCO .
+:gaz_stock_PEPCO
+	:term "POM" ;
+	:term "PPJ" ;
+	a :Gazetteer .
+
+:stock_PEPSICO
+	:identifiedBy :gaz_stock_PEPSICO .
+:gaz_stock_PEPSICO
+	:term "PEP" ;
+	a :Gazetteer .
+
+:stock_PRKNLMR
+	:identifiedBy :gaz_stock_PRKNLMR .
+:gaz_stock_PRKNLMR
+	:term "PKI" ;
+	:term "PKN" ;
+	a :Gazetteer .
+
+:stock_PERRIGO
+	:identifiedBy :gaz_stock_PERRIGO .
+:gaz_stock_PERRIGO
+	:term "PRGO" ;
+	:term "PGO" ;
+	a :Gazetteer .
+
+:stock_PGE
+	:identifiedBy :gaz_stock_PGE .
+:gaz_stock_PGE
+	:term "PCG" ;
+	a :Gazetteer .
+
+:stock_PHILIP_MORRIS_INTL
+	:identifiedBy :gaz_stock_PHILIP_MORRIS_INTL .
+:gaz_stock_PHILIP_MORRIS_INTL
+	:term "PM" ;
+	:term "4I1" ;
+	a :Gazetteer .
+
+:stock_PHIS_66
+	:identifiedBy :gaz_stock_PHIS_66 .
+:gaz_stock_PHIS_66
+	:term "PSX" ;
+	a :Gazetteer .
+
+:stock_PIN_WST_CAP
+	:identifiedBy :gaz_stock_PIN_WST_CAP .
+:gaz_stock_PIN_WST_CAP
+	:term "PNW" ;
+	:term "PWC" ;
+	a :Gazetteer .
+
+:stock_PION_NAT_USD0_01
+	:identifiedBy :gaz_stock_PION_NAT_USD0_01 .
+:gaz_stock_PION_NAT_USD0_01
+	:term "PXD" ;
+	:term "PNK" ;
+	a :Gazetteer .
+
+:stock_PITNEY_BOWES
+	:identifiedBy :gaz_stock_PITNEY_BOWES .
+:gaz_stock_PITNEY_BOWES
+	:term "PBI" ;
+	:term "PBW" ;
+	a :Gazetteer .
+
+:stock_PLUM_CREEK_TIM
+	:identifiedBy :gaz_stock_PLUM_CREEK_TIM .
+:gaz_stock_PLUM_CREEK_TIM
+	:term "PCL" ;
+	:term "PK0" ;
+	a :Gazetteer .
+
+:stock_PNC_FINAN_SERV_GP
+	:identifiedBy :gaz_stock_PNC_FINAN_SERV_GP .
+:gaz_stock_PNC_FINAN_SERV_GP
+	:term "PNC" ;
+	:term "PNP" ;
+	a :Gazetteer .
+
+:stock_PPG_INDST
+	:identifiedBy :gaz_stock_PPG_INDST .
+:gaz_stock_PPG_INDST
+	:term "PPG" ;
+	:term "PPQ" ;
+	a :Gazetteer .
+
+:stock_PPL_CP
+	:identifiedBy :gaz_stock_PPL_CP .
+:gaz_stock_PPL_CP
+	:term "PPL" ;
+	:term "PP9" ;
+	a :Gazetteer .
+
+:stock_PRAXAIR
+	:identifiedBy :gaz_stock_PRAXAIR .
+:gaz_stock_PRAXAIR
+	:term "PX" ;
+	:term "PXR" ;
+	a :Gazetteer .
+
+:stock_PRECISIONPRECISN_C
+	:identifiedBy :gaz_stock_PRECISIONPRECISN_C .
+:gaz_stock_PRECISIONPRECISN_C
+	:term "PCP" ;
+	:term "PC9" ;
+	a :Gazetteer .
+
+:stock_PRIE_T
+	:identifiedBy :gaz_stock_PRIE_T .
+:gaz_stock_PRIE_T
+	:term "TROW" ;
+	:term "TR1" ;
+	a :Gazetteer .
+
+:stock_PRICELINE_COM
+	:identifiedBy :gaz_stock_PRICELINE_COM .
+:gaz_stock_PRICELINE_COM
+	:term "PCLN" ;
+	:term "PCE1" ;
+	a :Gazetteer .
+
+:stock_PRINCIPAL_FIN
+	:identifiedBy :gaz_stock_PRINCIPAL_FIN .
+:gaz_stock_PRINCIPAL_FIN
+	:term "PFG" ;
+	:term "PG4" ;
+	a :Gazetteer .
+
+:stock_PRGRSS_ENRGY
+	:identifiedBy :gaz_stock_PRGRSS_ENRGY .
+:gaz_stock_PRGRSS_ENRGY
+	:term "PGN" ;
+	:term "CRW" ;
+	a :Gazetteer .
+
+:stock_PROGRESSIVE_CORP
+	:identifiedBy :gaz_stock_PROGRESSIVE_CORP .
+:gaz_stock_PROGRESSIVE_CORP
+	:term "PGR" ;
+	:term "PGV" ;
+	a :Gazetteer .
+
+:stock_PROLOGIS
+	:identifiedBy :gaz_stock_PROLOGIS .
+:gaz_stock_PROLOGIS
+	:term "PLD" ;
+	:term "POJN" ;
+	a :Gazetteer .
+
+:stock_PRUDENT_FINANCIAL
+	:identifiedBy :gaz_stock_PRUDENT_FINANCIAL .
+:gaz_stock_PRUDENT_FINANCIAL
+	:term "PRU" ;
+	:term "PLL" ;
+	a :Gazetteer .
+
+:stock_PUBLIC_SERV_NPV
+	:identifiedBy :gaz_stock_PUBLIC_SERV_NPV .
+:gaz_stock_PUBLIC_SERV_NPV
+	:term "PEG" ;
+	:term "PSE" ;
+	a :Gazetteer .
+
+:stock_PUBLIC_STORAGE
+	:identifiedBy :gaz_stock_PUBLIC_STORAGE .
+:gaz_stock_PUBLIC_STORAGE
+	:term "PSA" ;
+	:term "PUP" ;
+	a :Gazetteer .
+
+:stock_PULE_GRP
+	:identifiedBy :gaz_stock_PULE_GRP .
+:gaz_stock_PULE_GRP
+	:term "PHM" ;
+	:term "PU7" ;
+	a :Gazetteer .
+
+:stock_QEP_RESO
+	:identifiedBy :gaz_stock_QEP_RESO .
+:gaz_stock_QEP_RESO
+	:term "QEP" ;
+	:term "Q8Q" ;
+	a :Gazetteer .
+
+:stock_QUALCOMM
+	:identifiedBy :gaz_stock_QUALCOMM .
+:gaz_stock_QUALCOMM
+	:term "QCOM" ;
+	:term "QCI" ;
+	a :Gazetteer .
+
+:stock_QUANTA_SER_USD
+	:identifiedBy :gaz_stock_QUANTA_SER_USD .
+:gaz_stock_QUANTA_SER_USD
+	:term "PWR" ;
+	:term "QAA" ;
+	a :Gazetteer .
+
+:stock_QUST_DIAGNSTC
+	:identifiedBy :gaz_stock_QUST_DIAGNSTC .
+:gaz_stock_QUST_DIAGNSTC
+	:term "DGX" ;
+	:term "QDI" ;
+	a :Gazetteer .
+
+:stock_RALH_LAUR
+	:identifiedBy :gaz_stock_RALH_LAUR .
+:gaz_stock_RALH_LAUR
+	:term "RL" ;
+	:term "PRL" ;
+	a :Gazetteer .
+
+:stock_RANGE_RES_CORP
+	:identifiedBy :gaz_stock_RANGE_RES_CORP .
+:gaz_stock_RANGE_RES_CORP
+	:term "RRC" ;
+	:term "RAX" ;
+	a :Gazetteer .
+
+:stock_RAYTHEON_CO
+	:identifiedBy :gaz_stock_RAYTHEON_CO .
+:gaz_stock_RAYTHEON_CO
+	:term "RTN" ;
+	:term "RTN1" ;
+	a :Gazetteer .
+
+:stock_RED_HAT
+	:identifiedBy :gaz_stock_RED_HAT .
+:gaz_stock_RED_HAT
+	:term "RHT" ;
+	:term "RHI" ;
+	a :Gazetteer .
+
+:stock_REGIONS_F
+	:identifiedBy :gaz_stock_REGIONS_F .
+:gaz_stock_REGIONS_F
+	:term "RF" ;
+	:term "RN7" ;
+	a :Gazetteer .
+
+:stock_REPUBLIC_SERV
+	:identifiedBy :gaz_stock_REPUBLIC_SERV .
+:gaz_stock_REPUBLIC_SERV
+	:term "RSG" ;
+	:term "RPU" ;
+	a :Gazetteer .
+
+:stock_REYNLDS_AMER
+	:identifiedBy :gaz_stock_REYNLDS_AMER .
+:gaz_stock_REYNLDS_AMER
+	:term "RAI" ;
+	:term "RQ4" ;
+	a :Gazetteer .
+
+:stock_ROBERT_HALF_INT
+	:identifiedBy :gaz_stock_ROBERT_HALF_INT .
+:gaz_stock_ROBERT_HALF_INT
+	:term "RHI" ;
+	:term "RHJ" ;
+	a :Gazetteer .
+
+:stock_ROCKWELL_AUTO
+	:identifiedBy :gaz_stock_ROCKWELL_AUTO .
+:gaz_stock_ROCKWELL_AUTO
+	:term "ROK" ;
+	:term "RWL" ;
+	a :Gazetteer .
+
+:stock_RCKWLL_CLLNS
+	:identifiedBy :gaz_stock_RCKWLL_CLLNS .
+:gaz_stock_RCKWLL_CLLNS
+	:term "COL" ;
+	:term "RWC" ;
+	a :Gazetteer .
+
+:stock_ROPER_INDS
+	:identifiedBy :gaz_stock_ROPER_INDS .
+:gaz_stock_ROPER_INDS
+	:term "ROP" ;
+	a :Gazetteer .
+
+:stock_ROSS_STORES
+	:identifiedBy :gaz_stock_ROSS_STORES .
+:gaz_stock_ROSS_STORES
+	:term "ROST" ;
+	:term "RSO" ;
+	a :Gazetteer .
+
+:stock_ROWAN_COS
+	:identifiedBy :gaz_stock_ROWAN_COS .
+:gaz_stock_ROWAN_COS
+	:term "RDC" ;
+	:term "RCS" ;
+	a :Gazetteer .
+
+:stock_RYDER_SYSTM
+	:identifiedBy :gaz_stock_RYDER_SYSTM .
+:gaz_stock_RYDER_SYSTM
+	:term "R" ;
+	:term "RYD" ;
+	a :Gazetteer .
+
+:stock_SAFEWAY
+	:identifiedBy :gaz_stock_SAFEWAY .
+:gaz_stock_SAFEWAY
+	:term "SWY" ;
+	a :Gazetteer .
+
+:stock_SAIC_INC
+	:identifiedBy :gaz_stock_SAIC_INC .
+:gaz_stock_SAIC_INC
+	:term "SAI" ;
+	:term "S6I" ;
+	a :Gazetteer .
+
+:stock_SALESFORCE
+	:identifiedBy :gaz_stock_SALESFORCE .
+:gaz_stock_SALESFORCE
+	:term "CRM" ;
+	:term "FOO" ;
+	a :Gazetteer .
+
+:stock_SANDISK_CORP
+	:identifiedBy :gaz_stock_SANDISK_CORP .
+:gaz_stock_SANDISK_CORP
+	:term "SNDK" ;
+	:term "SSK" ;
+	a :Gazetteer .
+
+:stock_SARA_LEE
+	:identifiedBy :gaz_stock_SARA_LEE .
+:gaz_stock_SARA_LEE
+	:term "SLE" ;
+	:term "LEE" ;
+	a :Gazetteer .
+
+:stock_SCANA_NEW
+	:identifiedBy :gaz_stock_SCANA_NEW .
+:gaz_stock_SCANA_NEW
+	:term "SCG" ;
+	:term "SK2" ;
+	a :Gazetteer .
+
+:stock_SCHLUMBERGER
+	:identifiedBy :gaz_stock_SCHLUMBERGER .
+:gaz_stock_SCHLUMBERGER
+	:term "SLB" ;
+	:term "SCL" ;
+	a :Gazetteer .
+
+:stock_SCHWB_CHRLS
+	:identifiedBy :gaz_stock_SCHWB_CHRLS .
+:gaz_stock_SCHWB_CHRLS
+	:term "SCHW" ;
+	:term "SWG" ;
+	a :Gazetteer .
+
+:stock_SCRIPPS_NET_A
+	:identifiedBy :gaz_stock_SCRIPPS_NET_A .
+:gaz_stock_SCRIPPS_NET_A
+	:term "SNI" ;
+	:term "SNY" ;
+	a :Gazetteer .
+
+:stock_SEALED_AIR
+	:identifiedBy :gaz_stock_SEALED_AIR .
+:gaz_stock_SEALED_AIR
+	:term "SEE" ;
+	:term "SDA" ;
+	a :Gazetteer .
+
+:stock_SEARS_HLDGS
+	:identifiedBy :gaz_stock_SEARS_HLDGS .
+:gaz_stock_SEARS_HLDGS
+	:term "SHLD" ;
+	:term "SEE" ;
+	a :Gazetteer .
+
+:stock_SEMPRA_ENER_NPV
+	:identifiedBy :gaz_stock_SEMPRA_ENER_NPV .
+:gaz_stock_SEMPRA_ENER_NPV
+	:term "SRE" ;
+	:term "SE4" ;
+	a :Gazetteer .
+
+:stock_SHRWN_WLLMS
+	:identifiedBy :gaz_stock_SHRWN_WLLMS .
+:gaz_stock_SHRWN_WLLMS
+	:term "SHW" ;
+	:term "SJ3" ;
+	a :Gazetteer .
+
+:stock_SIGMA_ALDRCH
+	:identifiedBy :gaz_stock_SIGMA_ALDRCH .
+:gaz_stock_SIGMA_ALDRCH
+	:term "SIAL" ;
+	:term "SIQ" ;
+	a :Gazetteer .
+
+:stock_SIMON_PROP
+	:identifiedBy :gaz_stock_SIMON_PROP .
+:gaz_stock_SIMON_PROP
+	:term "SPG" ;
+	:term "SQI" ;
+	a :Gazetteer .
+
+:stock_SLM_CORP
+	:identifiedBy :gaz_stock_SLM_CORP .
+:gaz_stock_SLM_CORP
+	:term "SLM" ;
+	:term "SM1" ;
+	a :Gazetteer .
+
+:stock_SMUCKER_J
+	:identifiedBy :gaz_stock_SMUCKER_J .
+:gaz_stock_SMUCKER_J
+	:term "SJM" ;
+	:term "JM2" ;
+	a :Gazetteer .
+
+:stock_SNAP_ON_1
+	:identifiedBy :gaz_stock_SNAP_ON_1 .
+:gaz_stock_SNAP_ON_1
+	:term "SNA" ;
+	:term "SPU" ;
+	a :Gazetteer .
+
+:stock_STHRN_CO
+	:identifiedBy :gaz_stock_STHRN_CO .
+:gaz_stock_STHRN_CO
+	:term "SO" ;
+	:term "SOT" ;
+	a :Gazetteer .
+
+:stock_SW_AIR_1
+	:identifiedBy :gaz_stock_SW_AIR_1 .
+:gaz_stock_SW_AIR_1
+	:term "LUV" ;
+	:term "SWN" ;
+	a :Gazetteer .
+
+:stock_SW_ENERGY_USD
+	:identifiedBy :gaz_stock_SW_ENERGY_USD .
+:gaz_stock_SW_ENERGY_USD
+	:term "SWN" ;
+	:term "SW5" ;
+	a :Gazetteer .
+
+:stock_SPECTRA_E
+	:identifiedBy :gaz_stock_SPECTRA_E .
+:gaz_stock_SPECTRA_E
+	:term "SE" ;
+	:term "N4D" ;
+	a :Gazetteer .
+
+:stock_SPR_NEXTEL_CORP_FON_1_DL2
+	:identifiedBy :gaz_stock_SPR_NEXTEL_CORP_FON_1_DL2 .
+:gaz_stock_SPR_NEXTEL_CORP_FON_1_DL2
+	:term "S" ;
+	:term "SRN" ;
+	a :Gazetteer .
+
+:stock_ST_JUDE_MED
+	:identifiedBy :gaz_stock_ST_JUDE_MED .
+:gaz_stock_ST_JUDE_MED
+	:term "STJ" ;
+	:term "JUD" ;
+	a :Gazetteer .
+
+:stock_STAY_BLAC
+	:identifiedBy :gaz_stock_STAY_BLAC .
+:gaz_stock_STAY_BLAC
+	:term "SWK" ;
+	:term "SWF" ;
+	a :Gazetteer .
+
+:stock_STAPLES
+	:identifiedBy :gaz_stock_STAPLES .
+:gaz_stock_STAPLES
+	:term "SPLS" ;
+	:term "STP" ;
+	a :Gazetteer .
+
+:stock_STARBUCKS_CORP
+	:identifiedBy :gaz_stock_STARBUCKS_CORP .
+:gaz_stock_STARBUCKS_CORP
+	:term "SBUX" ;
+	:term "SRB" ;
+	a :Gazetteer .
+
+:stock_STARWOOD
+	:identifiedBy :gaz_stock_STARWOOD .
+:gaz_stock_STARWOOD
+	:term "HOT" ;
+	:term "S1V" ;
+	a :Gazetteer .
+
+:stock_STATE_STREET
+	:identifiedBy :gaz_stock_STATE_STREET .
+:gaz_stock_STATE_STREET
+	:term "STT" ;
+	:term "ZYA" ;
+	a :Gazetteer .
+
+:stock_STERCYCLE
+	:identifiedBy :gaz_stock_STERCYCLE .
+:gaz_stock_STERCYCLE
+	:term "SRCL" ;
+	:term "SY9" ;
+	a :Gazetteer .
+
+:stock_STRYKER
+	:identifiedBy :gaz_stock_STRYKER .
+:gaz_stock_STRYKER
+	:term "SYK" ;
+	a :Gazetteer .
+
+:stock_SUNOCO
+	:identifiedBy :gaz_stock_SUNOCO .
+:gaz_stock_SUNOCO
+	:term "SUN" ;
+	:term "XS6" ;
+	a :Gazetteer .
+
+:stock_SUNTST_BNKS
+	:identifiedBy :gaz_stock_SUNTST_BNKS .
+:gaz_stock_SUNTST_BNKS
+	:term "STI" ;
+	:term "SUU" ;
+	a :Gazetteer .
+
+:stock_SYMANTEC_CORP
+	:identifiedBy :gaz_stock_SYMANTEC_CORP .
+:gaz_stock_SYMANTEC_CORP
+	:term "SYMC" ;
+	:term "SYM" ;
+	a :Gazetteer .
+
+:stock_SYSCO
+	:identifiedBy :gaz_stock_SYSCO .
+:gaz_stock_SYSCO
+	:term "SYY" ;
+	a :Gazetteer .
+
+:stock_TARGET_CO
+	:identifiedBy :gaz_stock_TARGET_CO .
+:gaz_stock_TARGET_CO
+	:term "TGT" ;
+	:term "DYH" ;
+	a :Gazetteer .
+
+:stock_TE_CONN
+	:identifiedBy :gaz_stock_TE_CONN .
+:gaz_stock_TE_CONN
+	:term "TEL" ;
+	:term "9TC" ;
+	a :Gazetteer .
+
+:stock_TECO_ENERGY
+	:identifiedBy :gaz_stock_TECO_ENERGY .
+:gaz_stock_TECO_ENERGY
+	:term "TE" ;
+	:term "TE5" ;
+	a :Gazetteer .
+
+:stock_TENET_HLTH
+	:identifiedBy :gaz_stock_TENET_HLTH .
+:gaz_stock_TENET_HLTH
+	:term "THC" ;
+	a :Gazetteer .
+
+:stock_TERADATA
+	:identifiedBy :gaz_stock_TERADATA .
+:gaz_stock_TERADATA
+	:term "TDC" ;
+	:term "3T4" ;
+	a :Gazetteer .
+
+:stock_TERADYNE
+	:identifiedBy :gaz_stock_TERADYNE .
+:gaz_stock_TERADYNE
+	:term "TER" ;
+	:term "TEY" ;
+	a :Gazetteer .
+
+:stock_TESORO
+	:identifiedBy :gaz_stock_TESORO .
+:gaz_stock_TESORO
+	:term "TSO" ;
+	:term "TX5" ;
+	a :Gazetteer .
+
+:stock_TEXAS_INSTR
+	:identifiedBy :gaz_stock_TEXAS_INSTR .
+:gaz_stock_TEXAS_INSTR
+	:term "TXN" ;
+	:term "TII" ;
+	a :Gazetteer .
+
+:stock_TEXTRON
+	:identifiedBy :gaz_stock_TEXTRON .
+:gaz_stock_TEXTRON
+	:term "TXT" ;
+	a :Gazetteer .
+
+:stock_THERMO_FISHER_SC
+	:identifiedBy :gaz_stock_THERMO_FISHER_SC .
+:gaz_stock_THERMO_FISHER_SC
+	:term "TMO" ;
+	:term "TN8" ;
+	a :Gazetteer .
+
+:stock_TIFFANY_CO
+	:identifiedBy :gaz_stock_TIFFANY_CO .
+:gaz_stock_TIFFANY_CO
+	:term "TIF" ;
+	a :Gazetteer .
+
+:stock_TIME_WARNCBLE
+	:identifiedBy :gaz_stock_TIME_WARNCBLE .
+:gaz_stock_TIME_WARNCBLE
+	:term "TWC" ;
+	:term "T3W1" ;
+	a :Gazetteer .
+
+:stock_TIME_WARN
+	:identifiedBy :gaz_stock_TIME_WARN .
+:gaz_stock_TIME_WARN
+	:term "TWX" ;
+	:term "AOL1" ;
+	a :Gazetteer .
+
+:stock_TITANIUM_METALS
+	:identifiedBy :gaz_stock_TITANIUM_METALS .
+:gaz_stock_TITANIUM_METALS
+	:term "TIE" ;
+	:term "TIU1" ;
+	a :Gazetteer .
+
+:stock_TJX_COS
+	:identifiedBy :gaz_stock_TJX_COS .
+:gaz_stock_TJX_COS
+	:term "TJX" ;
+	a :Gazetteer .
+
+:stock_TORCHMRK
+	:identifiedBy :gaz_stock_TORCHMRK .
+:gaz_stock_TORCHMRK
+	:term "TMK" ;
+	:term "TMJ" ;
+	a :Gazetteer .
+
+:stock_TOTAL_SYSTEM_SRVCS
+	:identifiedBy :gaz_stock_TOTAL_SYSTEM_SRVCS .
+:gaz_stock_TOTAL_SYSTEM_SRVCS
+	:term "TSS" ;
+	:term "TTY" ;
+	a :Gazetteer .
+
+:stock_TRIPADVIS
+	:identifiedBy :gaz_stock_TRIPADVIS .
+:gaz_stock_TRIPADVIS
+	:term "TRIP" ;
+	:term "T6A" ;
+	a :Gazetteer .
+
+:stock_TYCO_LTDS
+	:identifiedBy :gaz_stock_TYCO_LTDS .
+:gaz_stock_TYCO_LTDS
+	:term "TYC" ;
+	:term "LHN1" ;
+	a :Gazetteer .
+
+:stock_TYSON_FOOD_A
+	:identifiedBy :gaz_stock_TYSON_FOOD_A .
+:gaz_stock_TYSON_FOOD_A
+	:term "TSN" ;
+	:term "TF7A" ;
+	a :Gazetteer .
+
+:stock_UNION_PAC_CORP
+	:identifiedBy :gaz_stock_UNION_PAC_CORP .
+:gaz_stock_UNION_PAC_CORP
+	:term "UNP" ;
+	a :Gazetteer .
+
+:stock_UNITED_PARCEL_SE_B
+	:identifiedBy :gaz_stock_UNITED_PARCEL_SE_B .
+:gaz_stock_UNITED_PARCEL_SE_B
+	:term "UPS" ;
+	:term "UPAB" ;
+	a :Gazetteer .
+
+:stock_UNITED_STATES_STEEL_CORP
+	:identifiedBy :gaz_stock_UNITED_STATES_STEEL_CORP .
+:gaz_stock_UNITED_STATES_STEEL_CORP
+	:term "X" ;
+	:term "USX1" ;
+	a :Gazetteer .
+
+:stock_UNITEDHEALTH_GRP
+	:identifiedBy :gaz_stock_UNITEDHEALTH_GRP .
+:gaz_stock_UNITEDHEALTH_GRP
+	:term "UNH" ;
+	a :Gazetteer .
+
+:stock_UNUM
+	:identifiedBy :gaz_stock_UNUM .
+:gaz_stock_UNUM
+	:term "UNM" ;
+	:term "UUM" ;
+	a :Gazetteer .
+
+:stock_URBAN_OUTFTTRS
+	:identifiedBy :gaz_stock_URBAN_OUTFTTRS .
+:gaz_stock_URBAN_OUTFTTRS
+	:term "URBN" ;
+	:term "UOF" ;
+	a :Gazetteer .
+
+:stock_US_BANCORP
+	:identifiedBy :gaz_stock_US_BANCORP .
+:gaz_stock_US_BANCORP
+	:term "USB" ;
+	:term "UB5" ;
+	a :Gazetteer .
+
+:stock_VF_CORP_NPV
+	:identifiedBy :gaz_stock_VF_CORP_NPV .
+:gaz_stock_VF_CORP_NPV
+	:term "VFC" ;
+	:term "VFP" ;
+	a :Gazetteer .
+
+:stock_VALERO
+	:identifiedBy :gaz_stock_VALERO .
+:gaz_stock_VALERO
+	:term "VLO" ;
+	:term "VLE" ;
+	a :Gazetteer .
+
+:stock_VARIAN_MED_SYST
+	:identifiedBy :gaz_stock_VARIAN_MED_SYST .
+:gaz_stock_VARIAN_MED_SYST
+	:term "VAR" ;
+	:term "VNM" ;
+	a :Gazetteer .
+
+:stock_VENTAS_0_25
+	:identifiedBy :gaz_stock_VENTAS_0_25 .
+:gaz_stock_VENTAS_0_25
+	:term "VTR" ;
+	:term "VEN" ;
+	a :Gazetteer .
+
+:stock_VERISIGN
+	:identifiedBy :gaz_stock_VERISIGN .
+:gaz_stock_VERISIGN
+	:term "VRSN" ;
+	:term "VRS" ;
+	a :Gazetteer .
+
+:stock_VIACOM_B_N_VT
+	:identifiedBy :gaz_stock_VIACOM_B_N_VT .
+:gaz_stock_VIACOM_B_N_VT
+	:term "VIAB" ;
+	:term "VCX" ;
+	a :Gazetteer .
+
+:stock_VISA_INC
+	:identifiedBy :gaz_stock_VISA_INC .
+:gaz_stock_VISA_INC
+	:term "V" ;
+	:term "3V64" ;
+	a :Gazetteer .
+
+:stock_VORNADO_RLTY
+	:identifiedBy :gaz_stock_VORNADO_RLTY .
+:gaz_stock_VORNADO_RLTY
+	:term "VNO" ;
+	:term "VO7" ;
+	a :Gazetteer .
+
+:stock_VULCAN_MATLS
+	:identifiedBy :gaz_stock_VULCAN_MATLS .
+:gaz_stock_VULCAN_MATLS
+	:term "VMC" ;
+	a :Gazetteer .
+
+:stock_WALGREEN
+	:identifiedBy :gaz_stock_WALGREEN .
+:gaz_stock_WALGREEN
+	:term "WAG" ;
+	:term "WGN" ;
+	a :Gazetteer .
+
+:stock_WASHGTN_POST_B
+	:identifiedBy :gaz_stock_WASHGTN_POST_B .
+:gaz_stock_WASHGTN_POST_B
+	:term "WPO" ;
+	:term "WPOB" ;
+	a :Gazetteer .
+
+:stock_WASTE_MGMT
+	:identifiedBy :gaz_stock_WASTE_MGMT .
+:gaz_stock_WASTE_MGMT
+	:term "WM" ;
+	:term "UWS" ;
+	a :Gazetteer .
+
+:stock_WATERS_CRP
+	:identifiedBy :gaz_stock_WATERS_CRP .
+:gaz_stock_WATERS_CRP
+	:term "WAT" ;
+	:term "WAZ" ;
+	a :Gazetteer .
+
+:stock_WATSON_PHARM
+	:identifiedBy :gaz_stock_WATSON_PHARM .
+:gaz_stock_WATSON_PHARM
+	:term "WPI" ;
+	:term "WAP" ;
+	a :Gazetteer .
+
+:stock_WELLPOINT_INC
+	:identifiedBy :gaz_stock_WELLPOINT_INC .
+:gaz_stock_WELLPOINT_INC
+	:term "WLP" ;
+	:term "AE1" ;
+	a :Gazetteer .
+
+:stock_WELLS_FARGO
+	:identifiedBy :gaz_stock_WELLS_FARGO .
+:gaz_stock_WELLS_FARGO
+	:term "WFC" ;
+	:term "NWT" ;
+	a :Gazetteer .
+
+:stock_WESTN_DIGITAL
+	:identifiedBy :gaz_stock_WESTN_DIGITAL .
+:gaz_stock_WESTN_DIGITAL
+	:term "WDC" ;
+	a :Gazetteer .
+
+:stock_WESTERN_UNION_CO
+	:identifiedBy :gaz_stock_WESTERN_UNION_CO .
+:gaz_stock_WESTERN_UNION_CO
+	:term "WU" ;
+	:term "W3U" ;
+	a :Gazetteer .
+
+:stock_WEYERHAEUSER_1_25
+	:identifiedBy :gaz_stock_WEYERHAEUSER_1_25 .
+:gaz_stock_WEYERHAEUSER_1_25
+	:term "WY" ;
+	:term "WHC" ;
+	a :Gazetteer .
+
+:stock_WHRLPOOL
+	:identifiedBy :gaz_stock_WHRLPOOL .
+:gaz_stock_WHRLPOOL
+	:term "WHR" ;
+	a :Gazetteer .
+
+:stock_WHOLE_FOODS
+	:identifiedBy :gaz_stock_WHOLE_FOODS .
+:gaz_stock_WHOLE_FOODS
+	:term "WFM" ;
+	a :Gazetteer .
+
+:stock_WILLIAMS_COS
+	:identifiedBy :gaz_stock_WILLIAMS_COS .
+:gaz_stock_WILLIAMS_COS
+	:term "WMB" ;
+	a :Gazetteer .
+
+:stock_WINDSTREAM
+	:identifiedBy :gaz_stock_WINDSTREAM .
+:gaz_stock_WINDSTREAM
+	:term "WIN" ;
+	:term "B4O" ;
+	a :Gazetteer .
+
+:stock_WIS_N_ENER
+	:identifiedBy :gaz_stock_WIS_N_ENER .
+:gaz_stock_WIS_N_ENER
+	:term "WEC" ;
+	:term "WIC" ;
+	a :Gazetteer .
+
+:stock_WPX_ENER
+	:identifiedBy :gaz_stock_WPX_ENER .
+:gaz_stock_WPX_ENER
+	:term "WPX" ;
+	:term "WPE" ;
+	a :Gazetteer .
+
+:stock_WYNDHAM_WORLDWIDE
+	:identifiedBy :gaz_stock_WYNDHAM_WORLDWIDE .
+:gaz_stock_WYNDHAM_WORLDWIDE
+	:term "WYN" ;
+	:term "WD5" ;
+	a :Gazetteer .
+
+:stock_WYNN_RESORTS_LTD
+	:identifiedBy :gaz_stock_WYNN_RESORTS_LTD .
+:gaz_stock_WYNN_RESORTS_LTD
+	:term "WYNN" ;
+	:term "WYR" ;
+	a :Gazetteer .
+
+:stock_XCEL_ENGY
+	:identifiedBy :gaz_stock_XCEL_ENGY .
+:gaz_stock_XCEL_ENGY
+	:term "XEL" ;
+	:term "NRN" ;
+	a :Gazetteer .
+
+:stock_XEROX
+	:identifiedBy :gaz_stock_XEROX .
+:gaz_stock_XEROX
+	:term "XRX" ;
+	:term "XER" ;
+	a :Gazetteer .
+
+:stock_XILINX
+	:identifiedBy :gaz_stock_XILINX .
+:gaz_stock_XILINX
+	:term "XLNX" ;
+	:term "XIX" ;
+	a :Gazetteer .
+
+:stock_XL_GRP
+	:identifiedBy :gaz_stock_XL_GRP .
+:gaz_stock_XL_GRP
+	:term "XL" ;
+	:term "XLG" ;
+	a :Gazetteer .
+
+:stock_XYLEM
+	:identifiedBy :gaz_stock_XYLEM .
+:gaz_stock_XYLEM
+	:term "XYL" ;
+	a :Gazetteer .
+
+:stock_YAHOO
+	:identifiedBy :gaz_stock_YAHOO .
+:gaz_stock_YAHOO
+	:term "YHOO" ;
+	:term "YHO" ;
+	a :Gazetteer .
+
+:stock_YUM_BRANDS
+	:identifiedBy :gaz_stock_YUM_BRANDS .
+:gaz_stock_YUM_BRANDS
+	:term "YUM" ;
+	:term "TGR" ;
+	a :Gazetteer .
+
+:stock_ZIMMER_HLD
+	:identifiedBy :gaz_stock_ZIMMER_HLD .
+:gaz_stock_ZIMMER_HLD
+	:term "ZMH" ;
+	:term "ZIM" ;
+	a :Gazetteer .
+
+:stock_ZIONS_BANCORP
+	:identifiedBy :gaz_stock_ZIONS_BANCORP .
+:gaz_stock_ZIONS_BANCORP
+	:term "ZION" ;
+	:term "ZB1" ;
+	a :Gazetteer .
+
+:stock_ACTIVISION_BLIZZRD
+	:identifiedBy :gaz_stock_ACTIVISION_BLIZZRD .
+:gaz_stock_ACTIVISION_BLIZZRD
+	:term "ATVI" ;
+	:term "AIY" ;
+	a :Gazetteer .
+
+:stock_ALEXION_PHARM
+	:identifiedBy :gaz_stock_ALEXION_PHARM .
+:gaz_stock_ALEXION_PHARM
+	:term "ALXN" ;
+	:term "AXP" ;
+	a :Gazetteer .
+
+:stock_AVAO_TECH
+	:identifiedBy :gaz_stock_AVAO_TECH .
+:gaz_stock_AVAO_TECH
+	:term "AVGO" ;
+	:term "VSW" ;
+	a :Gazetteer .
+
+:stock_BAIDU_COM
+	:identifiedBy :gaz_stock_BAIDU_COM .
+:gaz_stock_BAIDU_COM
+	:term "BIDU" ;
+	:term "B1C" ;
+	a :Gazetteer .
+
+:stock_CHECK_POINT_SOFTW_TECHS
+	:identifiedBy :gaz_stock_CHECK_POINT_SOFTW_TECHS .
+:gaz_stock_CHECK_POINT_SOFTW_TECHS
+	:term "CHKP" ;
+	:term "CPW" ;
+	a :Gazetteer .
+
+:stock_CTRIP_COM_ADR
+	:identifiedBy :gaz_stock_CTRIP_COM_ADR .
+:gaz_stock_CTRIP_COM_ADR
+	:term "CTRP" ;
+	:term "CLV" ;
+	a :Gazetteer .
+
+:stock_FLXTRNCS_INTL
+	:identifiedBy :gaz_stock_FLXTRNCS_INTL .
+:gaz_stock_FLXTRNCS_INTL
+	:term "FLEX" ;
+	:term "FXI" ;
+	a :Gazetteer .
+
+:stock_GARMIN
+	:identifiedBy :gaz_stock_GARMIN .
+:gaz_stock_GARMIN
+	:term "GRMN" ;
+	:term "GEY" ;
+	a :Gazetteer .
+
+:stock_GREEN_MTN_COF
+	:identifiedBy :gaz_stock_GREEN_MTN_COF .
+:gaz_stock_GREEN_MTN_COF
+	:term "GMCR" ;
+	:term "GM2" ;
+	a :Gazetteer .
+
+:stock_HENRY_SCHEIN_NPV
+	:identifiedBy :gaz_stock_HENRY_SCHEIN_NPV .
+:gaz_stock_HENRY_SCHEIN_NPV
+	:term "HSIC" ;
+	:term "HS2" ;
+	a :Gazetteer .
+
+:stock_INFOSYS_TECHS_ADR_IR_10
+	:identifiedBy :gaz_stock_INFOSYS_TECHS_ADR_IR_10 .
+:gaz_stock_INFOSYS_TECHS_ADR_IR_10
+	:term "INFY" ;
+	:term "IOY" ;
+	a :Gazetteer .
+
+:stock_LAM_RESEARCH
+	:identifiedBy :gaz_stock_LAM_RESEARCH .
+:gaz_stock_LAM_RESEARCH
+	:term "LRCX" ;
+	:term "LAR" ;
+	a :Gazetteer .
+
+:stock_LBTY_INT
+	:identifiedBy :gaz_stock_LBTY_INT .
+:gaz_stock_LBTY_INT
+	:term "LINTA" ;
+	:term "LB3A" ;
+	a :Gazetteer .
+
+:stock_MARVELL_TECH
+	:identifiedBy :gaz_stock_MARVELL_TECH .
+:gaz_stock_MARVELL_TECH
+	:term "MRVL" ;
+	:term "MVL" ;
+	a :Gazetteer .
+
+:stock_MAXIM_INTEGRTD
+	:identifiedBy :gaz_stock_MAXIM_INTEGRTD .
+:gaz_stock_MAXIM_INTEGRTD
+	:term "MXIM" ;
+	:term "MXI" ;
+	a :Gazetteer .
+
+:stock_MONR_BEVE
+	:identifiedBy :gaz_stock_MONR_BEVE .
+:gaz_stock_MONR_BEVE
+	:term "MNST" ;
+	:term "HNA" ;
+	a :Gazetteer .
+
+:stock_NUANCE_COMM
+	:identifiedBy :gaz_stock_NUANCE_COMM .
+:gaz_stock_NUANCE_COMM
+	:term "NUAN" ;
+	:term "SC2" ;
+	a :Gazetteer .
+
+:stock_RANDGOLD_ADS_ADS_EACH_REPR_1_ORD_USD0_05
+	:identifiedBy :gaz_stock_RANDGOLD_ADS_ADS_EACH_REPR_1_ORD_USD0_05 .
+:gaz_stock_RANDGOLD_ADS_ADS_EACH_REPR_1_ORD_USD0_05
+	:term "GOLD" ;
+	:term "RGRA" ;
+	a :Gazetteer .
+
+:stock_RESEARCH_IN_MOTION
+	:identifiedBy :gaz_stock_RESEARCH_IN_MOTION .
+:gaz_stock_RESEARCH_IN_MOTION
+	:term "RIMM" ;
+	:term "RI1" ;
+	a :Gazetteer .
+
+:stock_SEAE_TECH
+	:identifiedBy :gaz_stock_SEAE_TECH .
+:gaz_stock_SEAE_TECH
+	:term "STX" ;
+	:term "STT" ;
+	a :Gazetteer .
+
+:stock_SIRIUS_XM_RAD
+	:identifiedBy :gaz_stock_SIRIUS_XM_RAD .
+:gaz_stock_SIRIUS_XM_RAD
+	:term "SIRI" ;
+	:term "RDO" ;
+	a :Gazetteer .
+
+:stock_TEVA_PHARMACEUT_ADR
+	:identifiedBy :gaz_stock_TEVA_PHARMACEUT_ADR .
+:gaz_stock_TEVA_PHARMACEUT_ADR
+	:term "TEVA" ;
+	:term "TEV" ;
+	a :Gazetteer .
+
+:stock_VERTEX_PHARMAC
+	:identifiedBy :gaz_stock_VERTEX_PHARMAC .
+:gaz_stock_VERTEX_PHARMAC
+	:term "VRTX" ;
+	:term "VX1" ;
+	a :Gazetteer .
+
+:stock_Virgin_Media_Inc
+	:identifiedBy :gaz_stock_Virgin_Media_Inc .
+:gaz_stock_Virgin_Media_Inc
+	:term "VMED" ;
+	:term "N5T" ;
+	a :Gazetteer .
+
+:stock_VODAFONE_ADR
+	:identifiedBy :gaz_stock_VODAFONE_ADR .
+:gaz_stock_VODAFONE_ADR
+	:term "VOD" ;
+	:term "VODH" ;
+	a :Gazetteer .
+
+:stock_WARR_CHIL
+	:identifiedBy :gaz_stock_WARR_CHIL .
+:gaz_stock_WARR_CHIL
+	:term "WCRX" ;
+	:term "G3LA" ;
+	a :Gazetteer .
+
+:stock_AMP
+	:identifiedBy :gaz_stock_AMP .
+:gaz_stock_AMP
+	:term "AMP" ;
+	a :Gazetteer .
+
+:stock_A_N_Z_BKG_GRP
+	:identifiedBy :gaz_stock_A_N_Z_BKG_GRP .
+:gaz_stock_A_N_Z_BKG_GRP
+	:term "ANZ" ;
+	:term "ANB" ;
+	a :Gazetteer .
+
+:stock_BHP_BILLITON_0
+	:identifiedBy :gaz_stock_BHP_BILLITON_0 .
+:gaz_stock_BHP_BILLITON_0
+	:term "BHP" ;
+	:term "BHP1" ;
+	a :Gazetteer .
+
+:stock_CANON
+	:identifiedBy :gaz_stock_CANON .
+:gaz_stock_CANON
+	:term "7751" ;
+	:term "CNN1" ;
+	a :Gazetteer .
+
+:stock_CHEUNG_KONG
+	:identifiedBy :gaz_stock_CHEUNG_KONG .
+:gaz_stock_CHEUNG_KONG
+	:term "1" ;
+	:term "CHE" ;
+	a :Gazetteer .
+
+:stock_CHINA_MOBILE_HK
+	:identifiedBy :gaz_stock_CHINA_MOBILE_HK .
+:gaz_stock_CHINA_MOBILE_HK
+	:term "941" ;
+	:term "CTM" ;
+	a :Gazetteer .
+
+:stock_CHUBU_ELC_PWR
+	:identifiedBy :gaz_stock_CHUBU_ELC_PWR .
+:gaz_stock_CHUBU_ELC_PWR
+	:term "9502" ;
+	:term "0C2" ;
+	a :Gazetteer .
+
+:stock_CLP_HLDGS
+	:identifiedBy :gaz_stock_CLP_HLDGS .
+:gaz_stock_CLP_HLDGS
+	:term "2" ;
+	:term "CLP" ;
+	a :Gazetteer .
+
+:stock_COMMONW_BK_AUSTR
+	:identifiedBy :gaz_stock_COMMONW_BK_AUSTR .
+:gaz_stock_COMMONW_BK_AUSTR
+	:term "CBA" ;
+	:term "CWW" ;
+	a :Gazetteer .
+
+:stock_DBS_GRP_HLDGS
+	:identifiedBy :gaz_stock_DBS_GRP_HLDGS .
+:gaz_stock_DBS_GRP_HLDGS
+	:term "DEVL" ;
+	a :Gazetteer .
+
+:stock_EAST_JPN_RLWY
+	:identifiedBy :gaz_stock_EAST_JPN_RLWY .
+:gaz_stock_EAST_JPN_RLWY
+	:term "9020" ;
+	:term "EJR" ;
+	a :Gazetteer .
+
+:stock_FUJI_PHOTO_FILM_YN_50
+	:identifiedBy :gaz_stock_FUJI_PHOTO_FILM_YN_50 .
+:gaz_stock_FUJI_PHOTO_FILM_YN_50
+	:term "4901" ;
+	:term "FJI" ;
+	a :Gazetteer .
+
+:stock_HANG_SENG_BK
+	:identifiedBy :gaz_stock_HANG_SENG_BK .
+:gaz_stock_HANG_SENG_BK
+	:term "11" ;
+	:term "HSB" ;
+	a :Gazetteer .
+
+:stock_HITACHI
+	:identifiedBy :gaz_stock_HITACHI .
+:gaz_stock_HITACHI
+	:term "6501" ;
+	:term "HIA1" ;
+	a :Gazetteer .
+
+:stock_HONDA_MOTOR
+	:identifiedBy :gaz_stock_HONDA_MOTOR .
+:gaz_stock_HONDA_MOTOR
+	:term "7267" ;
+	:term "HDM" ;
+	a :Gazetteer .
+
+:stock_HUTCHISON_WHAMPOA
+	:identifiedBy :gaz_stock_HUTCHISON_WHAMPOA .
+:gaz_stock_HUTCHISON_WHAMPOA
+	:term "13" ;
+	:term "HUWA" ;
+	a :Gazetteer .
+
+:stock_HYNDAI_MTR_KW5000
+	:identifiedBy :gaz_stock_HYNDAI_MTR_KW5000 .
+:gaz_stock_HYNDAI_MTR_KW5000
+	:term "A005380" ;
+	a :Gazetteer .
+
+:stock_KANSAI_ELEC
+	:identifiedBy :gaz_stock_KANSAI_ELEC .
+:gaz_stock_KANSAI_ELEC
+	:term "9503" ;
+	:term "KPO" ;
+	a :Gazetteer .
+
+:stock_KT
+	:identifiedBy :gaz_stock_KT .
+:gaz_stock_KT
+	:term "A030200" ;
+	:term "KTX" ;
+	a :Gazetteer .
+
+:stock_KYOCERA_CORP
+	:identifiedBy :gaz_stock_KYOCERA_CORP .
+:gaz_stock_KYOCERA_CORP
+	:term "6971" ;
+	:term "KYR" ;
+	a :Gazetteer .
+
+:stock_MITSUBISHI_TOKYO_FINL_GRP
+	:identifiedBy :gaz_stock_MITSUBISHI_TOKYO_FINL_GRP .
+:gaz_stock_MITSUBISHI_TOKYO_FINL_GRP
+	:term "8306" ;
+	:term "MFZ" ;
+	a :Gazetteer .
+
+:stock_NATL_AUSTR_BK
+	:identifiedBy :gaz_stock_NATL_AUSTR_BK .
+:gaz_stock_NATL_AUSTR_BK
+	:term "NAB" ;
+	:term "NAL" ;
+	a :Gazetteer .
+
+:stock_NINTENDO_CO_LTD_YN_50
+	:identifiedBy :gaz_stock_NINTENDO_CO_LTD_YN_50 .
+:gaz_stock_NINTENDO_CO_LTD_YN_50
+	:term "7974" ;
+	:term "NTO" ;
+	a :Gazetteer .
+
+:stock_NIPPON_TEL_TEL_YN_50000
+	:identifiedBy :gaz_stock_NIPPON_TEL_TEL_YN_50000 .
+:gaz_stock_NIPPON_TEL_TEL_YN_50000
+	:term "9432" ;
+	:term "NTT" ;
+	a :Gazetteer .
+
+:stock_NISSAN_MOTOR
+	:identifiedBy :gaz_stock_NISSAN_MOTOR .
+:gaz_stock_NISSAN_MOTOR
+	:term "7201" ;
+	:term "NISA" ;
+	a :Gazetteer .
+
+:stock_NOMURA_HOLDING
+	:identifiedBy :gaz_stock_NOMURA_HOLDING .
+:gaz_stock_NOMURA_HOLDING
+	:term "8604" ;
+	:term "NSE" ;
+	a :Gazetteer .
+
+:stock_NTT_DOCOMO
+	:identifiedBy :gaz_stock_NTT_DOCOMO .
+:gaz_stock_NTT_DOCOMO
+	:term "9437" ;
+	:term "MCN" ;
+	a :Gazetteer .
+
+:stock_MATSUSHITA_EL_IND
+	:identifiedBy :gaz_stock_MATSUSHITA_EL_IND .
+:gaz_stock_MATSUSHITA_EL_IND
+	:term "6752" ;
+	:term "MAT1" ;
+	a :Gazetteer .
+
+:stock_RIO_TINTO_0
+	:identifiedBy :gaz_stock_RIO_TINTO_0 .
+:gaz_stock_RIO_TINTO_0
+	:term "RIO" ;
+	:term "CRA1" ;
+	a :Gazetteer .
+
+:stock_SHARP
+	:identifiedBy :gaz_stock_SHARP .
+:gaz_stock_SHARP
+	:term "6753" ;
+	:term "SRP" ;
+	a :Gazetteer .
+
+:stock_SHIN_ETSU_CHEM_YN_50
+	:identifiedBy :gaz_stock_SHIN_ETSU_CHEM_YN_50 .
+:gaz_stock_SHIN_ETSU_CHEM_YN_50
+	:term "4063" ;
+	:term "SEH" ;
+	a :Gazetteer .
+
+:stock_SK_TELE_CO
+	:identifiedBy :gaz_stock_SK_TELE_CO .
+:gaz_stock_SK_TELE_CO
+	:term "A017670" ;
+	a :Gazetteer .
+
+:stock_SONY_CORP
+	:identifiedBy :gaz_stock_SONY_CORP .
+:gaz_stock_SONY_CORP
+	:term "6758" ;
+	:term "SON1" ;
+	a :Gazetteer .
+
+:stock_SUMITOMO_MITSUI_FINL_GRP
+	:identifiedBy :gaz_stock_SUMITOMO_MITSUI_FINL_GRP .
+:gaz_stock_SUMITOMO_MITSUI_FINL_GRP
+	:term "8316" ;
+	:term "XMF" ;
+	a :Gazetteer .
+
+:stock_SUN_HUNG_PRP
+	:identifiedBy :gaz_stock_SUN_HUNG_PRP .
+:gaz_stock_SUN_HUNG_PRP
+	:term "16" ;
+	:term "SHG" ;
+	a :Gazetteer .
+
+:stock_TAIWAN_SEMICON_MANU_TA10
+	:identifiedBy :gaz_stock_TAIWAN_SEMICON_MANU_TA10 .
+:gaz_stock_TAIWAN_SEMICON_MANU_TA10
+	:term "2330" ;
+	:term "TSFB" ;
+	a :Gazetteer .
+
+:stock_TAKEDA_PHARM_CO_LTD_YN_50
+	:identifiedBy :gaz_stock_TAKEDA_PHARM_CO_LTD_YN_50 .
+:gaz_stock_TAKEDA_PHARM_CO_LTD_YN_50
+	:term "4502" ;
+	:term "TKD" ;
+	a :Gazetteer .
+
+:stock_TELSTR_CORP
+	:identifiedBy :gaz_stock_TELSTR_CORP .
+:gaz_stock_TELSTR_CORP
+	:term "TLS" ;
+	:term "TSTA" ;
+	a :Gazetteer .
+
+:stock_TOKIO_MARINE
+	:identifiedBy :gaz_stock_TOKIO_MARINE .
+:gaz_stock_TOKIO_MARINE
+	:term "8766" ;
+	:term "MH6" ;
+	a :Gazetteer .
+
+:stock_TOKYO_EL_PWR_YN_500
+	:identifiedBy :gaz_stock_TOKYO_EL_PWR_YN_500 .
+:gaz_stock_TOKYO_EL_PWR_YN_500
+	:term "9501" ;
+	:term "TPO" ;
+	a :Gazetteer .
+
+:stock_TOSHIBA
+	:identifiedBy :gaz_stock_TOSHIBA .
+:gaz_stock_TOSHIBA
+	:term "6502" ;
+	:term "TSE1" ;
+	a :Gazetteer .
+
+:stock_TOYOTA_MOTOR_CORP_YN_50
+	:identifiedBy :gaz_stock_TOYOTA_MOTOR_CORP_YN_50 .
+:gaz_stock_TOYOTA_MOTOR_CORP_YN_50
+	:term "7203" ;
+	:term "TOM" ;
+	a :Gazetteer .
+
+:stock_UTD_MICROELECTR_CORP_TA10
+	:identifiedBy :gaz_stock_UTD_MICROELECTR_CORP_TA10 .
+:gaz_stock_UTD_MICROELECTR_CORP_TA10
+	:term "2303" ;
+	:term "UMC" ;
+	a :Gazetteer .
+
+:stock_UTD_OV_BK
+	:identifiedBy :gaz_stock_UTD_OV_BK .
+:gaz_stock_UTD_OV_BK
+	:term "UOB" ;
+	a :Gazetteer .
+
+:stock_WESTPAC_BK
+	:identifiedBy :gaz_stock_WESTPAC_BK .
+:gaz_stock_WESTPAC_BK
+	:term "WBC" ;
+	a :Gazetteer .
+
+:stock_WOOLWRTHS
+	:identifiedBy :gaz_stock_WOOLWRTHS .
+:gaz_stock_WOOLWRTHS
+	:term "WOW" ;
+	:term "WWR" ;
+	a :Gazetteer .
+
+:stock_ANDRITZ
+	:identifiedBy :gaz_stock_ANDRITZ .
+:gaz_stock_ANDRITZ
+	:term "ANDR" ;
+	:term "AZ2" ;
+	a :Gazetteer .
+
+:stock_CA_IMM_ANLAGEN_CA_IMMOBILIEN_ORD_SHS
+	:identifiedBy :gaz_stock_CA_IMM_ANLAGEN_CA_IMMOBILIEN_ORD_SHS .
+:gaz_stock_CA_IMM_ANLAGEN_CA_IMMOBILIEN_ORD_SHS
+	:term "CAI" ;
+	:term "BZY" ;
+	a :Gazetteer .
+
+:stock_CONWERT_IMMO_OR_CONWERT_IMMO_ORD_SHS
+	:identifiedBy :gaz_stock_CONWERT_IMMO_OR_CONWERT_IMMO_ORD_SHS .
+:gaz_stock_CONWERT_IMMO_OR_CONWERT_IMMO_ORD_SHS
+	:term "CWI" ;
+	:term "COR" ;
+	a :Gazetteer .
+
+:stock_ERSTE_GROUP_BAN_ERSTE_GROUP_BANK_AG_ORD_SHS
+	:identifiedBy :gaz_stock_ERSTE_GROUP_BAN_ERSTE_GROUP_BANK_AG_ORD_SHS .
+:gaz_stock_ERSTE_GROUP_BAN_ERSTE_GROUP_BANK_AG_ORD_SHS
+	:term "EBS" ;
+	:term "EBO" ;
+	a :Gazetteer .
+
+:stock_EVN
+	:identifiedBy :gaz_stock_EVN .
+:gaz_stock_EVN
+	:term "EVN" ;
+	a :Gazetteer .
+
+:stock_IMMOFINANZ_IMMOB_ANLAGEN
+	:identifiedBy :gaz_stock_IMMOFINANZ_IMMOB_ANLAGEN .
+:gaz_stock_IMMOFINANZ_IMMOB_ANLAGEN
+	:term "IIA" ;
+	:term "IMO" ;
+	a :Gazetteer .
+
+:stock_LENZING_ORD_LENZING_AG_ORD_SHS
+	:identifiedBy :gaz_stock_LENZING_ORD_LENZING_AG_ORD_SHS .
+:gaz_stock_LENZING_ORD_LENZING_AG_ORD_SHS
+	:term "0NCV" ;
+	:term "LEN" ;
+	a :Gazetteer .
+
+:stock_MAYR_MELNHOF_KARTON
+	:identifiedBy :gaz_stock_MAYR_MELNHOF_KARTON .
+:gaz_stock_MAYR_MELNHOF_KARTON
+	:term "MMK" ;
+	:term "MYM" ;
+	a :Gazetteer .
+
+:stock_OESTERREICHISCHE_POST
+	:identifiedBy :gaz_stock_OESTERREICHISCHE_POST .
+:gaz_stock_OESTERREICHISCHE_POST
+	:term "0NTM" ;
+	:term "O3P" ;
+	a :Gazetteer .
+
+:stock_OMV
+	:identifiedBy :gaz_stock_OMV .
+:gaz_stock_OMV
+	:term "0MKH" ;
+	:term "OMV" ;
+	a :Gazetteer .
+
+:stock_RAIFF_BANK_INT_RAIFFEISEN_BANK_INT_AG_ORD_SHS
+	:identifiedBy :gaz_stock_RAIFF_BANK_INT_RAIFFEISEN_BANK_INT_AG_ORD_SHS .
+:gaz_stock_RAIFF_BANK_INT_RAIFFEISEN_BANK_INT_AG_ORD_SHS
+	:term "RBI" ;
+	:term "RAW" ;
+	a :Gazetteer .
+
+:stock_RHI
+	:identifiedBy :gaz_stock_RHI .
+:gaz_stock_RHI
+	:term "RHI" ;
+	:term "RAD" ;
+	a :Gazetteer .
+
+:stock_SCHOELLER_BLECKMANN_OILF
+	:identifiedBy :gaz_stock_SCHOELLER_BLECKMANN_OILF .
+:gaz_stock_SCHOELLER_BLECKMANN_OILF
+	:term "0O05" ;
+	:term "SLL" ;
+	a :Gazetteer .
+
+:stock_STRABAG_SE_ORD_STRABAG_SE_ORD_SHS
+	:identifiedBy :gaz_stock_STRABAG_SE_ORD_STRABAG_SE_ORD_SHS .
+:gaz_stock_STRABAG_SE_ORD_STRABAG_SE_ORD_SHS
+	:term "STR" ;
+	:term "XD4" ;
+	a :Gazetteer .
+
+:stock_TELEKOM_AUSTRIA
+	:identifiedBy :gaz_stock_TELEKOM_AUSTRIA .
+:gaz_stock_TELEKOM_AUSTRIA
+	:term "TKA" ;
+	:term "TA1" ;
+	a :Gazetteer .
+
+:stock_OESTERR_EL_WIRT_INH
+	:identifiedBy :gaz_stock_OESTERR_EL_WIRT_INH .
+:gaz_stock_OESTERR_EL_WIRT_INH
+	:term "0NR1" ;
+	:term "OEWA" ;
+	a :Gazetteer .
+
+:stock_VIENNA_INSURANCE_GROUP
+	:identifiedBy :gaz_stock_VIENNA_INSURANCE_GROUP .
+:gaz_stock_VIENNA_INSURANCE_GROUP
+	:term "0MZX" ;
+	:term "WSV2" ;
+	a :Gazetteer .
+
+:stock_VOESTALPINE
+	:identifiedBy :gaz_stock_VOESTALPINE .
+:gaz_stock_VOESTALPINE
+	:term "VOE" ;
+	:term "VAS" ;
+	a :Gazetteer .
+
+:stock_WIENERBERGER
+	:identifiedBy :gaz_stock_WIENERBERGER .
+:gaz_stock_WIENERBERGER
+	:term "WIE" ;
+	:term "WIB" ;
+	a :Gazetteer .
+
+:stock_ZUMTOBEL_ORD_ZUMTOBEL_ORD_SHS
+	:identifiedBy :gaz_stock_ZUMTOBEL_ORD_ZUMTOBEL_ORD_SHS .
+:gaz_stock_ZUMTOBEL_ORD_ZUMTOBEL_ORD_SHS
+	:term "ZAG" ;
+	:term "T9Z" ;
+	a :Gazetteer .
+

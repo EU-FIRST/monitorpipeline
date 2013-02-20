@@ -1,0 +1,6436 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://project-first.eu/ontology#> .
+
+:comp_AIR_LIQUIDE_S_A
+	:identifiedBy :gaz_comp_AIR_LIQUIDE_S_A .
+:gaz_comp_AIR_LIQUIDE_S_A
+	:term "AIR LIQUIDE S.A." ;
+	:term "Air Liquide S.A." ;
+	:term "Air Liquide SA" ;
+	a :Gazetteer .
+
+:comp_ALLIANZ_SE
+	:identifiedBy :gaz_comp_ALLIANZ_SE .
+:gaz_comp_ALLIANZ_SE
+	:term "ALLIANZ SE" ;
+	:term "Allianz SE" ;
+	a :Gazetteer .
+
+:comp_ANHEUSER_BUSCH_INBEV
+	:identifiedBy :gaz_comp_ANHEUSER_BUSCH_INBEV .
+:gaz_comp_ANHEUSER_BUSCH_INBEV
+	:term "ANHEUSER-BUSCH INBEV" ;
+	:term "BE0003793107" ;
+	:term "Anheuser Busch InBev Ord Shs" ;
+	a :Gazetteer .
+
+:comp_ARCELORMITTAL_S_A
+	:identifiedBy :gaz_comp_ARCELORMITTAL_S_A .
+:gaz_comp_ARCELORMITTAL_S_A
+	:term "ARCELORMITTAL S.A." ;
+	:term "ArcelorMittal S.A." ;
+	:term "Arcelormittal SA" ;
+	:term "ArcelorMittal SA" ;
+	a :Gazetteer .
+
+:comp_ASSICURAZIONI_GENERALI_S_P_A
+	:identifiedBy :gaz_comp_ASSICURAZIONI_GENERALI_S_P_A .
+:gaz_comp_ASSICURAZIONI_GENERALI_S_P_A
+	:term "ASSICURAZIONI GENERALI S.P.A." ;
+	:term "Assicurazioni Generali S.p.A." ;
+	:term "Assicurazioni Generali SpA" ;
+	a :Gazetteer .
+
+:comp_AXA_S_A
+	:identifiedBy :gaz_comp_AXA_S_A .
+:gaz_comp_AXA_S_A
+	:term "AXA S.A." ;
+	:term "Axa SA" ;
+	a :Gazetteer .
+
+:comp_BANCO_SANTANDER_S_A
+	:identifiedBy :gaz_comp_BANCO_SANTANDER_S_A .
+:gaz_comp_BANCO_SANTANDER_S_A
+	:term "BANCO SANTANDER S.A." ;
+	:term "Banco Santander S.A." ;
+	:term "Banco Santander SA" ;
+	a :Gazetteer .
+
+:comp_BASF_SE
+	:identifiedBy :gaz_comp_BASF_SE .
+:gaz_comp_BASF_SE
+	:term "BASF SE" ;
+	:term "BASF N Ord Shs" ;
+	a :Gazetteer .
+
+:comp_BAYER_AG
+	:identifiedBy :gaz_comp_BAYER_AG .
+:gaz_comp_BAYER_AG
+	:term "BAYER AG" ;
+	:term "Bayer AG" ;
+	a :Gazetteer .
+
+:comp_BAYERISCHE_MOTOREN_WERKE_AG
+	:identifiedBy :gaz_comp_BAYERISCHE_MOTOREN_WERKE_AG .
+:gaz_comp_BAYERISCHE_MOTOREN_WERKE_AG
+	:term "BAYERISCHE MOTOREN WERKE AG" ;
+	:term "Bayerische Motoren Werke AG" ;
+	:term "BMW AG" ;
+	a :Gazetteer .
+
+:comp_BANCO_BILBAO_VIZCAYA_ARGENTARIA_S_A
+	:identifiedBy :gaz_comp_BANCO_BILBAO_VIZCAYA_ARGENTARIA_S_A .
+:gaz_comp_BANCO_BILBAO_VIZCAYA_ARGENTARIA_S_A
+	:term "BANCO BILBAO VIZCAYA ARGENTARIA S.A." ;
+	:term "Banco Bilbao Vizcaya Argentaria S.A." ;
+	a :Gazetteer .
+
+:comp_BNP_PARIBAS_S_A
+	:identifiedBy :gaz_comp_BNP_PARIBAS_S_A .
+:gaz_comp_BNP_PARIBAS_S_A
+	:term "BNP PARIBAS S.A." ;
+	:term "BNP Paribas S.A." ;
+	:term "BNP Paribas SA" ;
+	a :Gazetteer .
+
+:comp_CARREFOUR_S_A
+	:identifiedBy :gaz_comp_CARREFOUR_S_A .
+:gaz_comp_CARREFOUR_S_A
+	:term "CARREFOUR S.A." ;
+	:term "Carrefour S.A." ;
+	:term "Carrefour SA" ;
+	a :Gazetteer .
+
+:comp_CRH_PLC
+	:identifiedBy :gaz_comp_CRH_PLC .
+:gaz_comp_CRH_PLC
+	:term "CRH PLC" ;
+	:term "Crh Plc" ;
+	a :Gazetteer .
+
+:comp_DAIMLER_AG
+	:identifiedBy :gaz_comp_DAIMLER_AG .
+:gaz_comp_DAIMLER_AG
+	:term "DAIMLER AG" ;
+	:term "Daimler AG" ;
+	:term "Daimler AG (USA)" ;
+	a :Gazetteer .
+
+:comp_DANONE_S_A
+	:identifiedBy :gaz_comp_DANONE_S_A .
+:gaz_comp_DANONE_S_A
+	:term "DANONE S.A." ;
+	:term "Danone S.A." ;
+	:term "Groupe Danone" ;
+	a :Gazetteer .
+
+:comp_DEUTSCHE_BANK_AG
+	:identifiedBy :gaz_comp_DEUTSCHE_BANK_AG .
+:gaz_comp_DEUTSCHE_BANK_AG
+	:term "DEUTSCHE BANK AG" ;
+	:term "Deutsche Bank AG" ;
+	a :Gazetteer .
+
+:comp_DEUTSCHE_BOERSE_AG
+	:identifiedBy :gaz_comp_DEUTSCHE_BOERSE_AG .
+:gaz_comp_DEUTSCHE_BOERSE_AG
+	:term "DEUTSCHE BOERSE AG" ;
+	:term "Deutsche Börse AG" ;
+	:term "Deutsche Boerse AG" ;
+	a :Gazetteer .
+
+:comp_DEUTSCHE_TELEKOM_AG
+	:identifiedBy :gaz_comp_DEUTSCHE_TELEKOM_AG .
+:gaz_comp_DEUTSCHE_TELEKOM_AG
+	:term "DEUTSCHE TELEKOM AG" ;
+	:term "Deutsche Telekom AG" ;
+	a :Gazetteer .
+
+:comp_E_ON_AG
+	:identifiedBy :gaz_comp_E_ON_AG .
+:gaz_comp_E_ON_AG
+	:term "E.ON AG" ;
+	a :Gazetteer .
+
+:comp_ENEL_S_P_A
+	:identifiedBy :gaz_comp_ENEL_S_P_A .
+:gaz_comp_ENEL_S_P_A
+	:term "ENEL S.P.A." ;
+	:term "Enel S.p.A." ;
+	:term "Enel SpA" ;
+	a :Gazetteer .
+
+:comp_ENI_S_P_A
+	:identifiedBy :gaz_comp_ENI_S_P_A .
+:gaz_comp_ENI_S_P_A
+	:term "ENI S.P.A." ;
+	:term "ENI S.p.A." ;
+	:term "Eni SpA" ;
+	a :Gazetteer .
+
+:comp_FRANCE_TELECOM_S_A
+	:identifiedBy :gaz_comp_FRANCE_TELECOM_S_A .
+:gaz_comp_FRANCE_TELECOM_S_A
+	:term "FRANCE TELECOM S.A." ;
+	:term "France Telecom S.A." ;
+	:term "France Telecom SA" ;
+	a :Gazetteer .
+
+:comp_GDF_SUEZ_S_A
+	:identifiedBy :gaz_comp_GDF_SUEZ_S_A .
+:gaz_comp_GDF_SUEZ_S_A
+	:term "GDF SUEZ S.A." ;
+	:term "GDF Suez S.A." ;
+	:term "GDF Suez Ord Shs" ;
+	a :Gazetteer .
+
+:comp_IBERDROLA_S_A
+	:identifiedBy :gaz_comp_IBERDROLA_S_A .
+:gaz_comp_IBERDROLA_S_A
+	:term "IBERDROLA S.A." ;
+	:term "Iberdrola S.A." ;
+	:term "Iberdrola SA" ;
+	a :Gazetteer .
+
+:comp_INDUSTRIA_DE_DISENO_TEXTIL_S_A_INDITEX
+	:identifiedBy :gaz_comp_INDUSTRIA_DE_DISENO_TEXTIL_S_A_INDITEX .
+:gaz_comp_INDUSTRIA_DE_DISENO_TEXTIL_S_A_INDITEX
+	:term "INDUSTRIA DE DISENO TEXTIL S.A. (INDITEX)" ;
+	:term "Industria de Diseno Textil S.A. (inditex)" ;
+	:term "Inditex SA" ;
+	a :Gazetteer .
+
+:comp_ING_GROEP_N_V
+	:identifiedBy :gaz_comp_ING_GROEP_N_V .
+:gaz_comp_ING_GROEP_N_V
+	:term "ING GROEP N.V." ;
+	:term "ING Groep N.V." ;
+	:term "Ing Groep NV" ;
+	:term "ING Groep NV" ;
+	a :Gazetteer .
+
+:comp_INTESA_SANPAOLO_S_P_A
+	:identifiedBy :gaz_comp_INTESA_SANPAOLO_S_P_A .
+:gaz_comp_INTESA_SANPAOLO_S_P_A
+	:term "INTESA SANPAOLO S.P.A." ;
+	:term "Intesa Sanpaolo S.p.A." ;
+	:term "Intesa SanPaolo SpA" ;
+	:term "Intesa Sanpaolo SpA" ;
+	a :Gazetteer .
+
+:comp_L_OREAL_S_A
+	:identifiedBy :gaz_comp_L_OREAL_S_A .
+:gaz_comp_L_OREAL_S_A
+	:term "L'OREAL S.A." ;
+	:term "L'Oreal S.A." ;
+	:term "L'oreal SA" ;
+	:term "L'Oreal SA" ;
+	a :Gazetteer .
+
+:comp_LVMH_MO_T_HENNESSY_LOUIS_VUITTON_S_A
+	:identifiedBy :gaz_comp_LVMH_MO_T_HENNESSY_LOUIS_VUITTON_S_A .
+:gaz_comp_LVMH_MO_T_HENNESSY_LOUIS_VUITTON_S_A
+	:term "LVMH MOËT HENNESSY LOUIS VUITTON S.A." ;
+	:term "LVMH Moët Hennessy Louis Vuitton S.A." ;
+	:term "LVMH Moet Hennessy Louis Vuitton SA" ;
+	a :Gazetteer .
+
+:comp_MUENCHENER_RUECKVERSICHERUNGS_GESELLSCHAFT_AG
+	:identifiedBy :gaz_comp_MUENCHENER_RUECKVERSICHERUNGS_GESELLSCHAFT_AG .
+:gaz_comp_MUENCHENER_RUECKVERSICHERUNGS_GESELLSCHAFT_AG
+	:term "MUENCHENER RUECKVERSICHERUNGS-GESELLSCHAFT AG" ;
+	:term "Münchener Rückversicherungs-Gesellschaft AG" ;
+	:term "Muenchener Rueckversicherungs Gesellschaft AG in Muenchen" ;
+	a :Gazetteer .
+
+:comp_NOKIA_CORP
+	:identifiedBy :gaz_comp_NOKIA_CORP .
+:gaz_comp_NOKIA_CORP
+	:term "NOKIA CORP." ;
+	:term "Nokia Corp." ;
+	:term "Nokia Oyj" ;
+	a :Gazetteer .
+
+:comp_KONINKLIJKE_PHILIPS_ELECTRONICS_N_V
+	:identifiedBy :gaz_comp_KONINKLIJKE_PHILIPS_ELECTRONICS_N_V .
+:gaz_comp_KONINKLIJKE_PHILIPS_ELECTRONICS_N_V
+	:term "KONINKLIJKE PHILIPS ELECTRONICS N.V." ;
+	:term "Koninklijke Philips Electronics N.V." ;
+	:term "Koninklijke Philips Electronics NV" ;
+	a :Gazetteer .
+
+:comp_REPSOL_YPF_S_A
+	:identifiedBy :gaz_comp_REPSOL_YPF_S_A .
+:gaz_comp_REPSOL_YPF_S_A
+	:term "REPSOL YPF S.A." ;
+	:term "Repsol YPF S.A." ;
+	:term "Repsol YPF SA" ;
+	a :Gazetteer .
+
+:comp_RWE_AG
+	:identifiedBy :gaz_comp_RWE_AG .
+:gaz_comp_RWE_AG
+	:term "RWE AG" ;
+	:term "Rwe AG" ;
+	a :Gazetteer .
+
+:comp_COMPAGNIE_DE_SAINT_GOBAIN_S_A
+	:identifiedBy :gaz_comp_COMPAGNIE_DE_SAINT_GOBAIN_S_A .
+:gaz_comp_COMPAGNIE_DE_SAINT_GOBAIN_S_A
+	:term "COMPAGNIE DE SAINT-GOBAIN S.A." ;
+	:term "Compagnie de Saint-Gobain S.A." ;
+	:term "Compagnie de Saint Gobain SA" ;
+	a :Gazetteer .
+
+:comp_SANOFI_S_A
+	:identifiedBy :gaz_comp_SANOFI_S_A .
+:gaz_comp_SANOFI_S_A
+	:term "SANOFI S.A." ;
+	:term "Sanofi S.A." ;
+	:term "Sanofi SA" ;
+	a :Gazetteer .
+
+:comp_SAP_AG
+	:identifiedBy :gaz_comp_SAP_AG .
+:gaz_comp_SAP_AG
+	:term "SAP AG" ;
+	a :Gazetteer .
+
+:comp_SCHNEIDER_ELECTRIC_SA
+	:identifiedBy :gaz_comp_SCHNEIDER_ELECTRIC_SA .
+:gaz_comp_SCHNEIDER_ELECTRIC_SA
+	:term "SCHNEIDER ELECTRIC SA" ;
+	:term "Schneider Electric SA" ;
+	a :Gazetteer .
+
+:comp_SIEMENS_AG
+	:identifiedBy :gaz_comp_SIEMENS_AG .
+:gaz_comp_SIEMENS_AG
+	:term "SIEMENS AG" ;
+	:term "Siemens AG" ;
+	a :Gazetteer .
+
+:comp_SOCIETE_GENERALE_S_A
+	:identifiedBy :gaz_comp_SOCIETE_GENERALE_S_A .
+:gaz_comp_SOCIETE_GENERALE_S_A
+	:term "SOCIETE GENERALE S.A." ;
+	:term "Societe Generale S.A." ;
+	:term "Societe Generale" ;
+	a :Gazetteer .
+
+:comp_TELECOM_ITALIA_S_P_A
+	:identifiedBy :gaz_comp_TELECOM_ITALIA_S_P_A .
+:gaz_comp_TELECOM_ITALIA_S_P_A
+	:term "TELECOM ITALIA S.P.A." ;
+	:term "Telecom Italia S.p.A." ;
+	:term "Telecom Italia SpA" ;
+	a :Gazetteer .
+
+:comp_TELEFONICA_S_A
+	:identifiedBy :gaz_comp_TELEFONICA_S_A .
+:gaz_comp_TELEFONICA_S_A
+	:term "TELEFONICA S.A." ;
+	:term "Telefonica S.A." ;
+	:term "Telefonica SA" ;
+	a :Gazetteer .
+
+:comp_TOTAL_S_A
+	:identifiedBy :gaz_comp_TOTAL_S_A .
+:gaz_comp_TOTAL_S_A
+	:term "TOTAL S.A." ;
+	:term "Total S.A." ;
+	:term "Total SA" ;
+	a :Gazetteer .
+
+:comp_UNIBAIL_RODAMCO_SE
+	:identifiedBy :gaz_comp_UNIBAIL_RODAMCO_SE .
+:gaz_comp_UNIBAIL_RODAMCO_SE
+	:term "UNIBAIL-RODAMCO SE" ;
+	:term "Unibail-Rodamco SE" ;
+	:term "Unibail Rodamco Se" ;
+	:term "Unibail Rodamco SE" ;
+	a :Gazetteer .
+
+:comp_UNICREDIT_S_P_A
+	:identifiedBy :gaz_comp_UNICREDIT_S_P_A .
+:gaz_comp_UNICREDIT_S_P_A
+	:term "UNICREDIT S.P.A." ;
+	:term "UniCredit S.p.A." ;
+	:term "UniCredit SpA" ;
+	a :Gazetteer .
+
+:comp_UNILEVER_N_V
+	:identifiedBy :gaz_comp_UNILEVER_N_V .
+:gaz_comp_UNILEVER_N_V
+	:term "UNILEVER N.V." ;
+	:term "Unilever N.V." ;
+	:term "Unilever NV" ;
+	a :Gazetteer .
+
+:comp_VINCI_S_A
+	:identifiedBy :gaz_comp_VINCI_S_A .
+:gaz_comp_VINCI_S_A
+	:term "VINCI S.A." ;
+	:term "Vinci" ;
+	a :Gazetteer .
+
+:comp_VIVENDI_S_A
+	:identifiedBy :gaz_comp_VIVENDI_S_A .
+:gaz_comp_VIVENDI_S_A
+	:term "VIVENDI S.A." ;
+	:term "Vivendi SA" ;
+	a :Gazetteer .
+
+:comp_VOLKSWAGEN_AG
+	:identifiedBy :gaz_comp_VOLKSWAGEN_AG .
+:gaz_comp_VOLKSWAGEN_AG
+	:term "VOLKSWAGEN AG" ;
+	:term "Volkswagen AG" ;
+	:term "Volkswagen Non-Voting Pref Shs" ;
+	a :Gazetteer .
+
+:comp_ABB_LTD
+	:identifiedBy :gaz_comp_ABB_LTD .
+:gaz_comp_ABB_LTD
+	:term "ABB LTD." ;
+	:term "ABB Ltd." ;
+	:term "Abb Ltd" ;
+	:term "ABB Ltd" ;
+	a :Gazetteer .
+
+:comp_ANGLO_AMERICAN_PLC
+	:identifiedBy :gaz_comp_ANGLO_AMERICAN_PLC .
+:gaz_comp_ANGLO_AMERICAN_PLC
+	:term "ANGLO AMERICAN PLC" ;
+	:term "Anglo American Plc" ;
+	:term "Anglo American PLC" ;
+	a :Gazetteer .
+
+:comp_ASTRAZENECA_PLC
+	:identifiedBy :gaz_comp_ASTRAZENECA_PLC .
+:gaz_comp_ASTRAZENECA_PLC
+	:term "ASTRAZENECA PLC" ;
+	:term "AstraZeneca PLC" ;
+	:term "Astrazeneca PLC" ;
+	a :Gazetteer .
+
+:comp_BARCLAYS_PLC
+	:identifiedBy :gaz_comp_BARCLAYS_PLC .
+:gaz_comp_BARCLAYS_PLC
+	:term "BARCLAYS PLC" ;
+	:term "Barclays PLC" ;
+	a :Gazetteer .
+
+:comp_BG_GROUP_PLC
+	:identifiedBy :gaz_comp_BG_GROUP_PLC .
+:gaz_comp_BG_GROUP_PLC
+	:term "BG GROUP PLC" ;
+	:term "BG Group PLC" ;
+	a :Gazetteer .
+
+:comp_BHP_BILLITON_PLC
+	:identifiedBy :gaz_comp_BHP_BILLITON_PLC .
+:gaz_comp_BHP_BILLITON_PLC
+	:term "BHP BILLITON PLC" ;
+	:term "BHP Billiton PLC" ;
+	a :Gazetteer .
+
+:comp_BP_PLC
+	:identifiedBy :gaz_comp_BP_PLC .
+:gaz_comp_BP_PLC
+	:term "BP PLC" ;
+	:term "BP Plc" ;
+	a :Gazetteer .
+
+:comp_BRITISH_AMERICAN_TOBACCO_PLC
+	:identifiedBy :gaz_comp_BRITISH_AMERICAN_TOBACCO_PLC .
+:gaz_comp_BRITISH_AMERICAN_TOBACCO_PLC
+	:term "BRITISH AMERICAN TOBACCO PLC" ;
+	:term "British American Tobacco PLC" ;
+	:term "British American TobacCo PLC" ;
+	a :Gazetteer .
+
+:comp_CREDIT_SUISSE_GROUP_AG
+	:identifiedBy :gaz_comp_CREDIT_SUISSE_GROUP_AG .
+:gaz_comp_CREDIT_SUISSE_GROUP_AG
+	:term "CREDIT SUISSE GROUP AG" ;
+	:term "Credit Suisse Group AG" ;
+	a :Gazetteer .
+
+:comp_DIAGEO_PLC
+	:identifiedBy :gaz_comp_DIAGEO_PLC .
+:gaz_comp_DIAGEO_PLC
+	:term "DIAGEO PLC" ;
+	:term "Diageo plc" ;
+	:term "Diageo PLC" ;
+	a :Gazetteer .
+
+:comp_ERICSSON_LM
+	:identifiedBy :gaz_comp_ERICSSON_LM .
+:gaz_comp_ERICSSON_LM
+	:term "ERICSSON (LM)" ;
+	:term "Telefonaktiebolaget L M Ericsson" ;
+	a :Gazetteer .
+
+:comp_GLAXOSMITHKLINE_PLC
+	:identifiedBy :gaz_comp_GLAXOSMITHKLINE_PLC .
+:gaz_comp_GLAXOSMITHKLINE_PLC
+	:term "GLAXOSMITHKLINE PLC" ;
+	:term "GlaxoSmithKline PLC" ;
+	:term "Glaxosmithkline Plc" ;
+	a :Gazetteer .
+
+:comp_HENNES_MAURITZ
+	:identifiedBy :gaz_comp_HENNES_MAURITZ .
+:gaz_comp_HENNES_MAURITZ
+	:term "HENNES & MAURITZ" ;
+	:term "H & M Hennes & Mauritz AB" ;
+	a :Gazetteer .
+
+:comp_HSBC_HOLDINGS_PLC
+	:identifiedBy :gaz_comp_HSBC_HOLDINGS_PLC .
+:gaz_comp_HSBC_HOLDINGS_PLC
+	:term "HSBC HOLDINGS PLC" ;
+	:term "HSBC Holdings PLC" ;
+	a :Gazetteer .
+
+:comp_IMPERIAL_TOBACCO_GROUP_PLC
+	:identifiedBy :gaz_comp_IMPERIAL_TOBACCO_GROUP_PLC .
+:gaz_comp_IMPERIAL_TOBACCO_GROUP_PLC
+	:term "IMPERIAL TOBACCO GROUP PLC" ;
+	:term "Imperial Tobacco Group PLC" ;
+	a :Gazetteer .
+
+:comp_NATIONAL_GRID_PLC
+	:identifiedBy :gaz_comp_NATIONAL_GRID_PLC .
+:gaz_comp_NATIONAL_GRID_PLC
+	:term "NATIONAL GRID PLC" ;
+	:term "National Grid PLC" ;
+	a :Gazetteer .
+
+:comp_NESTLE_S_A
+	:identifiedBy :gaz_comp_NESTLE_S_A .
+:gaz_comp_NESTLE_S_A
+	:term "NESTLE S.A." ;
+	:term "Nestle S.A." ;
+	:term "Nestle SA" ;
+	a :Gazetteer .
+
+:comp_NOVARTIS_AG
+	:identifiedBy :gaz_comp_NOVARTIS_AG .
+:gaz_comp_NOVARTIS_AG
+	:term "NOVARTIS AG" ;
+	:term "Novartis AG" ;
+	a :Gazetteer .
+
+:comp_RIO_TINTO_PLC
+	:identifiedBy :gaz_comp_RIO_TINTO_PLC .
+:gaz_comp_RIO_TINTO_PLC
+	:term "RIO TINTO PLC" ;
+	:term "Rio Tinto PLC" ;
+	a :Gazetteer .
+
+:comp_ROCHE_HOLDING_AG
+	:identifiedBy :gaz_comp_ROCHE_HOLDING_AG .
+:gaz_comp_ROCHE_HOLDING_AG
+	:term "ROCHE HOLDING AG" ;
+	:term "Roche Holding AG" ;
+	a :Gazetteer .
+
+:comp_ROYAL_DUTCH_SHELL_PLC
+	:identifiedBy :gaz_comp_ROYAL_DUTCH_SHELL_PLC .
+:gaz_comp_ROYAL_DUTCH_SHELL_PLC
+	:term "ROYAL DUTCH SHELL PLC" ;
+	:term "Royal Dutch Shell PLC" ;
+	:term "Royal Dutch Shell Plc" ;
+	a :Gazetteer .
+
+:comp_STANDARD_CHARTERED_PLC
+	:identifiedBy :gaz_comp_STANDARD_CHARTERED_PLC .
+:gaz_comp_STANDARD_CHARTERED_PLC
+	:term "STANDARD CHARTERED PLC" ;
+	:term "Standard Chartered PLC" ;
+	a :Gazetteer .
+
+:comp_TESCO_PLC
+	:identifiedBy :gaz_comp_TESCO_PLC .
+:gaz_comp_TESCO_PLC
+	:term "TESCO PLC" ;
+	:term "Tesco PLC" ;
+	:term "TESCO Plc" ;
+	a :Gazetteer .
+
+:comp_UBS_AG
+	:identifiedBy :gaz_comp_UBS_AG .
+:gaz_comp_UBS_AG
+	:term "UBS AG" ;
+	:term "UBS AG (USA)" ;
+	a :Gazetteer .
+
+:comp_UNILEVER_PLC
+	:identifiedBy :gaz_comp_UNILEVER_PLC .
+:gaz_comp_UNILEVER_PLC
+	:term "UNILEVER PLC" ;
+	:term "Unilever PLC" ;
+	a :Gazetteer .
+
+:comp_VODAFONE_GROUP_PLC
+	:identifiedBy :gaz_comp_VODAFONE_GROUP_PLC .
+:gaz_comp_VODAFONE_GROUP_PLC
+	:term "VODAFONE GROUP PLC" ;
+	:term "Vodafone Group Plc" ;
+	a :Gazetteer .
+
+:comp_ZURICH_INSURANCE_GROUP_AG
+	:identifiedBy :gaz_comp_ZURICH_INSURANCE_GROUP_AG .
+:gaz_comp_ZURICH_INSURANCE_GROUP_AG
+	:term "ZURICH INSURANCE GROUP AG" ;
+	:term "Zurich Insurance Group AG" ;
+	:term "Zurich Financial Services AG" ;
+	a :Gazetteer .
+
+:comp_ANTOFAGASTA_PLC
+	:identifiedBy :gaz_comp_ANTOFAGASTA_PLC .
+:gaz_comp_ANTOFAGASTA_PLC
+	:term "ANTOFAGASTA PLC" ;
+	:term "Antofagasta PLC" ;
+	a :Gazetteer .
+
+:comp_ARM_HOLDINGS_PLC
+	:identifiedBy :gaz_comp_ARM_HOLDINGS_PLC .
+:gaz_comp_ARM_HOLDINGS_PLC
+	:term "ARM HOLDINGS PLC" ;
+	:term "ARM Holdings PLC" ;
+	a :Gazetteer .
+
+:comp_ASSOCIATED_BRITISH_FOODS_PLC
+	:identifiedBy :gaz_comp_ASSOCIATED_BRITISH_FOODS_PLC .
+:gaz_comp_ASSOCIATED_BRITISH_FOODS_PLC
+	:term "ASSOCIATED BRITISH FOODS PLC" ;
+	:term "Associated British Foods PLC" ;
+	a :Gazetteer .
+
+:comp_AVIVA_PLC
+	:identifiedBy :gaz_comp_AVIVA_PLC .
+:gaz_comp_AVIVA_PLC
+	:term "AVIVA PLC" ;
+	:term "Aviva PLC" ;
+	:term "Aviva Plc" ;
+	a :Gazetteer .
+
+:comp_BAE_SYSTEMS_PLC
+	:identifiedBy :gaz_comp_BAE_SYSTEMS_PLC .
+:gaz_comp_BAE_SYSTEMS_PLC
+	:term "BAE SYSTEMS PLC" ;
+	:term "BAE Systems PLC" ;
+	a :Gazetteer .
+
+:comp_BRITISH_LAND_CO_PLC
+	:identifiedBy :gaz_comp_BRITISH_LAND_CO_PLC .
+:gaz_comp_BRITISH_LAND_CO_PLC
+	:term "BRITISH LAND CO. PLC" ;
+	:term "British Land Co PLC" ;
+	a :Gazetteer .
+
+:comp_BRITISH_SKY_BROADCASTING_GROUP_PLC
+	:identifiedBy :gaz_comp_BRITISH_SKY_BROADCASTING_GROUP_PLC .
+:gaz_comp_BRITISH_SKY_BROADCASTING_GROUP_PLC
+	:term "BRITISH SKY BROADCASTING GROUP PLC" ;
+	:term "British Sky Broadcasting Group plc" ;
+	:term "British Sky Broadcasting Group PLC" ;
+	a :Gazetteer .
+
+:comp_BT_GROUP_PLC
+	:identifiedBy :gaz_comp_BT_GROUP_PLC .
+:gaz_comp_BT_GROUP_PLC
+	:term "BT GROUP PLC" ;
+	:term "BT Group PLC" ;
+	a :Gazetteer .
+
+:comp_BURBERRY_GROUP_PLC
+	:identifiedBy :gaz_comp_BURBERRY_GROUP_PLC .
+:gaz_comp_BURBERRY_GROUP_PLC
+	:term "BURBERRY GROUP PLC" ;
+	:term "Burberry Group plc" ;
+	:term "Burberry Group PLC" ;
+	a :Gazetteer .
+
+:comp_THE_CAPITA_GROUP_PLC
+	:identifiedBy :gaz_comp_THE_CAPITA_GROUP_PLC .
+:gaz_comp_THE_CAPITA_GROUP_PLC
+	:term "THE CAPITA GROUP PLC" ;
+	:term "The Capita Group Plc" ;
+	:term "Capita PLC" ;
+	a :Gazetteer .
+
+:comp_CARNIVAL_PLC
+	:identifiedBy :gaz_comp_CARNIVAL_PLC .
+:gaz_comp_CARNIVAL_PLC
+	:term "CARNIVAL PLC" ;
+	:term "Carnival PLC" ;
+	:term "Carnival Plc" ;
+	a :Gazetteer .
+
+:comp_CENTRICA_PLC
+	:identifiedBy :gaz_comp_CENTRICA_PLC .
+:gaz_comp_CENTRICA_PLC
+	:term "CENTRICA PLC" ;
+	:term "Centrica plc" ;
+	:term "Centrica Plc" ;
+	a :Gazetteer .
+
+:comp_COMPASS_GROUP_PLC
+	:identifiedBy :gaz_comp_COMPASS_GROUP_PLC .
+:gaz_comp_COMPASS_GROUP_PLC
+	:term "COMPASS GROUP PLC" ;
+	:term "Compass Group PLC" ;
+	a :Gazetteer .
+
+:comp_CRODA_INTERNATIONAL_PLC
+	:identifiedBy :gaz_comp_CRODA_INTERNATIONAL_PLC .
+:gaz_comp_CRODA_INTERNATIONAL_PLC
+	:term "CRODA INTERNATIONAL PLC" ;
+	:term "Croda International PLC" ;
+	a :Gazetteer .
+
+:comp_EURASIAN_NATURAL_RESOURCES_CORPORATION_PLC
+	:identifiedBy :gaz_comp_EURASIAN_NATURAL_RESOURCES_CORPORATION_PLC .
+:gaz_comp_EURASIAN_NATURAL_RESOURCES_CORPORATION_PLC
+	:term "EURASIAN NATURAL RESOURCES CORPORATION PLC" ;
+	:term "Eurasian Natural Resources Corporation plc" ;
+	:term "Eurasian Natural Resources Corp PLC" ;
+	a :Gazetteer .
+
+:comp_EVRAZ_PLC
+	:identifiedBy :gaz_comp_EVRAZ_PLC .
+:gaz_comp_EVRAZ_PLC
+	:term "EVRAZ PLC" ;
+	:term "Evraz PLC" ;
+	:term "Evraz Plc" ;
+	a :Gazetteer .
+
+:comp_EXPERIAN_PLC
+	:identifiedBy :gaz_comp_EXPERIAN_PLC .
+:gaz_comp_EXPERIAN_PLC
+	:term "EXPERIAN PLC" ;
+	:term "Experian PLC" ;
+	a :Gazetteer .
+
+:comp_FRESNILLO_PLC
+	:identifiedBy :gaz_comp_FRESNILLO_PLC .
+:gaz_comp_FRESNILLO_PLC
+	:term "FRESNILLO PLC" ;
+	:term "Fresnillo PLC" ;
+	:term "Fresnillo Plc" ;
+	a :Gazetteer .
+
+:comp_GKN_PLC
+	:identifiedBy :gaz_comp_GKN_PLC .
+:gaz_comp_GKN_PLC
+	:term "GKN PLC" ;
+	:term "Gkn PLC" ;
+	a :Gazetteer .
+
+:comp_GLENCORE_INTERNATIONAL_PLC
+	:identifiedBy :gaz_comp_GLENCORE_INTERNATIONAL_PLC .
+:gaz_comp_GLENCORE_INTERNATIONAL_PLC
+	:term "GLENCORE INTERNATIONAL PLC" ;
+	:term "Glencore International PLC" ;
+	a :Gazetteer .
+
+:comp_ICAP_PLC
+	:identifiedBy :gaz_comp_ICAP_PLC .
+:gaz_comp_ICAP_PLC
+	:term "ICAP PLC" ;
+	:term "ICAP plc" ;
+	:term "Icap PLC" ;
+	a :Gazetteer .
+
+:comp_IMI_PLC
+	:identifiedBy :gaz_comp_IMI_PLC .
+:gaz_comp_IMI_PLC
+	:term "IMI PLC" ;
+	a :Gazetteer .
+
+:comp_INTERNATIONAL_CONSOLIDATED_AIRLINES_GROUP_S_A
+	:identifiedBy :gaz_comp_INTERNATIONAL_CONSOLIDATED_AIRLINES_GROUP_S_A .
+:gaz_comp_INTERNATIONAL_CONSOLIDATED_AIRLINES_GROUP_S_A
+	:term "INTERNATIONAL CONSOLIDATED AIRLINES GROUP S.A." ;
+	:term "International Consolidated Airlines Group S.A." ;
+	:term "International Consolidated Airlines Group SA" ;
+	a :Gazetteer .
+
+:comp_INTERNATIONAL_POWER_PLC
+	:identifiedBy :gaz_comp_INTERNATIONAL_POWER_PLC .
+:gaz_comp_INTERNATIONAL_POWER_PLC
+	:term "INTERNATIONAL POWER PLC" ;
+	:term "International Power PLC" ;
+	a :Gazetteer .
+
+:comp_ITV_PLC
+	:identifiedBy :gaz_comp_ITV_PLC .
+:gaz_comp_ITV_PLC
+	:term "ITV PLC" ;
+	:term "Itv PLC" ;
+	a :Gazetteer .
+
+:comp_JOHNSON_MATTHEY_PLC
+	:identifiedBy :gaz_comp_JOHNSON_MATTHEY_PLC .
+:gaz_comp_JOHNSON_MATTHEY_PLC
+	:term "JOHNSON, MATTHEY PLC" ;
+	:term "Johnson, Matthey PLC" ;
+	:term "Johnson Matthey PLC" ;
+	a :Gazetteer .
+
+:comp_KAZAKHMYS_PLC
+	:identifiedBy :gaz_comp_KAZAKHMYS_PLC .
+:gaz_comp_KAZAKHMYS_PLC
+	:term "KAZAKHMYS PLC" ;
+	:term "Kazakhmys PLC" ;
+	a :Gazetteer .
+
+:comp_KINGFISHER_PLC
+	:identifiedBy :gaz_comp_KINGFISHER_PLC .
+:gaz_comp_KINGFISHER_PLC
+	:term "KINGFISHER PLC" ;
+	:term "Kingfisher PLC" ;
+	a :Gazetteer .
+
+:comp_LLOYDS_BANKING_GROUP_PLC
+	:identifiedBy :gaz_comp_LLOYDS_BANKING_GROUP_PLC .
+:gaz_comp_LLOYDS_BANKING_GROUP_PLC
+	:term "LLOYDS BANKING GROUP PLC" ;
+	:term "Lloyds Banking Group PLC" ;
+	a :Gazetteer .
+
+:comp_MAN_GROUP_PLC
+	:identifiedBy :gaz_comp_MAN_GROUP_PLC .
+:gaz_comp_MAN_GROUP_PLC
+	:term "MAN GROUP PLC" ;
+	:term "Man Group PLC" ;
+	a :Gazetteer .
+
+:comp_MARKS_SPENCER_GROUP_PLC
+	:identifiedBy :gaz_comp_MARKS_SPENCER_GROUP_PLC .
+:gaz_comp_MARKS_SPENCER_GROUP_PLC
+	:term "MARKS & SPENCER GROUP PLC" ;
+	:term "Marks & Spencer Group PLC" ;
+	:term "Marks And Spencer Group PLC" ;
+	a :Gazetteer .
+
+:comp_MORRISON_SUPERMARKETS_PLC
+	:identifiedBy :gaz_comp_MORRISON_SUPERMARKETS_PLC .
+:gaz_comp_MORRISON_SUPERMARKETS_PLC
+	:term "MORRISON SUPERMARKETS PLC" ;
+	:term "Morrison Supermarkets PLC" ;
+	:term "WM Morrison Supermarkets PLC" ;
+	a :Gazetteer .
+
+:comp_NEXT_PLC
+	:identifiedBy :gaz_comp_NEXT_PLC .
+:gaz_comp_NEXT_PLC
+	:term "NEXT PLC" ;
+	:term "Next Plc" ;
+	a :Gazetteer .
+
+:comp_PEARSON_PLC
+	:identifiedBy :gaz_comp_PEARSON_PLC .
+:gaz_comp_PEARSON_PLC
+	:term "PEARSON PLC" ;
+	:term "Pearson PLC" ;
+	a :Gazetteer .
+
+:comp_PETROFAC_LTD
+	:identifiedBy :gaz_comp_PETROFAC_LTD .
+:gaz_comp_PETROFAC_LTD
+	:term "PETROFAC LTD." ;
+	:term "Petrofac Ltd." ;
+	:term "Petrofac Ltd" ;
+	a :Gazetteer .
+
+:comp_POLYMETAL_INTERNATIONAL_PLC
+	:identifiedBy :gaz_comp_POLYMETAL_INTERNATIONAL_PLC .
+:gaz_comp_POLYMETAL_INTERNATIONAL_PLC
+	:term "POLYMETAL INTERNATIONAL PLC" ;
+	:term "Polymetal International PLC" ;
+	a :Gazetteer .
+
+:comp_PRUDENTIAL_PLC
+	:identifiedBy :gaz_comp_PRUDENTIAL_PLC .
+:gaz_comp_PRUDENTIAL_PLC
+	:term "PRUDENTIAL PLC" ;
+	:term "Prudential PLC" ;
+	a :Gazetteer .
+
+:comp_RANDGOLD_RESOURCES_LTD
+	:identifiedBy :gaz_comp_RANDGOLD_RESOURCES_LTD .
+:gaz_comp_RANDGOLD_RESOURCES_LTD
+	:term "RANDGOLD RESOURCES LTD." ;
+	:term "Randgold Resources Ltd." ;
+	:term "Randgold Resources Ltd" ;
+	a :Gazetteer .
+
+:comp_RECKITT_BENCKISER_GROUP_PLC
+	:identifiedBy :gaz_comp_RECKITT_BENCKISER_GROUP_PLC .
+:gaz_comp_RECKITT_BENCKISER_GROUP_PLC
+	:term "RECKITT BENCKISER GROUP PLC" ;
+	:term "Reckitt Benckiser Group PLC" ;
+	:term "Reckitt Benckiser Group Plc" ;
+	a :Gazetteer .
+
+:comp_REXAM_PLC
+	:identifiedBy :gaz_comp_REXAM_PLC .
+:gaz_comp_REXAM_PLC
+	:term "REXAM PLC" ;
+	:term "Rexam PLC" ;
+	a :Gazetteer .
+
+:comp_ROLLS_ROYCE_HOLDINGS_PLC
+	:identifiedBy :gaz_comp_ROLLS_ROYCE_HOLDINGS_PLC .
+:gaz_comp_ROLLS_ROYCE_HOLDINGS_PLC
+	:term "ROLLS ROYCE HOLDINGS PLC" ;
+	:term "Rolls Royce Holdings PLC" ;
+	:term "Rolls-Royce Holding PLC" ;
+	a :Gazetteer .
+
+:comp_THE_ROYAL_BANK_OF_SCOTLAND_GROUP_PLC
+	:identifiedBy :gaz_comp_THE_ROYAL_BANK_OF_SCOTLAND_GROUP_PLC .
+:gaz_comp_THE_ROYAL_BANK_OF_SCOTLAND_GROUP_PLC
+	:term "THE ROYAL BANK OF SCOTLAND GROUP PLC" ;
+	:term "The Royal Bank of Scotland Group PLC" ;
+	:term "Royal Bank of Scotland Group PLC" ;
+	a :Gazetteer .
+
+:comp_RSA_INSURANCE_GROUP_PLC
+	:identifiedBy :gaz_comp_RSA_INSURANCE_GROUP_PLC .
+:gaz_comp_RSA_INSURANCE_GROUP_PLC
+	:term "RSA INSURANCE GROUP PLC" ;
+	:term "RSA Insurance Group PLC" ;
+	a :Gazetteer .
+
+:comp_SABMILLER_PLC
+	:identifiedBy :gaz_comp_SABMILLER_PLC .
+:gaz_comp_SABMILLER_PLC
+	:term "SABMILLER PLC" ;
+	:term "SABMiller PLC" ;
+	a :Gazetteer .
+
+:comp_THE_SAGE_GROUP_PLC
+	:identifiedBy :gaz_comp_THE_SAGE_GROUP_PLC .
+:gaz_comp_THE_SAGE_GROUP_PLC
+	:term "THE SAGE GROUP PLC" ;
+	:term "The Sage Group PLC" ;
+	:term "Sage Group PLC" ;
+	a :Gazetteer .
+
+:comp_J_SAINSBURY_PLC
+	:identifiedBy :gaz_comp_J_SAINSBURY_PLC .
+:gaz_comp_J_SAINSBURY_PLC
+	:term "J SAINSBURY PLC" ;
+	:term "J Sainsbury PLC" ;
+	a :Gazetteer .
+
+:comp_SERCO_GROUP_PLC
+	:identifiedBy :gaz_comp_SERCO_GROUP_PLC .
+:gaz_comp_SERCO_GROUP_PLC
+	:term "SERCO GROUP PLC" ;
+	:term "Serco Group PLC" ;
+	a :Gazetteer .
+
+:comp_SEVERN_TRENT_PLC
+	:identifiedBy :gaz_comp_SEVERN_TRENT_PLC .
+:gaz_comp_SEVERN_TRENT_PLC
+	:term "SEVERN TRENT PLC" ;
+	:term "Severn Trent Plc" ;
+	a :Gazetteer .
+
+:comp_SHIRE_PLC
+	:identifiedBy :gaz_comp_SHIRE_PLC .
+:gaz_comp_SHIRE_PLC
+	:term "SHIRE PLC" ;
+	:term "Shire plc" ;
+	:term "Shire Ord Shs" ;
+	a :Gazetteer .
+
+:comp_SMITH_NEPHEW_PLC
+	:identifiedBy :gaz_comp_SMITH_NEPHEW_PLC .
+:gaz_comp_SMITH_NEPHEW_PLC
+	:term "SMITH & NEPHEW PLC" ;
+	:term "Smith & Nephew PLC" ;
+	:term "Smith and Nephew PLC" ;
+	a :Gazetteer .
+
+:comp_SMITHS_GROUP_PLC
+	:identifiedBy :gaz_comp_SMITHS_GROUP_PLC .
+:gaz_comp_SMITHS_GROUP_PLC
+	:term "SMITHS GROUP PLC" ;
+	:term "Smiths Group PLC" ;
+	a :Gazetteer .
+
+:comp_SCOTTISH_AND_SOUTHERN_ENERGY_PLC
+	:identifiedBy :gaz_comp_SCOTTISH_AND_SOUTHERN_ENERGY_PLC .
+:gaz_comp_SCOTTISH_AND_SOUTHERN_ENERGY_PLC
+	:term "SCOTTISH AND SOUTHERN ENERGY PLC" ;
+	:term "Scottish and Southern Energy plc" ;
+	:term "SSE PLC" ;
+	a :Gazetteer .
+
+:comp_STANDARD_LIFE_PLC
+	:identifiedBy :gaz_comp_STANDARD_LIFE_PLC .
+:gaz_comp_STANDARD_LIFE_PLC
+	:term "STANDARD LIFE PLC" ;
+	:term "Standard Life plc" ;
+	:term "Standard Life Plc" ;
+	a :Gazetteer .
+
+:comp_TATE_LYLE_PLC
+	:identifiedBy :gaz_comp_TATE_LYLE_PLC .
+:gaz_comp_TATE_LYLE_PLC
+	:term "TATE & LYLE PLC" ;
+	:term "Tate & Lyle plc" ;
+	:term "Tate and Lyle PLC" ;
+	a :Gazetteer .
+
+:comp_TULLOW_OIL_PLC
+	:identifiedBy :gaz_comp_TULLOW_OIL_PLC .
+:gaz_comp_TULLOW_OIL_PLC
+	:term "TULLOW OIL PLC" ;
+	:term "Tullow Oil plc" ;
+	:term "Tullow Oil PLC" ;
+	a :Gazetteer .
+
+:comp_UNITED_UTILITIES_GROUP_PLC
+	:identifiedBy :gaz_comp_UNITED_UTILITIES_GROUP_PLC .
+:gaz_comp_UNITED_UTILITIES_GROUP_PLC
+	:term "UNITED UTILITIES GROUP PLC" ;
+	:term "United Utilities Group PLC" ;
+	a :Gazetteer .
+
+:comp_VEDANTA_RESOURCES_PLC
+	:identifiedBy :gaz_comp_VEDANTA_RESOURCES_PLC .
+:gaz_comp_VEDANTA_RESOURCES_PLC
+	:term "VEDANTA RESOURCES PLC" ;
+	:term "Vedanta Resources plc" ;
+	:term "Vedanta Resources PLC" ;
+	a :Gazetteer .
+
+:comp_XSTRATA_PLC
+	:identifiedBy :gaz_comp_XSTRATA_PLC .
+:gaz_comp_XSTRATA_PLC
+	:term "XSTRATA PLC" ;
+	:term "Xstrata PLC" ;
+	:term "Xstrata Plc" ;
+	a :Gazetteer .
+
+:comp_ADIDAS_AG
+	:identifiedBy :gaz_comp_ADIDAS_AG .
+:gaz_comp_ADIDAS_AG
+	:term "ADIDAS AG" ;
+	:term "adidas AG" ;
+	:term "Adidas N Ord Shs" ;
+	a :Gazetteer .
+
+:comp_BEIERSDORF_AG
+	:identifiedBy :gaz_comp_BEIERSDORF_AG .
+:gaz_comp_BEIERSDORF_AG
+	:term "BEIERSDORF AG" ;
+	:term "Beiersdorf AG" ;
+	a :Gazetteer .
+
+:comp_COMMERZBANK_AG
+	:identifiedBy :gaz_comp_COMMERZBANK_AG .
+:gaz_comp_COMMERZBANK_AG
+	:term "COMMERZBANK AG" ;
+	:term "Commerzbank AG" ;
+	a :Gazetteer .
+
+:comp_DEUTSCHE_LUFTHANSA_AG
+	:identifiedBy :gaz_comp_DEUTSCHE_LUFTHANSA_AG .
+:gaz_comp_DEUTSCHE_LUFTHANSA_AG
+	:term "DEUTSCHE LUFTHANSA AG" ;
+	:term "Deutsche Lufthansa AG" ;
+	a :Gazetteer .
+
+:comp_DEUTSCHE_POST_AG
+	:identifiedBy :gaz_comp_DEUTSCHE_POST_AG .
+:gaz_comp_DEUTSCHE_POST_AG
+	:term "DEUTSCHE POST AG" ;
+	:term "Deutsche Post AG" ;
+	a :Gazetteer .
+
+:comp_FRESENIUS_MEDICAL_CARE_AG_CO_KGAA
+	:identifiedBy :gaz_comp_FRESENIUS_MEDICAL_CARE_AG_CO_KGAA .
+:gaz_comp_FRESENIUS_MEDICAL_CARE_AG_CO_KGAA
+	:term "FRESENIUS MEDICAL CARE AG & CO. KGAA" ;
+	:term "Fresenius Medical Care AG & Co. KGaA" ;
+	:term "Fresenius Medical Care AG & Co KGaA" ;
+	:term "Fresenius Medical Care AG & Co Kgaa" ;
+	a :Gazetteer .
+
+:comp_FRESENIUS_SE_CO_KGAA
+	:identifiedBy :gaz_comp_FRESENIUS_SE_CO_KGAA .
+:gaz_comp_FRESENIUS_SE_CO_KGAA
+	:term "FRESENIUS SE & CO. KGAA" ;
+	:term "Fresenius SE & Co. KGaA" ;
+	:term "Fresenius SE & Co KGaA" ;
+	a :Gazetteer .
+
+:comp_HEIDELBERGCEMENT_AG
+	:identifiedBy :gaz_comp_HEIDELBERGCEMENT_AG .
+:gaz_comp_HEIDELBERGCEMENT_AG
+	:term "HEIDELBERGCEMENT AG" ;
+	:term "HeidelbergCement AG" ;
+	:term "Heidelbergcement AG" ;
+	a :Gazetteer .
+
+:comp_HENKEL_AG_CO_KGAA
+	:identifiedBy :gaz_comp_HENKEL_AG_CO_KGAA .
+:gaz_comp_HENKEL_AG_CO_KGAA
+	:term "HENKEL AG & CO. KGAA" ;
+	:term "Henkel AG & Co. KGaA" ;
+	:term "Henkel & KGAA Pref Shs" ;
+	a :Gazetteer .
+
+:comp_INFINEON_TECHNOLOGIES_AG
+	:identifiedBy :gaz_comp_INFINEON_TECHNOLOGIES_AG .
+:gaz_comp_INFINEON_TECHNOLOGIES_AG
+	:term "INFINEON TECHNOLOGIES AG" ;
+	:term "Infineon Technologies AG" ;
+	a :Gazetteer .
+
+:comp_K_S_AG
+	:identifiedBy :gaz_comp_K_S_AG .
+:gaz_comp_K_S_AG
+	:term "K+S AG" ;
+	:term "K+S Ord Shs" ;
+	a :Gazetteer .
+
+:comp_LINDE_AG
+	:identifiedBy :gaz_comp_LINDE_AG .
+:gaz_comp_LINDE_AG
+	:term "LINDE AG" ;
+	:term "Linde AG" ;
+	a :Gazetteer .
+
+:comp_MAN_SE
+	:identifiedBy :gaz_comp_MAN_SE .
+:gaz_comp_MAN_SE
+	:term "MAN SE" ;
+	a :Gazetteer .
+
+:comp_MERCK_KGAA
+	:identifiedBy :gaz_comp_MERCK_KGAA .
+:gaz_comp_MERCK_KGAA
+	:term "MERCK KGAA" ;
+	:term "Merck KGaA" ;
+	a :Gazetteer .
+
+:comp_METRO_AG
+	:identifiedBy :gaz_comp_METRO_AG .
+:gaz_comp_METRO_AG
+	:term "METRO AG" ;
+	:term "Metro AG" ;
+	a :Gazetteer .
+
+:comp_THYSSENKRUPP_AG
+	:identifiedBy :gaz_comp_THYSSENKRUPP_AG .
+:gaz_comp_THYSSENKRUPP_AG
+	:term "THYSSENKRUPP AG" ;
+	:term "ThyssenKrupp AG" ;
+	a :Gazetteer .
+
+:comp_ACCOR_S_A
+	:identifiedBy :gaz_comp_ACCOR_S_A .
+:gaz_comp_ACCOR_S_A
+	:term "ACCOR S.A." ;
+	:term "Accor SA" ;
+	a :Gazetteer .
+
+:comp_ALCATEL_LUCENT
+	:identifiedBy :gaz_comp_ALCATEL_LUCENT .
+:gaz_comp_ALCATEL_LUCENT
+	:term "ALCATEL-LUCENT" ;
+	:term "Alcatel-Lucent" ;
+	:term "Alcatel Lucent SA" ;
+	a :Gazetteer .
+
+:comp_ALSTOM_S_A
+	:identifiedBy :gaz_comp_ALSTOM_S_A .
+:gaz_comp_ALSTOM_S_A
+	:term "ALSTOM S.A." ;
+	:term "Alstom S.A." ;
+	:term "Alstom SA" ;
+	a :Gazetteer .
+
+:comp_BOUYGUES_S_A
+	:identifiedBy :gaz_comp_BOUYGUES_S_A .
+:gaz_comp_BOUYGUES_S_A
+	:term "BOUYGUES S.A." ;
+	:term "Bouygues S.A." ;
+	:term "Bouygues SA" ;
+	a :Gazetteer .
+
+:comp_CAP_GEMINI_S_A
+	:identifiedBy :gaz_comp_CAP_GEMINI_S_A .
+:gaz_comp_CAP_GEMINI_S_A
+	:term "CAP GEMINI S.A." ;
+	:term "Cap Gemini S.A." ;
+	:term "Cap Gemini SA" ;
+	a :Gazetteer .
+
+:comp_CREDIT_AGRICOLE_S_A
+	:identifiedBy :gaz_comp_CREDIT_AGRICOLE_S_A .
+:gaz_comp_CREDIT_AGRICOLE_S_A
+	:term "CREDIT AGRICOLE S.A." ;
+	:term "Credit Agricole S.A." ;
+	:term "Credit Agricole SA" ;
+	a :Gazetteer .
+
+:comp_EUROPEAN_AERONAUTIC_DEFENCE_AND_SPACE_COMPANY_EADS
+	:identifiedBy :gaz_comp_EUROPEAN_AERONAUTIC_DEFENCE_AND_SPACE_COMPANY_EADS .
+:gaz_comp_EUROPEAN_AERONAUTIC_DEFENCE_AND_SPACE_COMPANY_EADS
+	:term "EUROPEAN AERONAUTIC DEFENCE AND SPACE COMPANY EADS" ;
+	:term "European Aeronautic Defence and Space Company EADS N.V." ;
+	:term "European Aeronautic Defence and Space Company NV - EADS" ;
+	a :Gazetteer .
+
+:comp_ELECTRICITE_DE_FRANCE_E_D_F
+	:identifiedBy :gaz_comp_ELECTRICITE_DE_FRANCE_E_D_F .
+:gaz_comp_ELECTRICITE_DE_FRANCE_E_D_F
+	:term "ELECTRICITE DE FRANCE (E.D.F.)" ;
+	:term "Electricite de France (E.D.F.)" ;
+	:term "Electricite de France SA" ;
+	a :Gazetteer .
+
+:comp_ESSILOR_INTERNATIONAL_SA
+	:identifiedBy :gaz_comp_ESSILOR_INTERNATIONAL_SA .
+:gaz_comp_ESSILOR_INTERNATIONAL_SA
+	:term "ESSILOR INTERNATIONAL SA" ;
+	:term "Essilor International SA" ;
+	:term "Essilor International (Cie Generale D Optique) SA" ;
+	a :Gazetteer .
+
+:comp_LAFARGE_S_A
+	:identifiedBy :gaz_comp_LAFARGE_S_A .
+:gaz_comp_LAFARGE_S_A
+	:term "LAFARGE S.A." ;
+	:term "Lafarge S.A." ;
+	:term "Lafarge SA" ;
+	a :Gazetteer .
+
+:comp_LEGRAND_S_A
+	:identifiedBy :gaz_comp_LEGRAND_S_A .
+:gaz_comp_LEGRAND_S_A
+	:term "LEGRAND S.A." ;
+	:term "Legrand S.A." ;
+	:term "Legrand SNC" ;
+	a :Gazetteer .
+
+:comp_MICHELIN_S_A
+	:identifiedBy :gaz_comp_MICHELIN_S_A .
+:gaz_comp_MICHELIN_S_A
+	:term "MICHELIN S.A." ;
+	:term "Michelin S.A." ;
+	:term "Compagnie Generale des Etablissements Michelin" ;
+	a :Gazetteer .
+
+:comp_PERNOD_RICARD_S_A
+	:identifiedBy :gaz_comp_PERNOD_RICARD_S_A .
+:gaz_comp_PERNOD_RICARD_S_A
+	:term "PERNOD-RICARD S.A." ;
+	:term "Pernod-Ricard S.A." ;
+	:term "Pernod Ricard SA" ;
+	a :Gazetteer .
+
+:comp_PEUGEOT_S_A
+	:identifiedBy :gaz_comp_PEUGEOT_S_A .
+:gaz_comp_PEUGEOT_S_A
+	:term "PEUGEOT S.A." ;
+	:term "Peugeot S.A." ;
+	:term "Peugeot SA" ;
+	a :Gazetteer .
+
+:comp_PPR_S_A
+	:identifiedBy :gaz_comp_PPR_S_A .
+:gaz_comp_PPR_S_A
+	:term "PPR S.A." ;
+	:term "PPR SA" ;
+	:term "Ppr SA" ;
+	a :Gazetteer .
+
+:comp_PUBLICIS_GROUPE_S_A
+	:identifiedBy :gaz_comp_PUBLICIS_GROUPE_S_A .
+:gaz_comp_PUBLICIS_GROUPE_S_A
+	:term "PUBLICIS GROUPE S.A." ;
+	:term "Publicis Groupe S.A." ;
+	:term "Publicis Groupe SA" ;
+	a :Gazetteer .
+
+:comp_RENAULT_S_A
+	:identifiedBy :gaz_comp_RENAULT_S_A .
+:gaz_comp_RENAULT_S_A
+	:term "RENAULT S.A." ;
+	:term "Renault S.A." ;
+	:term "Renault SA" ;
+	a :Gazetteer .
+
+:comp_SAFRAN
+	:identifiedBy :gaz_comp_SAFRAN .
+:gaz_comp_SAFRAN
+	:term "SAFRAN" ;
+	:term "Safran SA" ;
+	a :Gazetteer .
+
+:comp_STMICROELECTRONICS_N_V
+	:identifiedBy :gaz_comp_STMICROELECTRONICS_N_V .
+:gaz_comp_STMICROELECTRONICS_N_V
+	:term "STMICROELECTRONICS N.V." ;
+	:term "STMicroelectronics N.V." ;
+	:term "STMicroelectronics NV" ;
+	a :Gazetteer .
+
+:comp_TECHNIP_S_A
+	:identifiedBy :gaz_comp_TECHNIP_S_A .
+:gaz_comp_TECHNIP_S_A
+	:term "TECHNIP S.A." ;
+	:term "Technip S.A." ;
+	:term "Technip SA" ;
+	a :Gazetteer .
+
+:comp_VALLOUREC
+	:identifiedBy :gaz_comp_VALLOUREC .
+:gaz_comp_VALLOUREC
+	:term "VALLOUREC" ;
+	:term "Vallourec" ;
+	:term "Vallourec SA" ;
+	a :Gazetteer .
+
+:comp_VEOLIA_ENVIRONNEMENT_S_A
+	:identifiedBy :gaz_comp_VEOLIA_ENVIRONNEMENT_S_A .
+:gaz_comp_VEOLIA_ENVIRONNEMENT_S_A
+	:term "VEOLIA ENVIRONNEMENT S.A." ;
+	:term "Veolia Environnement S.A." ;
+	:term "Veolia Environnement Ve SA" ;
+	a :Gazetteer .
+
+:comp_A2A_S_P_A
+	:identifiedBy :gaz_comp_A2A_S_P_A .
+:gaz_comp_A2A_S_P_A
+	:term "A2A S.P.A." ;
+	:term "A2A S.p.A." ;
+	:term "A2A SpA" ;
+	a :Gazetteer .
+
+:comp_ANSALDO_STS_S_P_A
+	:identifiedBy :gaz_comp_ANSALDO_STS_S_P_A .
+:gaz_comp_ANSALDO_STS_S_P_A
+	:term "ANSALDO STS S.P.A." ;
+	:term "Ansaldo STS S.p.A." ;
+	:term "Ansaldo STS SpA" ;
+	a :Gazetteer .
+
+:comp_ATLANTIA_S_P_A
+	:identifiedBy :gaz_comp_ATLANTIA_S_P_A .
+:gaz_comp_ATLANTIA_S_P_A
+	:term "ATLANTIA S.P.A." ;
+	:term "Atlantia S.p.A." ;
+	:term "Atlantia SpA" ;
+	a :Gazetteer .
+
+:comp_AUTOGRILL_S_P_A
+	:identifiedBy :gaz_comp_AUTOGRILL_S_P_A .
+:gaz_comp_AUTOGRILL_S_P_A
+	:term "AUTOGRILL S.P.A." ;
+	:term "Autogrill S.p.A." ;
+	:term "Autogrill SpA" ;
+	a :Gazetteer .
+
+:comp_AZIMUT_HOLDING_S_P_A
+	:identifiedBy :gaz_comp_AZIMUT_HOLDING_S_P_A .
+:gaz_comp_AZIMUT_HOLDING_S_P_A
+	:term "AZIMUT HOLDING S.P.A." ;
+	:term "Azimut Holding S.p.A." ;
+	:term "Azimut Holding SpA" ;
+	a :Gazetteer .
+
+:comp_BANCA_MONTE_DEI_PASCHI_DI_SIENA_S_P_A
+	:identifiedBy :gaz_comp_BANCA_MONTE_DEI_PASCHI_DI_SIENA_S_P_A .
+:gaz_comp_BANCA_MONTE_DEI_PASCHI_DI_SIENA_S_P_A
+	:term "BANCA MONTE DEI PASCHI DI SIENA S.P.A." ;
+	:term "Banca Monte dei Paschi di Siena S.p.A." ;
+	:term "Banca Monte dei Paschi di Siena SpA" ;
+	a :Gazetteer .
+
+:comp_BANCA_POPOLARE_DELL_EMILIA_ROMAGNA_S_C_A_R_L
+	:identifiedBy :gaz_comp_BANCA_POPOLARE_DELL_EMILIA_ROMAGNA_S_C_A_R_L .
+:gaz_comp_BANCA_POPOLARE_DELL_EMILIA_ROMAGNA_S_C_A_R_L
+	:term "BANCA POPOLARE DELL'EMILIA ROMAGNA S.C.A.R.L." ;
+	:term "Banca Popolare dell'Emilia Romagna S.C.a.R.L." ;
+	a :Gazetteer .
+
+:comp_BANCA_POPOLARE_DI_MILANO_S_C_A_R_L
+	:identifiedBy :gaz_comp_BANCA_POPOLARE_DI_MILANO_S_C_A_R_L .
+:gaz_comp_BANCA_POPOLARE_DI_MILANO_S_C_A_R_L
+	:term "BANCA POPOLARE DI MILANO S.C.A.R.L" ;
+	:term "Banca Popolare di Milano S.C.a.R.L" ;
+	:term "Banca Popolare di Milano Scarl" ;
+	a :Gazetteer .
+
+:comp_BANCO_POPOLARE_S_P_A
+	:identifiedBy :gaz_comp_BANCO_POPOLARE_S_P_A .
+:gaz_comp_BANCO_POPOLARE_S_P_A
+	:term "BANCO POPOLARE S.P.A." ;
+	:term "Banco Popolare S.p.A." ;
+	:term "Banco Popolare Sc" ;
+	a :Gazetteer .
+
+:comp_BUZZI_UNICEM_S_P_A
+	:identifiedBy :gaz_comp_BUZZI_UNICEM_S_P_A .
+:gaz_comp_BUZZI_UNICEM_S_P_A
+	:term "BUZZI UNICEM S.P.A." ;
+	:term "Buzzi Unicem S.p.A." ;
+	:term "Buzzi Unicem SpA Senza Vincoli Di Rappresentazione Grafica" ;
+	a :Gazetteer .
+
+:comp_DAVIDE_CAMPARI_MILANO_S_P_A
+	:identifiedBy :gaz_comp_DAVIDE_CAMPARI_MILANO_S_P_A .
+:gaz_comp_DAVIDE_CAMPARI_MILANO_S_P_A
+	:term "DAVIDE CAMPARI-MILANO S.P.A." ;
+	:term "Davide Campari-Milano S.p.A." ;
+	:term "Davide Campari Milano SpA" ;
+	a :Gazetteer .
+
+:comp_DIASORIN_S_P_A
+	:identifiedBy :gaz_comp_DIASORIN_S_P_A .
+:gaz_comp_DIASORIN_S_P_A
+	:term "DIASORIN S.P.A." ;
+	:term "DiaSorin S.p.A." ;
+	:term "Diasorin SpA" ;
+	a :Gazetteer .
+
+:comp_ENEL_GREEN_POWER_S_P_A
+	:identifiedBy :gaz_comp_ENEL_GREEN_POWER_S_P_A .
+:gaz_comp_ENEL_GREEN_POWER_S_P_A
+	:term "ENEL GREEN POWER S.P.A." ;
+	:term "Enel Green Power S.P.A." ;
+	a :Gazetteer .
+
+:comp_EXOR_S_P_A
+	:identifiedBy :gaz_comp_EXOR_S_P_A .
+:gaz_comp_EXOR_S_P_A
+	:term "EXOR S.P.A." ;
+	:term "EXOR S.p.A." ;
+	a :Gazetteer .
+
+:comp_FIAT_INDUSTRIAL_S_P_A
+	:identifiedBy :gaz_comp_FIAT_INDUSTRIAL_S_P_A .
+:gaz_comp_FIAT_INDUSTRIAL_S_P_A
+	:term "FIAT INDUSTRIAL S.P.A." ;
+	:term "Fiat Industrial S.p.A." ;
+	:term "Fiat Industrial SpA" ;
+	a :Gazetteer .
+
+:comp_FIAT_S_P_A
+	:identifiedBy :gaz_comp_FIAT_S_P_A .
+:gaz_comp_FIAT_S_P_A
+	:term "FIAT S.P.A." ;
+	:term "FIAT S.p.A." ;
+	:term "Fiat SpA" ;
+	a :Gazetteer .
+
+:comp_FINMECCANICA_S_P_A
+	:identifiedBy :gaz_comp_FINMECCANICA_S_P_A .
+:gaz_comp_FINMECCANICA_S_P_A
+	:term "FINMECCANICA S.P.A." ;
+	:term "Finmeccanica S.p.A." ;
+	:term "Finmeccanica SpA" ;
+	a :Gazetteer .
+
+:comp_IMPREGILO_S_P_A
+	:identifiedBy :gaz_comp_IMPREGILO_S_P_A .
+:gaz_comp_IMPREGILO_S_P_A
+	:term "IMPREGILO S.P.A." ;
+	:term "IMPREGILO S.p.A." ;
+	:term "Impregilo SpA" ;
+	a :Gazetteer .
+
+:comp_LOTTOMATICA_S_P_A
+	:identifiedBy :gaz_comp_LOTTOMATICA_S_P_A .
+:gaz_comp_LOTTOMATICA_S_P_A
+	:term "LOTTOMATICA S.P.A." ;
+	:term "Lottomatica S.p.A." ;
+	:term "Lottomatica Group SpA" ;
+	a :Gazetteer .
+
+:comp_LUXOTTICA_GROUP_S_P_A
+	:identifiedBy :gaz_comp_LUXOTTICA_GROUP_S_P_A .
+:gaz_comp_LUXOTTICA_GROUP_S_P_A
+	:term "LUXOTTICA GROUP S.P.A." ;
+	:term "Luxottica Group S.p.A." ;
+	:term "Luxottica Group SpA" ;
+	a :Gazetteer .
+
+:comp_MEDIASET_S_P_A
+	:identifiedBy :gaz_comp_MEDIASET_S_P_A .
+:gaz_comp_MEDIASET_S_P_A
+	:term "MEDIASET S.P.A." ;
+	:term "Mediaset S.p.A." ;
+	:term "Mediaset SpA" ;
+	a :Gazetteer .
+
+:comp_MEDIOBANCA_S_P_A
+	:identifiedBy :gaz_comp_MEDIOBANCA_S_P_A .
+:gaz_comp_MEDIOBANCA_S_P_A
+	:term "MEDIOBANCA S.P.A." ;
+	:term "Mediobanca S.p.A." ;
+	:term "Mediobanca Banca Di Credito Finanziario SpA" ;
+	a :Gazetteer .
+
+:comp_MEDIOLANUM_S_P_A
+	:identifiedBy :gaz_comp_MEDIOLANUM_S_P_A .
+:gaz_comp_MEDIOLANUM_S_P_A
+	:term "MEDIOLANUM S.P.A." ;
+	:term "Mediolanum S.p.A." ;
+	:term "Mediolanum SpA" ;
+	a :Gazetteer .
+
+:comp_PARMALAT_S_P_A
+	:identifiedBy :gaz_comp_PARMALAT_S_P_A .
+:gaz_comp_PARMALAT_S_P_A
+	:term "PARMALAT S.P.A." ;
+	:term "Parmalat S.p.A." ;
+	:term "Parmalat SpA" ;
+	a :Gazetteer .
+
+:comp_PIRELLI_C_S_P_A
+	:identifiedBy :gaz_comp_PIRELLI_C_S_P_A .
+:gaz_comp_PIRELLI_C_S_P_A
+	:term "PIRELLI & C. S.P.A." ;
+	:term "Pirelli & C. S.p.A." ;
+	:term "Pirelli & C SpA" ;
+	a :Gazetteer .
+
+:comp_PRYSMIAN_S_P_A
+	:identifiedBy :gaz_comp_PRYSMIAN_S_P_A .
+:gaz_comp_PRYSMIAN_S_P_A
+	:term "PRYSMIAN S.P.A." ;
+	:term "Prysmian S.p.A." ;
+	:term "Prysmian SpA" ;
+	a :Gazetteer .
+
+:comp_SAIPEM_S_P_A
+	:identifiedBy :gaz_comp_SAIPEM_S_P_A .
+:gaz_comp_SAIPEM_S_P_A
+	:term "SAIPEM S.P.A." ;
+	:term "Saipem S.p.A." ;
+	:term "Saipem SpA" ;
+	a :Gazetteer .
+
+:comp_SALVATORE_FERRAGAMO_ITALIA_S_P_A
+	:identifiedBy :gaz_comp_SALVATORE_FERRAGAMO_ITALIA_S_P_A .
+:gaz_comp_SALVATORE_FERRAGAMO_ITALIA_S_P_A
+	:term "SALVATORE FERRAGAMO ITALIA S.P.A." ;
+	:term "Salvatore Ferragamo Italia S.p.A." ;
+	:term "Salvatore Ferragamo SpA" ;
+	a :Gazetteer .
+
+:comp_SNAM_S_P_A
+	:identifiedBy :gaz_comp_SNAM_S_P_A .
+:gaz_comp_SNAM_S_P_A
+	:term "SNAM S.P.A." ;
+	:term "Snam S.p.A." ;
+	:term "Snam SpA" ;
+	a :Gazetteer .
+
+:comp_TENARIS_S_A
+	:identifiedBy :gaz_comp_TENARIS_S_A .
+:gaz_comp_TENARIS_S_A
+	:term "TENARIS S.A." ;
+	:term "Tenaris S.A." ;
+	:term "Tenaris SA" ;
+	a :Gazetteer .
+
+:comp_TOD_S_S_P_A
+	:identifiedBy :gaz_comp_TOD_S_S_P_A .
+:gaz_comp_TOD_S_S_P_A
+	:term "TOD'S S.P.A." ;
+	:term "Tod's S.p.A." ;
+	:term "Tods SpA" ;
+	a :Gazetteer .
+
+:comp_TERNA_S_P_A
+	:identifiedBy :gaz_comp_TERNA_S_P_A .
+:gaz_comp_TERNA_S_P_A
+	:term "TERNA S.P.A." ;
+	:term "Terna S.p.A." ;
+	:term "Terna Rete Elettrica Nazionale SpA" ;
+	a :Gazetteer .
+
+:comp_UNIONE_DI_BANCHE_ITALIANE_SCPA
+	:identifiedBy :gaz_comp_UNIONE_DI_BANCHE_ITALIANE_SCPA .
+:gaz_comp_UNIONE_DI_BANCHE_ITALIANE_SCPA
+	:term "UNIONE DI BANCHE ITALIANE SCPA" ;
+	:term "Unione di Banche Italiane Scpa" ;
+	:term "Unione di Banche Italiane ScpA" ;
+	a :Gazetteer .
+
+:comp_ABENGOA_S_A
+	:identifiedBy :gaz_comp_ABENGOA_S_A .
+:gaz_comp_ABENGOA_S_A
+	:term "ABENGOA S.A." ;
+	:term "Abengoa S.A." ;
+	:term "Abengoa SA" ;
+	a :Gazetteer .
+
+:comp_ABERTIS_INFRAESTRUCTURAS_S_A
+	:identifiedBy :gaz_comp_ABERTIS_INFRAESTRUCTURAS_S_A .
+:gaz_comp_ABERTIS_INFRAESTRUCTURAS_S_A
+	:term "ABERTIS INFRAESTRUCTURAS, S.A." ;
+	:term "Abertis Infraestructuras, S.A." ;
+	:term "Abertis Infraestructuras SA" ;
+	a :Gazetteer .
+
+:comp_ACCIONA_S_A
+	:identifiedBy :gaz_comp_ACCIONA_S_A .
+:gaz_comp_ACCIONA_S_A
+	:term "ACCIONA, S.A." ;
+	:term "Acciona, S.A." ;
+	:term "Acciona SA" ;
+	a :Gazetteer .
+
+:comp_ACERINOX_S_A
+	:identifiedBy :gaz_comp_ACERINOX_S_A .
+:gaz_comp_ACERINOX_S_A
+	:term "ACERINOX, S.A." ;
+	:term "Acerinox, S.A." ;
+	:term "Acerinox SA" ;
+	a :Gazetteer .
+
+:comp_ACS_ACTIVIDADES_DE_CONSTRUCCION_Y_SERVICIOS_S_A
+	:identifiedBy :gaz_comp_ACS_ACTIVIDADES_DE_CONSTRUCCION_Y_SERVICIOS_S_A .
+:gaz_comp_ACS_ACTIVIDADES_DE_CONSTRUCCION_Y_SERVICIOS_S_A
+	:term "ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS S.A." ;
+	:term "Acs, Actividades de Construccion y Servicios S.A." ;
+	:term "Acs Actividades de Construccion y Servicios SA" ;
+	a :Gazetteer .
+
+:comp_AMADEUS_IT_HOLDING_S_A
+	:identifiedBy :gaz_comp_AMADEUS_IT_HOLDING_S_A .
+:gaz_comp_AMADEUS_IT_HOLDING_S_A
+	:term "AMADEUS IT HOLDING S.A." ;
+	:term "Amadeus IT Holding S.A." ;
+	:term "Amadeus It Group SA" ;
+	a :Gazetteer .
+
+:comp_BANCO_POPULAR_ESPANOL_S_A
+	:identifiedBy :gaz_comp_BANCO_POPULAR_ESPANOL_S_A .
+:gaz_comp_BANCO_POPULAR_ESPANOL_S_A
+	:term "BANCO POPULAR ESPANOL S.A." ;
+	:term "Banco Popular Espanol S.A." ;
+	:term "Banco Popular Espanol SA" ;
+	a :Gazetteer .
+
+:comp_BANKIA_S_A
+	:identifiedBy :gaz_comp_BANKIA_S_A .
+:gaz_comp_BANKIA_S_A
+	:term "BANKIA S.A." ;
+	:term "Bankia SA" ;
+	a :Gazetteer .
+
+:comp_BANKINTER_S_A
+	:identifiedBy :gaz_comp_BANKINTER_S_A .
+:gaz_comp_BANKINTER_S_A
+	:term "BANKINTER, S.A." ;
+	:term "Bankinter, S.A." ;
+	:term "Bankinter SA" ;
+	a :Gazetteer .
+
+:comp_BANCO_DE_SABADELL_S_A
+	:identifiedBy :gaz_comp_BANCO_DE_SABADELL_S_A .
+:gaz_comp_BANCO_DE_SABADELL_S_A
+	:term "BANCO DE SABADELL S.A." ;
+	:term "Banco de Sabadell S.A." ;
+	:term "Banco de Sabadell SA" ;
+	a :Gazetteer .
+
+:comp_BOLSAS_Y_MERCADOS_ESPANOLES_S_A
+	:identifiedBy :gaz_comp_BOLSAS_Y_MERCADOS_ESPANOLES_S_A .
+:gaz_comp_BOLSAS_Y_MERCADOS_ESPANOLES_S_A
+	:term "BOLSAS Y MERCADOS ESPANOLES S.A." ;
+	:term "Bolsas y Mercados Espanoles S.A." ;
+	:term "Bolsas Y Mercados Espaneoles Sociedad Holding De Mercados Y" ;
+	a :Gazetteer .
+
+:comp_CAIXABANK_S_A
+	:identifiedBy :gaz_comp_CAIXABANK_S_A .
+:gaz_comp_CAIXABANK_S_A
+	:term "CAIXABANK S.A." ;
+	:term "Caixabank S.A." ;
+	:term "CaixaBank SA" ;
+	a :Gazetteer .
+
+:comp_DISTRIBUIDORA_INTERNACIONAL_DE_ALIMENTACION_S_A
+	:identifiedBy :gaz_comp_DISTRIBUIDORA_INTERNACIONAL_DE_ALIMENTACION_S_A .
+:gaz_comp_DISTRIBUIDORA_INTERNACIONAL_DE_ALIMENTACION_S_A
+	:term "DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION S.A." ;
+	:term "Distribuidora Internacional de Alimentacion S.A." ;
+	:term "ES0126775032" ;
+	:term "Distribuidora Internacional de Alimentacion SA" ;
+	a :Gazetteer .
+
+:comp_ENAGAS_S_A
+	:identifiedBy :gaz_comp_ENAGAS_S_A .
+:gaz_comp_ENAGAS_S_A
+	:term "ENAGAS S.A." ;
+	:term "Enagas S.A." ;
+	:term "Enagas SA" ;
+	a :Gazetteer .
+
+:comp_ENDESA_S_A
+	:identifiedBy :gaz_comp_ENDESA_S_A .
+:gaz_comp_ENDESA_S_A
+	:term "ENDESA S.A." ;
+	:term "Endesa S.A." ;
+	:term "Endesa SA" ;
+	a :Gazetteer .
+
+:comp_FOMENTO_DE_CONSTRUCCIONES_Y_CONTRATAS_S_A
+	:identifiedBy :gaz_comp_FOMENTO_DE_CONSTRUCCIONES_Y_CONTRATAS_S_A .
+:gaz_comp_FOMENTO_DE_CONSTRUCCIONES_Y_CONTRATAS_S_A
+	:term "FOMENTO DE CONSTRUCCIONES Y CONTRATAS S.A." ;
+	:term "Fomento de Construcciones y Contratas S.A." ;
+	:term "Fomento de Construcciones y Contratas SA" ;
+	a :Gazetteer .
+
+:comp_GAMESA_CORPORACION_TECNOLOGICA_S_A
+	:identifiedBy :gaz_comp_GAMESA_CORPORACION_TECNOLOGICA_S_A .
+:gaz_comp_GAMESA_CORPORACION_TECNOLOGICA_S_A
+	:term "GAMESA CORPORACION TECNOLOGICA S.A." ;
+	:term "Gamesa Corporacion Tecnologica S.A." ;
+	:term "Gamesa Corporacion Tecnologica SA" ;
+	a :Gazetteer .
+
+:comp_GAS_NATURAL_SDG_S_A
+	:identifiedBy :gaz_comp_GAS_NATURAL_SDG_S_A .
+:gaz_comp_GAS_NATURAL_SDG_S_A
+	:term "GAS NATURAL SDG S.A." ;
+	:term "Gas Natural SDG S.A." ;
+	:term "Gas Natural Sdg SA" ;
+	a :Gazetteer .
+
+:comp_GRIFOLS_S_A
+	:identifiedBy :gaz_comp_GRIFOLS_S_A .
+:gaz_comp_GRIFOLS_S_A
+	:term "GRIFOLS S.A." ;
+	:term "Grifols S.A." ;
+	:term "Grifols SA" ;
+	a :Gazetteer .
+
+:comp_INDRA_SISTEMAS_S_A
+	:identifiedBy :gaz_comp_INDRA_SISTEMAS_S_A .
+:gaz_comp_INDRA_SISTEMAS_S_A
+	:term "INDRA SISTEMAS S.A." ;
+	:term "Indra Sistemas S.A." ;
+	:term "Indra Sistemas SA" ;
+	a :Gazetteer .
+
+:comp_MAPFRE_S_A
+	:identifiedBy :gaz_comp_MAPFRE_S_A .
+:gaz_comp_MAPFRE_S_A
+	:term "MAPFRE S.A." ;
+	:term "Mapfre S.A." ;
+	:term "Mapfre SA" ;
+	a :Gazetteer .
+
+:comp_MEDIASET_ESPANA_COMUNICACION_S_A
+	:identifiedBy :gaz_comp_MEDIASET_ESPANA_COMUNICACION_S_A .
+:gaz_comp_MEDIASET_ESPANA_COMUNICACION_S_A
+	:term "MEDIASET ESPANA COMUNICACION S.A." ;
+	:term "Mediaset Espana Comunicacion S.A." ;
+	:term "Mediaset Espana Comunicacion SA" ;
+	a :Gazetteer .
+
+:comp_OBRASCON_HUARTE_LAIN_S_A
+	:identifiedBy :gaz_comp_OBRASCON_HUARTE_LAIN_S_A .
+:gaz_comp_OBRASCON_HUARTE_LAIN_S_A
+	:term "OBRASCON HUARTE LAIN S.A." ;
+	:term "Obrascon Huarte Lain S.A." ;
+	:term "Obrascon Huarte Lain SA" ;
+	a :Gazetteer .
+
+:comp_RED_ELECTRICA_CORPORACION_S_A
+	:identifiedBy :gaz_comp_RED_ELECTRICA_CORPORACION_S_A .
+:gaz_comp_RED_ELECTRICA_CORPORACION_S_A
+	:term "RED ELECTRICA CORPORACION S.A." ;
+	:term "Red Electrica Corporacion S.A." ;
+	:term "Red Electrica Corporacion SA" ;
+	a :Gazetteer .
+
+:comp_SACYR_VALLEHERMOSO_S_A
+	:identifiedBy :gaz_comp_SACYR_VALLEHERMOSO_S_A .
+:gaz_comp_SACYR_VALLEHERMOSO_S_A
+	:term "SACYR VALLEHERMOSO, S.A." ;
+	:term "Sacyr Vallehermoso, S.A." ;
+	:term "Sacyr Vallehermoso SA" ;
+	a :Gazetteer .
+
+:comp_TECNICAS_REUNIDAS_S_A
+	:identifiedBy :gaz_comp_TECNICAS_REUNIDAS_S_A .
+:gaz_comp_TECNICAS_REUNIDAS_S_A
+	:term "TECNICAS REUNIDAS, S.A." ;
+	:term "Tecnicas Reunidas, S.A." ;
+	:term "Tecnicas Reunidas SA" ;
+	a :Gazetteer .
+
+:comp_ACTELION_LTD
+	:identifiedBy :gaz_comp_ACTELION_LTD .
+:gaz_comp_ACTELION_LTD
+	:term "ACTELION LTD." ;
+	:term "Actelion Ltd." ;
+	:term "Actelion Ltd" ;
+	a :Gazetteer .
+
+:comp_ADECCO_S_A
+	:identifiedBy :gaz_comp_ADECCO_S_A .
+:gaz_comp_ADECCO_S_A
+	:term "ADECCO S.A." ;
+	:term "Adecco S.A." ;
+	:term "Adecco SA" ;
+	a :Gazetteer .
+
+:comp_COMPAGNIE_FINANCIERE_RICHEMONT_SA
+	:identifiedBy :gaz_comp_COMPAGNIE_FINANCIERE_RICHEMONT_SA .
+:gaz_comp_COMPAGNIE_FINANCIERE_RICHEMONT_SA
+	:term "COMPAGNIE FINANCIERE RICHEMONT SA" ;
+	:term "Compagnie Financiere Richemont SA" ;
+	a :Gazetteer .
+
+:comp_GIVAUDAN_SA
+	:identifiedBy :gaz_comp_GIVAUDAN_SA .
+:gaz_comp_GIVAUDAN_SA
+	:term "GIVAUDAN SA" ;
+	:term "Givaudan SA" ;
+	a :Gazetteer .
+
+:comp_HOLCIM_LTD
+	:identifiedBy :gaz_comp_HOLCIM_LTD .
+:gaz_comp_HOLCIM_LTD
+	:term "HOLCIM LTD." ;
+	:term "Holcim Ltd." ;
+	:term "Holcim Ltd" ;
+	a :Gazetteer .
+
+:comp_JULIUS_BAER_GRUPPE_AG
+	:identifiedBy :gaz_comp_JULIUS_BAER_GRUPPE_AG .
+:gaz_comp_JULIUS_BAER_GRUPPE_AG
+	:term "JULIUS BAER GRUPPE AG" ;
+	:term "Julius Bär Gruppe AG" ;
+	:term "Julius Baer Gruppe AG" ;
+	a :Gazetteer .
+
+:comp_SGS_S_A
+	:identifiedBy :gaz_comp_SGS_S_A .
+:gaz_comp_SGS_S_A
+	:term "SGS S.A." ;
+	:term "SGS SA" ;
+	a :Gazetteer .
+
+:comp_THE_SWATCH_GROUP_AG
+	:identifiedBy :gaz_comp_THE_SWATCH_GROUP_AG .
+:gaz_comp_THE_SWATCH_GROUP_AG
+	:term "THE SWATCH GROUP AG" ;
+	:term "The Swatch Group AG" ;
+	:term "The Swatch Group SA" ;
+	a :Gazetteer .
+
+:comp_SWISS_RE_AG
+	:identifiedBy :gaz_comp_SWISS_RE_AG .
+:gaz_comp_SWISS_RE_AG
+	:term "SWISS RE AG" ;
+	:term "Swiss Re AG" ;
+	:term "Swiss Reinsurance Group" ;
+	a :Gazetteer .
+
+:comp_SWISSCOM_AG
+	:identifiedBy :gaz_comp_SWISSCOM_AG .
+:gaz_comp_SWISSCOM_AG
+	:term "SWISSCOM AG" ;
+	:term "Swisscom AG" ;
+	a :Gazetteer .
+
+:comp_SYNGENTA_AG
+	:identifiedBy :gaz_comp_SYNGENTA_AG .
+:gaz_comp_SYNGENTA_AG
+	:term "SYNGENTA AG" ;
+	:term "Syngenta AG" ;
+	a :Gazetteer .
+
+:comp_SYNTHES_INC
+	:identifiedBy :gaz_comp_SYNTHES_INC .
+:gaz_comp_SYNTHES_INC
+	:term "SYNTHES INC." ;
+	:term "Synthes Inc." ;
+	a :Gazetteer .
+
+:comp_TRANSOCEAN_LTD
+	:identifiedBy :gaz_comp_TRANSOCEAN_LTD .
+:gaz_comp_TRANSOCEAN_LTD
+	:term "TRANSOCEAN LTD." ;
+	:term "Transocean Ltd." ;
+	:term "Transocean Inc" ;
+	:term "Transocean LTD" ;
+	a :Gazetteer .
+
+:comp_AEGON_N_V
+	:identifiedBy :gaz_comp_AEGON_N_V .
+:gaz_comp_AEGON_N_V
+	:term "AEGON N.V." ;
+	:term "AEGON NV" ;
+	a :Gazetteer .
+
+:comp_AIR_FRANCE_KLM_S_A
+	:identifiedBy :gaz_comp_AIR_FRANCE_KLM_S_A .
+:gaz_comp_AIR_FRANCE_KLM_S_A
+	:term "AIR FRANCE-KLM S.A." ;
+	:term "Air France-KLM S.A." ;
+	:term "AIR France-KLM" ;
+	a :Gazetteer .
+
+:comp_AKZO_NOBEL_N_V
+	:identifiedBy :gaz_comp_AKZO_NOBEL_N_V .
+:gaz_comp_AKZO_NOBEL_N_V
+	:term "AKZO NOBEL N.V." ;
+	:term "Akzo Nobel NV" ;
+	a :Gazetteer .
+
+:comp_APERAM_S_A
+	:identifiedBy :gaz_comp_APERAM_S_A .
+:gaz_comp_APERAM_S_A
+	:term "APERAM S.A." ;
+	:term "Aperam S.A." ;
+	:term "Aperam SA" ;
+	a :Gazetteer .
+
+:comp_ASML_HOLDING_N_V
+	:identifiedBy :gaz_comp_ASML_HOLDING_N_V .
+:gaz_comp_ASML_HOLDING_N_V
+	:term "ASML HOLDING N.V." ;
+	:term "ASML Holding N.V." ;
+	:term "ASML Holding NV" ;
+	a :Gazetteer .
+
+:comp_CORIO_N_V
+	:identifiedBy :gaz_comp_CORIO_N_V .
+:gaz_comp_CORIO_N_V
+	:term "CORIO N.V." ;
+	:term "Corio N.V." ;
+	:term "Corio NV" ;
+	a :Gazetteer .
+
+:comp_FUGRO_N_V
+	:identifiedBy :gaz_comp_FUGRO_N_V .
+:gaz_comp_FUGRO_N_V
+	:term "FUGRO N.V." ;
+	:term "Fugro N.V." ;
+	:term "Fugro NV" ;
+	a :Gazetteer .
+
+:comp_HEINEKEN_N_V
+	:identifiedBy :gaz_comp_HEINEKEN_N_V .
+:gaz_comp_HEINEKEN_N_V
+	:term "HEINEKEN N.V." ;
+	:term "Heineken NV" ;
+	a :Gazetteer .
+
+:comp_AHOLD_N_V
+	:identifiedBy :gaz_comp_AHOLD_N_V .
+:gaz_comp_AHOLD_N_V
+	:term "AHOLD N.V." ;
+	:term "Ahold N.V." ;
+	:term "Koninklijke Ahold NV" ;
+	a :Gazetteer .
+
+:comp_KONINKLIJKE_BOSKALIS_WESTMINSTER_N_V
+	:identifiedBy :gaz_comp_KONINKLIJKE_BOSKALIS_WESTMINSTER_N_V .
+:gaz_comp_KONINKLIJKE_BOSKALIS_WESTMINSTER_N_V
+	:term "KONINKLIJKE BOSKALIS WESTMINSTER N.V." ;
+	:term "Koninklijke Boskalis Westminster N.V." ;
+	:term "Koninklijke Boskalis Westminster NV" ;
+	a :Gazetteer .
+
+:comp_KONINKLIJKE_DSM_N_V
+	:identifiedBy :gaz_comp_KONINKLIJKE_DSM_N_V .
+:gaz_comp_KONINKLIJKE_DSM_N_V
+	:term "KONINKLIJKE DSM N.V." ;
+	:term "Koninklijke DSM N.V." ;
+	:term "Koninklijke Dsm NV" ;
+	a :Gazetteer .
+
+:comp_KONINKLIJKE_KPN_N_V
+	:identifiedBy :gaz_comp_KONINKLIJKE_KPN_N_V .
+:gaz_comp_KONINKLIJKE_KPN_N_V
+	:term "KONINKLIJKE KPN N.V." ;
+	:term "Koninklijke KPN N.V." ;
+	:term "Koninklijke KPN NV" ;
+	a :Gazetteer .
+
+:comp_POSTNL_N_V
+	:identifiedBy :gaz_comp_POSTNL_N_V .
+:gaz_comp_POSTNL_N_V
+	:term "POSTNL N.V." ;
+	:term "PostNL N.V." ;
+	:term "POSTNL Ord Shs" ;
+	a :Gazetteer .
+
+:comp_RANDSTAD_HOLDING_N_V
+	:identifiedBy :gaz_comp_RANDSTAD_HOLDING_N_V .
+:gaz_comp_RANDSTAD_HOLDING_N_V
+	:term "RANDSTAD HOLDING N.V." ;
+	:term "Randstad Holding N.V." ;
+	:term "Randstad Holding NV" ;
+	a :Gazetteer .
+
+:comp_REED_ELSEVIER_N_V
+	:identifiedBy :gaz_comp_REED_ELSEVIER_N_V .
+:gaz_comp_REED_ELSEVIER_N_V
+	:term "REED ELSEVIER N.V." ;
+	:term "Reed Elsevier N.V." ;
+	:term "Reed Elsevier NV" ;
+	a :Gazetteer .
+
+:comp_SBM_OFFSHORE_N_V
+	:identifiedBy :gaz_comp_SBM_OFFSHORE_N_V .
+:gaz_comp_SBM_OFFSHORE_N_V
+	:term "SBM OFFSHORE N.V." ;
+	:term "SBM Offshore N.V." ;
+	:term "SBM Offshore NV" ;
+	a :Gazetteer .
+
+:comp_TNT_EXPRESS_N_V
+	:identifiedBy :gaz_comp_TNT_EXPRESS_N_V .
+:gaz_comp_TNT_EXPRESS_N_V
+	:term "TNT EXPRESS N.V." ;
+	:term "TNT Express NV" ;
+	a :Gazetteer .
+
+:comp_TOMTOM_N_V
+	:identifiedBy :gaz_comp_TOMTOM_N_V .
+:gaz_comp_TOMTOM_N_V
+	:term "TOMTOM N.V." ;
+	:term "TomTom N.V." ;
+	:term "Tomtom NV" ;
+	a :Gazetteer .
+
+:comp_WOLTERS_KLUWER_N_V
+	:identifiedBy :gaz_comp_WOLTERS_KLUWER_N_V .
+:gaz_comp_WOLTERS_KLUWER_N_V
+	:term "WOLTERS KLUWER N.V." ;
+	:term "Wolters Kluwer N.V." ;
+	:term "Wolters Kluwer NV" ;
+	a :Gazetteer .
+
+:comp_ACKERMANS_VAN_HAAREN
+	:identifiedBy :gaz_comp_ACKERMANS_VAN_HAAREN .
+:gaz_comp_ACKERMANS_VAN_HAAREN
+	:term "ACKERMANS & VAN HAAREN" ;
+	:term "Ackermans en van Haaren NV" ;
+	a :Gazetteer .
+
+:comp_AGEAS_SA_NV
+	:identifiedBy :gaz_comp_AGEAS_SA_NV .
+:gaz_comp_AGEAS_SA_NV
+	:term "AGEAS SA/NV" ;
+	:term "ageas SA/NV" ;
+	:term "Ageas (Ex-Fortis) Ord Shs" ;
+	a :Gazetteer .
+
+:comp_BEFIMMO_SCA
+	:identifiedBy :gaz_comp_BEFIMMO_SCA .
+:gaz_comp_BEFIMMO_SCA
+	:term "BEFIMMO SCA" ;
+	a :Gazetteer .
+
+:comp_BEKAERT
+	:identifiedBy :gaz_comp_BEKAERT .
+:gaz_comp_BEKAERT
+	:term "BEKAERT" ;
+	:term "Bekaert" ;
+	a :Gazetteer .
+
+:comp_BELGACOM_S_A
+	:identifiedBy :gaz_comp_BELGACOM_S_A .
+:gaz_comp_BELGACOM_S_A
+	:term "BELGACOM S.A." ;
+	:term "Belgacom SA" ;
+	a :Gazetteer .
+
+:comp_COFINIMMO_SICAFI
+	:identifiedBy :gaz_comp_COFINIMMO_SICAFI .
+:gaz_comp_COFINIMMO_SICAFI
+	:term "COFINIMMO-SICAFI" ;
+	a :Gazetteer .
+
+:comp_COLRUYT
+	:identifiedBy :gaz_comp_COLRUYT .
+:gaz_comp_COLRUYT
+	:term "COLRUYT" ;
+	:term "Franz Colruyt Etablissementen" ;
+	:term "Etablissementen Fr Colruyt NV" ;
+	a :Gazetteer .
+
+:comp_D_IETEREN_SA
+	:identifiedBy :gaz_comp_D_IETEREN_SA .
+:gaz_comp_D_IETEREN_SA
+	:term "D'IETEREN SA" ;
+	a :Gazetteer .
+
+:comp_DELHAIZE_GROUP
+	:identifiedBy :gaz_comp_DELHAIZE_GROUP .
+:gaz_comp_DELHAIZE_GROUP
+	:term "DELHAIZE GROUP" ;
+	:term "Etablissements Delhaize Freres Et Cie Le Lion SA" ;
+	a :Gazetteer .
+
+:comp_ELIA_SYSTEM_OPERATOR
+	:identifiedBy :gaz_comp_ELIA_SYSTEM_OPERATOR .
+:gaz_comp_ELIA_SYSTEM_OPERATOR
+	:term "ELIA SYSTEM OPERATOR" ;
+	a :Gazetteer .
+
+:comp_GBL
+	:identifiedBy :gaz_comp_GBL .
+:gaz_comp_GBL
+	:term "GBL" ;
+	:term "Groupe Bruxelles Lambert (GBL) SA" ;
+	:term "Groupe Bruxelles Lambert SA" ;
+	a :Gazetteer .
+
+:comp_KBC
+	:identifiedBy :gaz_comp_KBC .
+:gaz_comp_KBC
+	:term "KBC" ;
+	:term "KBC Groupe SA" ;
+	a :Gazetteer .
+
+:comp_MOBISTAR
+	:identifiedBy :gaz_comp_MOBISTAR .
+:gaz_comp_MOBISTAR
+	:term "MOBISTAR" ;
+	a :Gazetteer .
+
+:comp_NYRSTAR_NV
+	:identifiedBy :gaz_comp_NYRSTAR_NV .
+:gaz_comp_NYRSTAR_NV
+	:term "NYRSTAR NV" ;
+	:term "NYRSTAR NV NPV" ;
+	:term "Nyrstar" ;
+	a :Gazetteer .
+
+:comp_SOLVAY
+	:identifiedBy :gaz_comp_SOLVAY .
+:gaz_comp_SOLVAY
+	:term "SOLVAY" ;
+	:term "Solvay SA" ;
+	a :Gazetteer .
+
+:comp_TELENET
+	:identifiedBy :gaz_comp_TELENET .
+:gaz_comp_TELENET
+	:term "TELENET" ;
+	:term "TELENET GRP HLDG" ;
+	:term "Telenet Group Holding NV" ;
+	a :Gazetteer .
+
+:comp_UCB
+	:identifiedBy :gaz_comp_UCB .
+:gaz_comp_UCB
+	:term "UCB" ;
+	:term "U C B SA" ;
+	a :Gazetteer .
+
+:comp_UMICORE
+	:identifiedBy :gaz_comp_UMICORE .
+:gaz_comp_UMICORE
+	:term "UMICORE" ;
+	:term "Umicore SA" ;
+	a :Gazetteer .
+
+:comp_BPI_ES_1000
+	:identifiedBy :gaz_comp_BPI_ES_1000 .
+:gaz_comp_BPI_ES_1000
+	:term "BPI    ES 1000" ;
+	:term "BPI-SGPS SA" ;
+	a :Gazetteer .
+
+:comp_BANCO_COMERCIAL_PORTUGU_S_S_A
+	:identifiedBy :gaz_comp_BANCO_COMERCIAL_PORTUGU_S_S_A .
+:gaz_comp_BANCO_COMERCIAL_PORTUGU_S_S_A
+	:term "BANCO COMERCIAL PORTUGUÊS S.A." ;
+	:term "Banco Comercial Português S.A." ;
+	:term "Banco Comercial Portugues SA" ;
+	a :Gazetteer .
+
+:comp_BANCO_ESPIRITO_SANTO_S_A
+	:identifiedBy :gaz_comp_BANCO_ESPIRITO_SANTO_S_A .
+:gaz_comp_BANCO_ESPIRITO_SANTO_S_A
+	:term "BANCO ESPIRITO SANTO S.A." ;
+	:term "Banco Espirito Santo S.A." ;
+	:term "Banco Espirito Santo Sa" ;
+	:term "Banco Espirito Santo SA" ;
+	a :Gazetteer .
+
+:comp_BRISA
+	:identifiedBy :gaz_comp_BRISA .
+:gaz_comp_BRISA
+	:term "BRISA" ;
+	a :Gazetteer .
+
+:comp_CIMPOR
+	:identifiedBy :gaz_comp_CIMPOR .
+:gaz_comp_CIMPOR
+	:term "CIMPOR" ;
+	:term "CIMPOR Cimentos de Portugal SGPS SA" ;
+	a :Gazetteer .
+
+:comp_EDP_RENOVAVEIS_SA
+	:identifiedBy :gaz_comp_EDP_RENOVAVEIS_SA .
+:gaz_comp_EDP_RENOVAVEIS_SA
+	:term "EDP RENOVAVEIS SA" ;
+	:term "EDP Renovaveis SA" ;
+	a :Gazetteer .
+
+:comp_ENERGIAS_DE_PORTUGAL
+	:identifiedBy :gaz_comp_ENERGIAS_DE_PORTUGAL .
+:gaz_comp_ENERGIAS_DE_PORTUGAL
+	:term "ENERGIAS DE PORTUGAL" ;
+	:term "Energias de Portugal" ;
+	:term "EDP Energias de Portugal SA" ;
+	a :Gazetteer .
+
+:comp_GALP_ENERGIA
+	:identifiedBy :gaz_comp_GALP_ENERGIA .
+:gaz_comp_GALP_ENERGIA
+	:term "GALP ENERGIA" ;
+	:term "Galp Energia SGPS SA" ;
+	a :Gazetteer .
+
+:comp_J_MARTINS_SGPS
+	:identifiedBy :gaz_comp_J_MARTINS_SGPS .
+:gaz_comp_J_MARTINS_SGPS
+	:term "J MARTINS SGPS" ;
+	:term "Jeronimo Martins SGPS SA" ;
+	:term "Jeronimo Martins Sgps SA" ;
+	a :Gazetteer .
+
+:comp_MOTA_ENGIL
+	:identifiedBy :gaz_comp_MOTA_ENGIL .
+:gaz_comp_MOTA_ENGIL
+	:term "MOTA-ENGIL" ;
+	:term "Engil-Sociedade Gestora De Participacoes" ;
+	:term "Mota Engil SGPS SA" ;
+	a :Gazetteer .
+
+:comp_PORTUCEL_EMPRESA_PRODUTORA_DE_PASTA_E_PAPEL
+	:identifiedBy :gaz_comp_PORTUCEL_EMPRESA_PRODUTORA_DE_PASTA_E_PAPEL .
+:gaz_comp_PORTUCEL_EMPRESA_PRODUTORA_DE_PASTA_E_PAPEL
+	:term "PORTUCEL - EMPRESA PRODUTORA DE PASTA E PAPEL" ;
+	:term "PORTUCPortucel - Empresa Produtora de Pasta e Papel EL IND" ;
+	:term "Portucel Empresa Produtora De Pasta E Papel SA" ;
+	a :Gazetteer .
+
+:comp_PORTUGAL_TELECOM
+	:identifiedBy :gaz_comp_PORTUGAL_TELECOM .
+:gaz_comp_PORTUGAL_TELECOM
+	:term "PORTUGAL TELECOM" ;
+	:term "Portugal Telekom SA" ;
+	:term "Portugal Telecom SGPS SA" ;
+	:term "Portugal Telecom Sgps SA" ;
+	a :Gazetteer .
+
+:comp_REN
+	:identifiedBy :gaz_comp_REN .
+:gaz_comp_REN
+	:term "REN" ;
+	:term "RENE.LIS" ;
+	a :Gazetteer .
+
+:comp_SEMAPA_SGPS
+	:identifiedBy :gaz_comp_SEMAPA_SGPS .
+:gaz_comp_SEMAPA_SGPS
+	:term "SEMAPA SGPS" ;
+	:term "SEMAPA SOCIEDADE DE INVESTIMENTO E GESTAO SGPS SA" ;
+	a :Gazetteer .
+
+:comp_SONAE_S_A
+	:identifiedBy :gaz_comp_SONAE_S_A .
+:gaz_comp_SONAE_S_A
+	:term "SONAE S.A." ;
+	:term "Sonae S.A." ;
+	a :Gazetteer .
+
+:comp_SONAE_COM
+	:identifiedBy :gaz_comp_SONAE_COM .
+:gaz_comp_SONAE_COM
+	:term "SONAE.COM" ;
+	:term "Sonae SGPS S.A." ;
+	a :Gazetteer .
+
+:comp_ZON_MULTIMEDIA
+	:identifiedBy :gaz_comp_ZON_MULTIMEDIA .
+:gaz_comp_ZON_MULTIMEDIA
+	:term "ZON MULTIMEDIA" ;
+	:term "Zon Multimedia Servicos de Telecomunicacoes e Multimedia SGP" ;
+	a :Gazetteer .
+
+:comp_AMER_YHTYMA
+	:identifiedBy :gaz_comp_AMER_YHTYMA .
+:gaz_comp_AMER_YHTYMA
+	:term "AMER YHTYMA" ;
+	:term "AMER A" ;
+	:term "Amer Sports Oyj" ;
+	a :Gazetteer .
+
+:comp_CARGOTEC_CORP
+	:identifiedBy :gaz_comp_CARGOTEC_CORP .
+:gaz_comp_CARGOTEC_CORP
+	:term "CARGOTEC CORP." ;
+	:term "Cargotec Oyj" ;
+	a :Gazetteer .
+
+:comp_ELISA_COMMS
+	:identifiedBy :gaz_comp_ELISA_COMMS .
+:gaz_comp_ELISA_COMMS
+	:term "ELISA COMMS" ;
+	:term "Elisa Communications Oyj" ;
+	:term "Elisa Oyj" ;
+	a :Gazetteer .
+
+:comp_FORTUM
+	:identifiedBy :gaz_comp_FORTUM .
+:gaz_comp_FORTUM
+	:term "FORTUM" ;
+	:term "Fortum Oyj" ;
+	a :Gazetteer .
+
+:comp_KEMIRA
+	:identifiedBy :gaz_comp_KEMIRA .
+:gaz_comp_KEMIRA
+	:term "KEMIRA" ;
+	:term "Kemira Oyj" ;
+	a :Gazetteer .
+
+:comp_KESKO_CORP
+	:identifiedBy :gaz_comp_KESKO_CORP .
+:gaz_comp_KESKO_CORP
+	:term "KESKO CORP." ;
+	:term "Kesko Corporation" ;
+	:term "Kesko Oyj" ;
+	a :Gazetteer .
+
+:comp_KONECRANES_OYJ
+	:identifiedBy :gaz_comp_KONECRANES_OYJ .
+:gaz_comp_KONECRANES_OYJ
+	:term "KONECRANES OYJ" ;
+	:term "Konecranes Oyj" ;
+	:term "Konecranes Abp" ;
+	a :Gazetteer .
+
+:comp_METSO_CORP
+	:identifiedBy :gaz_comp_METSO_CORP .
+:gaz_comp_METSO_CORP
+	:term "METSO CORP." ;
+	:term "Metso Oyj" ;
+	a :Gazetteer .
+
+:comp_NESTE_OIL_CORPORATION
+	:identifiedBy :gaz_comp_NESTE_OIL_CORPORATION .
+:gaz_comp_NESTE_OIL_CORPORATION
+	:term "NESTE OIL CORPORATION" ;
+	:term "Neste Oil Oyj" ;
+	a :Gazetteer .
+
+:comp_NORDEA_BANK
+	:identifiedBy :gaz_comp_NORDEA_BANK .
+:gaz_comp_NORDEA_BANK
+	:term "NORDEA BANK" ;
+	:term "NORDEA BANK AB" ;
+	a :Gazetteer .
+
+:comp_ORION
+	:identifiedBy :gaz_comp_ORION .
+:gaz_comp_ORION
+	:term "ORION" ;
+	:term "ORION CORP  B" ;
+	:term "Orion Oyj" ;
+	a :Gazetteer .
+
+:comp_OUTOKUMPU
+	:identifiedBy :gaz_comp_OUTOKUMPU .
+:gaz_comp_OUTOKUMPU
+	:term "OUTOKUMPU" ;
+	:term "Outokumpu Oyj" ;
+	a :Gazetteer .
+
+:comp_OUTOTEC_OYJ
+	:identifiedBy :gaz_comp_OUTOTEC_OYJ .
+:gaz_comp_OUTOTEC_OYJ
+	:term "OUTOTEC OYJ" ;
+	:term "Outotec Oyj" ;
+	a :Gazetteer .
+
+:comp_POHJOLA_BANK
+	:identifiedBy :gaz_comp_POHJOLA_BANK .
+:gaz_comp_POHJOLA_BANK
+	:term "POHJOLA BANK" ;
+	:term "Pohjola Pankki Oyj" ;
+	a :Gazetteer .
+
+:comp_SAMPO_PLC
+	:identifiedBy :gaz_comp_SAMPO_PLC .
+:gaz_comp_SAMPO_PLC
+	:term "SAMPO PLC" ;
+	:term "Sampo Oyj" ;
+	a :Gazetteer .
+
+:comp_STORA_ENSO
+	:identifiedBy :gaz_comp_STORA_ENSO .
+:gaz_comp_STORA_ENSO
+	:term "STORA ENSO" ;
+	:term "Stora Enso OYJ" ;
+	:term "Stora Enso Oyj" ;
+	a :Gazetteer .
+
+:comp_TELIASONERA_AB
+	:identifiedBy :gaz_comp_TELIASONERA_AB .
+:gaz_comp_TELIASONERA_AB
+	:term "TELIASONERA AB" ;
+	:term "TeliaSonera AB" ;
+	a :Gazetteer .
+
+:comp_UPM_KYMMENE
+	:identifiedBy :gaz_comp_UPM_KYMMENE .
+:gaz_comp_UPM_KYMMENE
+	:term "UPM KYMMENE" ;
+	:term "UPM-Kymmene Oyj" ;
+	a :Gazetteer .
+
+:comp_WARTSILA
+	:identifiedBy :gaz_comp_WARTSILA .
+:gaz_comp_WARTSILA
+	:term "WARTSILA" ;
+	:term "Wartsila Oyj Abp" ;
+	a :Gazetteer .
+
+:comp_ALFA_LAVAL
+	:identifiedBy :gaz_comp_ALFA_LAVAL .
+:gaz_comp_ALFA_LAVAL
+	:term "ALFA LAVAL" ;
+	:term "Alfa Corporate AB" ;
+	:term "Alfa Laval AB" ;
+	a :Gazetteer .
+
+:comp_ASSA_ABLOY_AB
+	:identifiedBy :gaz_comp_ASSA_ABLOY_AB .
+:gaz_comp_ASSA_ABLOY_AB
+	:term "ASSA ABLOY AB" ;
+	:term "Assa Abloy AB" ;
+	a :Gazetteer .
+
+:comp_ATLAS_COPCO_AB
+	:identifiedBy :gaz_comp_ATLAS_COPCO_AB .
+:gaz_comp_ATLAS_COPCO_AB
+	:term "ATLAS COPCO AB" ;
+	:term "Atlas Copco AB" ;
+	:term "Atlas CopCo AB" ;
+	a :Gazetteer .
+
+:comp_BOLIDEN
+	:identifiedBy :gaz_comp_BOLIDEN .
+:gaz_comp_BOLIDEN
+	:term "BOLIDEN" ;
+	:term "Boliden AB" ;
+	a :Gazetteer .
+
+:comp_ELECTROLUX_AB
+	:identifiedBy :gaz_comp_ELECTROLUX_AB .
+:gaz_comp_ELECTROLUX_AB
+	:term "ELECTROLUX AB" ;
+	:term "Electrolux AB" ;
+	:term "AB Electrolux" ;
+	a :Gazetteer .
+
+:comp_GETINGE
+	:identifiedBy :gaz_comp_GETINGE .
+:gaz_comp_GETINGE
+	:term "GETINGE" ;
+	:term "Getinge AB" ;
+	a :Gazetteer .
+
+:comp_INVESTOR
+	:identifiedBy :gaz_comp_INVESTOR .
+:gaz_comp_INVESTOR
+	:term "INVESTOR" ;
+	:term "INVESTOR AB" ;
+	:term "Investor AB" ;
+	a :Gazetteer .
+
+:comp_LUNDIN_PETROLEUM
+	:identifiedBy :gaz_comp_LUNDIN_PETROLEUM .
+:gaz_comp_LUNDIN_PETROLEUM
+	:term "LUNDIN PETROLEUM" ;
+	:term "Lundin Petroleum AB" ;
+	a :Gazetteer .
+
+:comp_MODERN_TIMES
+	:identifiedBy :gaz_comp_MODERN_TIMES .
+:gaz_comp_MODERN_TIMES
+	:term "MODERN TIMES" ;
+	:term "MODERN TIMES GP" ;
+	a :Gazetteer .
+
+:comp_SANDVIK_AB
+	:identifiedBy :gaz_comp_SANDVIK_AB .
+:gaz_comp_SANDVIK_AB
+	:term "SANDVIK AB" ;
+	:term "Sandvik AB" ;
+	a :Gazetteer .
+
+:comp_SCANIA_AB
+	:identifiedBy :gaz_comp_SCANIA_AB .
+:gaz_comp_SCANIA_AB
+	:term "SCANIA AB" ;
+	:term "Scania AB" ;
+	a :Gazetteer .
+
+:comp_SECURITAS_AB
+	:identifiedBy :gaz_comp_SECURITAS_AB .
+:gaz_comp_SECURITAS_AB
+	:term "SECURITAS AB" ;
+	:term "Securitas AB" ;
+	a :Gazetteer .
+
+:comp_SEB_A
+	:identifiedBy :gaz_comp_SEB_A .
+:gaz_comp_SEB_A
+	:term "SEB A" ;
+	:term "Skandinaviska Enskilda Banken Ab" ;
+	:term "Skandinaviska Enskilda Banken AB" ;
+	a :Gazetteer .
+
+:comp_SKANSKA_AB
+	:identifiedBy :gaz_comp_SKANSKA_AB .
+:gaz_comp_SKANSKA_AB
+	:term "SKANSKA AB" ;
+	:term "Skanska AB" ;
+	a :Gazetteer .
+
+:comp_SKF_AB
+	:identifiedBy :gaz_comp_SKF_AB .
+:gaz_comp_SKF_AB
+	:term "SKF  AB" ;
+	:term "SKF AB" ;
+	a :Gazetteer .
+
+:comp_SVENSKA_CELLULOSA_AB
+	:identifiedBy :gaz_comp_SVENSKA_CELLULOSA_AB .
+:gaz_comp_SVENSKA_CELLULOSA_AB
+	:term "SVENSKA CELLULOSA AB" ;
+	:term "Svenska Cellulosa AB" ;
+	:term "Svenska Cellulosa AB SCA" ;
+	a :Gazetteer .
+
+:comp_SWEDBANK
+	:identifiedBy :gaz_comp_SWEDBANK .
+:gaz_comp_SWEDBANK
+	:term "SWEDBANK" ;
+	:term "Swedbank AB" ;
+	a :Gazetteer .
+
+:comp_SWEDISH_MATCH
+	:identifiedBy :gaz_comp_SWEDISH_MATCH .
+:gaz_comp_SWEDISH_MATCH
+	:term "SWEDISH MATCH" ;
+	:term "SWEDISH MaTCH ADR" ;
+	:term "Swedish Match AB" ;
+	a :Gazetteer .
+
+:comp_TELE2_AB
+	:identifiedBy :gaz_comp_TELE2_AB .
+:gaz_comp_TELE2_AB
+	:term "TELE2 AB" ;
+	:term "Tele2 AB" ;
+	a :Gazetteer .
+
+:comp_VOLVO_AB
+	:identifiedBy :gaz_comp_VOLVO_AB .
+:gaz_comp_VOLVO_AB
+	:term "VOLVO AB" ;
+	:term "Volvo AB" ;
+	:term "AB Volvo" ;
+	a :Gazetteer .
+
+:comp_3M_CO
+	:identifiedBy :gaz_comp_3M_CO .
+:gaz_comp_3M_CO
+	:term "3M CO." ;
+	:term "3M Co." ;
+	:term "3M Co" ;
+	:term "3M Company" ;
+	a :Gazetteer .
+
+:comp_ALCOA_INC
+	:identifiedBy :gaz_comp_ALCOA_INC .
+:gaz_comp_ALCOA_INC
+	:term "ALCOA INC." ;
+	:term "Alcoa Inc." ;
+	:term "Alcoa Inc" ;
+	a :Gazetteer .
+
+:comp_AMERICAN_EXPRESS_CO
+	:identifiedBy :gaz_comp_AMERICAN_EXPRESS_CO .
+:gaz_comp_AMERICAN_EXPRESS_CO
+	:term "AMERICAN EXPRESS CO." ;
+	:term "American Express Co." ;
+	:term "American Express Co" ;
+	:term "American Express Company" ;
+	a :Gazetteer .
+
+:comp_AT_T_INC
+	:identifiedBy :gaz_comp_AT_T_INC .
+:gaz_comp_AT_T_INC
+	:term "AT&T INC." ;
+	:term "AT&T Inc." ;
+	:term "AT&T Inc" ;
+	a :Gazetteer .
+
+:comp_BANK_OF_AMERICA_CORP
+	:identifiedBy :gaz_comp_BANK_OF_AMERICA_CORP .
+:gaz_comp_BANK_OF_AMERICA_CORP
+	:term "BANK OF AMERICA CORP." ;
+	:term "Bank of America Corp." ;
+	:term "Bank of America Corp" ;
+	a :Gazetteer .
+
+:comp_BOEING_CO
+	:identifiedBy :gaz_comp_BOEING_CO .
+:gaz_comp_BOEING_CO
+	:term "BOEING CO." ;
+	:term "Boeing Co." ;
+	:term "Boeing Co" ;
+	:term "The Boeing Company" ;
+	a :Gazetteer .
+
+:comp_CATERPILLAR_INC
+	:identifiedBy :gaz_comp_CATERPILLAR_INC .
+:gaz_comp_CATERPILLAR_INC
+	:term "CATERPILLAR INC." ;
+	:term "Caterpillar Inc." ;
+	:term "Caterpillar Inc" ;
+	a :Gazetteer .
+
+:comp_CHEVRON_CORP
+	:identifiedBy :gaz_comp_CHEVRON_CORP .
+:gaz_comp_CHEVRON_CORP
+	:term "CHEVRON CORP." ;
+	:term "Chevron Corp." ;
+	:term "Chevron Corp" ;
+	:term "Chevron Corporation" ;
+	a :Gazetteer .
+
+:comp_CISCO_SYSTEMS_INC
+	:identifiedBy :gaz_comp_CISCO_SYSTEMS_INC .
+:gaz_comp_CISCO_SYSTEMS_INC
+	:term "CISCO SYSTEMS, INC." ;
+	:term "Cisco Systems, Inc." ;
+	:term "Cisco Systems Inc" ;
+	a :Gazetteer .
+
+:comp_THE_COCA_COLA_CO
+	:identifiedBy :gaz_comp_THE_COCA_COLA_CO .
+:gaz_comp_THE_COCA_COLA_CO
+	:term "THE COCA COLA CO." ;
+	:term "The Coca Cola Co." ;
+	:term "Coca-Cola Co" ;
+	:term "The Coca-Cola Company" ;
+	a :Gazetteer .
+
+:comp_E_I_DUPONT_DE_NEMOURS_CO
+	:identifiedBy :gaz_comp_E_I_DUPONT_DE_NEMOURS_CO .
+:gaz_comp_E_I_DUPONT_DE_NEMOURS_CO
+	:term "E.I. DUPONT DE NEMOURS & CO." ;
+	:term "E.I. DuPont de Nemours & Co." ;
+	:term "E I Du Pont De Nemours And Co" ;
+	:term "E.I. du Pont de Nemours & Company" ;
+	a :Gazetteer .
+
+:comp_EXXONMOBIL_CORP
+	:identifiedBy :gaz_comp_EXXONMOBIL_CORP .
+:gaz_comp_EXXONMOBIL_CORP
+	:term "EXXONMOBIL CORP." ;
+	:term "ExxonMobil Corp." ;
+	:term "Exxon Mobil Corp" ;
+	:term "Exxon Mobil Corporation" ;
+	a :Gazetteer .
+
+:comp_GENERAL_ELECTRIC_CO
+	:identifiedBy :gaz_comp_GENERAL_ELECTRIC_CO .
+:gaz_comp_GENERAL_ELECTRIC_CO
+	:term "GENERAL ELECTRIC CO." ;
+	:term "General Electric Co." ;
+	:term "General Electric Co" ;
+	:term "General Electric Company" ;
+	a :Gazetteer .
+
+:comp_HEWLETT_PACKARD_CO
+	:identifiedBy :gaz_comp_HEWLETT_PACKARD_CO .
+:gaz_comp_HEWLETT_PACKARD_CO
+	:term "HEWLETT-PACKARD CO." ;
+	:term "Hewlett-Packard Co." ;
+	:term "Hewlett Packard Co" ;
+	:term "Hewlett-Packard Company" ;
+	a :Gazetteer .
+
+:comp_THE_HOME_DEPOT_INC
+	:identifiedBy :gaz_comp_THE_HOME_DEPOT_INC .
+:gaz_comp_THE_HOME_DEPOT_INC
+	:term "THE HOME DEPOT INC." ;
+	:term "The Home Depot Inc." ;
+	:term "Home Depot Inc" ;
+	:term "The Home Depot, Inc." ;
+	a :Gazetteer .
+
+:comp_INTEL_CORP
+	:identifiedBy :gaz_comp_INTEL_CORP .
+:gaz_comp_INTEL_CORP
+	:term "INTEL CORP." ;
+	:term "Intel Corp." ;
+	:term "Intel Corp" ;
+	:term "Intel Corporation" ;
+	a :Gazetteer .
+
+:comp_INTERNATIONAL_BUSINESS_MACHINES_CORP
+	:identifiedBy :gaz_comp_INTERNATIONAL_BUSINESS_MACHINES_CORP .
+:gaz_comp_INTERNATIONAL_BUSINESS_MACHINES_CORP
+	:term "INTERNATIONAL BUSINESS MACHINES CORP." ;
+	:term "International Business Machines Corp." ;
+	:term "International Business Machines Corp" ;
+	a :Gazetteer .
+
+:comp_JOHNSON_JOHNSON
+	:identifiedBy :gaz_comp_JOHNSON_JOHNSON .
+:gaz_comp_JOHNSON_JOHNSON
+	:term "JOHNSON & JOHNSON" ;
+	:term "Johnson & Johnson" ;
+	a :Gazetteer .
+
+:comp_JPMORGAN_CHASE_CO
+	:identifiedBy :gaz_comp_JPMORGAN_CHASE_CO .
+:gaz_comp_JPMORGAN_CHASE_CO
+	:term "JPMORGAN CHASE & CO." ;
+	:term "JPMorgan Chase & Co." ;
+	:term "JPMorgan Chase & Co" ;
+	a :Gazetteer .
+
+:comp_KRAFT_FOODS_INC
+	:identifiedBy :gaz_comp_KRAFT_FOODS_INC .
+:gaz_comp_KRAFT_FOODS_INC
+	:term "KRAFT FOODS INC." ;
+	:term "Kraft Foods Inc." ;
+	:term "Kraft Foods Inc" ;
+	a :Gazetteer .
+
+:comp_MCDONALD_S_CORP
+	:identifiedBy :gaz_comp_MCDONALD_S_CORP .
+:gaz_comp_MCDONALD_S_CORP
+	:term "MCDONALD'S CORP." ;
+	:term "McDonald's Corp." ;
+	:term "McdonaldS Corp" ;
+	:term "McDonald's Corporation" ;
+	a :Gazetteer .
+
+:comp_MERCK_CO_INC
+	:identifiedBy :gaz_comp_MERCK_CO_INC .
+:gaz_comp_MERCK_CO_INC
+	:term "MERCK & CO. INC." ;
+	:term "Merck & Co. Inc." ;
+	:term "Merck & Co Inc" ;
+	:term "Merck & Co., Inc." ;
+	a :Gazetteer .
+
+:comp_MICROSOFT_CORP
+	:identifiedBy :gaz_comp_MICROSOFT_CORP .
+:gaz_comp_MICROSOFT_CORP
+	:term "MICROSOFT CORP." ;
+	:term "Microsoft Corp." ;
+	:term "Microsoft Corp" ;
+	:term "Microsoft Corporation" ;
+	a :Gazetteer .
+
+:comp_PFIZER_INC
+	:identifiedBy :gaz_comp_PFIZER_INC .
+:gaz_comp_PFIZER_INC
+	:term "PFIZER INC." ;
+	:term "Pfizer Inc." ;
+	:term "Pfizer Inc" ;
+	a :Gazetteer .
+
+:comp_THE_PROCTER_GAMBLE_CO
+	:identifiedBy :gaz_comp_THE_PROCTER_GAMBLE_CO .
+:gaz_comp_THE_PROCTER_GAMBLE_CO
+	:term "THE PROCTER & GAMBLE CO." ;
+	:term "The Procter & Gamble Co." ;
+	:term "Procter & Gamble Co" ;
+	:term "The Procter & Gamble Company" ;
+	a :Gazetteer .
+
+:comp_THE_TRAVELERS_COMPANIES_INC
+	:identifiedBy :gaz_comp_THE_TRAVELERS_COMPANIES_INC .
+:gaz_comp_THE_TRAVELERS_COMPANIES_INC
+	:term "THE TRAVELERS COMPANIES, INC." ;
+	:term "The Travelers Companies, Inc." ;
+	:term "Travelers Companies Inc" ;
+	a :Gazetteer .
+
+:comp_UNITED_TECHNOLOGIES_CORP
+	:identifiedBy :gaz_comp_UNITED_TECHNOLOGIES_CORP .
+:gaz_comp_UNITED_TECHNOLOGIES_CORP
+	:term "UNITED TECHNOLOGIES CORP." ;
+	:term "United Technologies Corp." ;
+	:term "United Technologies Corp" ;
+	:term "United Technologies Corporation" ;
+	a :Gazetteer .
+
+:comp_VERIZON_COMMUNICATIONS_INC
+	:identifiedBy :gaz_comp_VERIZON_COMMUNICATIONS_INC .
+:gaz_comp_VERIZON_COMMUNICATIONS_INC
+	:term "VERIZON COMMUNICATIONS INC." ;
+	:term "Verizon Communications Inc." ;
+	:term "Verizon Communications Inc" ;
+	a :Gazetteer .
+
+:comp_WAL_MART_STORES_INC
+	:identifiedBy :gaz_comp_WAL_MART_STORES_INC .
+:gaz_comp_WAL_MART_STORES_INC
+	:term "WAL-MART STORES INC." ;
+	:term "Wal-Mart Stores Inc." ;
+	:term "Wal-Mart Stores Inc" ;
+	:term "Wal-Mart Stores, Inc." ;
+	a :Gazetteer .
+
+:comp_WALT_DISNEY_CO
+	:identifiedBy :gaz_comp_WALT_DISNEY_CO .
+:gaz_comp_WALT_DISNEY_CO
+	:term "WALT DISNEY CO." ;
+	:term "Walt Disney Co." ;
+	:term "Walt Disney Co" ;
+	:term "The Walt Disney Company" ;
+	a :Gazetteer .
+
+:comp_ABBOTT_LABORATORIES
+	:identifiedBy :gaz_comp_ABBOTT_LABORATORIES .
+:gaz_comp_ABBOTT_LABORATORIES
+	:term "ABBOTT LABORATORIES" ;
+	:term "Abbott Laboratories" ;
+	a :Gazetteer .
+
+:comp_ABERCROMBIE
+	:identifiedBy :gaz_comp_ABERCROMBIE .
+:gaz_comp_ABERCROMBIE
+	:term "ABERCROMBIE" ;
+	:term "Abercrombie & Fitch Co." ;
+	:term "Abercrombie & Fitch Co" ;
+	a :Gazetteer .
+
+:comp_ACCENTURE_PLC
+	:identifiedBy :gaz_comp_ACCENTURE_PLC .
+:gaz_comp_ACCENTURE_PLC
+	:term "ACCENTURE PLC" ;
+	:term "Accenture PLC" ;
+	:term "Accenture Plc" ;
+	a :Gazetteer .
+
+:comp_ADOBE_SYSTEMS_INC
+	:identifiedBy :gaz_comp_ADOBE_SYSTEMS_INC .
+:gaz_comp_ADOBE_SYSTEMS_INC
+	:term "ADOBE SYSTEMS INC." ;
+	:term "Adobe Systems Inc." ;
+	:term "Adobe Systems Inc" ;
+	:term "Adobe Systems Incorporated" ;
+	a :Gazetteer .
+
+:comp_ADVANCED_MICRO_DEVICES_INC
+	:identifiedBy :gaz_comp_ADVANCED_MICRO_DEVICES_INC .
+:gaz_comp_ADVANCED_MICRO_DEVICES_INC
+	:term "ADVANCED MICRO DEVICES INC." ;
+	:term "Advanced Micro Devices Inc" ;
+	:term "Advanced Micro Devices, Inc." ;
+	a :Gazetteer .
+
+:comp_THE_AES_CORPORATION
+	:identifiedBy :gaz_comp_THE_AES_CORPORATION .
+:gaz_comp_THE_AES_CORPORATION
+	:term "THE AES CORPORATION" ;
+	:term "The AES Corporation" ;
+	:term "AES Corp" ;
+	a :Gazetteer .
+
+:comp_AFLAC_INCORPORATED
+	:identifiedBy :gaz_comp_AFLAC_INCORPORATED .
+:gaz_comp_AFLAC_INCORPORATED
+	:term "AFLAC INCORPORATED" ;
+	:term "AFLAC Inc" ;
+	:term "AFLAC Incorporated" ;
+	a :Gazetteer .
+
+:comp_AGILENT_TECHNOLOGIES_INC
+	:identifiedBy :gaz_comp_AGILENT_TECHNOLOGIES_INC .
+:gaz_comp_AGILENT_TECHNOLOGIES_INC
+	:term "AGILENT TECHNOLOGIES, INC." ;
+	:term "Agilent Technologies Inc" ;
+	:term "Agilent Technologies Inc." ;
+	a :Gazetteer .
+
+:comp_AIR_PRODS_CHEM
+	:identifiedBy :gaz_comp_AIR_PRODS_CHEM .
+:gaz_comp_AIR_PRODS_CHEM
+	:term "AIR PRODS & CHEM" ;
+	:term "Air Products and Chemicals, Inc." ;
+	:term "Air Products and Chemicals Inc" ;
+	:term "Air Products & Chemicals, Inc." ;
+	a :Gazetteer .
+
+:comp_AIRGAS
+	:identifiedBy :gaz_comp_AIRGAS .
+:gaz_comp_AIRGAS
+	:term "AIRGAS" ;
+	:term "AIRGAS INC" ;
+	:term "Airgas Inc" ;
+	:term "Airgas, Inc." ;
+	a :Gazetteer .
+
+:comp_AKAMAI_TECHNOLOGIES_INC
+	:identifiedBy :gaz_comp_AKAMAI_TECHNOLOGIES_INC .
+:gaz_comp_AKAMAI_TECHNOLOGIES_INC
+	:term "AKAMAI TECHNOLOGIES, INC." ;
+	:term "Akamai Technologies, Inc." ;
+	:term "Akamai Technologies Inc" ;
+	a :Gazetteer .
+
+:comp_ALLEGHENY_TECHNOLOGIES_INCORPORATED
+	:identifiedBy :gaz_comp_ALLEGHENY_TECHNOLOGIES_INCORPORATED .
+:gaz_comp_ALLEGHENY_TECHNOLOGIES_INCORPORATED
+	:term "ALLEGHENY TECHNOLOGIES INCORPORATED" ;
+	:term "Allegheny Technologies Incorporated" ;
+	:term "Allegheny Technologies Inc" ;
+	a :Gazetteer .
+
+:comp_ALLERGAN_INC
+	:identifiedBy :gaz_comp_ALLERGAN_INC .
+:gaz_comp_ALLERGAN_INC
+	:term "ALLERGAN, INC." ;
+	:term "Allergan, Inc." ;
+	:term "Allergan Inc" ;
+	a :Gazetteer .
+
+:comp_ALLSTATE_CORP
+	:identifiedBy :gaz_comp_ALLSTATE_CORP .
+:gaz_comp_ALLSTATE_CORP
+	:term "ALLSTATE CORP." ;
+	:term "Allstate Corp." ;
+	:term "Allstate Corp" ;
+	:term "The Allstate Corporation" ;
+	a :Gazetteer .
+
+:comp_ALPHA_NATURAL_RESOURCES_INC
+	:identifiedBy :gaz_comp_ALPHA_NATURAL_RESOURCES_INC .
+:gaz_comp_ALPHA_NATURAL_RESOURCES_INC
+	:term "ALPHA NATURAL RESOURCES INC" ;
+	:term "Alpha Natural Resources Inc" ;
+	:term "Alpha Natural Resources, Inc." ;
+	a :Gazetteer .
+
+:comp_ALTERA_CORP
+	:identifiedBy :gaz_comp_ALTERA_CORP .
+:gaz_comp_ALTERA_CORP
+	:term "ALTERA CORP." ;
+	:term "Altera Corp." ;
+	:term "Altera Corp" ;
+	:term "Altera Corporation" ;
+	a :Gazetteer .
+
+:comp_ALTRIA_GROUP_INC
+	:identifiedBy :gaz_comp_ALTRIA_GROUP_INC .
+:gaz_comp_ALTRIA_GROUP_INC
+	:term "ALTRIA GROUP INC." ;
+	:term "Altria Group Inc." ;
+	:term "Altria Group Inc" ;
+	:term "Altria Group, Inc." ;
+	a :Gazetteer .
+
+:comp_AMAZON_COM_INC
+	:identifiedBy :gaz_comp_AMAZON_COM_INC .
+:gaz_comp_AMAZON_COM_INC
+	:term "AMAZON.COM INC." ;
+	:term "Amazon.com Inc." ;
+	:term "Amazon.com Inc" ;
+	:term "Amazon.com, Inc." ;
+	a :Gazetteer .
+
+:comp_AMERICAN_ELECTRIC_POWER_COMPANY_INC
+	:identifiedBy :gaz_comp_AMERICAN_ELECTRIC_POWER_COMPANY_INC .
+:gaz_comp_AMERICAN_ELECTRIC_POWER_COMPANY_INC
+	:term "AMERICAN ELECTRIC POWER COMPANY, INC." ;
+	:term "American Electric Power Company, Inc." ;
+	:term "American Electric Power Co Inc" ;
+	a :Gazetteer .
+
+:comp_AMERICAN_INTERNATIONAL_GROUP_INC
+	:identifiedBy :gaz_comp_AMERICAN_INTERNATIONAL_GROUP_INC .
+:gaz_comp_AMERICAN_INTERNATIONAL_GROUP_INC
+	:term "AMERICAN INTERNATIONAL GROUP INC." ;
+	:term "American International Group Inc." ;
+	:term "American International Group Inc" ;
+	:term "American International Group, Inc." ;
+	a :Gazetteer .
+
+:comp_AMERIPRISE_FINANCIAL_INC
+	:identifiedBy :gaz_comp_AMERIPRISE_FINANCIAL_INC .
+:gaz_comp_AMERIPRISE_FINANCIAL_INC
+	:term "AMERIPRISE FINANCIAL INC." ;
+	:term "Ameriprise Financial Inc" ;
+	:term "Ameriprise Financial, Inc." ;
+	a :Gazetteer .
+
+:comp_AMGEN_INC
+	:identifiedBy :gaz_comp_AMGEN_INC .
+:gaz_comp_AMGEN_INC
+	:term "AMGEN INC." ;
+	:term "Amgen Inc." ;
+	:term "Amgen Inc" ;
+	:term "Amgen, Inc." ;
+	a :Gazetteer .
+
+:comp_ANADARKO_PETROLEUM_CORP
+	:identifiedBy :gaz_comp_ANADARKO_PETROLEUM_CORP .
+:gaz_comp_ANADARKO_PETROLEUM_CORP
+	:term "ANADARKO PETROLEUM CORP." ;
+	:term "Anadarko Petroleum Corp." ;
+	:term "Anadarko Petroleum Corp" ;
+	:term "Anadarko Petroleum Corporation" ;
+	a :Gazetteer .
+
+:comp_ANALOG_DEVICES_INC
+	:identifiedBy :gaz_comp_ANALOG_DEVICES_INC .
+:gaz_comp_ANALOG_DEVICES_INC
+	:term "ANALOG DEVICES, INC" ;
+	:term "Analog Devices, Inc." ;
+	:term "Analog Devices Inc" ;
+	a :Gazetteer .
+
+:comp_APACHE_CORP
+	:identifiedBy :gaz_comp_APACHE_CORP .
+:gaz_comp_APACHE_CORP
+	:term "APACHE CORP." ;
+	:term "Apache Corp." ;
+	:term "Apache Corp" ;
+	:term "Apache Corporation" ;
+	a :Gazetteer .
+
+:comp_APOLLO_GROUP_INC
+	:identifiedBy :gaz_comp_APOLLO_GROUP_INC .
+:gaz_comp_APOLLO_GROUP_INC
+	:term "APOLLO GROUP INC." ;
+	:term "Apollo Group Inc." ;
+	:term "Apollo Group Inc" ;
+	:term "Apollo Group, Inc." ;
+	a :Gazetteer .
+
+:comp_APPLE_INC
+	:identifiedBy :gaz_comp_APPLE_INC .
+:gaz_comp_APPLE_INC
+	:term "APPLE INC." ;
+	:term "Apple Inc." ;
+	:term "Apple Inc" ;
+	a :Gazetteer .
+
+:comp_APPLIED_MATERIALS_INC
+	:identifiedBy :gaz_comp_APPLIED_MATERIALS_INC .
+:gaz_comp_APPLIED_MATERIALS_INC
+	:term "APPLIED MATERIALS, INC." ;
+	:term "Applied Materials, Inc." ;
+	:term "Applied Materials Inc" ;
+	a :Gazetteer .
+
+:comp_ARCHER_DANIELS_MIDLAND_COMPANY
+	:identifiedBy :gaz_comp_ARCHER_DANIELS_MIDLAND_COMPANY .
+:gaz_comp_ARCHER_DANIELS_MIDLAND_COMPANY
+	:term "ARCHER DANIELS MIDLAND COMPANY" ;
+	:term "Archer Daniels Midland Company" ;
+	:term "Archer-Daniels-Midland Co" ;
+	a :Gazetteer .
+
+:comp_AUTODESK_INC
+	:identifiedBy :gaz_comp_AUTODESK_INC .
+:gaz_comp_AUTODESK_INC
+	:term "AUTODESK INC." ;
+	:term "Autodesk Inc." ;
+	:term "Autodesk Inc" ;
+	:term "Autodesk, Inc." ;
+	a :Gazetteer .
+
+:comp_AUTOMATIC_DATA_PROCESSING_INC
+	:identifiedBy :gaz_comp_AUTOMATIC_DATA_PROCESSING_INC .
+:gaz_comp_AUTOMATIC_DATA_PROCESSING_INC
+	:term "AUTOMATIC DATA PROCESSING, INC." ;
+	:term "Automatic Data Processing, Inc." ;
+	:term "Automatic Data Processing Inc" ;
+	:term "Automatic Data Processing" ;
+	a :Gazetteer .
+
+:comp_AUTONATION
+	:identifiedBy :gaz_comp_AUTONATION .
+:gaz_comp_AUTONATION
+	:term "AUTONATION" ;
+	:term "Autonation Inc." ;
+	:term "Autonation Inc" ;
+	:term "AutoNation, Inc." ;
+	a :Gazetteer .
+
+:comp_AVERY_DENNISON_CORPORATION
+	:identifiedBy :gaz_comp_AVERY_DENNISON_CORPORATION .
+:gaz_comp_AVERY_DENNISON_CORPORATION
+	:term "AVERY DENNISON CORPORATION" ;
+	:term "Avery Dennison Corporation" ;
+	:term "Avery Dennison Corp" ;
+	a :Gazetteer .
+
+:comp_AVON_PRODUCTS_INC
+	:identifiedBy :gaz_comp_AVON_PRODUCTS_INC .
+:gaz_comp_AVON_PRODUCTS_INC
+	:term "AVON PRODUCTS INC." ;
+	:term "Avon Products Inc." ;
+	:term "Avon Products Inc" ;
+	:term "Avon Products, Inc." ;
+	a :Gazetteer .
+
+:comp_BAKER_HUGHES_INC
+	:identifiedBy :gaz_comp_BAKER_HUGHES_INC .
+:gaz_comp_BAKER_HUGHES_INC
+	:term "BAKER HUGHES INC." ;
+	:term "Baker Hughes Inc." ;
+	:term "Baker Hughes Inc" ;
+	:term "Baker Hughes Incorporated" ;
+	a :Gazetteer .
+
+:comp_BANK_OF_NEW_YORK_MELLON_CORP
+	:identifiedBy :gaz_comp_BANK_OF_NEW_YORK_MELLON_CORP .
+:gaz_comp_BANK_OF_NEW_YORK_MELLON_CORP
+	:term "BANK OF NEW YORK MELLON CORP." ;
+	:term "Bank of New York Mellon Corp." ;
+	:term "Bank Of New York Mellon Corp" ;
+	:term "The Bank of New York Mellon Corporation" ;
+	a :Gazetteer .
+
+:comp_C_R_BARD_INC
+	:identifiedBy :gaz_comp_C_R_BARD_INC .
+:gaz_comp_C_R_BARD_INC
+	:term "C. R. BARD, INC." ;
+	:term "C. R. Bard, Inc." ;
+	:term "C R Bard Inc" ;
+	:term "C.R. Bard, Inc." ;
+	a :Gazetteer .
+
+:comp_BAXTER_INTERNATIONAL_INC
+	:identifiedBy :gaz_comp_BAXTER_INTERNATIONAL_INC .
+:gaz_comp_BAXTER_INTERNATIONAL_INC
+	:term "BAXTER INTERNATIONAL INC." ;
+	:term "Baxter International Inc." ;
+	:term "Baxter International Inc" ;
+	a :Gazetteer .
+
+:comp_BB_T_CORP
+	:identifiedBy :gaz_comp_BB_T_CORP .
+:gaz_comp_BB_T_CORP
+	:term "BB&T CORP." ;
+	:term "BB&T Corp." ;
+	:term "BB&T Corp" ;
+	:term "BB&T Corporation" ;
+	a :Gazetteer .
+
+:comp_BECTON_DICKINSON
+	:identifiedBy :gaz_comp_BECTON_DICKINSON .
+:gaz_comp_BECTON_DICKINSON
+	:term "BECTON DICKINSON" ;
+	:term "Becton, Dickinson and Company" ;
+	:term "Becton Dickinson And Co" ;
+	:term "Becton, Dickinson and Co." ;
+	a :Gazetteer .
+
+:comp_BED_BATH_BEYOND_INC
+	:identifiedBy :gaz_comp_BED_BATH_BEYOND_INC .
+:gaz_comp_BED_BATH_BEYOND_INC
+	:term "BED BATH & BEYOND INC." ;
+	:term "Bed Bath & Beyond Inc." ;
+	:term "Bed Bath & Beyond Inc" ;
+	a :Gazetteer .
+
+:comp_BERKSHIRE_HATHAWAY_INC
+	:identifiedBy :gaz_comp_BERKSHIRE_HATHAWAY_INC .
+:gaz_comp_BERKSHIRE_HATHAWAY_INC
+	:term "BERKSHIRE HATHAWAY INC." ;
+	:term "Berkshire Hathaway Inc." ;
+	:term "Berkshire Hathaway B Ord Shs" ;
+	a :Gazetteer .
+
+:comp_BEST_BUY
+	:identifiedBy :gaz_comp_BEST_BUY .
+:gaz_comp_BEST_BUY
+	:term "BEST BUY" ;
+	:term "Best Buy Co., Inc." ;
+	:term "Best BUY Co Inc" ;
+	a :Gazetteer .
+
+:comp_BIG_LOTS_INC
+	:identifiedBy :gaz_comp_BIG_LOTS_INC .
+:gaz_comp_BIG_LOTS_INC
+	:term "BIG LOTS INC." ;
+	:term "Big Lots Inc." ;
+	:term "Big Lots Inc" ;
+	:term "Big Lots, Inc." ;
+	a :Gazetteer .
+
+:comp_BIOGEN_IDEC_INC
+	:identifiedBy :gaz_comp_BIOGEN_IDEC_INC .
+:gaz_comp_BIOGEN_IDEC_INC
+	:term "BIOGEN IDEC INC." ;
+	:term "Biogen Idec Inc." ;
+	:term "Biogen Idec Inc" ;
+	a :Gazetteer .
+
+:comp_BLACKROCK_INC
+	:identifiedBy :gaz_comp_BLACKROCK_INC .
+:gaz_comp_BLACKROCK_INC
+	:term "BLACKROCK INC." ;
+	:term "BlackRock Inc." ;
+	:term "Blackrock Inc" ;
+	:term "BlackRock, Inc." ;
+	a :Gazetteer .
+
+:comp_H_R_BLOCK
+	:identifiedBy :gaz_comp_H_R_BLOCK .
+:gaz_comp_H_R_BLOCK
+	:term "H&R BLOCK" ;
+	:term "H&R Block, Inc." ;
+	:term "H and R Block Inc" ;
+	a :Gazetteer .
+
+:comp_BMC_SOFTWARE_INC
+	:identifiedBy :gaz_comp_BMC_SOFTWARE_INC .
+:gaz_comp_BMC_SOFTWARE_INC
+	:term "BMC SOFTWARE INC." ;
+	:term "BMC Software Inc." ;
+	:term "BMC Software Inc" ;
+	:term "BMC Software, Inc." ;
+	a :Gazetteer .
+
+:comp_BORG_WARNER_INC
+	:identifiedBy :gaz_comp_BORG_WARNER_INC .
+:gaz_comp_BORG_WARNER_INC
+	:term "BORG WARNER INC" ;
+	:term "Borg Warner Inc." ;
+	:term "BorgWarner Inc" ;
+	:term "BorgWarner Inc." ;
+	a :Gazetteer .
+
+:comp_BOSTON_SCIENT
+	:identifiedBy :gaz_comp_BOSTON_SCIENT .
+:gaz_comp_BOSTON_SCIENT
+	:term "BOSTON SCIENT" ;
+	:term "Boston Scientific Corporation" ;
+	:term "Boston Scientific Corp" ;
+	a :Gazetteer .
+
+:comp_BRISTOL_MYERS_SQUIBB_CO
+	:identifiedBy :gaz_comp_BRISTOL_MYERS_SQUIBB_CO .
+:gaz_comp_BRISTOL_MYERS_SQUIBB_CO
+	:term "BRISTOL-MYERS SQUIBB CO." ;
+	:term "Bristol-Myers Squibb Co." ;
+	:term "Bristol Myers Squibb Co" ;
+	:term "Bristol Myers Squibb Co." ;
+	a :Gazetteer .
+
+:comp_BROADCOM_CORP
+	:identifiedBy :gaz_comp_BROADCOM_CORP .
+:gaz_comp_BROADCOM_CORP
+	:term "BROADCOM CORP." ;
+	:term "Broadcom Corp." ;
+	:term "Broadcom Corp" ;
+	:term "Broadcom Corporation" ;
+	a :Gazetteer .
+
+:comp_CA_INC
+	:identifiedBy :gaz_comp_CA_INC .
+:gaz_comp_CA_INC
+	:term "CA, INC." ;
+	:term "CA, Inc." ;
+	:term "CA Inc" ;
+	a :Gazetteer .
+
+:comp_CABOT_OIL_GAS_CORP
+	:identifiedBy :gaz_comp_CABOT_OIL_GAS_CORP .
+:gaz_comp_CABOT_OIL_GAS_CORP
+	:term "CABOT OIL & GAS CORP" ;
+	:term "Cabot Oil and Gas Corp" ;
+	:term "Cabot Oil & Gas Corporation" ;
+	a :Gazetteer .
+
+:comp_CAMERON_INTERNATIONAL_CORP
+	:identifiedBy :gaz_comp_CAMERON_INTERNATIONAL_CORP .
+:gaz_comp_CAMERON_INTERNATIONAL_CORP
+	:term "CAMERON INTERNATIONAL CORP" ;
+	:term "Cameron International Corp" ;
+	:term "Cameron International Corporation" ;
+	a :Gazetteer .
+
+:comp_CAMPBELL_SOUP_CO
+	:identifiedBy :gaz_comp_CAMPBELL_SOUP_CO .
+:gaz_comp_CAMPBELL_SOUP_CO
+	:term "CAMPBELL SOUP CO." ;
+	:term "Campbell Soup Co." ;
+	:term "Campbell Soup Co" ;
+	:term "Campbell Soup Company" ;
+	a :Gazetteer .
+
+:comp_CAPITAL_ONE_FINANCIAL_CORP
+	:identifiedBy :gaz_comp_CAPITAL_ONE_FINANCIAL_CORP .
+:gaz_comp_CAPITAL_ONE_FINANCIAL_CORP
+	:term "CAPITAL ONE FINANCIAL CORP." ;
+	:term "Capital One Financial Corp." ;
+	:term "Capital One Financial Corp" ;
+	a :Gazetteer .
+
+:comp_CBS_CORP
+	:identifiedBy :gaz_comp_CBS_CORP .
+:gaz_comp_CBS_CORP
+	:term "CBS CORP." ;
+	:term "CBS Corp." ;
+	:term "CBS Corp" ;
+	:term "CBS Corporation" ;
+	a :Gazetteer .
+
+:comp_CELGENE_CORP
+	:identifiedBy :gaz_comp_CELGENE_CORP .
+:gaz_comp_CELGENE_CORP
+	:term "CELGENE CORP." ;
+	:term "Celgene Corp." ;
+	:term "Celgene Corp" ;
+	:term "Celgene Corporation" ;
+	a :Gazetteer .
+
+:comp_CENTURYLINK_INC
+	:identifiedBy :gaz_comp_CENTURYLINK_INC .
+:gaz_comp_CENTURYLINK_INC
+	:term "CENTURYLINK INC" ;
+	:term "CenturyLink Inc" ;
+	:term "CenturyLink, Inc." ;
+	a :Gazetteer .
+
+:comp_CERNER_CORP
+	:identifiedBy :gaz_comp_CERNER_CORP .
+:gaz_comp_CERNER_CORP
+	:term "CERNER CORP." ;
+	:term "Cerner Corp." ;
+	:term "Cerner Corp" ;
+	:term "Cerner Corporation" ;
+	a :Gazetteer .
+
+:comp_CF_INDUSTRIES_HOLDINGS_INC
+	:identifiedBy :gaz_comp_CF_INDUSTRIES_HOLDINGS_INC .
+:gaz_comp_CF_INDUSTRIES_HOLDINGS_INC
+	:term "CF INDUSTRIES HOLDINGS INC" ;
+	:term "CF Industries Holdings Inc" ;
+	:term "CF Industries Holdings, Inc." ;
+	a :Gazetteer .
+
+:comp_C_H_ROBINSON_WORLDWIDE_INC
+	:identifiedBy :gaz_comp_C_H_ROBINSON_WORLDWIDE_INC .
+:gaz_comp_C_H_ROBINSON_WORLDWIDE_INC
+	:term "C.H. ROBINSON WORLDWIDE INC." ;
+	:term "C.H. Robinson Worldwide Inc." ;
+	:term "C H Robinson Worldwide Inc" ;
+	:term "C.H. Robinson Worldwide, Inc." ;
+	a :Gazetteer .
+
+:comp_CHESAPEAKE_ENERGY_CORP
+	:identifiedBy :gaz_comp_CHESAPEAKE_ENERGY_CORP .
+:gaz_comp_CHESAPEAKE_ENERGY_CORP
+	:term "CHESAPEAKE ENERGY CORP." ;
+	:term "Chesapeake Energy Corp" ;
+	:term "Chesapeake Energy Corporation" ;
+	a :Gazetteer .
+
+:comp_CIGNA_CORPORATION
+	:identifiedBy :gaz_comp_CIGNA_CORPORATION .
+:gaz_comp_CIGNA_CORPORATION
+	:term "CIGNA CORPORATION" ;
+	:term "Cigna Corporation" ;
+	:term "CIGNA Corp" ;
+	:term "CIGNA Corporation" ;
+	a :Gazetteer .
+
+:comp_CINTAS_CORPORATION
+	:identifiedBy :gaz_comp_CINTAS_CORPORATION .
+:gaz_comp_CINTAS_CORPORATION
+	:term "CINTAS CORPORATION" ;
+	:term "Cintas Corporation" ;
+	:term "Cintas Corp" ;
+	a :Gazetteer .
+
+:comp_CITIGROUP_INC
+	:identifiedBy :gaz_comp_CITIGROUP_INC .
+:gaz_comp_CITIGROUP_INC
+	:term "CITIGROUP INC." ;
+	:term "Citigroup Inc." ;
+	:term "Citigroup Inc" ;
+	a :Gazetteer .
+
+:comp_CITRIX_SYSTEMS_INC
+	:identifiedBy :gaz_comp_CITRIX_SYSTEMS_INC .
+:gaz_comp_CITRIX_SYSTEMS_INC
+	:term "CITRIX SYSTEMS INC." ;
+	:term "Citrix Systems Inc." ;
+	:term "Citrix Systems Inc" ;
+	:term "Citrix Systems, Inc." ;
+	a :Gazetteer .
+
+:comp_CLIFFS_NATURAL_RES
+	:identifiedBy :gaz_comp_CLIFFS_NATURAL_RES .
+:gaz_comp_CLIFFS_NATURAL_RES
+	:term "CLIFFS NATURAL RES." ;
+	:term "CLIFFS NATURAL RESOURCES INC" ;
+	:term "Cliffs Natural Resources Inc" ;
+	a :Gazetteer .
+
+:comp_CLOROX
+	:identifiedBy :gaz_comp_CLOROX .
+:gaz_comp_CLOROX
+	:term "CLOROX" ;
+	:term "Clorox Co." ;
+	:term "The Clorox Co" ;
+	:term "The Clorox Company" ;
+	a :Gazetteer .
+
+:comp_CME_GROUP_INC
+	:identifiedBy :gaz_comp_CME_GROUP_INC .
+:gaz_comp_CME_GROUP_INC
+	:term "CME GROUP INC" ;
+	:term "CME Group Inc" ;
+	:term "Cme Group Inc" ;
+	:term "CME Group Inc." ;
+	a :Gazetteer .
+
+:comp_COACH_INC
+	:identifiedBy :gaz_comp_COACH_INC .
+:gaz_comp_COACH_INC
+	:term "COACH INC." ;
+	:term "Coach Inc" ;
+	:term "Coach, Inc." ;
+	a :Gazetteer .
+
+:comp_COGNIZANT_TECHNOLOGY_SOLUTIONS_CORP
+	:identifiedBy :gaz_comp_COGNIZANT_TECHNOLOGY_SOLUTIONS_CORP .
+:gaz_comp_COGNIZANT_TECHNOLOGY_SOLUTIONS_CORP
+	:term "COGNIZANT TECHNOLOGY SOLUTIONS CORP." ;
+	:term "Cognizant Technology Solutions Corp." ;
+	:term "Cognizant Technology Solutions Corp" ;
+	a :Gazetteer .
+
+:comp_COLGATE_PALMOLIVE_CO
+	:identifiedBy :gaz_comp_COLGATE_PALMOLIVE_CO .
+:gaz_comp_COLGATE_PALMOLIVE_CO
+	:term "COLGATE-PALMOLIVE CO." ;
+	:term "Colgate-Palmolive Co." ;
+	:term "Colgate-Palmolive Co" ;
+	:term "Colgate-Palmolive Company" ;
+	a :Gazetteer .
+
+:comp_COMCAST_CORP
+	:identifiedBy :gaz_comp_COMCAST_CORP .
+:gaz_comp_COMCAST_CORP
+	:term "COMCAST CORP." ;
+	:term "Comcast Corp." ;
+	:term "Comcast Corp" ;
+	:term "Comcast Corporation" ;
+	a :Gazetteer .
+
+:comp_COMERICA_INCORPORATED
+	:identifiedBy :gaz_comp_COMERICA_INCORPORATED .
+:gaz_comp_COMERICA_INCORPORATED
+	:term "COMERICA INCORPORATED" ;
+	:term "Comerica Incorporated" ;
+	:term "Comerica Inc" ;
+	a :Gazetteer .
+
+:comp_COMPUTER_SCIENCE
+	:identifiedBy :gaz_comp_COMPUTER_SCIENCE .
+:gaz_comp_COMPUTER_SCIENCE
+	:term "COMPUTER SCIENCE" ;
+	:term "Computer Sciences Corp." ;
+	:term "Computer Sciences Corp" ;
+	:term "Computer Sciences Corporation" ;
+	a :Gazetteer .
+
+:comp_CONAGRA_INC
+	:identifiedBy :gaz_comp_CONAGRA_INC .
+:gaz_comp_CONAGRA_INC
+	:term "CONAGRA, INC." ;
+	:term "ConAgra, Inc." ;
+	:term "ConAgra Foods Inc" ;
+	:term "ConAgra Foods, Inc." ;
+	a :Gazetteer .
+
+:comp_CONOCOPHILLIPS
+	:identifiedBy :gaz_comp_CONOCOPHILLIPS .
+:gaz_comp_CONOCOPHILLIPS
+	:term "CONOCOPHILLIPS" ;
+	:term "ConocoPhillips" ;
+	a :Gazetteer .
+
+:comp_CONSOL_ENERGY
+	:identifiedBy :gaz_comp_CONSOL_ENERGY .
+:gaz_comp_CONSOL_ENERGY
+	:term "CONSOL ENERGY" ;
+	:term "Consol Inc." ;
+	:term "CONSOL Energy Inc" ;
+	:term "CONSOL Energy Inc." ;
+	a :Gazetteer .
+
+:comp_CONSOLIDATED_EDISON
+	:identifiedBy :gaz_comp_CONSOLIDATED_EDISON .
+:gaz_comp_CONSOLIDATED_EDISON
+	:term "CONSOLIDATED EDISON" ;
+	:term "CONSOLIDATED EDISON, INC." ;
+	:term "Consolidated Edison Inc" ;
+	:term "Consolidated Edison, Inc." ;
+	a :Gazetteer .
+
+:comp_CORNING
+	:identifiedBy :gaz_comp_CORNING .
+:gaz_comp_CORNING
+	:term "CORNING" ;
+	:term "Corning Inc." ;
+	:term "Corning Inc" ;
+	:term "Corning Incorporated" ;
+	a :Gazetteer .
+
+:comp_COSTCO_WHOLESALE_CORP
+	:identifiedBy :gaz_comp_COSTCO_WHOLESALE_CORP .
+:gaz_comp_COSTCO_WHOLESALE_CORP
+	:term "COSTCO WHOLESALE CORP." ;
+	:term "Costco Wholesale Corp." ;
+	:term "Costco Wholesale Corp" ;
+	:term "Costco Wholesale Corporation" ;
+	a :Gazetteer .
+
+:comp_COVIDIEN_PLC
+	:identifiedBy :gaz_comp_COVIDIEN_PLC .
+:gaz_comp_COVIDIEN_PLC
+	:term "COVIDIEN PLC" ;
+	:term "Covidien PLC" ;
+	:term "Covidien plc" ;
+	a :Gazetteer .
+
+:comp_CSX_CORP
+	:identifiedBy :gaz_comp_CSX_CORP .
+:gaz_comp_CSX_CORP
+	:term "CSX CORP." ;
+	:term "CSX Corp." ;
+	:term "Csx Corp" ;
+	:term "CSX Corporation" ;
+	a :Gazetteer .
+
+:comp_CUMMINS
+	:identifiedBy :gaz_comp_CUMMINS .
+:gaz_comp_CUMMINS
+	:term "CUMMINS" ;
+	:term "CUMMINS INC." ;
+	:term "Cummins Inc" ;
+	:term "Cummins Inc." ;
+	a :Gazetteer .
+
+:comp_CVS_CAREMARK_CORP
+	:identifiedBy :gaz_comp_CVS_CAREMARK_CORP .
+:gaz_comp_CVS_CAREMARK_CORP
+	:term "CVS CAREMARK CORP." ;
+	:term "CVS Caremark Corp." ;
+	:term "Cvs Caremark Corp" ;
+	:term "CVS Caremark Corporation" ;
+	a :Gazetteer .
+
+:comp_DANAHER
+	:identifiedBy :gaz_comp_DANAHER .
+:gaz_comp_DANAHER
+	:term "DANAHER" ;
+	:term "Danaher Corporation" ;
+	:term "Danaher Corp" ;
+	a :Gazetteer .
+
+:comp_DAVITA
+	:identifiedBy :gaz_comp_DAVITA .
+:gaz_comp_DAVITA
+	:term "DAVITA" ;
+	:term "DaVita Inc." ;
+	:term "DaVita Inc" ;
+	a :Gazetteer .
+
+:comp_DEAN_FOODS_CO
+	:identifiedBy :gaz_comp_DEAN_FOODS_CO .
+:gaz_comp_DEAN_FOODS_CO
+	:term "DEAN FOODS CO" ;
+	:term "Suiza Foods Corporation" ;
+	:term "Dean Foods Co" ;
+	:term "Dean Foods Company" ;
+	a :Gazetteer .
+
+:comp_DEERE_CO
+	:identifiedBy :gaz_comp_DEERE_CO .
+:gaz_comp_DEERE_CO
+	:term "DEERE & CO" ;
+	:term "Deere & Company" ;
+	:term "Deere & Co" ;
+	a :Gazetteer .
+
+:comp_DELL_INC
+	:identifiedBy :gaz_comp_DELL_INC .
+:gaz_comp_DELL_INC
+	:term "DELL INC." ;
+	:term "Dell Inc." ;
+	:term "Dell Inc" ;
+	a :Gazetteer .
+
+:comp_DENBURY_RSC
+	:identifiedBy :gaz_comp_DENBURY_RSC .
+:gaz_comp_DENBURY_RSC
+	:term "DENBURY RSC" ;
+	:term "DENBURY RESOURCES INC" ;
+	:term "Denbury Resources Inc" ;
+	:term "Denbury Resources Inc." ;
+	a :Gazetteer .
+
+:comp_DENTSPLY_INTERNATIONAL_INC
+	:identifiedBy :gaz_comp_DENTSPLY_INTERNATIONAL_INC .
+:gaz_comp_DENTSPLY_INTERNATIONAL_INC
+	:term "DENTSPLY INTERNATIONAL INC." ;
+	:term "DENTSPLY International Inc." ;
+	:term "DENTSPLY International Inc" ;
+	a :Gazetteer .
+
+:comp_DEVON_ENERGY_CORP
+	:identifiedBy :gaz_comp_DEVON_ENERGY_CORP .
+:gaz_comp_DEVON_ENERGY_CORP
+	:term "DEVON ENERGY CORP." ;
+	:term "Devon Energy Corp." ;
+	:term "Devon Energy Corp" ;
+	:term "Devon Energy Corporation" ;
+	a :Gazetteer .
+
+:comp_DIAMOND_OFFSHORE
+	:identifiedBy :gaz_comp_DIAMOND_OFFSHORE .
+:gaz_comp_DIAMOND_OFFSHORE
+	:term "DIAMOND OFFSHORE" ;
+	:term "DIAMOND OFFSHRE DRILLING INC" ;
+	:term "Diamond Offshore Drilling Inc" ;
+	:term "Diamond Offshore Drilling, Inc." ;
+	a :Gazetteer .
+
+:comp_DIRECTV
+	:identifiedBy :gaz_comp_DIRECTV .
+:gaz_comp_DIRECTV
+	:term "DIRECTV" ;
+	a :Gazetteer .
+
+:comp_DISCOVER_FINANCIAL_SERVICES
+	:identifiedBy :gaz_comp_DISCOVER_FINANCIAL_SERVICES .
+:gaz_comp_DISCOVER_FINANCIAL_SERVICES
+	:term "DISCOVER FINANCIAL SERVICES" ;
+	:term "Discover Financial Services" ;
+	a :Gazetteer .
+
+:comp_DOLLAR_TREE_INC
+	:identifiedBy :gaz_comp_DOLLAR_TREE_INC .
+:gaz_comp_DOLLAR_TREE_INC
+	:term "DOLLAR TREE INC." ;
+	:term "Dollar Tree Inc." ;
+	:term "Dollar Tree Inc" ;
+	:term "Dollar Tree, Inc." ;
+	a :Gazetteer .
+
+:comp_THE_DOW_CHEMICAL_CO
+	:identifiedBy :gaz_comp_THE_DOW_CHEMICAL_CO .
+:gaz_comp_THE_DOW_CHEMICAL_CO
+	:term "THE DOW CHEMICAL CO." ;
+	:term "The Dow Chemical Co." ;
+	:term "Dow Chemical Co" ;
+	:term "The Dow Chemical Company" ;
+	a :Gazetteer .
+
+:comp_D_R_HORTON_INC
+	:identifiedBy :gaz_comp_D_R_HORTON_INC .
+:gaz_comp_D_R_HORTON_INC
+	:term "D.R. HORTON INC." ;
+	:term "DR Horton Inc" ;
+	:term "D.R. Horton, Inc." ;
+	a :Gazetteer .
+
+:comp_DR_PEPPER_SNAPPLE_GROUP_INC
+	:identifiedBy :gaz_comp_DR_PEPPER_SNAPPLE_GROUP_INC .
+:gaz_comp_DR_PEPPER_SNAPPLE_GROUP_INC
+	:term "DR PEPPER SNAPPLE GROUP INC" ;
+	:term "Dr Pepper Snapple Group Inc" ;
+	:term "Dr Pepper Snapple Group Inc." ;
+	a :Gazetteer .
+
+:comp_DUKE_ENERGY_CORPORATION
+	:identifiedBy :gaz_comp_DUKE_ENERGY_CORPORATION .
+:gaz_comp_DUKE_ENERGY_CORPORATION
+	:term "DUKE ENERGY CORPORATION" ;
+	:term "Duke Energy Corporation" ;
+	:term "Duke Energy Corp" ;
+	a :Gazetteer .
+
+:comp_E_TRADE_GROUP_E_TRADE_BANK_AG
+	:identifiedBy :gaz_comp_E_TRADE_GROUP_E_TRADE_BANK_AG .
+:gaz_comp_E_TRADE_GROUP_E_TRADE_BANK_AG
+	:term "E*TRADE GROUP (E*TRADE BANK AG)" ;
+	:term "E*Trade Group (E*Trade Bank AG)" ;
+	:term "E*Trade Financial Corp" ;
+	:term "E TRADE Financial Corporation" ;
+	a :Gazetteer .
+
+:comp_EASTMAN_CHEM
+	:identifiedBy :gaz_comp_EASTMAN_CHEM .
+:gaz_comp_EASTMAN_CHEM
+	:term "EASTMAN CHEM" ;
+	:term "Eastman Chemical Company" ;
+	:term "Eastman Chemical Co" ;
+	a :Gazetteer .
+
+:comp_EATON_CORP
+	:identifiedBy :gaz_comp_EATON_CORP .
+:gaz_comp_EATON_CORP
+	:term "EATON CORP." ;
+	:term "Eaton Corp." ;
+	:term "Eaton Corp" ;
+	:term "Eaton Corporation" ;
+	a :Gazetteer .
+
+:comp_EBAY_INC
+	:identifiedBy :gaz_comp_EBAY_INC .
+:gaz_comp_EBAY_INC
+	:term "EBAY INC." ;
+	:term "eBay Inc." ;
+	:term "EBAY Inc" ;
+	a :Gazetteer .
+
+:comp_ECOLAB
+	:identifiedBy :gaz_comp_ECOLAB .
+:gaz_comp_ECOLAB
+	:term "ECOLAB" ;
+	:term "Ecolab Inc." ;
+	:term "Ecolab Inc" ;
+	a :Gazetteer .
+
+:comp_EDISON_INTL
+	:identifiedBy :gaz_comp_EDISON_INTL .
+:gaz_comp_EDISON_INTL
+	:term "EDISON INTL" ;
+	:term "Edison International" ;
+	a :Gazetteer .
+
+:comp_EDWARDS_LIFESCIENCES
+	:identifiedBy :gaz_comp_EDWARDS_LIFESCIENCES .
+:gaz_comp_EDWARDS_LIFESCIENCES
+	:term "EDWARDS LIFESCIENCES" ;
+	:term "EDWARDS LIFESCIENCES CORPORATION" ;
+	:term "Edwards Lifesciences Corp" ;
+	a :Gazetteer .
+
+:comp_EL_PASO_CORP
+	:identifiedBy :gaz_comp_EL_PASO_CORP .
+:gaz_comp_EL_PASO_CORP
+	:term "EL PASO CORP." ;
+	:term "El Paso Corp." ;
+	:term "El Paso Corp" ;
+	a :Gazetteer .
+
+:comp_ELECTRONIC_ARTS_INC
+	:identifiedBy :gaz_comp_ELECTRONIC_ARTS_INC .
+:gaz_comp_ELECTRONIC_ARTS_INC
+	:term "ELECTRONIC ARTS INC." ;
+	:term "Electronic Arts Inc." ;
+	:term "Electronic Arts Inc" ;
+	a :Gazetteer .
+
+:comp_ELI_LILLY_CO
+	:identifiedBy :gaz_comp_ELI_LILLY_CO .
+:gaz_comp_ELI_LILLY_CO
+	:term "ELI LILLY & CO." ;
+	:term "Eli Lilly & Co." ;
+	:term "Eli Lilly And Co" ;
+	a :Gazetteer .
+
+:comp_EMC_CORP
+	:identifiedBy :gaz_comp_EMC_CORP .
+:gaz_comp_EMC_CORP
+	:term "EMC CORP." ;
+	:term "EMC Corp." ;
+	:term "EMC Corp" ;
+	:term "EMC Corporation" ;
+	a :Gazetteer .
+
+:comp_EMERSON_ELECTRIC_CO
+	:identifiedBy :gaz_comp_EMERSON_ELECTRIC_CO .
+:gaz_comp_EMERSON_ELECTRIC_CO
+	:term "EMERSON ELECTRIC CO." ;
+	:term "Emerson Electric Co." ;
+	:term "Emerson Electric Co" ;
+	a :Gazetteer .
+
+:comp_ENTERGY_CORP
+	:identifiedBy :gaz_comp_ENTERGY_CORP .
+:gaz_comp_ENTERGY_CORP
+	:term "ENTERGY CORP." ;
+	:term "Entergy Corp." ;
+	:term "Entergy Corp" ;
+	:term "Entergy Corporation" ;
+	a :Gazetteer .
+
+:comp_EOG_RESOURCES
+	:identifiedBy :gaz_comp_EOG_RESOURCES .
+:gaz_comp_EOG_RESOURCES
+	:term "EOG RESOURCES" ;
+	:term "EOG Resources, Inc." ;
+	:term "EOG Resources Inc" ;
+	a :Gazetteer .
+
+:comp_EQT_CORP
+	:identifiedBy :gaz_comp_EQT_CORP .
+:gaz_comp_EQT_CORP
+	:term "EQT CORP." ;
+	:term "EQT CORPORATION" ;
+	:term "EQT Corp" ;
+	:term "EQT Corporation" ;
+	a :Gazetteer .
+
+:comp_EQUIFAX
+	:identifiedBy :gaz_comp_EQUIFAX .
+:gaz_comp_EQUIFAX
+	:term "EQUIFAX" ;
+	:term "Equifax Inc." ;
+	:term "Equifax Inc" ;
+	a :Gazetteer .
+
+:comp_ESTEE_LAUDER
+	:identifiedBy :gaz_comp_ESTEE_LAUDER .
+:gaz_comp_ESTEE_LAUDER
+	:term "ESTEE LAUDER" ;
+	:term "Estee Lauder Companies, Inc." ;
+	:term "Estee Lauder Companies Inc" ;
+	:term "The Estee Lauder Companies Inc." ;
+	a :Gazetteer .
+
+:comp_EXELON_CORP
+	:identifiedBy :gaz_comp_EXELON_CORP .
+:gaz_comp_EXELON_CORP
+	:term "EXELON CORP." ;
+	:term "Exelon Corp." ;
+	:term "Exelon Corp" ;
+	:term "Exelon Corporation" ;
+	a :Gazetteer .
+
+:comp_EXPEDIA_INC
+	:identifiedBy :gaz_comp_EXPEDIA_INC .
+:gaz_comp_EXPEDIA_INC
+	:term "EXPEDIA INC." ;
+	:term "Expedia Inc." ;
+	:term "Expedia Inc" ;
+	:term "Expedia, Inc." ;
+	a :Gazetteer .
+
+:comp_EXPEDITORS_INTERNATIONAL_OF_WASHINGTON_INC
+	:identifiedBy :gaz_comp_EXPEDITORS_INTERNATIONAL_OF_WASHINGTON_INC .
+:gaz_comp_EXPEDITORS_INTERNATIONAL_OF_WASHINGTON_INC
+	:term "EXPEDITORS INTERNATIONAL OF WASHINGTON INC." ;
+	:term "Expeditors International of Washington Inc." ;
+	:term "Expeditors International of Washington Inc" ;
+	:term "Expeditors International of Washington" ;
+	a :Gazetteer .
+
+:comp_EXPRESS_SCRIPTS_HOLDING_INC
+	:identifiedBy :gaz_comp_EXPRESS_SCRIPTS_HOLDING_INC .
+:gaz_comp_EXPRESS_SCRIPTS_HOLDING_INC
+	:term "EXPRESS SCRIPTS HOLDING INC." ;
+	:term "Express Scripts Holding Inc." ;
+	:term "Express Scripts Inc" ;
+	:term "Express Scripts Holding Co" ;
+	a :Gazetteer .
+
+:comp_F5_NETWORKS_INC
+	:identifiedBy :gaz_comp_F5_NETWORKS_INC .
+:gaz_comp_F5_NETWORKS_INC
+	:term "F5 NETWORKS, INC." ;
+	:term "F5 Networks, Inc." ;
+	:term "F5 Networks Inc" ;
+	a :Gazetteer .
+
+:comp_FAMILY_DLR_STRS
+	:identifiedBy :gaz_comp_FAMILY_DLR_STRS .
+:gaz_comp_FAMILY_DLR_STRS
+	:term "FAMILY DLR STRS" ;
+	:term "Family Dollar Stores, Inc." ;
+	:term "Family Dollar Stores Inc" ;
+	a :Gazetteer .
+
+:comp_FASTENAL_CO
+	:identifiedBy :gaz_comp_FASTENAL_CO .
+:gaz_comp_FASTENAL_CO
+	:term "FASTENAL CO." ;
+	:term "Fastenal Co." ;
+	:term "Fastenal Co" ;
+	:term "Fastenal Company" ;
+	a :Gazetteer .
+
+:comp_FEDEX_CORP
+	:identifiedBy :gaz_comp_FEDEX_CORP .
+:gaz_comp_FEDEX_CORP
+	:term "FEDEX CORP." ;
+	:term "FedEx Corp." ;
+	:term "Fedex Corp" ;
+	:term "FedEx Corporation" ;
+	a :Gazetteer .
+
+:comp_FIFTH_THIRD_BANCORP
+	:identifiedBy :gaz_comp_FIFTH_THIRD_BANCORP .
+:gaz_comp_FIFTH_THIRD_BANCORP
+	:term "FIFTH THIRD BANCORP" ;
+	:term "Fifth Third Bancorp" ;
+	a :Gazetteer .
+
+:comp_FIRST_SOLAR_INC
+	:identifiedBy :gaz_comp_FIRST_SOLAR_INC .
+:gaz_comp_FIRST_SOLAR_INC
+	:term "FIRST SOLAR INC." ;
+	:term "First Solar Inc." ;
+	:term "First Solar Inc" ;
+	:term "First Solar, Inc." ;
+	a :Gazetteer .
+
+:comp_FIRSTENERGY_CORP
+	:identifiedBy :gaz_comp_FIRSTENERGY_CORP .
+:gaz_comp_FIRSTENERGY_CORP
+	:term "FIRSTENERGY CORP." ;
+	:term "FirstEnergy Corp." ;
+	:term "FirstEnergy Corp" ;
+	a :Gazetteer .
+
+:comp_FISERV_INC
+	:identifiedBy :gaz_comp_FISERV_INC .
+:gaz_comp_FISERV_INC
+	:term "FISERV INC." ;
+	:term "Fiserv Inc." ;
+	:term "Fiserv Inc" ;
+	:term "Fiserv, Inc." ;
+	a :Gazetteer .
+
+:comp_FLIR_SYSTEMS_INC
+	:identifiedBy :gaz_comp_FLIR_SYSTEMS_INC .
+:gaz_comp_FLIR_SYSTEMS_INC
+	:term "FLIR SYSTEMS INC." ;
+	:term "Flir Systems Inc." ;
+	:term "Flir Systems Inc" ;
+	:term "FLIR Systems, Inc." ;
+	a :Gazetteer .
+
+:comp_FLOWSERVE
+	:identifiedBy :gaz_comp_FLOWSERVE .
+:gaz_comp_FLOWSERVE
+	:term "FLOWSERVE" ;
+	:term "FLOWSERVE CORP" ;
+	:term "Flowserve Corp" ;
+	:term "Flowserve Corporation" ;
+	a :Gazetteer .
+
+:comp_FLUOR_CORPS
+	:identifiedBy :gaz_comp_FLUOR_CORPS .
+:gaz_comp_FLUOR_CORPS
+	:term "FLUOR CORPS" ;
+	:term "Fluor Corp" ;
+	:term "Fluor Corporation (NEW)" ;
+	a :Gazetteer .
+
+:comp_FMC
+	:identifiedBy :gaz_comp_FMC .
+:gaz_comp_FMC
+	:term "FMC" ;
+	:term "FMC Corp." ;
+	:term "FMC Corp" ;
+	:term "FMC Corporation" ;
+	a :Gazetteer .
+
+:comp_FMC_TECHNOLOGIES
+	:identifiedBy :gaz_comp_FMC_TECHNOLOGIES .
+:gaz_comp_FMC_TECHNOLOGIES
+	:term "FMC TECHNOLOGIES" ;
+	:term "FMC Technologies Inc" ;
+	:term "FMC Technologies, Inc." ;
+	a :Gazetteer .
+
+:comp_FORD_MOTOR_CO
+	:identifiedBy :gaz_comp_FORD_MOTOR_CO .
+:gaz_comp_FORD_MOTOR_CO
+	:term "FORD MOTOR CO." ;
+	:term "Ford Motor Co." ;
+	:term "Ford Motor Co" ;
+	:term "Ford Motor Company" ;
+	a :Gazetteer .
+
+:comp_FOREST_LABS
+	:identifiedBy :gaz_comp_FOREST_LABS .
+:gaz_comp_FOREST_LABS
+	:term "FOREST LABS" ;
+	:term "Forest laboratories Inc." ;
+	:term "Forest Laboratories Inc" ;
+	:term "Forest Laboratories, Inc." ;
+	a :Gazetteer .
+
+:comp_FOSSIL_INC
+	:identifiedBy :gaz_comp_FOSSIL_INC .
+:gaz_comp_FOSSIL_INC
+	:term "FOSSIL INC." ;
+	:term "Fossil Inc." ;
+	:term "Fossil Inc" ;
+	:term "Fossil, Inc." ;
+	a :Gazetteer .
+
+:comp_FREEPORT_MCMORAN_COPPER_GOLD_INC
+	:identifiedBy :gaz_comp_FREEPORT_MCMORAN_COPPER_GOLD_INC .
+:gaz_comp_FREEPORT_MCMORAN_COPPER_GOLD_INC
+	:term "FREEPORT-MCMORAN COPPER & GOLD INC." ;
+	:term "Freeport-McMoRan Copper & Gold Inc." ;
+	:term "Freeport McMoRan Copper & Gold Inc" ;
+	a :Gazetteer .
+
+:comp_FRONTIER_COMMUNICATIONS_CORPORATION
+	:identifiedBy :gaz_comp_FRONTIER_COMMUNICATIONS_CORPORATION .
+:gaz_comp_FRONTIER_COMMUNICATIONS_CORPORATION
+	:term "FRONTIER COMMUNICATIONS CORPORATION" ;
+	:term "Frontier Communications Ord Shs" ;
+	:term "Frontier Communications Corp" ;
+	a :Gazetteer .
+
+:comp_GAMESTOP_CORP
+	:identifiedBy :gaz_comp_GAMESTOP_CORP .
+:gaz_comp_GAMESTOP_CORP
+	:term "GAMESTOP CORP" ;
+	:term "GameStop Corp" ;
+	:term "GameStop Corp." ;
+	a :Gazetteer .
+
+:comp_GANNETT
+	:identifiedBy :gaz_comp_GANNETT .
+:gaz_comp_GANNETT
+	:term "GANNETT" ;
+	:term "Gannett Co., Inc." ;
+	:term "Gannett Co Inc" ;
+	a :Gazetteer .
+
+:comp_GAP
+	:identifiedBy :gaz_comp_GAP .
+:gaz_comp_GAP
+	:term "GAP" ;
+	:term "Gap Inc." ;
+	:term "Gap Inc" ;
+	:term "The Gap Inc." ;
+	a :Gazetteer .
+
+:comp_GENERAL_DYNAMICS_CORP
+	:identifiedBy :gaz_comp_GENERAL_DYNAMICS_CORP .
+:gaz_comp_GENERAL_DYNAMICS_CORP
+	:term "GENERAL DYNAMICS CORP." ;
+	:term "General Dynamics Corp." ;
+	:term "General Dynamics Corp" ;
+	:term "General Dynamics Corporation" ;
+	a :Gazetteer .
+
+:comp_GENERAL_MILLS
+	:identifiedBy :gaz_comp_GENERAL_MILLS .
+:gaz_comp_GENERAL_MILLS
+	:term "GENERAL MILLS" ;
+	:term "General Mills Inc." ;
+	:term "General Mills Inc" ;
+	:term "General Mills, Inc." ;
+	a :Gazetteer .
+
+:comp_GENWORTH_FINANCIAL_INC
+	:identifiedBy :gaz_comp_GENWORTH_FINANCIAL_INC .
+:gaz_comp_GENWORTH_FINANCIAL_INC
+	:term "GENWORTH FINANCIAL INC" ;
+	:term "Genworth Financial Inc" ;
+	:term "Genworth Financial, Inc." ;
+	a :Gazetteer .
+
+:comp_GILEAD_SCIENCES_INC
+	:identifiedBy :gaz_comp_GILEAD_SCIENCES_INC .
+:gaz_comp_GILEAD_SCIENCES_INC
+	:term "GILEAD SCIENCES INC." ;
+	:term "Gilead Sciences Inc." ;
+	:term "Gilead Sciences Inc" ;
+	:term "Gilead Sciences, Inc." ;
+	a :Gazetteer .
+
+:comp_GOLDMAN_SACHS_GROUP_INC
+	:identifiedBy :gaz_comp_GOLDMAN_SACHS_GROUP_INC .
+:gaz_comp_GOLDMAN_SACHS_GROUP_INC
+	:term "GOLDMAN SACHS GROUP INC." ;
+	:term "Goldman Sachs Group Inc." ;
+	:term "Goldman Sachs Group Inc" ;
+	:term "Goldman Sachs Group, Inc." ;
+	a :Gazetteer .
+
+:comp_GOODYEAR_TIRE
+	:identifiedBy :gaz_comp_GOODYEAR_TIRE .
+:gaz_comp_GOODYEAR_TIRE
+	:term "GOODYEAR TIRE" ;
+	:term "Goodyear Tire & Rubber Company" ;
+	:term "The Goodyear Tire & Rubber Co" ;
+	:term "The Goodyear Tire & Rubber Company" ;
+	a :Gazetteer .
+
+:comp_GOOGLE_INC
+	:identifiedBy :gaz_comp_GOOGLE_INC .
+:gaz_comp_GOOGLE_INC
+	:term "GOOGLE INC." ;
+	:term "Google Inc." ;
+	:term "Google Inc" ;
+	a :Gazetteer .
+
+:comp_HALLIBURTON_CO
+	:identifiedBy :gaz_comp_HALLIBURTON_CO .
+:gaz_comp_HALLIBURTON_CO
+	:term "HALLIBURTON CO." ;
+	:term "Halliburton Co." ;
+	:term "Halliburton Co" ;
+	:term "Halliburton Company" ;
+	a :Gazetteer .
+
+:comp_HARLEY_DAVIDSON
+	:identifiedBy :gaz_comp_HARLEY_DAVIDSON .
+:gaz_comp_HARLEY_DAVIDSON
+	:term "HARLEY DAVIDSON" ;
+	:term "Harley-Davidson" ;
+	:term "Harley-Davidson Inc" ;
+	:term "Harley-Davidson, Inc." ;
+	a :Gazetteer .
+
+:comp_HARMAN_INTL
+	:identifiedBy :gaz_comp_HARMAN_INTL .
+:gaz_comp_HARMAN_INTL
+	:term "HARMAN INTL" ;
+	:term "Harman International Industries Inc" ;
+	:term "Harman International Industries Inc./DE/" ;
+	a :Gazetteer .
+
+:comp_THE_HARTFORD_FINANCIAL_SERVICES_GROUP_INC
+	:identifiedBy :gaz_comp_THE_HARTFORD_FINANCIAL_SERVICES_GROUP_INC .
+:gaz_comp_THE_HARTFORD_FINANCIAL_SERVICES_GROUP_INC
+	:term "THE HARTFORD FINANCIAL SERVICES GROUP INC." ;
+	:term "The Hartford Financial Services Group Inc." ;
+	:term "Hartford Financial Services Group Inc" ;
+	:term "Hartford Financial Services" ;
+	a :Gazetteer .
+
+:comp_HASBRO_INC
+	:identifiedBy :gaz_comp_HASBRO_INC .
+:gaz_comp_HASBRO_INC
+	:term "HASBRO INC." ;
+	:term "Hasbro Inc." ;
+	:term "Hasbro Inc" ;
+	:term "Hasbro, Inc." ;
+	a :Gazetteer .
+
+:comp_H_J_HEINZ_CO
+	:identifiedBy :gaz_comp_H_J_HEINZ_CO .
+:gaz_comp_H_J_HEINZ_CO
+	:term "H.J. HEINZ CO." ;
+	:term "H.J. Heinz Co." ;
+	:term "H J Heinz Co" ;
+	:term "H.J. Heinz Company" ;
+	a :Gazetteer .
+
+:comp_HELMERICH_PAYNE_INC
+	:identifiedBy :gaz_comp_HELMERICH_PAYNE_INC .
+:gaz_comp_HELMERICH_PAYNE_INC
+	:term "HELMERICH & PAYNE INC" ;
+	:term "Helmerich & Payne Inc" ;
+	:term "Helmerich & Payne, Inc." ;
+	a :Gazetteer .
+
+:comp_HESS_CORPORATION
+	:identifiedBy :gaz_comp_HESS_CORPORATION .
+:gaz_comp_HESS_CORPORATION
+	:term "HESS CORPORATION" ;
+	:term "Hess Corp" ;
+	:term "Hess Corp." ;
+	a :Gazetteer .
+
+:comp_HONEYWELL_INTERNATIONAL_INC
+	:identifiedBy :gaz_comp_HONEYWELL_INTERNATIONAL_INC .
+:gaz_comp_HONEYWELL_INTERNATIONAL_INC
+	:term "HONEYWELL INTERNATIONAL INC." ;
+	:term "Honeywell International Inc." ;
+	:term "Honeywell International Inc" ;
+	a :Gazetteer .
+
+:comp_HOSPIRA_INC
+	:identifiedBy :gaz_comp_HOSPIRA_INC .
+:gaz_comp_HOSPIRA_INC
+	:term "HOSPIRA INC" ;
+	:term "Hospira Inc." ;
+	:term "Hospira Inc" ;
+	:term "Hospira, Inc." ;
+	a :Gazetteer .
+
+:comp_HUMANA
+	:identifiedBy :gaz_comp_HUMANA .
+:gaz_comp_HUMANA
+	:term "HUMANA" ;
+	:term "Humana Inc." ;
+	:term "Humana Inc" ;
+	a :Gazetteer .
+
+:comp_HUNTINGTON_BANCSHARES
+	:identifiedBy :gaz_comp_HUNTINGTON_BANCSHARES .
+:gaz_comp_HUNTINGTON_BANCSHARES
+	:term "HUNTINGTON BANCSHARES" ;
+	:term "Huntington Bancshares Incorporated" ;
+	:term "Huntington Bancshares Inc" ;
+	a :Gazetteer .
+
+:comp_ILLINOIS_TOOL
+	:identifiedBy :gaz_comp_ILLINOIS_TOOL .
+:gaz_comp_ILLINOIS_TOOL
+	:term "ILLINOIS TOOL" ;
+	:term "Illinois Tool Works Inc." ;
+	:term "Illinois Tool Works Inc" ;
+	a :Gazetteer .
+
+:comp_INGERSOLL_RAND_PLC
+	:identifiedBy :gaz_comp_INGERSOLL_RAND_PLC .
+:gaz_comp_INGERSOLL_RAND_PLC
+	:term "INGERSOLL-RAND PLC" ;
+	:term "Ingersoll-Rand PLC" ;
+	:term "Ingersoll Rand Public Ltd Co" ;
+	a :Gazetteer .
+
+:comp_INTEGRYS_ENERGY_GROUP_INC
+	:identifiedBy :gaz_comp_INTEGRYS_ENERGY_GROUP_INC .
+:gaz_comp_INTEGRYS_ENERGY_GROUP_INC
+	:term "INTEGRYS ENERGY GROUP INC." ;
+	:term "Integrys Energy Group Inc" ;
+	:term "Integrys Energy Group, Inc." ;
+	a :Gazetteer .
+
+:comp_INTERNATIONAL_FLAVORS_FRAGANCES_INC
+	:identifiedBy :gaz_comp_INTERNATIONAL_FLAVORS_FRAGANCES_INC .
+:gaz_comp_INTERNATIONAL_FLAVORS_FRAGANCES_INC
+	:term "INTERNATIONAL FLAVORS & FRAGANCES INC." ;
+	:term "International Flavors & Fragances Inc." ;
+	:term "International Flavors & Fragrances Inc" ;
+	:term "International Flavors & Fragrances Inc." ;
+	a :Gazetteer .
+
+:comp_INTL_GAME_TECH
+	:identifiedBy :gaz_comp_INTL_GAME_TECH .
+:gaz_comp_INTL_GAME_TECH
+	:term "INTL GAME TECH" ;
+	:term "International Game Technology" ;
+	a :Gazetteer .
+
+:comp_INTERNATIONAL_PAPER_CO
+	:identifiedBy :gaz_comp_INTERNATIONAL_PAPER_CO .
+:gaz_comp_INTERNATIONAL_PAPER_CO
+	:term "INTERNATIONAL PAPER CO." ;
+	:term "International Paper Co" ;
+	:term "International Paper Company" ;
+	a :Gazetteer .
+
+:comp_INTERPUBLIC_GRP
+	:identifiedBy :gaz_comp_INTERPUBLIC_GRP .
+:gaz_comp_INTERPUBLIC_GRP
+	:term "INTERPUBLIC GRP" ;
+	:term "The Interpublic Group of Companies, Inc." ;
+	:term "Interpublic Group of Companies Inc" ;
+	:term "Interpublic Group of Companies, Inc." ;
+	a :Gazetteer .
+
+:comp_INTUIT_INC
+	:identifiedBy :gaz_comp_INTUIT_INC .
+:gaz_comp_INTUIT_INC
+	:term "INTUIT INC." ;
+	:term "Intuit Inc." ;
+	:term "Intuit Inc" ;
+	a :Gazetteer .
+
+:comp_INTUITIVE_SURGICAL_INC
+	:identifiedBy :gaz_comp_INTUITIVE_SURGICAL_INC .
+:gaz_comp_INTUITIVE_SURGICAL_INC
+	:term "INTUITIVE SURGICAL INC." ;
+	:term "Intuitive Surgical Inc." ;
+	:term "Intuitive Surgical Inc" ;
+	:term "Intuitive Surgical, Inc." ;
+	a :Gazetteer .
+
+:comp_INVESCO_LTD
+	:identifiedBy :gaz_comp_INVESCO_LTD .
+:gaz_comp_INVESCO_LTD
+	:term "INVESCO LTD" ;
+	:term "Invesco PLC" ;
+	:term "Invesco Holding Co Ltd" ;
+	:term "Invesco Ltd." ;
+	a :Gazetteer .
+
+:comp_IRON_MOUNTAIN
+	:identifiedBy :gaz_comp_IRON_MOUNTAIN .
+:gaz_comp_IRON_MOUNTAIN
+	:term "IRON MOUNTAIN" ;
+	:term "Iron Mountain Inc." ;
+	:term "Iron Mountain Inc" ;
+	:term "Iron Mountain Incorporated" ;
+	a :Gazetteer .
+
+:comp_J_C_PENNEY
+	:identifiedBy :gaz_comp_J_C_PENNEY .
+:gaz_comp_J_C_PENNEY
+	:term "J.C. PENNEY" ;
+	:term "J. C. Penney Company Inc." ;
+	:term "J C Penney Co Inc" ;
+	:term "J.C. Penney Company, Inc." ;
+	a :Gazetteer .
+
+:comp_JABIL_CIRCUIT
+	:identifiedBy :gaz_comp_JABIL_CIRCUIT .
+:gaz_comp_JABIL_CIRCUIT
+	:term "JABIL CIRCUIT" ;
+	:term "Jabil Circuit, Inc." ;
+	:term "Jabil Circuit Inc" ;
+	a :Gazetteer .
+
+:comp_JDS_UNIPHASE_CORP
+	:identifiedBy :gaz_comp_JDS_UNIPHASE_CORP .
+:gaz_comp_JDS_UNIPHASE_CORP
+	:term "JDS UNIPHASE CORP." ;
+	:term "Jds Uniphase Corp" ;
+	:term "JDS Uniphase Corporation" ;
+	a :Gazetteer .
+
+:comp_JOHNSON_CONTROLS
+	:identifiedBy :gaz_comp_JOHNSON_CONTROLS .
+:gaz_comp_JOHNSON_CONTROLS
+	:term "JOHNSON CONTROLS" ;
+	:term "Johnson Controls, Inc." ;
+	:term "Johnson Controls Inc" ;
+	a :Gazetteer .
+
+:comp_JOY_GLOBAL_INC
+	:identifiedBy :gaz_comp_JOY_GLOBAL_INC .
+:gaz_comp_JOY_GLOBAL_INC
+	:term "JOY GLOBAL INC." ;
+	:term "Joy Global Inc." ;
+	:term "Joy Global Inc" ;
+	a :Gazetteer .
+
+:comp_JUNIPER_NETWORKS_INC
+	:identifiedBy :gaz_comp_JUNIPER_NETWORKS_INC .
+:gaz_comp_JUNIPER_NETWORKS_INC
+	:term "JUNIPER NETWORKS, INC." ;
+	:term "Juniper Networks, Inc." ;
+	:term "Juniper Networks Inc" ;
+	a :Gazetteer .
+
+:comp_KELLOGG
+	:identifiedBy :gaz_comp_KELLOGG .
+:gaz_comp_KELLOGG
+	:term "KELLOGG" ;
+	:term "Kellogg Company" ;
+	:term "Kellogg Co" ;
+	a :Gazetteer .
+
+:comp_KEYCORP
+	:identifiedBy :gaz_comp_KEYCORP .
+:gaz_comp_KEYCORP
+	:term "KEYCORP" ;
+	:term "KeyCorp" ;
+	a :Gazetteer .
+
+:comp_KIMBERLY_CLARK
+	:identifiedBy :gaz_comp_KIMBERLY_CLARK .
+:gaz_comp_KIMBERLY_CLARK
+	:term "KIMBERLY CLARK" ;
+	:term "Kimberly-Clark Corporation" ;
+	:term "Kimberly Clark Corp" ;
+	a :Gazetteer .
+
+:comp_KLA_TENCOR_CORP
+	:identifiedBy :gaz_comp_KLA_TENCOR_CORP .
+:gaz_comp_KLA_TENCOR_CORP
+	:term "KLA-TENCOR CORP." ;
+	:term "KLA-Tencor Corp." ;
+	:term "KLA-Tencor Corp" ;
+	:term "KLA-Tencor Corporation" ;
+	a :Gazetteer .
+
+:comp_KOHL_S_CORP
+	:identifiedBy :gaz_comp_KOHL_S_CORP .
+:gaz_comp_KOHL_S_CORP
+	:term "KOHL'S CORP." ;
+	:term "Kohl's Corporation" ;
+	:term "Kohl's Corp" ;
+	a :Gazetteer .
+
+:comp_KROGER
+	:identifiedBy :gaz_comp_KROGER .
+:gaz_comp_KROGER
+	:term "KROGER" ;
+	:term "The Kroger Co." ;
+	:term "Kroger Co" ;
+	a :Gazetteer .
+
+:comp_L_3_COMMUNICATIONS_HLDGS_INC
+	:identifiedBy :gaz_comp_L_3_COMMUNICATIONS_HLDGS_INC .
+:gaz_comp_L_3_COMMUNICATIONS_HLDGS_INC
+	:term "L-3 COMMUNICATIONS HLDGS INC." ;
+	:term "L-3 Communications Holdings Inc" ;
+	:term "L-3 Communications Holdings, Inc." ;
+	a :Gazetteer .
+
+:comp_LENNAR
+	:identifiedBy :gaz_comp_LENNAR .
+:gaz_comp_LENNAR
+	:term "LENNAR" ;
+	:term "Lennar Corp." ;
+	:term "Lennar Corp" ;
+	:term "Lennar Corporation" ;
+	a :Gazetteer .
+
+:comp_LEXMARK_INTL
+	:identifiedBy :gaz_comp_LEXMARK_INTL .
+:gaz_comp_LEXMARK_INTL
+	:term "LEXMARK INTL" ;
+	:term "Lexmark Int. Grp., Inc." ;
+	:term "Lexmark International Inc" ;
+	:term "Lexmark International, Inc." ;
+	a :Gazetteer .
+
+:comp_LIFE_TECHNOLOGIES_CORP
+	:identifiedBy :gaz_comp_LIFE_TECHNOLOGIES_CORP .
+:gaz_comp_LIFE_TECHNOLOGIES_CORP
+	:term "LIFE TECHNOLOGIES CORP." ;
+	:term "Life Technologies Corp." ;
+	:term "Life Technologies Corp" ;
+	a :Gazetteer .
+
+:comp_LIMITED_BRANDS_INC
+	:identifiedBy :gaz_comp_LIMITED_BRANDS_INC .
+:gaz_comp_LIMITED_BRANDS_INC
+	:term "LIMITED BRANDS INC." ;
+	:term "Limited Brands Inc." ;
+	:term "Limited Brands Inc" ;
+	:term "Limited Brands, Inc." ;
+	a :Gazetteer .
+
+:comp_LINCOLN_NATIONAL_CORP
+	:identifiedBy :gaz_comp_LINCOLN_NATIONAL_CORP .
+:gaz_comp_LINCOLN_NATIONAL_CORP
+	:term "LINCOLN NATIONAL CORP." ;
+	:term "Lincoln National Corp." ;
+	:term "Lincoln National Corp" ;
+	:term "Lincoln National Corporation" ;
+	a :Gazetteer .
+
+:comp_LINEAR_TECHNOLOGY_CORP
+	:identifiedBy :gaz_comp_LINEAR_TECHNOLOGY_CORP .
+:gaz_comp_LINEAR_TECHNOLOGY_CORP
+	:term "LINEAR TECHNOLOGY CORP." ;
+	:term "Linear Technology Corp." ;
+	:term "Linear Technology Corp" ;
+	:term "Linear Technology Corporation" ;
+	a :Gazetteer .
+
+:comp_LOCKHEED_MARTIN_CORP
+	:identifiedBy :gaz_comp_LOCKHEED_MARTIN_CORP .
+:gaz_comp_LOCKHEED_MARTIN_CORP
+	:term "LOCKHEED MARTIN CORP." ;
+	:term "Lockheed Martin Corp." ;
+	:term "Lockheed Martin Corp" ;
+	:term "Lockheed Martin Corporation" ;
+	a :Gazetteer .
+
+:comp_LORILLARD_INC
+	:identifiedBy :gaz_comp_LORILLARD_INC .
+:gaz_comp_LORILLARD_INC
+	:term "LORILLARD INC" ;
+	:term "Lorillard Inc" ;
+	:term "Lorillard Inc." ;
+	a :Gazetteer .
+
+:comp_LOWE_S_COMPANIES_INC
+	:identifiedBy :gaz_comp_LOWE_S_COMPANIES_INC .
+:gaz_comp_LOWE_S_COMPANIES_INC
+	:term "LOWE'S COMPANIES INC." ;
+	:term "Lowe's Companies Inc." ;
+	:term "Lowes Companies Inc" ;
+	:term "Lowe's Companies, Inc." ;
+	a :Gazetteer .
+
+:comp_LSI_LOGIC
+	:identifiedBy :gaz_comp_LSI_LOGIC .
+:gaz_comp_LSI_LOGIC
+	:term "LSI LOGIC" ;
+	:term "LSI Logic Corporation" ;
+	:term "Lsi Corp" ;
+	:term "LSI Corporation" ;
+	a :Gazetteer .
+
+:comp_MACYS_INC
+	:identifiedBy :gaz_comp_MACYS_INC .
+:gaz_comp_MACYS_INC
+	:term "MACYS INC" ;
+	:term "Macy's Inc" ;
+	:term "Macy's, Inc." ;
+	a :Gazetteer .
+
+:comp_MARATHON_OIL
+	:identifiedBy :gaz_comp_MARATHON_OIL .
+:gaz_comp_MARATHON_OIL
+	:term "MARATHON OIL" ;
+	:term "Marathon Oil Corp." ;
+	:term "Marathon Oil Corp" ;
+	:term "Marathon Oil Corporation" ;
+	a :Gazetteer .
+
+:comp_MARATHON_PETROLEUM_CORP
+	:identifiedBy :gaz_comp_MARATHON_PETROLEUM_CORP .
+:gaz_comp_MARATHON_PETROLEUM_CORP
+	:term "MARATHON PETROLEUM CORP" ;
+	:term "Marathon Petroleum Corp." ;
+	:term "Marathon Petroleum Corp" ;
+	a :Gazetteer .
+
+:comp_MARSH_MCLENNAN_COS_INC
+	:identifiedBy :gaz_comp_MARSH_MCLENNAN_COS_INC .
+:gaz_comp_MARSH_MCLENNAN_COS_INC
+	:term "MARSH & MCLENNAN COS. INC." ;
+	:term "Marsh & McLennan Cos. Inc." ;
+	:term "Marsh and Mclennan Companies Inc" ;
+	:term "Marsh & McLennan Companies, Inc." ;
+	a :Gazetteer .
+
+:comp_MASCO
+	:identifiedBy :gaz_comp_MASCO .
+:gaz_comp_MASCO
+	:term "MASCO" ;
+	:term "Masco Corporation" ;
+	:term "Masco Corp" ;
+	a :Gazetteer .
+
+:comp_MASTERCARD_INC
+	:identifiedBy :gaz_comp_MASTERCARD_INC .
+:gaz_comp_MASTERCARD_INC
+	:term "MASTERCARD INC." ;
+	:term "MasterCard Inc." ;
+	:term "MasterCard Inc" ;
+	:term "MasterCard Incorporated" ;
+	a :Gazetteer .
+
+:comp_MATTEL_INC
+	:identifiedBy :gaz_comp_MATTEL_INC .
+:gaz_comp_MATTEL_INC
+	:term "MATTEL INC." ;
+	:term "Mattel Inc." ;
+	:term "Mattel Inc" ;
+	:term "Mattel, Inc." ;
+	a :Gazetteer .
+
+:comp_MCCORMICK
+	:identifiedBy :gaz_comp_MCCORMICK .
+:gaz_comp_MCCORMICK
+	:term "MCCORMICK" ;
+	:term "McCormick & Company  Mccormick" ;
+	:term "Mccormick and Co Inc" ;
+	:term "McCormick & Company, Incorporated" ;
+	a :Gazetteer .
+
+:comp_MCGRAW_HILL_COMPANIES_INC
+	:identifiedBy :gaz_comp_MCGRAW_HILL_COMPANIES_INC .
+:gaz_comp_MCGRAW_HILL_COMPANIES_INC
+	:term "MCGRAW-HILL COMPANIES, INC." ;
+	:term "McGraw-Hill Companies, Inc." ;
+	:term "McGraw-Hill Companies Inc" ;
+	:term "The McGraw-Hill Companies, Inc." ;
+	a :Gazetteer .
+
+:comp_MCKESSON_CORPORATION
+	:identifiedBy :gaz_comp_MCKESSON_CORPORATION .
+:gaz_comp_MCKESSON_CORPORATION
+	:term "MCKESSON CORPORATION" ;
+	:term "McKesson Corp" ;
+	:term "McKesson Corporation" ;
+	a :Gazetteer .
+
+:comp_MEAD_JOHNSON_NUTRITION_CO
+	:identifiedBy :gaz_comp_MEAD_JOHNSON_NUTRITION_CO .
+:gaz_comp_MEAD_JOHNSON_NUTRITION_CO
+	:term "MEAD JOHNSON NUTRITION CO." ;
+	:term "Mead Johnson Nutrition Co." ;
+	:term "Mead Johnson Nutrition Co" ;
+	:term "Mead Johnson Nutrition CO" ;
+	a :Gazetteer .
+
+:comp_MEDTRONIC_INC
+	:identifiedBy :gaz_comp_MEDTRONIC_INC .
+:gaz_comp_MEDTRONIC_INC
+	:term "MEDTRONIC INC." ;
+	:term "Medtronic Inc." ;
+	:term "Medtronic Inc" ;
+	:term "Medtronic, Inc." ;
+	a :Gazetteer .
+
+:comp_METLIFE_INC
+	:identifiedBy :gaz_comp_METLIFE_INC .
+:gaz_comp_METLIFE_INC
+	:term "METLIFE INC." ;
+	:term "MetLife Inc." ;
+	:term "Metlife Inc" ;
+	:term "MetLife, Inc." ;
+	a :Gazetteer .
+
+:comp_MICROCHIP_TECHNOLOGY_INC
+	:identifiedBy :gaz_comp_MICROCHIP_TECHNOLOGY_INC .
+:gaz_comp_MICROCHIP_TECHNOLOGY_INC
+	:term "MICROCHIP TECHNOLOGY INC." ;
+	:term "Microchip Technology Inc." ;
+	:term "Microchip Technology Inc" ;
+	a :Gazetteer .
+
+:comp_MICRON_TECHNOLOGY_INC
+	:identifiedBy :gaz_comp_MICRON_TECHNOLOGY_INC .
+:gaz_comp_MICRON_TECHNOLOGY_INC
+	:term "MICRON TECHNOLOGY INC." ;
+	:term "Micron Technology Inc." ;
+	:term "Micron Technology Inc" ;
+	:term "Micron Technology, Inc." ;
+	a :Gazetteer .
+
+:comp_MOLEX_INC
+	:identifiedBy :gaz_comp_MOLEX_INC .
+:gaz_comp_MOLEX_INC
+	:term "MOLEX INC." ;
+	:term "Molex Inc" ;
+	:term "Molex Incorporated" ;
+	a :Gazetteer .
+
+:comp_MONSANTO_CO
+	:identifiedBy :gaz_comp_MONSANTO_CO .
+:gaz_comp_MONSANTO_CO
+	:term "MONSANTO CO." ;
+	:term "Monsanto Co." ;
+	:term "Monsanto Co" ;
+	:term "Monsanto Company" ;
+	a :Gazetteer .
+
+:comp_MOODY_S_CORPORATION
+	:identifiedBy :gaz_comp_MOODY_S_CORPORATION .
+:gaz_comp_MOODY_S_CORPORATION
+	:term "MOODY'S CORPORATION" ;
+	:term "Moody's Corporation" ;
+	:term "Moodys Corp" ;
+	a :Gazetteer .
+
+:comp_MORGAN_STANLEY
+	:identifiedBy :gaz_comp_MORGAN_STANLEY .
+:gaz_comp_MORGAN_STANLEY
+	:term "MORGAN STANLEY" ;
+	:term "Morgan Stanley" ;
+	a :Gazetteer .
+
+:comp_MOSAIC
+	:identifiedBy :gaz_comp_MOSAIC .
+:gaz_comp_MOSAIC
+	:term "MOSAIC" ;
+	:term "Mosaic Co." ;
+	:term "Mosaic Co" ;
+	a :Gazetteer .
+
+:comp_MOTOROLA_MOBILITY_HOLDINGS
+	:identifiedBy :gaz_comp_MOTOROLA_MOBILITY_HOLDINGS .
+:gaz_comp_MOTOROLA_MOBILITY_HOLDINGS
+	:term "MOTOROLA MOBILITY HOLDINGS" ;
+	:term "Motorola Mobility Holdings Inc" ;
+	a :Gazetteer .
+
+:comp_MOTOROLA_SOLUTIONS
+	:identifiedBy :gaz_comp_MOTOROLA_SOLUTIONS .
+:gaz_comp_MOTOROLA_SOLUTIONS
+	:term "MOTOROLA SOLUTIONS" ;
+	:term "Motorola Solutions Inc." ;
+	:term "Motorola Solutions Inc" ;
+	a :Gazetteer .
+
+:comp_MYLAN_INC
+	:identifiedBy :gaz_comp_MYLAN_INC .
+:gaz_comp_MYLAN_INC
+	:term "MYLAN INC." ;
+	:term "Mylan Inc." ;
+	:term "Mylan Ord Shs" ;
+	a :Gazetteer .
+
+:comp_NASDAQ_OMX_GROUP_INC
+	:identifiedBy :gaz_comp_NASDAQ_OMX_GROUP_INC .
+:gaz_comp_NASDAQ_OMX_GROUP_INC
+	:term "NASDAQ OMX GROUP INC" ;
+	:term "NASDAQ OMX Group Inc" ;
+	:term "NASDAQ OMX Group, Inc." ;
+	a :Gazetteer .
+
+:comp_NATIONAL_OILWELL_VARCO_INC
+	:identifiedBy :gaz_comp_NATIONAL_OILWELL_VARCO_INC .
+:gaz_comp_NATIONAL_OILWELL_VARCO_INC
+	:term "NATIONAL OILWELL VARCO INC." ;
+	:term "National Oilwell Varco Inc." ;
+	:term "National Oilwell Varco Inc" ;
+	:term "National-Oilwell Varco, Inc." ;
+	a :Gazetteer .
+
+:comp_NETAPP_INC
+	:identifiedBy :gaz_comp_NETAPP_INC .
+:gaz_comp_NETAPP_INC
+	:term "NETAPP INC." ;
+	:term "NetApp Inc." ;
+	:term "NetApp Inc" ;
+	a :Gazetteer .
+
+:comp_NETFLIX_INC
+	:identifiedBy :gaz_comp_NETFLIX_INC .
+:gaz_comp_NETFLIX_INC
+	:term "NETFLIX INC." ;
+	:term "Netflix Inc." ;
+	:term "Netflix Inc" ;
+	:term "Netflix, Inc." ;
+	a :Gazetteer .
+
+:comp_NEWFIELD_EXPLORATION
+	:identifiedBy :gaz_comp_NEWFIELD_EXPLORATION .
+:gaz_comp_NEWFIELD_EXPLORATION
+	:term "NEWFIELD EXPLORATION" ;
+	:term "Newfield Exploration Co." ;
+	:term "Newfield Exploration Co" ;
+	a :Gazetteer .
+
+:comp_NEWMONT_MINING
+	:identifiedBy :gaz_comp_NEWMONT_MINING .
+:gaz_comp_NEWMONT_MINING
+	:term "NEWMONT MINING" ;
+	:term "Newmont Mining Corporation" ;
+	:term "Newmont Mining Corp" ;
+	a :Gazetteer .
+
+:comp_NEWS_CORP
+	:identifiedBy :gaz_comp_NEWS_CORP .
+:gaz_comp_NEWS_CORP
+	:term "NEWS CORP." ;
+	:term "News Corp." ;
+	:term "News Ord Shs Class A" ;
+	:term "News Corp" ;
+	a :Gazetteer .
+
+:comp_NIKE_INC
+	:identifiedBy :gaz_comp_NIKE_INC .
+:gaz_comp_NIKE_INC
+	:term "NIKE INC." ;
+	:term "NIKE Inc." ;
+	:term "Nike Inc" ;
+	:term "NIKE, Inc." ;
+	a :Gazetteer .
+
+:comp_NOBLE_CORPORATION
+	:identifiedBy :gaz_comp_NOBLE_CORPORATION .
+:gaz_comp_NOBLE_CORPORATION
+	:term "NOBLE CORPORATION" ;
+	:term "Noble Corporation" ;
+	:term "Noble Corp" ;
+	a :Gazetteer .
+
+:comp_NOBLE_ENERGY
+	:identifiedBy :gaz_comp_NOBLE_ENERGY .
+:gaz_comp_NOBLE_ENERGY
+	:term "NOBLE ENERGY" ;
+	:term "Noble Energy Inc." ;
+	:term "Noble Energy Inc" ;
+	:term "Noble Energy, Inc." ;
+	a :Gazetteer .
+
+:comp_NORDSTROM
+	:identifiedBy :gaz_comp_NORDSTROM .
+:gaz_comp_NORDSTROM
+	:term "NORDSTROM" ;
+	:term "Nordstrom Inc" ;
+	:term "Nordstrom, Inc." ;
+	a :Gazetteer .
+
+:comp_NORFOLK_SOUTHERN_CORP
+	:identifiedBy :gaz_comp_NORFOLK_SOUTHERN_CORP .
+:gaz_comp_NORFOLK_SOUTHERN_CORP
+	:term "NORFOLK SOUTHERN CORP." ;
+	:term "Norfolk Southern Corp." ;
+	:term "Norfolk Southern Corp" ;
+	a :Gazetteer .
+
+:comp_NORTHERN_TRUST
+	:identifiedBy :gaz_comp_NORTHERN_TRUST .
+:gaz_comp_NORTHERN_TRUST
+	:term "NORTHERN TRUST" ;
+	:term "Northern Trust Corporation" ;
+	:term "Northern Trust Corp" ;
+	a :Gazetteer .
+
+:comp_NORTHROP_GRUMMAN
+	:identifiedBy :gaz_comp_NORTHROP_GRUMMAN .
+:gaz_comp_NORTHROP_GRUMMAN
+	:term "NORTHROP GRUMMAN" ;
+	:term "Northrop Grumman Corp." ;
+	:term "Northrop Grumman Corp" ;
+	:term "Northrop Grumman Corporation" ;
+	a :Gazetteer .
+
+:comp_NOVELLUS_SYSTEMS_INC
+	:identifiedBy :gaz_comp_NOVELLUS_SYSTEMS_INC .
+:gaz_comp_NOVELLUS_SYSTEMS_INC
+	:term "NOVELLUS SYSTEMS INC." ;
+	:term "Novellus Systems Inc" ;
+	:term "Novellus Systems, Inc." ;
+	a :Gazetteer .
+
+:comp_NRG_ENERGY_INC
+	:identifiedBy :gaz_comp_NRG_ENERGY_INC .
+:gaz_comp_NRG_ENERGY_INC
+	:term "NRG ENERGY INC" ;
+	:term "NRG Energy Inc" ;
+	:term "NRG Energy, Inc." ;
+	a :Gazetteer .
+
+:comp_NUCOR
+	:identifiedBy :gaz_comp_NUCOR .
+:gaz_comp_NUCOR
+	:term "NUCOR" ;
+	:term "Nucor Corp." ;
+	:term "Nucor Corp" ;
+	:term "Nucor Corporation" ;
+	a :Gazetteer .
+
+:comp_NVIDIA_CORP
+	:identifiedBy :gaz_comp_NVIDIA_CORP .
+:gaz_comp_NVIDIA_CORP
+	:term "NVIDIA CORP." ;
+	:term "NVIDIA Corp." ;
+	:term "Nvidia Corp" ;
+	:term "NVIDIA Corporation" ;
+	a :Gazetteer .
+
+:comp_NYSE_EURONEXT
+	:identifiedBy :gaz_comp_NYSE_EURONEXT .
+:gaz_comp_NYSE_EURONEXT
+	:term "NYSE EURONEXT" ;
+	:term "NYSE Euronext" ;
+	a :Gazetteer .
+
+:comp_OCCIDENTAL_PETROLEUM_CORP
+	:identifiedBy :gaz_comp_OCCIDENTAL_PETROLEUM_CORP .
+:gaz_comp_OCCIDENTAL_PETROLEUM_CORP
+	:term "OCCIDENTAL PETROLEUM CORP." ;
+	:term "Occidental Petroleum Corp." ;
+	:term "Occidental Petroleum Corp" ;
+	:term "Occidental Petroleum Corporation" ;
+	a :Gazetteer .
+
+:comp_ONEOK_INC
+	:identifiedBy :gaz_comp_ONEOK_INC .
+:gaz_comp_ONEOK_INC
+	:term "ONEOK INC." ;
+	:term "ONEOK Inc." ;
+	:term "Oneok Inc" ;
+	:term "ONEOK, Inc." ;
+	a :Gazetteer .
+
+:comp_ORACLE_CORP
+	:identifiedBy :gaz_comp_ORACLE_CORP .
+:gaz_comp_ORACLE_CORP
+	:term "ORACLE CORP." ;
+	:term "Oracle Corp." ;
+	:term "Oracle Corp" ;
+	:term "Oracle Corporation" ;
+	a :Gazetteer .
+
+:comp_O_REILLY_AUTOMOTIVE_INC
+	:identifiedBy :gaz_comp_O_REILLY_AUTOMOTIVE_INC .
+:gaz_comp_O_REILLY_AUTOMOTIVE_INC
+	:term "O'REILLY AUTOMOTIVE INC." ;
+	:term "O'Reilly Automotive Inc." ;
+	:term "O'Reilly Automotive Inc" ;
+	:term "O'Reilly Automotive, Inc." ;
+	a :Gazetteer .
+
+:comp_PACCAR_INC
+	:identifiedBy :gaz_comp_PACCAR_INC .
+:gaz_comp_PACCAR_INC
+	:term "PACCAR INC." ;
+	:term "PACCAR Inc." ;
+	:term "Paccar Inc" ;
+	:term "PACCAR Inc" ;
+	a :Gazetteer .
+
+:comp_PALL
+	:identifiedBy :gaz_comp_PALL .
+:gaz_comp_PALL
+	:term "PALL" ;
+	:term "Pall Corporation" ;
+	:term "Pall Corp" ;
+	a :Gazetteer .
+
+:comp_PARKER_HANNIFIN
+	:identifiedBy :gaz_comp_PARKER_HANNIFIN .
+:gaz_comp_PARKER_HANNIFIN
+	:term "PARKER HANNIFIN" ;
+	:term "Parker-Hannifin Corporation" ;
+	:term "Parker Hannifin Corp" ;
+	a :Gazetteer .
+
+:comp_PATTERSON_COMPANIES_INC
+	:identifiedBy :gaz_comp_PATTERSON_COMPANIES_INC .
+:gaz_comp_PATTERSON_COMPANIES_INC
+	:term "PATTERSON COMPANIES INC." ;
+	:term "Patterson Companies Inc." ;
+	:term "Patterson Companies Inc" ;
+	:term "Patterson Companies, Inc." ;
+	a :Gazetteer .
+
+:comp_PAYCHEX_INC
+	:identifiedBy :gaz_comp_PAYCHEX_INC .
+:gaz_comp_PAYCHEX_INC
+	:term "PAYCHEX INC." ;
+	:term "Paychex Inc." ;
+	:term "Paychex Inc" ;
+	:term "Paychex, Inc." ;
+	a :Gazetteer .
+
+:comp_PEABODY_ENERGY_CORP
+	:identifiedBy :gaz_comp_PEABODY_ENERGY_CORP .
+:gaz_comp_PEABODY_ENERGY_CORP
+	:term "PEABODY ENERGY CORP" ;
+	:term "Peabody Energy Corp" ;
+	:term "Peabody Energy Corporation" ;
+	a :Gazetteer .
+
+:comp_PEPSICO_INC
+	:identifiedBy :gaz_comp_PEPSICO_INC .
+:gaz_comp_PEPSICO_INC
+	:term "PEPSICO INC." ;
+	:term "PepsiCo Inc." ;
+	:term "PepsiCo, Inc." ;
+	a :Gazetteer .
+
+:comp_PERKINELMER
+	:identifiedBy :gaz_comp_PERKINELMER .
+:gaz_comp_PERKINELMER
+	:term "PERKINELMER" ;
+	:term "Perkinelmer Inc." ;
+	:term "PerkinElmer Inc" ;
+	:term "PerkinElmer, Inc." ;
+	a :Gazetteer .
+
+:comp_PERRIGO_CO
+	:identifiedBy :gaz_comp_PERRIGO_CO .
+:gaz_comp_PERRIGO_CO
+	:term "PERRIGO CO." ;
+	:term "Perrigo Co." ;
+	:term "Perrigo Co" ;
+	:term "Perrigo Company" ;
+	a :Gazetteer .
+
+:comp_PHILIP_MORRIS_INTERNATIONAL_INC
+	:identifiedBy :gaz_comp_PHILIP_MORRIS_INTERNATIONAL_INC .
+:gaz_comp_PHILIP_MORRIS_INTERNATIONAL_INC
+	:term "PHILIP MORRIS INTERNATIONAL INC." ;
+	:term "Philip Morris International Inc." ;
+	:term "Philip Morris International Inc" ;
+	a :Gazetteer .
+
+:comp_PIONEER_NATURAL_RESOURCES_CO
+	:identifiedBy :gaz_comp_PIONEER_NATURAL_RESOURCES_CO .
+:gaz_comp_PIONEER_NATURAL_RESOURCES_CO
+	:term "PIONEER NATURAL RESOURCES CO" ;
+	:term "Pioneer Natural Resources Co" ;
+	:term "Pioneer Natural Resources" ;
+	a :Gazetteer .
+
+:comp_PITNEY_BOWES
+	:identifiedBy :gaz_comp_PITNEY_BOWES .
+:gaz_comp_PITNEY_BOWES
+	:term "PITNEY BOWES" ;
+	:term "Pitney-Bowes Inc." ;
+	:term "Pitney Bowes Inc" ;
+	:term "Pitney Bowes Inc." ;
+	a :Gazetteer .
+
+:comp_PLUM_CREEK_TIMBER_CO_INC
+	:identifiedBy :gaz_comp_PLUM_CREEK_TIMBER_CO_INC .
+:gaz_comp_PLUM_CREEK_TIMBER_CO_INC
+	:term "PLUM CREEK TIMBER CO INC." ;
+	:term "Plum Creek Timber Co Inc." ;
+	:term "Plum Creek Timber Co Inc" ;
+	:term "Plum Creek Timber Co. Inc." ;
+	a :Gazetteer .
+
+:comp_PPL_CORP
+	:identifiedBy :gaz_comp_PPL_CORP .
+:gaz_comp_PPL_CORP
+	:term "PPL CORP." ;
+	:term "PPL Corp." ;
+	:term "PPL Corp" ;
+	:term "PPL Corporation" ;
+	a :Gazetteer .
+
+:comp_PRAXAIR
+	:identifiedBy :gaz_comp_PRAXAIR .
+:gaz_comp_PRAXAIR
+	:term "PRAXAIR" ;
+	:term "Praxair, Inc." ;
+	:term "Praxair Inc" ;
+	a :Gazetteer .
+
+:comp_PRICELINE_COM_INC
+	:identifiedBy :gaz_comp_PRICELINE_COM_INC .
+:gaz_comp_PRICELINE_COM_INC
+	:term "PRICELINE.COM INC." ;
+	:term "Priceline.com Inc." ;
+	:term "Priceline.Com Inc" ;
+	:term "priceline.com Incorporated" ;
+	a :Gazetteer .
+
+:comp_PRINCIPAL_FINANCIAL_GROUP_INC
+	:identifiedBy :gaz_comp_PRINCIPAL_FINANCIAL_GROUP_INC .
+:gaz_comp_PRINCIPAL_FINANCIAL_GROUP_INC
+	:term "PRINCIPAL FINANCIAL GROUP INC." ;
+	:term "Principal Financial Group Inc." ;
+	:term "Principal Financial Group Inc" ;
+	:term "Principal Financial Group, Inc." ;
+	a :Gazetteer .
+
+:comp_PRUDENTIAL_FINANCIAL
+	:identifiedBy :gaz_comp_PRUDENTIAL_FINANCIAL .
+:gaz_comp_PRUDENTIAL_FINANCIAL
+	:term "PRUDENTIAL FINANCIAL" ;
+	:term "Prudential Financial Inc." ;
+	:term "Prudential Financial Inc" ;
+	:term "Prudential Financial, Inc." ;
+	a :Gazetteer .
+
+:comp_PUBL_SVC_ENTER
+	:identifiedBy :gaz_comp_PUBL_SVC_ENTER .
+:gaz_comp_PUBL_SVC_ENTER
+	:term "PUBL SVC ENTER" ;
+	:term "Public Service Enterprise Group Incorpor" ;
+	:term "Public Service Enterprise Group Inc" ;
+	:term "Public Service Enterprise Group Inc." ;
+	a :Gazetteer .
+
+:comp_PULTE_CORPORATION
+	:identifiedBy :gaz_comp_PULTE_CORPORATION .
+:gaz_comp_PULTE_CORPORATION
+	:term "PULTE CORPORATION" ;
+	:term "Pulte Corporation" ;
+	:term "Pultegroup Inc" ;
+	:term "PulteGroup, Inc." ;
+	a :Gazetteer .
+
+:comp_QUALCOMM_INC
+	:identifiedBy :gaz_comp_QUALCOMM_INC .
+:gaz_comp_QUALCOMM_INC
+	:term "QUALCOMM INC." ;
+	:term "QUALCOMM Inc." ;
+	:term "Qualcomm Inc" ;
+	:term "QUALCOMM, Inc." ;
+	a :Gazetteer .
+
+:comp_QUANTA_SERVICES
+	:identifiedBy :gaz_comp_QUANTA_SERVICES .
+:gaz_comp_QUANTA_SERVICES
+	:term "QUANTA SERVICES" ;
+	:term "Quanta Services Inc." ;
+	:term "Quanta Services Inc" ;
+	a :Gazetteer .
+
+:comp_QUEST_DIAG
+	:identifiedBy :gaz_comp_QUEST_DIAG .
+:gaz_comp_QUEST_DIAG
+	:term "QUEST DIAG" ;
+	:term "Quest Diagnostics Inc" ;
+	:term "Quest Diagnostics Incorporated" ;
+	a :Gazetteer .
+
+:comp_RALPH_LAUREN_CORP
+	:identifiedBy :gaz_comp_RALPH_LAUREN_CORP .
+:gaz_comp_RALPH_LAUREN_CORP
+	:term "RALPH LAUREN CORP" ;
+	:term "Ralph Lauren Corp" ;
+	a :Gazetteer .
+
+:comp_RAYTHEON_CO
+	:identifiedBy :gaz_comp_RAYTHEON_CO .
+:gaz_comp_RAYTHEON_CO
+	:term "RAYTHEON CO." ;
+	:term "Raytheon Co." ;
+	:term "Raytheon Co" ;
+	:term "Raytheon Company" ;
+	a :Gazetteer .
+
+:comp_RED_HAT
+	:identifiedBy :gaz_comp_RED_HAT .
+:gaz_comp_RED_HAT
+	:term "RED HAT" ;
+	:term "Red Hat Inc." ;
+	:term "Red Hat Inc" ;
+	:term "Red Hat, Inc." ;
+	a :Gazetteer .
+
+:comp_REGIONS_FINANCIAL_CORPORATION
+	:identifiedBy :gaz_comp_REGIONS_FINANCIAL_CORPORATION .
+:gaz_comp_REGIONS_FINANCIAL_CORPORATION
+	:term "REGIONS FINANCIAL CORPORATION" ;
+	:term "Regions Financial Corporation" ;
+	:term "Regions Financial Corp" ;
+	a :Gazetteer .
+
+:comp_REPUBLIC_SERVICES_INC
+	:identifiedBy :gaz_comp_REPUBLIC_SERVICES_INC .
+:gaz_comp_REPUBLIC_SERVICES_INC
+	:term "REPUBLIC SERVICES INC" ;
+	:term "Republic Services Inc" ;
+	:term "Republic Services, Inc." ;
+	a :Gazetteer .
+
+:comp_REYNOLDS_AMERICAN
+	:identifiedBy :gaz_comp_REYNOLDS_AMERICAN .
+:gaz_comp_REYNOLDS_AMERICAN
+	:term "REYNOLDS AMERICAN" ;
+	:term "Reynolds American Inc." ;
+	:term "Reynolds American Inc" ;
+	:term "Reynolds American, Inc." ;
+	a :Gazetteer .
+
+:comp_ROCKWELL_AUTOMATION
+	:identifiedBy :gaz_comp_ROCKWELL_AUTOMATION .
+:gaz_comp_ROCKWELL_AUTOMATION
+	:term "ROCKWELL AUTOMATION" ;
+	:term "Rockwell Automation Inc." ;
+	:term "Rockwell Automation Inc" ;
+	:term "Rockwell Automation" ;
+	a :Gazetteer .
+
+:comp_ROCKWELL_COLLINS
+	:identifiedBy :gaz_comp_ROCKWELL_COLLINS .
+:gaz_comp_ROCKWELL_COLLINS
+	:term "ROCKWELL COLLINS" ;
+	:term "Rockwell Collins Inc." ;
+	:term "Rockwell Collins Inc" ;
+	:term "Rockwell Collins, Inc." ;
+	a :Gazetteer .
+
+:comp_ROPER_INDUST
+	:identifiedBy :gaz_comp_ROPER_INDUST .
+:gaz_comp_ROPER_INDUST
+	:term "ROPER INDUST" ;
+	:term "Roper Industries Inc." ;
+	:term "Roper Industries Inc" ;
+	:term "Roper Industries, Inc." ;
+	a :Gazetteer .
+
+:comp_ROSS_STORES_INC
+	:identifiedBy :gaz_comp_ROSS_STORES_INC .
+:gaz_comp_ROSS_STORES_INC
+	:term "ROSS STORES INC." ;
+	:term "Ross Stores Inc." ;
+	:term "Ross Stores Inc" ;
+	:term "Ross Stores, Inc." ;
+	a :Gazetteer .
+
+:comp_ROWAN_COMPANIES
+	:identifiedBy :gaz_comp_ROWAN_COMPANIES .
+:gaz_comp_ROWAN_COMPANIES
+	:term "ROWAN COMPANIES" ;
+	:term "Rowan Companies Inc." ;
+	:term "Rowan Companies Inc" ;
+	:term "Rowan Companies, Inc." ;
+	a :Gazetteer .
+
+:comp_SALESFORCE_COM_INC
+	:identifiedBy :gaz_comp_SALESFORCE_COM_INC .
+:gaz_comp_SALESFORCE_COM_INC
+	:term "SALESFORCE.COM INC." ;
+	:term "Salesforce.com Inc" ;
+	:term "salesforce.com, inc." ;
+	a :Gazetteer .
+
+:comp_SANDISK_CORP
+	:identifiedBy :gaz_comp_SANDISK_CORP .
+:gaz_comp_SANDISK_CORP
+	:term "SANDISK CORP." ;
+	:term "SanDisk Corp." ;
+	:term "SanDisk Corp" ;
+	:term "SanDisk Corporation" ;
+	a :Gazetteer .
+
+:comp_SARA_LEE_CORP
+	:identifiedBy :gaz_comp_SARA_LEE_CORP .
+:gaz_comp_SARA_LEE_CORP
+	:term "SARA LEE CORP." ;
+	:term "Sara Lee Corp." ;
+	:term "Sara Lee Corp" ;
+	a :Gazetteer .
+
+:comp_SCHLUMBERGER_LIMITED
+	:identifiedBy :gaz_comp_SCHLUMBERGER_LIMITED .
+:gaz_comp_SCHLUMBERGER_LIMITED
+	:term "SCHLUMBERGER LIMITED" ;
+	:term "Schlumberger Limited" ;
+	:term "Schlumberger NV" ;
+	:term "Schlumberger Limited." ;
+	a :Gazetteer .
+
+:comp_CHARLES_SCHWAB
+	:identifiedBy :gaz_comp_CHARLES_SCHWAB .
+:gaz_comp_CHARLES_SCHWAB
+	:term "CHARLES SCHWAB" ;
+	:term "Charles Schwab Corp." ;
+	:term "Charles Schwab Corp" ;
+	:term "The Charles Schwab Corporation" ;
+	a :Gazetteer .
+
+:comp_SEALED_AIR
+	:identifiedBy :gaz_comp_SEALED_AIR .
+:gaz_comp_SEALED_AIR
+	:term "SEALED AIR" ;
+	:term "Sealed Air Corp." ;
+	:term "Sealed Air Corp" ;
+	a :Gazetteer .
+
+:comp_SEARS_HOLDINGS_CORP
+	:identifiedBy :gaz_comp_SEARS_HOLDINGS_CORP .
+:gaz_comp_SEARS_HOLDINGS_CORP
+	:term "SEARS HOLDINGS CORP." ;
+	:term "Sears Holdings Corp." ;
+	:term "Sears Holdings Corp" ;
+	:term "Sears Holdings Corporation" ;
+	a :Gazetteer .
+
+:comp_SEMPRA_ENERGY
+	:identifiedBy :gaz_comp_SEMPRA_ENERGY .
+:gaz_comp_SEMPRA_ENERGY
+	:term "SEMPRA ENERGY" ;
+	:term "Sempra Energy" ;
+	a :Gazetteer .
+
+:comp_SIGMA_ALDRICH_CORP
+	:identifiedBy :gaz_comp_SIGMA_ALDRICH_CORP .
+:gaz_comp_SIGMA_ALDRICH_CORP
+	:term "SIGMA-ALDRICH CORP." ;
+	:term "Sigma-Aldrich Corp." ;
+	:term "Sigma Aldrich Corp" ;
+	:term "Sigma-Aldrich Corporation" ;
+	a :Gazetteer .
+
+:comp_SIMON_PROPERTY_GROUP_INC
+	:identifiedBy :gaz_comp_SIMON_PROPERTY_GROUP_INC .
+:gaz_comp_SIMON_PROPERTY_GROUP_INC
+	:term "SIMON PROPERTY GROUP INC." ;
+	:term "Simon Property Group Inc." ;
+	:term "Simon Property Group Inc" ;
+	:term "Simon Property Group, Inc" ;
+	a :Gazetteer .
+
+:comp_SLM_CORPORATION
+	:identifiedBy :gaz_comp_SLM_CORPORATION .
+:gaz_comp_SLM_CORPORATION
+	:term "SLM CORPORATION" ;
+	:term "SLM Ord Shs" ;
+	:term "SLM Corp" ;
+	a :Gazetteer .
+
+:comp_J_M_SMUCKER_CO
+	:identifiedBy :gaz_comp_J_M_SMUCKER_CO .
+:gaz_comp_J_M_SMUCKER_CO
+	:term "J.M. SMUCKER CO." ;
+	:term "J.M. SMUCKER COMPANY" ;
+	:term "J. M. Smucker Co" ;
+	:term "The J.M. Smucker Company" ;
+	a :Gazetteer .
+
+:comp_SOUTHERN_CO
+	:identifiedBy :gaz_comp_SOUTHERN_CO .
+:gaz_comp_SOUTHERN_CO
+	:term "SOUTHERN CO." ;
+	:term "Southern Co." ;
+	:term "Southern Co" ;
+	:term "The Southern Company" ;
+	a :Gazetteer .
+
+:comp_SOUTHWEST_AIRLINES_CO
+	:identifiedBy :gaz_comp_SOUTHWEST_AIRLINES_CO .
+:gaz_comp_SOUTHWEST_AIRLINES_CO
+	:term "SOUTHWEST AIRLINES CO." ;
+	:term "Southwest Airlines Co." ;
+	:term "Southwest Airlines Co" ;
+	a :Gazetteer .
+
+:comp_SOUTHWESTERN_ENERGY_CO
+	:identifiedBy :gaz_comp_SOUTHWESTERN_ENERGY_CO .
+:gaz_comp_SOUTHWESTERN_ENERGY_CO
+	:term "SOUTHWESTERN ENERGY CO" ;
+	:term "Southwestern Energy Co" ;
+	:term "Southwestern Energy Company" ;
+	a :Gazetteer .
+
+:comp_SPRINT_NEXTEL_CORP
+	:identifiedBy :gaz_comp_SPRINT_NEXTEL_CORP .
+:gaz_comp_SPRINT_NEXTEL_CORP
+	:term "SPRINT NEXTEL CORP." ;
+	:term "Sprint Nextel Corp." ;
+	:term "Sprint Nextel Corp" ;
+	:term "Sprint Nextel Corporation" ;
+	a :Gazetteer .
+
+:comp_ST_JUDE_MEDICAL
+	:identifiedBy :gaz_comp_ST_JUDE_MEDICAL .
+:gaz_comp_ST_JUDE_MEDICAL
+	:term "ST JUDE MEDICAL" ;
+	:term "St. Jude Medical, Inc." ;
+	:term "St Jude Medical Inc" ;
+	a :Gazetteer .
+
+:comp_STANLEY_BLACK_DECKER
+	:identifiedBy :gaz_comp_STANLEY_BLACK_DECKER .
+:gaz_comp_STANLEY_BLACK_DECKER
+	:term "STANLEY BLACK & DECKER" ;
+	:term "Stanley Black & Decker Inc." ;
+	:term "Stanley Black and Decker Inc" ;
+	:term "Stanley Black & Decker, Inc." ;
+	a :Gazetteer .
+
+:comp_STAPLES_INC
+	:identifiedBy :gaz_comp_STAPLES_INC .
+:gaz_comp_STAPLES_INC
+	:term "STAPLES INC." ;
+	:term "Staples Inc." ;
+	:term "Staples Inc" ;
+	:term "Staples, Inc." ;
+	a :Gazetteer .
+
+:comp_STARBUCKS_CORP
+	:identifiedBy :gaz_comp_STARBUCKS_CORP .
+:gaz_comp_STARBUCKS_CORP
+	:term "STARBUCKS CORP." ;
+	:term "Starbucks Corp." ;
+	:term "Starbucks Corp" ;
+	:term "Starbucks Corporation" ;
+	a :Gazetteer .
+
+:comp_STATE_STREET
+	:identifiedBy :gaz_comp_STATE_STREET .
+:gaz_comp_STATE_STREET
+	:term "STATE STREET" ;
+	:term "State Street Corporation" ;
+	:term "State Street Corp" ;
+	a :Gazetteer .
+
+:comp_STERICYCLE_INC
+	:identifiedBy :gaz_comp_STERICYCLE_INC .
+:gaz_comp_STERICYCLE_INC
+	:term "STERICYCLE INC." ;
+	:term "Stericycle Inc." ;
+	:term "Stericycle Inc" ;
+	:term "Stericycle, Inc." ;
+	a :Gazetteer .
+
+:comp_STRYKER
+	:identifiedBy :gaz_comp_STRYKER .
+:gaz_comp_STRYKER
+	:term "STRYKER" ;
+	:term "Stryker Corporation" ;
+	:term "Stryker Corp" ;
+	a :Gazetteer .
+
+:comp_SUNOCO_INC
+	:identifiedBy :gaz_comp_SUNOCO_INC .
+:gaz_comp_SUNOCO_INC
+	:term "SUNOCO, INC." ;
+	:term "Sunoco, Inc." ;
+	:term "Sunoco Inc" ;
+	a :Gazetteer .
+
+:comp_SUNTRUST_BANKS
+	:identifiedBy :gaz_comp_SUNTRUST_BANKS .
+:gaz_comp_SUNTRUST_BANKS
+	:term "SUNTRUST BANKS" ;
+	:term "Suntrust Banks Inc." ;
+	:term "Suntrust Banks Inc" ;
+	:term "SunTrust Banks, Inc." ;
+	a :Gazetteer .
+
+:comp_SYMANTEC_CORP
+	:identifiedBy :gaz_comp_SYMANTEC_CORP .
+:gaz_comp_SYMANTEC_CORP
+	:term "SYMANTEC CORP." ;
+	:term "Symantec Corp." ;
+	:term "Symantec Corp" ;
+	:term "Symantec Corporation" ;
+	a :Gazetteer .
+
+:comp_SYSCO
+	:identifiedBy :gaz_comp_SYSCO .
+:gaz_comp_SYSCO
+	:term "SYSCO" ;
+	:term "Sysco Corporation" ;
+	:term "Sysco Corp" ;
+	:term "SYSCO Corporation" ;
+	a :Gazetteer .
+
+:comp_TARGET_CORP
+	:identifiedBy :gaz_comp_TARGET_CORP .
+:gaz_comp_TARGET_CORP
+	:term "TARGET CORP." ;
+	:term "Target Corp." ;
+	:term "Target Corp" ;
+	:term "Target Corporation" ;
+	a :Gazetteer .
+
+:comp_TYCO_ELECTRONICS
+	:identifiedBy :gaz_comp_TYCO_ELECTRONICS .
+:gaz_comp_TYCO_ELECTRONICS
+	:term "TYCO ELECTRONICS" ;
+	:term "TYCO ELECTRONICS LTD." ;
+	:term "TE Connectivity Ltd" ;
+	:term "TE Connectivity Ltd." ;
+	a :Gazetteer .
+
+:comp_TENET_HEALTHCARE
+	:identifiedBy :gaz_comp_TENET_HEALTHCARE .
+:gaz_comp_TENET_HEALTHCARE
+	:term "TENET HEALTHCARE" ;
+	:term "Tenet Healthcare Corporation" ;
+	:term "Tenet Healthcare Corp" ;
+	a :Gazetteer .
+
+:comp_TESORO_CORPORATION
+	:identifiedBy :gaz_comp_TESORO_CORPORATION .
+:gaz_comp_TESORO_CORPORATION
+	:term "TESORO CORPORATION" ;
+	:term "Tesoro Corp" ;
+	:term "Tesoro Corporation" ;
+	a :Gazetteer .
+
+:comp_TEXAS_INSTRUMENTS_INC
+	:identifiedBy :gaz_comp_TEXAS_INSTRUMENTS_INC .
+:gaz_comp_TEXAS_INSTRUMENTS_INC
+	:term "TEXAS INSTRUMENTS INC." ;
+	:term "Texas Instruments Inc." ;
+	:term "Texas Instruments Inc" ;
+	:term "Texas Instruments Incorporated" ;
+	a :Gazetteer .
+
+:comp_TEXTRON
+	:identifiedBy :gaz_comp_TEXTRON .
+:gaz_comp_TEXTRON
+	:term "TEXTRON" ;
+	:term "Textron Inc." ;
+	:term "Textron Inc" ;
+	a :Gazetteer .
+
+:comp_THERMO_FISHER_SCIENTIFIC
+	:identifiedBy :gaz_comp_THERMO_FISHER_SCIENTIFIC .
+:gaz_comp_THERMO_FISHER_SCIENTIFIC
+	:term "THERMO FISHER SCIENTIFIC" ;
+	:term "Thermo Fisher Scientific Inc" ;
+	:term "Thermo Fisher Scientific Inc." ;
+	a :Gazetteer .
+
+:comp_TIFFANY
+	:identifiedBy :gaz_comp_TIFFANY .
+:gaz_comp_TIFFANY
+	:term "TIFFANY" ;
+	:term "Tiffany & Co." ;
+	:term "Tiffany and Co" ;
+	a :Gazetteer .
+
+:comp_TIME_WARNER_CABLE_INC
+	:identifiedBy :gaz_comp_TIME_WARNER_CABLE_INC .
+:gaz_comp_TIME_WARNER_CABLE_INC
+	:term "TIME WARNER CABLE INC." ;
+	:term "Time Warner Cable Inc" ;
+	:term "Time Warner Cable Inc." ;
+	a :Gazetteer .
+
+:comp_TIME_WARNER_INC
+	:identifiedBy :gaz_comp_TIME_WARNER_INC .
+:gaz_comp_TIME_WARNER_INC
+	:term "TIME WARNER INC." ;
+	:term "Time Warner Inc." ;
+	:term "Time Warner Inc" ;
+	a :Gazetteer .
+
+:comp_TITANIUM_METALS_CORP
+	:identifiedBy :gaz_comp_TITANIUM_METALS_CORP .
+:gaz_comp_TITANIUM_METALS_CORP
+	:term "TITANIUM METALS CORP." ;
+	:term "Titanium Metals Corp." ;
+	:term "Titanium Metals Corp" ;
+	a :Gazetteer .
+
+:comp_TJX
+	:identifiedBy :gaz_comp_TJX .
+:gaz_comp_TJX
+	:term "TJX" ;
+	:term "The TJX Companies, Inc." ;
+	:term "TJX Companies Inc" ;
+	a :Gazetteer .
+
+:comp_TRIPADVISOR_INC
+	:identifiedBy :gaz_comp_TRIPADVISOR_INC .
+:gaz_comp_TRIPADVISOR_INC
+	:term "TRIPADVISOR INC" ;
+	:term "Tripadvisor Inc" ;
+	:term "TripAdvisor Inc" ;
+	a :Gazetteer .
+
+:comp_TYCO_INTERNATIONAL_LTD
+	:identifiedBy :gaz_comp_TYCO_INTERNATIONAL_LTD .
+:gaz_comp_TYCO_INTERNATIONAL_LTD
+	:term "TYCO INTERNATIONAL LTD." ;
+	:term "Tyco International Ltd." ;
+	:term "Tyco International Ltd" ;
+	a :Gazetteer .
+
+:comp_TYSON_FOODS_INC
+	:identifiedBy :gaz_comp_TYSON_FOODS_INC .
+:gaz_comp_TYSON_FOODS_INC
+	:term "TYSON FOODS INC." ;
+	:term "Tyson Foods Inc" ;
+	:term "Tyson Foods, Inc." ;
+	a :Gazetteer .
+
+:comp_UNION_PACIFIC_CORP
+	:identifiedBy :gaz_comp_UNION_PACIFIC_CORP .
+:gaz_comp_UNION_PACIFIC_CORP
+	:term "UNION PACIFIC CORP." ;
+	:term "Union Pacific Corp." ;
+	:term "Union Pacific Corp" ;
+	:term "Union Pacific Corporation" ;
+	a :Gazetteer .
+
+:comp_UNITED_PARCEL_SERVICE_INC
+	:identifiedBy :gaz_comp_UNITED_PARCEL_SERVICE_INC .
+:gaz_comp_UNITED_PARCEL_SERVICE_INC
+	:term "UNITED PARCEL SERVICE INC." ;
+	:term "United Parcel Service Inc." ;
+	:term "United Parcel Service Inc" ;
+	:term "United Parcel Service, Inc." ;
+	a :Gazetteer .
+
+:comp_UNITED_STATES_STEEL_CORPORATION
+	:identifiedBy :gaz_comp_UNITED_STATES_STEEL_CORPORATION .
+:gaz_comp_UNITED_STATES_STEEL_CORPORATION
+	:term "UNITED STATES STEEL CORPORATION" ;
+	:term "United States Steel Corp" ;
+	:term "United States Steel Corporation" ;
+	a :Gazetteer .
+
+:comp_UNITEDHEALTH_GROUP_INC
+	:identifiedBy :gaz_comp_UNITEDHEALTH_GROUP_INC .
+:gaz_comp_UNITEDHEALTH_GROUP_INC
+	:term "UNITEDHEALTH GROUP INC." ;
+	:term "UnitedHealth Group Inc." ;
+	:term "UnitedHealth Group Inc" ;
+	a :Gazetteer .
+
+:comp_URBAN_OUTFITTERS_INC
+	:identifiedBy :gaz_comp_URBAN_OUTFITTERS_INC .
+:gaz_comp_URBAN_OUTFITTERS_INC
+	:term "URBAN OUTFITTERS INC." ;
+	:term "Urban Outfitters Inc." ;
+	:term "Urban Outfitters Inc" ;
+	:term "Urban Outfitters, Inc." ;
+	a :Gazetteer .
+
+:comp_U_S_BANCORP
+	:identifiedBy :gaz_comp_U_S_BANCORP .
+:gaz_comp_U_S_BANCORP
+	:term "U.S. BANCORP" ;
+	:term "U.S. Bancorp" ;
+	:term "US Bancorp" ;
+	a :Gazetteer .
+
+:comp_VF
+	:identifiedBy :gaz_comp_VF .
+:gaz_comp_VF
+	:term "VF" ;
+	:term "V.F. Corporation" ;
+	:term "VF Corp" ;
+	a :Gazetteer .
+
+:comp_VALERO_ENERGY_CORPORATION
+	:identifiedBy :gaz_comp_VALERO_ENERGY_CORPORATION .
+:gaz_comp_VALERO_ENERGY_CORPORATION
+	:term "VALERO ENERGY CORPORATION" ;
+	:term "Valero Energy Corp" ;
+	:term "Valero Energy Corporation" ;
+	a :Gazetteer .
+
+:comp_VARIAN_MEDICAL
+	:identifiedBy :gaz_comp_VARIAN_MEDICAL .
+:gaz_comp_VARIAN_MEDICAL
+	:term "VARIAN MEDICAL" ;
+	:term "VARIAN MEDICAL SYSTEMS INC" ;
+	:term "Varian Medical Systems Inc" ;
+	:term "Varian Medical Systems, Inc." ;
+	a :Gazetteer .
+
+:comp_VERISIGN_INC
+	:identifiedBy :gaz_comp_VERISIGN_INC .
+:gaz_comp_VERISIGN_INC
+	:term "VERISIGN INC." ;
+	:term "Verisign Inc." ;
+	:term "Verisign Inc" ;
+	:term "Verisign, Inc." ;
+	a :Gazetteer .
+
+:comp_VIACOM
+	:identifiedBy :gaz_comp_VIACOM .
+:gaz_comp_VIACOM
+	:term "VIACOM" ;
+	:term "VIACOM B" ;
+	:term "Viacom Ord Shs Class B" ;
+	:term "Viacom, Inc." ;
+	a :Gazetteer .
+
+:comp_VISA_INC
+	:identifiedBy :gaz_comp_VISA_INC .
+:gaz_comp_VISA_INC
+	:term "VISA INC." ;
+	:term "VISA Inc." ;
+	:term "Visa Inc" ;
+	:term "Visa Inc." ;
+	a :Gazetteer .
+
+:comp_WALGREEN_CO
+	:identifiedBy :gaz_comp_WALGREEN_CO .
+:gaz_comp_WALGREEN_CO
+	:term "WALGREEN CO." ;
+	:term "Walgreen Co." ;
+	:term "Walgreen Co" ;
+	:term "Walgreen Company" ;
+	a :Gazetteer .
+
+:comp_WASTE_MANAGEMENT
+	:identifiedBy :gaz_comp_WASTE_MANAGEMENT .
+:gaz_comp_WASTE_MANAGEMENT
+	:term "WASTE MANAGEMENT" ;
+	:term "Waste Management Inc." ;
+	:term "Waste Management Inc" ;
+	:term "Waste Management, Inc." ;
+	a :Gazetteer .
+
+:comp_WATERS
+	:identifiedBy :gaz_comp_WATERS .
+:gaz_comp_WATERS
+	:term "WATERS" ;
+	:term "Waters Corporation" ;
+	:term "Waters Corp" ;
+	a :Gazetteer .
+
+:comp_WELLPOINT_INC
+	:identifiedBy :gaz_comp_WELLPOINT_INC .
+:gaz_comp_WELLPOINT_INC
+	:term "WELLPOINT INC" ;
+	:term "Wellpoint Inc." ;
+	:term "WellPoint Inc" ;
+	:term "WellPoint, Inc." ;
+	a :Gazetteer .
+
+:comp_WELLS_FARGO_CO
+	:identifiedBy :gaz_comp_WELLS_FARGO_CO .
+:gaz_comp_WELLS_FARGO_CO
+	:term "WELLS FARGO & CO." ;
+	:term "Wells Fargo & Co." ;
+	:term "Wells Fargo & Co" ;
+	:term "Wells Fargo & Company" ;
+	a :Gazetteer .
+
+:comp_WESTERN_DIGITAL
+	:identifiedBy :gaz_comp_WESTERN_DIGITAL .
+:gaz_comp_WESTERN_DIGITAL
+	:term "WESTERN DIGITAL" ;
+	:term "Western Digital Corp." ;
+	:term "Western Digital Corp" ;
+	a :Gazetteer .
+
+:comp_WESTERN_UNION
+	:identifiedBy :gaz_comp_WESTERN_UNION .
+:gaz_comp_WESTERN_UNION
+	:term "WESTERN UNION" ;
+	:term "WESTERN UNION CO" ;
+	:term "Western Union Co" ;
+	:term "The Western Union Company" ;
+	a :Gazetteer .
+
+:comp_WEYERHAEUSER_CO
+	:identifiedBy :gaz_comp_WEYERHAEUSER_CO .
+:gaz_comp_WEYERHAEUSER_CO
+	:term "WEYERHAEUSER CO." ;
+	:term "Weyerhaeuser Co." ;
+	:term "Weyerhaeuser Co" ;
+	:term "Weyerhaeuser Company" ;
+	a :Gazetteer .
+
+:comp_WHIRLPOOL_CORP
+	:identifiedBy :gaz_comp_WHIRLPOOL_CORP .
+:gaz_comp_WHIRLPOOL_CORP
+	:term "WHIRLPOOL CORP." ;
+	:term "Whirlpool Corp." ;
+	:term "Whirlpool Corp" ;
+	:term "Whirlpool Corporation" ;
+	a :Gazetteer .
+
+:comp_WHOLE_FOODS_MARKET_INC
+	:identifiedBy :gaz_comp_WHOLE_FOODS_MARKET_INC .
+:gaz_comp_WHOLE_FOODS_MARKET_INC
+	:term "WHOLE FOODS MARKET INC." ;
+	:term "Whole Foods Market Inc." ;
+	:term "Whole Foods Market Inc" ;
+	:term "Whole Foods Market, Inc." ;
+	a :Gazetteer .
+
+:comp_WILLIAMS_COMPANIES_INC
+	:identifiedBy :gaz_comp_WILLIAMS_COMPANIES_INC .
+:gaz_comp_WILLIAMS_COMPANIES_INC
+	:term "WILLIAMS COMPANIES INC." ;
+	:term "Williams Companies Inc." ;
+	:term "Williams Companies Inc" ;
+	:term "Williams Companies, Inc." ;
+	a :Gazetteer .
+
+:comp_WINDSTREAM_CORP
+	:identifiedBy :gaz_comp_WINDSTREAM_CORP .
+:gaz_comp_WINDSTREAM_CORP
+	:term "WINDSTREAM CORP" ;
+	:term "Windstream Corp." ;
+	:term "Windstream Corp" ;
+	:term "Windstream Corporation" ;
+	a :Gazetteer .
+
+:comp_WYNN_RESORTS_LTD
+	:identifiedBy :gaz_comp_WYNN_RESORTS_LTD .
+:gaz_comp_WYNN_RESORTS_LTD
+	:term "WYNN RESORTS LTD." ;
+	:term "Wynn Resorts Ltd." ;
+	:term "Wynn Resorts Ltd" ;
+	:term "Wynn Resorts, Limited" ;
+	a :Gazetteer .
+
+:comp_XCEL_ENERGY_INC
+	:identifiedBy :gaz_comp_XCEL_ENERGY_INC .
+:gaz_comp_XCEL_ENERGY_INC
+	:term "XCEL ENERGY INC." ;
+	:term "Xcel Energy Inc." ;
+	:term "Xcel Energy Inc" ;
+	a :Gazetteer .
+
+:comp_XEROX_CORP
+	:identifiedBy :gaz_comp_XEROX_CORP .
+:gaz_comp_XEROX_CORP
+	:term "XEROX CORP." ;
+	:term "Xerox Corp." ;
+	:term "Xerox Corp" ;
+	:term "Xerox Corporation" ;
+	a :Gazetteer .
+
+:comp_XILINX_INC
+	:identifiedBy :gaz_comp_XILINX_INC .
+:gaz_comp_XILINX_INC
+	:term "XILINX, INC." ;
+	:term "Xilinx, Inc." ;
+	:term "Xilinx Inc" ;
+	a :Gazetteer .
+
+:comp_YAHOO_INC
+	:identifiedBy :gaz_comp_YAHOO_INC .
+:gaz_comp_YAHOO_INC
+	:term "YAHOO! INC." ;
+	:term "Yahoo! Inc." ;
+	:term "Yahoo! Inc" ;
+	a :Gazetteer .
+
+:comp_YUM_BRANDS
+	:identifiedBy :gaz_comp_YUM_BRANDS .
+:gaz_comp_YUM_BRANDS
+	:term "YUM BRANDS" ;
+	:term "Yum! Brands Inc" ;
+	:term "Yum! Brands, Inc." ;
+	a :Gazetteer .
+
+:comp_ZIMMER_HOLDINGS_INC
+	:identifiedBy :gaz_comp_ZIMMER_HOLDINGS_INC .
+:gaz_comp_ZIMMER_HOLDINGS_INC
+	:term "ZIMMER HOLDINGS INC." ;
+	:term "Zimmer Holdings Inc." ;
+	:term "Zimmer Holdings Inc" ;
+	:term "Zimmer Holdings, Inc." ;
+	a :Gazetteer .
+
+:comp_ZIONS_BANCORP
+	:identifiedBy :gaz_comp_ZIONS_BANCORP .
+:gaz_comp_ZIONS_BANCORP
+	:term "ZIONS BANCORP" ;
+	:term "Zions Bancorporation" ;
+	a :Gazetteer .
+
+:comp_ACTIVISION_BLIZZARD_INC
+	:identifiedBy :gaz_comp_ACTIVISION_BLIZZARD_INC .
+:gaz_comp_ACTIVISION_BLIZZARD_INC
+	:term "ACTIVISION BLIZZARD INC." ;
+	:term "Activision Blizzard Inc." ;
+	:term "Activision Blizzard Inc" ;
+	:term "Activision Blizzard, Inc." ;
+	a :Gazetteer .
+
+:comp_ALEXION_PHARMACEUTICALS_INC
+	:identifiedBy :gaz_comp_ALEXION_PHARMACEUTICALS_INC .
+:gaz_comp_ALEXION_PHARMACEUTICALS_INC
+	:term "ALEXION PHARMACEUTICALS INC." ;
+	:term "Alexion Pharmaceuticals Inc." ;
+	:term "Alexion Pharmaceuticals Inc" ;
+	:term "Alexion Pharmaceuticals, Inc." ;
+	a :Gazetteer .
+
+:comp_AVAGO_TECHNOLOGIES_LTD
+	:identifiedBy :gaz_comp_AVAGO_TECHNOLOGIES_LTD .
+:gaz_comp_AVAGO_TECHNOLOGIES_LTD
+	:term "AVAGO TECHNOLOGIES LTD." ;
+	:term "Avago Technologies Ltd." ;
+	:term "Avago Technologies Ltd" ;
+	a :Gazetteer .
+
+:comp_BAIDU_INC
+	:identifiedBy :gaz_comp_BAIDU_INC .
+:gaz_comp_BAIDU_INC
+	:term "BAIDU INC." ;
+	:term "Baidu Inc." ;
+	:term "Baidu Inc" ;
+	:term "Baidu.com, Inc. (ADR)" ;
+	a :Gazetteer .
+
+:comp_CHECK_POINT_SOFTWARE_TECHNOLOGIES_LTD
+	:identifiedBy :gaz_comp_CHECK_POINT_SOFTWARE_TECHNOLOGIES_LTD .
+:gaz_comp_CHECK_POINT_SOFTWARE_TECHNOLOGIES_LTD
+	:term "CHECK POINT SOFTWARE TECHNOLOGIES LTD." ;
+	:term "Check Point Software Technologies Ltd." ;
+	:term "Check Point Software Technologies Ltd" ;
+	a :Gazetteer .
+
+:comp_CTRIP_COM_INTERNATIONAL_LTD
+	:identifiedBy :gaz_comp_CTRIP_COM_INTERNATIONAL_LTD .
+:gaz_comp_CTRIP_COM_INTERNATIONAL_LTD
+	:term "CTRIP.COM INTERNATIONAL LTD." ;
+	:term "Ctrip.com International Ltd." ;
+	:term "Ctrip.com International Ltd" ;
+	:term "Ctrip.com International, Ltd. (ADR)" ;
+	a :Gazetteer .
+
+:comp_FLEXTRONICS_INTERNATIONAL_LTD
+	:identifiedBy :gaz_comp_FLEXTRONICS_INTERNATIONAL_LTD .
+:gaz_comp_FLEXTRONICS_INTERNATIONAL_LTD
+	:term "FLEXTRONICS INTERNATIONAL LTD." ;
+	:term "Flextronics International Ltd." ;
+	:term "Flextronics International Ltd" ;
+	a :Gazetteer .
+
+:comp_GARMIN_LTD
+	:identifiedBy :gaz_comp_GARMIN_LTD .
+:gaz_comp_GARMIN_LTD
+	:term "GARMIN LTD." ;
+	:term "Garmin Ltd." ;
+	:term "Garmin Ltd" ;
+	a :Gazetteer .
+
+:comp_GREEN_MOUNTAIN_COFFEE_ROASTERS_INC
+	:identifiedBy :gaz_comp_GREEN_MOUNTAIN_COFFEE_ROASTERS_INC .
+:gaz_comp_GREEN_MOUNTAIN_COFFEE_ROASTERS_INC
+	:term "GREEN MOUNTAIN COFFEE ROASTERS INC." ;
+	:term "Green Mountain Coffee Roasters Inc." ;
+	:term "Green Mountain Coffee Roasters Inc" ;
+	a :Gazetteer .
+
+:comp_HENRY_SCHEIN_INC
+	:identifiedBy :gaz_comp_HENRY_SCHEIN_INC .
+:gaz_comp_HENRY_SCHEIN_INC
+	:term "HENRY SCHEIN INC." ;
+	:term "Henry Schein Inc." ;
+	:term "Henry Schein Inc" ;
+	:term "Henry Schein, Inc." ;
+	a :Gazetteer .
+
+:comp_INFOSYS_LTD
+	:identifiedBy :gaz_comp_INFOSYS_LTD .
+:gaz_comp_INFOSYS_LTD
+	:term "INFOSYS LTD." ;
+	:term "Infosys Ltd." ;
+	:term "Infosys Ltd" ;
+	:term "Infosys Ltd ADR" ;
+	a :Gazetteer .
+
+:comp_LAM_RESEARCH_CORP
+	:identifiedBy :gaz_comp_LAM_RESEARCH_CORP .
+:gaz_comp_LAM_RESEARCH_CORP
+	:term "LAM RESEARCH CORP." ;
+	:term "Lam Research Corp." ;
+	:term "Lam Research Corp" ;
+	:term "Lam Research Corporation" ;
+	a :Gazetteer .
+
+:comp_LIBERTY_MEDIA_CORP
+	:identifiedBy :gaz_comp_LIBERTY_MEDIA_CORP .
+:gaz_comp_LIBERTY_MEDIA_CORP
+	:term "LIBERTY MEDIA CORP." ;
+	:term "Liberty Media Corp." ;
+	:term "Liberty Media Corp" ;
+	a :Gazetteer .
+
+:comp_MARVELL_TECHNOLOGY_GROUP_LTD
+	:identifiedBy :gaz_comp_MARVELL_TECHNOLOGY_GROUP_LTD .
+:gaz_comp_MARVELL_TECHNOLOGY_GROUP_LTD
+	:term "MARVELL TECHNOLOGY GROUP LTD." ;
+	:term "Marvell Technology Group Ltd." ;
+	:term "Marvell Technology Group Ltd" ;
+	a :Gazetteer .
+
+:comp_MAXIM_INTEGRATED_PRODUCTS_INC
+	:identifiedBy :gaz_comp_MAXIM_INTEGRATED_PRODUCTS_INC .
+:gaz_comp_MAXIM_INTEGRATED_PRODUCTS_INC
+	:term "MAXIM INTEGRATED PRODUCTS INC." ;
+	:term "Maxim Integrated Products Inc." ;
+	:term "Maxim Integrated Products Inc" ;
+	a :Gazetteer .
+
+:comp_MONSTER_BEVERAGE_CORP
+	:identifiedBy :gaz_comp_MONSTER_BEVERAGE_CORP .
+:gaz_comp_MONSTER_BEVERAGE_CORP
+	:term "MONSTER BEVERAGE CORP." ;
+	:term "Monster Beverage Corp." ;
+	:term "Monster Beverage Corp" ;
+	a :Gazetteer .
+
+:comp_NUANCE_COMMUNICATIONS_INC
+	:identifiedBy :gaz_comp_NUANCE_COMMUNICATIONS_INC .
+:gaz_comp_NUANCE_COMMUNICATIONS_INC
+	:term "NUANCE COMMUNICATIONS INC." ;
+	:term "Nuance Communications Inc." ;
+	:term "Nuance Communications Inc" ;
+	a :Gazetteer .
+
+:comp_RESEARCH_IN_MOTION_LTD
+	:identifiedBy :gaz_comp_RESEARCH_IN_MOTION_LTD .
+:gaz_comp_RESEARCH_IN_MOTION_LTD
+	:term "RESEARCH IN MOTION LTD." ;
+	:term "Research in Motion Ltd." ;
+	:term "Research In Motion Ltd" ;
+	:term "Research In Motion Limited (USA)" ;
+	a :Gazetteer .
+
+:comp_SEAGATE_TECHNOLOGY_PLC
+	:identifiedBy :gaz_comp_SEAGATE_TECHNOLOGY_PLC .
+:gaz_comp_SEAGATE_TECHNOLOGY_PLC
+	:term "SEAGATE TECHNOLOGY PLC" ;
+	:term "Seagate Technology PLC" ;
+	:term "Seagate Technology" ;
+	a :Gazetteer .
+
+:comp_SIRIUS_XM_RADIO_INC
+	:identifiedBy :gaz_comp_SIRIUS_XM_RADIO_INC .
+:gaz_comp_SIRIUS_XM_RADIO_INC
+	:term "SIRIUS XM RADIO INC." ;
+	:term "Sirius XM Radio Inc." ;
+	:term "Sirius XM Radio Inc" ;
+	a :Gazetteer .
+
+:comp_TEVA_PHARMACEUTICAL_INDUSTRIES_LTD
+	:identifiedBy :gaz_comp_TEVA_PHARMACEUTICAL_INDUSTRIES_LTD .
+:gaz_comp_TEVA_PHARMACEUTICAL_INDUSTRIES_LTD
+	:term "TEVA PHARMACEUTICAL INDUSTRIES LTD." ;
+	:term "Teva Pharmaceutical Industries Ltd." ;
+	:term "Teva Pharmaceutical Industries ADR Reptg One Ord Shs" ;
+	:term "Teva Pharmaceutical Industries Ltd (ADR)" ;
+	a :Gazetteer .
+
+:comp_VERTEX_PHARMACEUTICALS_INC
+	:identifiedBy :gaz_comp_VERTEX_PHARMACEUTICALS_INC .
+:gaz_comp_VERTEX_PHARMACEUTICALS_INC
+	:term "VERTEX PHARMACEUTICALS INC." ;
+	:term "Vertex Pharmaceuticals Inc." ;
+	:term "Vertex Pharmaceuticals Inc" ;
+	:term "Vertex Pharmaceuticals Incorporated" ;
+	a :Gazetteer .
+
+:comp_VIRGIN_MEDIA_INC
+	:identifiedBy :gaz_comp_VIRGIN_MEDIA_INC .
+:gaz_comp_VIRGIN_MEDIA_INC
+	:term "VIRGIN MEDIA INC." ;
+	:term "Virgin Media Inc." ;
+	:term "Virgin Media Inc" ;
+	a :Gazetteer .
+
+:comp_WARNER_CHILCOTT_PLC
+	:identifiedBy :gaz_comp_WARNER_CHILCOTT_PLC .
+:gaz_comp_WARNER_CHILCOTT_PLC
+	:term "WARNER CHILCOTT PLC" ;
+	:term "Warner Chilcott PLC" ;
+	:term "Warner Chilcott Plc" ;
+	a :Gazetteer .
+
+:comp_ANZ_BANKING_GRP
+	:identifiedBy :gaz_comp_ANZ_BANKING_GRP .
+:gaz_comp_ANZ_BANKING_GRP
+	:term "ANZ BANKING GRP" ;
+	:term "AUSTRALIA & NEW ZEALAND BANKING GROUP LTD." ;
+	:term "Australia And New Zealand Banking Group Ltd" ;
+	:term "Australia and New Zealand Banking Group Ltd" ;
+	a :Gazetteer .
+
+:comp_CANON
+	:identifiedBy :gaz_comp_CANON .
+:gaz_comp_CANON
+	:term "CANON" ;
+	:term "Canon Inc." ;
+	:term "Canon Inc" ;
+	a :Gazetteer .
+
+:comp_CHEUNG_KONG
+	:identifiedBy :gaz_comp_CHEUNG_KONG .
+:gaz_comp_CHEUNG_KONG
+	:term "CHEUNG KONG" ;
+	:term "Cheung Kong Holdings Ltd." ;
+	:term "Cheung Kong (Holdings) Ltd" ;
+	a :Gazetteer .
+
+:comp_CHINA_MOBILE_LTD
+	:identifiedBy :gaz_comp_CHINA_MOBILE_LTD .
+:gaz_comp_CHINA_MOBILE_LTD
+	:term "CHINA MOBILE LTD." ;
+	:term "China Mobile (Hong-Kong) Ltd." ;
+	:term "China Mobile Ltd" ;
+	a :Gazetteer .
+
+:comp_CLP_HOLDINGS_LTD
+	:identifiedBy :gaz_comp_CLP_HOLDINGS_LTD .
+:gaz_comp_CLP_HOLDINGS_LTD
+	:term "CLP HOLDINGS LTD." ;
+	:term "CLP Holdings Ltd." ;
+	:term "CLP Holdings Ltd" ;
+	a :Gazetteer .
+
+:comp_COMMONWEALTH_BK
+	:identifiedBy :gaz_comp_COMMONWEALTH_BK .
+:gaz_comp_COMMONWEALTH_BK
+	:term "COMMONWEALTH BK" ;
+	:term "Commonwealth Bank Australia Ltd." ;
+	:term "Commonwealth Bank Of Australia" ;
+	a :Gazetteer .
+
+:comp_DBS_GROUP_HLD
+	:identifiedBy :gaz_comp_DBS_GROUP_HLD .
+:gaz_comp_DBS_GROUP_HLD
+	:term "DBS GROUP HLD" ;
+	:term "Development Bank of Singapore Ltd" ;
+	:term "DBS Group Holdings Ltd" ;
+	:term "Dbs Group Holdings Ltd" ;
+	a :Gazetteer .
+
+:comp_EAST_JAPAN_RY
+	:identifiedBy :gaz_comp_EAST_JAPAN_RY .
+:gaz_comp_EAST_JAPAN_RY
+	:term "EAST JAPAN RY" ;
+	:term "East Japan Railway Company" ;
+	:term "East Japan Railway Co" ;
+	a :Gazetteer .
+
+:comp_FUJI_PHOTO_FILM
+	:identifiedBy :gaz_comp_FUJI_PHOTO_FILM .
+:gaz_comp_FUJI_PHOTO_FILM
+	:term "FUJI PHOTO FILM" ;
+	:term "Fuji Photo Film Co., Ltd." ;
+	:term "FUJIFILM Holdings Corp" ;
+	:term "Fujifilm Holdings Corp" ;
+	a :Gazetteer .
+
+:comp_HANG_SENG_BANK
+	:identifiedBy :gaz_comp_HANG_SENG_BANK .
+:gaz_comp_HANG_SENG_BANK
+	:term "HANG SENG BANK" ;
+	:term "Hang Seng Bank Ltd." ;
+	:term "Hang Seng Bank Ltd" ;
+	a :Gazetteer .
+
+:comp_HITACHI
+	:identifiedBy :gaz_comp_HITACHI .
+:gaz_comp_HITACHI
+	:term "HITACHI" ;
+	:term "Hitachi Ltd." ;
+	:term "Hitachi Ltd" ;
+	a :Gazetteer .
+
+:comp_HONDA_MOTOR
+	:identifiedBy :gaz_comp_HONDA_MOTOR .
+:gaz_comp_HONDA_MOTOR
+	:term "HONDA MOTOR" ;
+	:term "Honda Motor Co.Ltd." ;
+	:term "HONDA MOTOR CO LTD" ;
+	:term "Honda Motor Co Ltd" ;
+	a :Gazetteer .
+
+:comp_HUTCHISON_WHAMPOA_LTD
+	:identifiedBy :gaz_comp_HUTCHISON_WHAMPOA_LTD .
+:gaz_comp_HUTCHISON_WHAMPOA_LTD
+	:term "HUTCHISON WHAMPOA LTD." ;
+	:term "Hutchison Whampoa Ltd." ;
+	:term "Hutchison Whampoa Ltd" ;
+	a :Gazetteer .
+
+:comp_KYOCERA_CORP
+	:identifiedBy :gaz_comp_KYOCERA_CORP .
+:gaz_comp_KYOCERA_CORP
+	:term "KYOCERA CORP." ;
+	:term "Kyocera Corp." ;
+	:term "KYOCERA CORP" ;
+	:term "Kyocera Corp" ;
+	a :Gazetteer .
+
+:comp_MITSUB_UFJ_FIN_GROUP
+	:identifiedBy :gaz_comp_MITSUB_UFJ_FIN_GROUP .
+:gaz_comp_MITSUB_UFJ_FIN_GROUP
+	:term "MITSUB UFJ FIN GROUP" ;
+	:term "Mitsubishi UFJ Financial Group Inc." ;
+	:term "Mitsubishi UFJ Financial Group Inc" ;
+	a :Gazetteer .
+
+:comp_NATL_AUST_BANK
+	:identifiedBy :gaz_comp_NATL_AUST_BANK .
+:gaz_comp_NATL_AUST_BANK
+	:term "NATL AUST BANK" ;
+	:term "National Australia Bank Ltd." ;
+	:term "National Australia Bank Ltd" ;
+	a :Gazetteer .
+
+:comp_NINTENDO_CO_LTD
+	:identifiedBy :gaz_comp_NINTENDO_CO_LTD .
+:gaz_comp_NINTENDO_CO_LTD
+	:term "NINTENDO CO LTD" ;
+	:term "Nintendo Co., Ltd." ;
+	:term "Nintendo Co Ltd" ;
+	a :Gazetteer .
+
+:comp_NISSAN_MOTOR
+	:identifiedBy :gaz_comp_NISSAN_MOTOR .
+:gaz_comp_NISSAN_MOTOR
+	:term "NISSAN MOTOR" ;
+	:term "Nissan Motor Co., Ltd." ;
+	:term "Nissan Motor Co Ltd" ;
+	a :Gazetteer .
+
+:comp_NOMURA_HOLDINGS_LTD
+	:identifiedBy :gaz_comp_NOMURA_HOLDINGS_LTD .
+:gaz_comp_NOMURA_HOLDINGS_LTD
+	:term "NOMURA HOLDINGS LTD." ;
+	:term "Nomura Holdings Ltd." ;
+	:term "Nomura Holdings Inc" ;
+	a :Gazetteer .
+
+:comp_NTT_DOCOMO_INC
+	:identifiedBy :gaz_comp_NTT_DOCOMO_INC .
+:gaz_comp_NTT_DOCOMO_INC
+	:term "NTT DOCOMO INC." ;
+	:term "NTT Docomo Inc." ;
+	:term "NTT DoCoMo Inc" ;
+	:term "NTT Docomo Inc" ;
+	a :Gazetteer .
+
+:comp_PANASONIC_CORP
+	:identifiedBy :gaz_comp_PANASONIC_CORP .
+:gaz_comp_PANASONIC_CORP
+	:term "PANASONIC CORP" ;
+	:term "Panasonic Corp" ;
+	a :Gazetteer .
+
+:comp_RIO_TINTO
+	:identifiedBy :gaz_comp_RIO_TINTO .
+:gaz_comp_RIO_TINTO
+	:term "RIO TINTO" ;
+	:term "Rio Tinto Ltd." ;
+	:term "Rio Tinto Ltd" ;
+	a :Gazetteer .
+
+:comp_SHARP_CORP
+	:identifiedBy :gaz_comp_SHARP_CORP .
+:gaz_comp_SHARP_CORP
+	:term "SHARP CORP" ;
+	:term "Sharp Corporation" ;
+	:term "Sharp Corp" ;
+	a :Gazetteer .
+
+:comp_SHIN_ETSU_CHEM
+	:identifiedBy :gaz_comp_SHIN_ETSU_CHEM .
+:gaz_comp_SHIN_ETSU_CHEM
+	:term "SHIN ETSU CHEM" ;
+	:term "Shin-Etsu Chemical Co. Ltd." ;
+	:term "Shin-Etsu Chemical Co Ltd" ;
+	a :Gazetteer .
+
+:comp_SONY
+	:identifiedBy :gaz_comp_SONY .
+:gaz_comp_SONY
+	:term "SONY" ;
+	:term "Sony Corporation" ;
+	:term "Sony Corp" ;
+	a :Gazetteer .
+
+:comp_SUMITOMO_MITSUI_FINANCIAL_GROUP
+	:identifiedBy :gaz_comp_SUMITOMO_MITSUI_FINANCIAL_GROUP .
+:gaz_comp_SUMITOMO_MITSUI_FINANCIAL_GROUP
+	:term "SUMITOMO MITSUI FINANCIAL GROUP" ;
+	:term "Sumitomo Mitsui Financial Group Inc" ;
+	a :Gazetteer .
+
+:comp_SUN_HUNG_KAI_PTS
+	:identifiedBy :gaz_comp_SUN_HUNG_KAI_PTS .
+:gaz_comp_SUN_HUNG_KAI_PTS
+	:term "SUN HUNG KAI PTS" ;
+	:term "Sun Hung Kai Properties Limited" ;
+	:term "Sun Hung Kai Properties Ltd" ;
+	a :Gazetteer .
+
+:comp_TAKEDA_CHEM_INDS
+	:identifiedBy :gaz_comp_TAKEDA_CHEM_INDS .
+:gaz_comp_TAKEDA_CHEM_INDS
+	:term "TAKEDA CHEM INDS" ;
+	:term "Takeda Chemical Industries, Ltd." ;
+	:term "Takeda Pharmaceutical Co Ltd" ;
+	a :Gazetteer .
+
+:comp_TELSTRA_CORP_LTD
+	:identifiedBy :gaz_comp_TELSTRA_CORP_LTD .
+:gaz_comp_TELSTRA_CORP_LTD
+	:term "TELSTRA CORP. LTD." ;
+	:term "Telstra Corp. Ltd." ;
+	:term "Telstra Corp Ltd" ;
+	a :Gazetteer .
+
+:comp_TOKYO_ELEC_PWR
+	:identifiedBy :gaz_comp_TOKYO_ELEC_PWR .
+:gaz_comp_TOKYO_ELEC_PWR
+	:term "TOKYO ELEC PWR" ;
+	:term "Tokyo Electric Power Co. Inc." ;
+	:term "Tokyo Electric Power Co Incorporated" ;
+	a :Gazetteer .
+
+:comp_TOSHIBA
+	:identifiedBy :gaz_comp_TOSHIBA .
+:gaz_comp_TOSHIBA
+	:term "TOSHIBA" ;
+	:term "Toshiba Corporation" ;
+	:term "TOSHIBA CORP" ;
+	:term "Toshiba Corp" ;
+	a :Gazetteer .
+
+:comp_TOYOTA_MOTOR_CO
+	:identifiedBy :gaz_comp_TOYOTA_MOTOR_CO .
+:gaz_comp_TOYOTA_MOTOR_CO
+	:term "TOYOTA MOTOR CO" ;
+	:term "Toyota Motor Corporation" ;
+	:term "TOYOTA MOTOR CORP" ;
+	a :Gazetteer .
+
+:comp_UTD_OVERSEAS_BK
+	:identifiedBy :gaz_comp_UTD_OVERSEAS_BK .
+:gaz_comp_UTD_OVERSEAS_BK
+	:term "UTD OVERSEAS BK" ;
+	:term "United Overseas bank Ltd." ;
+	:term "United Overseas Bank Ltd" ;
+	a :Gazetteer .
+
+:comp_WESTPAC
+	:identifiedBy :gaz_comp_WESTPAC .
+:gaz_comp_WESTPAC
+	:term "WESTPAC" ;
+	:term "Westpac Banking Corp." ;
+	:term "Westpac Banking Corp" ;
+	a :Gazetteer .
+
+:comp_WOOLWORTHS
+	:identifiedBy :gaz_comp_WOOLWORTHS .
+:gaz_comp_WOOLWORTHS
+	:term "WOOLWORTHS" ;
+	:term "Woolworths LTD." ;
+	:term "Woolworths Ltd" ;
+	a :Gazetteer .
+
+:comp_ANDRITZ_AG
+	:identifiedBy :gaz_comp_ANDRITZ_AG .
+:gaz_comp_ANDRITZ_AG
+	:term "ANDRITZ AG" ;
+	:term "Andritz AG" ;
+	a :Gazetteer .
+
+:comp_CA_IMMOBILIEN_ANLAGEN_AG
+	:identifiedBy :gaz_comp_CA_IMMOBILIEN_ANLAGEN_AG .
+:gaz_comp_CA_IMMOBILIEN_ANLAGEN_AG
+	:term "CA IMMOBILIEN ANLAGEN AG" ;
+	:term "CA Immobilien Anlagen AG" ;
+	a :Gazetteer .
+
+:comp_CONWERT_IMMOBILIEN_INVEST_SE
+	:identifiedBy :gaz_comp_CONWERT_IMMOBILIEN_INVEST_SE .
+:gaz_comp_CONWERT_IMMOBILIEN_INVEST_SE
+	:term "CONWERT IMMOBILIEN INVEST SE" ;
+	:term "conwert Immobilien Invest SE" ;
+	a :Gazetteer .
+
+:comp_ERSTE_GROUP_BANK_AG
+	:identifiedBy :gaz_comp_ERSTE_GROUP_BANK_AG .
+:gaz_comp_ERSTE_GROUP_BANK_AG
+	:term "ERSTE GROUP BANK AG" ;
+	:term "Erste Group Bank AG" ;
+	:term "Erste Bank der Oesterreichischen Sparkassen AG" ;
+	a :Gazetteer .
+
+:comp_EVN_AG
+	:identifiedBy :gaz_comp_EVN_AG .
+:gaz_comp_EVN_AG
+	:term "EVN AG" ;
+	a :Gazetteer .
+
+:comp_IMMOFINANZ_AG
+	:identifiedBy :gaz_comp_IMMOFINANZ_AG .
+:gaz_comp_IMMOFINANZ_AG
+	:term "IMMOFINANZ AG" ;
+	:term "Immofinanz AG" ;
+	a :Gazetteer .
+
+:comp_MAYR_MELNHOF_KARTON_AG
+	:identifiedBy :gaz_comp_MAYR_MELNHOF_KARTON_AG .
+:gaz_comp_MAYR_MELNHOF_KARTON_AG
+	:term "MAYR-MELNHOF KARTON AG" ;
+	:term "Mayr-Melnhof Karton AG" ;
+	:term "Mayr Melnhof Karton AG" ;
+	a :Gazetteer .
+
+:comp_OESTERREICHISCHE_POST_AG
+	:identifiedBy :gaz_comp_OESTERREICHISCHE_POST_AG .
+:gaz_comp_OESTERREICHISCHE_POST_AG
+	:term "OESTERREICHISCHE POST AG" ;
+	:term "Österreichische Post AG" ;
+	:term "Oesterreichische Post AG" ;
+	a :Gazetteer .
+
+:comp_OMV_AG
+	:identifiedBy :gaz_comp_OMV_AG .
+:gaz_comp_OMV_AG
+	:term "OMV AG" ;
+	a :Gazetteer .
+
+:comp_RAIFFEISEN_BANK_INTERNATIONAL_AG
+	:identifiedBy :gaz_comp_RAIFFEISEN_BANK_INTERNATIONAL_AG .
+:gaz_comp_RAIFFEISEN_BANK_INTERNATIONAL_AG
+	:term "RAIFFEISEN BANK INTERNATIONAL AG" ;
+	:term "Raiffeisen Bank International AG" ;
+	a :Gazetteer .
+
+:comp_RHI_AG
+	:identifiedBy :gaz_comp_RHI_AG .
+:gaz_comp_RHI_AG
+	:term "RHI AG" ;
+	a :Gazetteer .
+
+:comp_SCHOELLER_BLECKMANN_OILFIELD_EQUIPMENT_AG
+	:identifiedBy :gaz_comp_SCHOELLER_BLECKMANN_OILFIELD_EQUIPMENT_AG .
+:gaz_comp_SCHOELLER_BLECKMANN_OILFIELD_EQUIPMENT_AG
+	:term "SCHOELLER-BLECKMANN OILFIELD EQUIPMENT AG" ;
+	:term "Schoeller-Bleckmann Oilfield Equipment AG" ;
+	a :Gazetteer .
+
+:comp_STRABAG_SE
+	:identifiedBy :gaz_comp_STRABAG_SE .
+:gaz_comp_STRABAG_SE
+	:term "STRABAG SE" ;
+	a :Gazetteer .
+
+:comp_TELEKOM_AUSTRIA_AG
+	:identifiedBy :gaz_comp_TELEKOM_AUSTRIA_AG .
+:gaz_comp_TELEKOM_AUSTRIA_AG
+	:term "TELEKOM AUSTRIA AG" ;
+	:term "Telekom Austria AG" ;
+	a :Gazetteer .
+
+:comp_VERBUND_AG
+	:identifiedBy :gaz_comp_VERBUND_AG .
+:gaz_comp_VERBUND_AG
+	:term "VERBUND AG" ;
+	a :Gazetteer .
+
+:comp_VIENNA_INSURANCE_GROUP_AG_WIENER_VERSICHERUNG_GRUP
+	:identifiedBy :gaz_comp_VIENNA_INSURANCE_GROUP_AG_WIENER_VERSICHERUNG_GRUP .
+:gaz_comp_VIENNA_INSURANCE_GROUP_AG_WIENER_VERSICHERUNG_GRUP
+	:term "VIENNA INSURANCE GROUP AG WIENER VERSICHERUNG GRUP" ;
+	:term "VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe" ;
+	:term "Vienna Insurance Group Wiener Versicherung Gruppe AG" ;
+	a :Gazetteer .
+
+:comp_VOESTALPINE_AG
+	:identifiedBy :gaz_comp_VOESTALPINE_AG .
+:gaz_comp_VOESTALPINE_AG
+	:term "VOESTALPINE AG" ;
+	:term "voestalpine AG" ;
+	:term "Voestalpine AG" ;
+	a :Gazetteer .
+
+:comp_WIENERBERGER_AG
+	:identifiedBy :gaz_comp_WIENERBERGER_AG .
+:gaz_comp_WIENERBERGER_AG
+	:term "WIENERBERGER AG" ;
+	:term "Wienerberger AG" ;
+	a :Gazetteer .
+
+:comp_ZUMTOBEL_AG
+	:identifiedBy :gaz_comp_ZUMTOBEL_AG .
+:gaz_comp_ZUMTOBEL_AG
+	:term "ZUMTOBEL AG" ;
+	:term "Zumtobel AG" ;
+	a :Gazetteer .
+
