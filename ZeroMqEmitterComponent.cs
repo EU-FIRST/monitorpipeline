@@ -26,11 +26,16 @@ namespace Latino.Workflows.Persistance
     */
     public class ZeroMqEmitterComponent : StreamDataConsumer
     {
-        private Messenger mMessenger 
-            = new Messenger();
+        private Messenger mMessenger;
 
         public ZeroMqEmitterComponent() : base(typeof(ZeroMqEmitterComponent))
         {
+            mMessenger = new Messenger(/*appSettingHandler=*/null);
+        }
+
+        public ZeroMqEmitterComponent(Messenger.AppSettingDelegate appSettingHandler) : base(typeof(ZeroMqEmitterComponent))
+        {
+            mMessenger = new Messenger(appSettingHandler);
         }
 
         protected override void ConsumeData(IDataProducer sender, object data)

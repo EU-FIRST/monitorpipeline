@@ -32,11 +32,16 @@ namespace MonitorPipeline
             = null;
         private bool mStopped
             = true;
-        private Messenger mMessenger
-            = new Messenger();
+        private Messenger mMessenger;
 
         public ZeroMqReceiverComponent() : base(typeof(ZeroMqReceiverComponent))
         {
+            mMessenger = new Messenger(/*appSettingHandler=*/null);
+        }
+
+        public ZeroMqReceiverComponent(Messenger.AppSettingDelegate appSettingHandler) : base(typeof(ZeroMqReceiverComponent))
+        {
+            mMessenger = new Messenger(appSettingHandler);
         }
 
         public override void Start()

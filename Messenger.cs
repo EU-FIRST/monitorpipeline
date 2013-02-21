@@ -19,6 +19,17 @@ namespace Messaging
 {
     public class Messenger
     {
+        private string GetAppSetting(string key)
+        {
+            if (mAppSettingHandler != null) { return mAppSettingHandler(key); }
+            return ConfigurationManager.AppSettings.Get(key);
+        }
+
+        public delegate string AppSettingDelegate(string key);
+
+        private AppSettingDelegate mAppSettingHandler
+            = null;
+
         private static readonly ILog logger = LogManager.GetLogger(typeof(Messenger));
 
         //queue variables
@@ -52,23 +63,23 @@ namespace Messaging
         //private Apache.NMS.IConnection activeMQconnection;
 
         //zeromq balancing commands
-        private static String WAIT_COMMAND = "WAIT";
-        private static String FINISH_COMMAND = "FINISH";
-        private static String CONTINUE_COMMAND = "CONTINUE";
-        private static String MESSAGE_REQUEST = "R";
+        private String WAIT_COMMAND = "WAIT";
+        private String FINISH_COMMAND = "FINISH";
+        private String CONTINUE_COMMAND = "CONTINUE";
+        private String MESSAGE_REQUEST = "R";
 
         //zeromq pipeline or request & reply
-        private static int MESSAGING_TYPE = 1;
+        private int MESSAGING_TYPE = 1;
         private const int PIPELINE = 0;
         private const int REQ_REP = 1;
 
-        private static int IGNORE_QUEUE_OVERFLOW = 1;
-        private static int MAX_QUEUE_SIZE = 10;
-        private static int MIN_QUEUE_SIZE = 1;//min size to start sending messages
-        private static int MAX_BROKER_QUEUE_SIZE = 4;
+        private int IGNORE_QUEUE_OVERFLOW = 1;
+        private int MAX_QUEUE_SIZE = 10;
+        private int MIN_QUEUE_SIZE = 1;//min size to start sending messages
+        private int MAX_BROKER_QUEUE_SIZE = 4;
 
         //broker variables
-        private static int BROKER = 0;
+        private int BROKER = 0;
         private const int NONE = 0;
         private const int ACTIVEMQ = 1;
 
@@ -84,20 +95,22 @@ namespace Messaging
 
         private bool messagingFinished = false;
 
-        private static bool BLOCKING_QUEUE = false;
+        private bool BLOCKING_QUEUE = false;
 
         //logging flag
-        private static bool DB_LOGGING = true;
+        private bool DB_LOGGING = true;
 
         //used for load balancing
-        private static int ID = 1;
-        private static int producerNum = 1;
-        private static int receiverNum = 1;
-        private static float ratio = 1;
+        private int ID = 1;
+        private int producerNum = 1;
+        private int receiverNum = 1;
+        private float ratio = 1;
         Set<int> lbSet = new Set<int>();
 
-        public Messenger()
+        public Messenger(AppSettingDelegate appSettingHandler)
         {
+            mAppSettingHandler = appSettingHandler;
+
             initLogger();
 
             //zeromq opening connections
@@ -108,31 +121,31 @@ namespace Messaging
             loggerQueue = new BlockingQueue<String>();
             zeromqContext = new Context(1);
             //reading parameters from the configuration file
-            MESSAGING_TYPE = Convert.ToInt32(ConfigurationManager.AppSettings.Get("MessagingType"));
-            MAX_QUEUE_SIZE = Convert.ToInt32(ConfigurationManager.AppSettings.Get("MAX_QUEUE_SIZE"));
-            MIN_QUEUE_SIZE = Convert.ToInt32(ConfigurationManager.AppSettings.Get("MIN_QUEUE_SIZE"));
-            IGNORE_QUEUE_OVERFLOW = Convert.ToInt32(ConfigurationManager.AppSettings.Get("IGNORE_QUEUE_OVERFLOW"));
-            BROKER = Convert.ToInt32(ConfigurationManager.AppSettings.Get("Broker"));
-            String addressSend = ConfigurationManager.AppSettings.Get("MessageSendAddress");
-            String addressReceive = ConfigurationManager.AppSettings.Get("MessageReceiveAddress");
-            inFileStorageAddress = ConfigurationManager.AppSettings.Get("InFileStorageAddress");
-            outFileStorageAddress = ConfigurationManager.AppSettings.Get("OutFileStorageAddress");
-            maxFileStorageNum = Convert.ToInt32(ConfigurationManager.AppSettings.Get("MAX_FILE_STORAGE_SIZE"));
-            WAIT_COMMAND = ConfigurationManager.AppSettings.Get("WAIT_COMMAND");
-            FINISH_COMMAND = ConfigurationManager.AppSettings.Get("FINISH_COMMAND");
-            CONTINUE_COMMAND = ConfigurationManager.AppSettings.Get("CONTINUE_COMMAND");
-            MESSAGE_REQUEST = ConfigurationManager.AppSettings.Get("MESSAGE_REQUEST");
+            MESSAGING_TYPE = Convert.ToInt32(GetAppSetting("MessagingType"));
+            MAX_QUEUE_SIZE = Convert.ToInt32(GetAppSetting("MAX_QUEUE_SIZE"));
+            MIN_QUEUE_SIZE = Convert.ToInt32(GetAppSetting("MIN_QUEUE_SIZE"));
+            IGNORE_QUEUE_OVERFLOW = Convert.ToInt32(GetAppSetting("IGNORE_QUEUE_OVERFLOW"));
+            BROKER = Convert.ToInt32(GetAppSetting("Broker"));
+            String addressSend = GetAppSetting("MessageSendAddress");
+            String addressReceive = GetAppSetting("MessageReceiveAddress");
+            inFileStorageAddress = GetAppSetting("InFileStorageAddress");
+            outFileStorageAddress = GetAppSetting("OutFileStorageAddress");
+            maxFileStorageNum = Convert.ToInt32(GetAppSetting("MAX_FILE_STORAGE_SIZE"));
+            WAIT_COMMAND = GetAppSetting("WAIT_COMMAND");
+            FINISH_COMMAND = GetAppSetting("FINISH_COMMAND");
+            CONTINUE_COMMAND = GetAppSetting("CONTINUE_COMMAND");
+            MESSAGE_REQUEST = GetAppSetting("MESSAGE_REQUEST");
 
-            ID = Convert.ToInt32(ConfigurationManager.AppSettings.Get("ID"));
-            receiverNum = Convert.ToInt32(ConfigurationManager.AppSettings.Get("ReceiverNumber"));
-            producerNum = Convert.ToInt32(ConfigurationManager.AppSettings.Get("ProducerNumber"));
+            ID = Convert.ToInt32(GetAppSetting("ID"));
+            receiverNum = Convert.ToInt32(GetAppSetting("ReceiverNumber"));
+            producerNum = Convert.ToInt32(GetAppSetting("ProducerNumber"));
             ratio = (float)producerNum / receiverNum;
 
-            DB_LOGGING = Convert.ToBoolean(ConfigurationManager.AppSettings.Get("DB_LOGGING"));
+            DB_LOGGING = Convert.ToBoolean(GetAppSetting("DB_LOGGING"));
             //logging receiving socket
             if (DB_LOGGING == true)
             {
-                String loggingDestinationPort = ConfigurationManager.AppSettings.Get("DBLoggingReceiver");
+                String loggingDestinationPort = GetAppSetting("DBLoggingReceiver");
                 loggerEmitter = zeromqContext.Socket(SocketType.PUSH);
                 loggerEmitter.Bind(loggingDestinationPort);
                 loggerThread = new Thread(new ThreadStart(this.LoggerThreadRun));
@@ -150,13 +163,13 @@ namespace Messaging
 
                         // to receive continue and wait messages from message consumer
                         lbReceiver = zeromqContext.Socket(SocketType.SUB);
-                        String lbReceiverAddress = ConfigurationManager.AppSettings.Get("ReceiveLoadBalancingAdress");
+                        String lbReceiverAddress = GetAppSetting("ReceiveLoadBalancingAdress");
                         //load balancing messages can be received from multiple consumers
                         string[] addresses = lbReceiverAddress.Split(' ');
                         foreach (string address in addresses)
                         {
                             lbReceiver.Connect(address);
-                            lbReceiver.Subscribe(ConfigurationManager.AppSettings.Get("RECEIVE_COMMAND_FILTER"), Encoding.UTF8);
+                            lbReceiver.Subscribe(GetAppSetting("RECEIVE_COMMAND_FILTER"), Encoding.UTF8);
                         }
                         //starts zeromq messaging thread
                         zerommqSendThread = new Thread(new ThreadStart(this.ZeromqSendThreadRun));
@@ -174,7 +187,7 @@ namespace Messaging
                             receiver.Connect(address);
                         }
                         // to send continue and wait messages to message producers
-                        String lbSenderAddress = ConfigurationManager.AppSettings.Get("SendLoadBalancingAddress");
+                        String lbSenderAddress = GetAppSetting("SendLoadBalancingAddress");
                         lbSender = zeromqContext.Socket(SocketType.PUB);
                         lbSender.Bind(lbSenderAddress);
 
@@ -197,8 +210,8 @@ namespace Messaging
                     break;
             }
 
-            String finishPublishAddress = ConfigurationManager.AppSettings.Get("FinishPublish");
-            String finishReceiveAddress = ConfigurationManager.AppSettings.Get("FinishReceive");
+            String finishPublishAddress = GetAppSetting("FinishPublish");
+            String finishReceiveAddress = GetAppSetting("FinishReceive");
             if (finishPublishAddress != null)
             {
                 finishSender = zeromqContext.Socket(SocketType.PUB);
@@ -208,7 +221,7 @@ namespace Messaging
             {
                 finishReceiver = zeromqContext.Socket(SocketType.SUB);
                 finishReceiver.Connect(finishReceiveAddress);
-                finishReceiver.Subscribe(ConfigurationManager.AppSettings.Get("RECEIVE_COMMAND_FILTER"), Encoding.UTF8);
+                finishReceiver.Subscribe(GetAppSetting("RECEIVE_COMMAND_FILTER"), Encoding.UTF8);
                 finishThread = new Thread(new ThreadStart(this.FinishThreadRun));
                 finishThread.Start();
             }
@@ -227,10 +240,10 @@ namespace Messaging
             //    try
             //    {
             //        //activemq opening connections
-            //        Apache.NMS.ActiveMQ.ConnectionFactory factory = new Apache.NMS.ActiveMQ.ConnectionFactory(ConfigurationManager.AppSettings.Get("ACTIVEMQ"));
+            //        Apache.NMS.ActiveMQ.ConnectionFactory factory = new Apache.NMS.ActiveMQ.ConnectionFactory(GetAppSetting("ACTIVEMQ"));
             //        activeMQconnection = factory.CreateConnection();
             //        Session session = activeMQconnection.CreateSession(AcknowledgementMode.AutoAcknowledge) as Session;
-            //        IDestination bqueue = session.GetQueue(ConfigurationManager.AppSettings.Get("QueueName"));
+            //        IDestination bqueue = session.GetQueue(GetAppSetting("QueueName"));
             //        activemqSender = session.CreateProducer(bqueue);
 
             //        brokerThread = new Thread(new ThreadStart(this.ActiveMQBrokerThreadRun));
@@ -290,7 +303,7 @@ namespace Messaging
         public void sendMessage(String message)
         {
             //sends message with zeromq
-            if (outgoingMessageQueue.Count < Messenger.MAX_QUEUE_SIZE)
+            if (outgoingMessageQueue.Count < MAX_QUEUE_SIZE)
             {
                 outgoingMessageQueue.Enqueue(message);
             }
@@ -301,7 +314,7 @@ namespace Messaging
                 {
                     try
                     {
-                        if (brokerQueue.Count < Messenger.MAX_BROKER_QUEUE_SIZE)
+                        if (brokerQueue.Count < MAX_BROKER_QUEUE_SIZE)
                         {
                             brokerQueue.Enqueue(message);
                         }
