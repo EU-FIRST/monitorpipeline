@@ -65,10 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DocumentCategorizerComponent.cs" />
+    <Compile Include="DocumentCorpusWriterComponent.cs" />
     <Compile Include="Messenger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestComponent.cs" />
     <Compile Include="ZeroMqEmitterComponent.cs" />
     <Compile Include="ZeroMqReceiverComponent.cs" />
   </ItemGroup>
@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Database\CreateTables.sql" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

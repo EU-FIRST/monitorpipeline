@@ -15,8 +15,10 @@ using System.IO;
 using Latino.Workflows.TextMining;
 using Messaging;
 using System.Text;
+using Latino;
+using Latino.Workflows;
 
-namespace Latino.Workflows.Persistance
+namespace MonitorPipeline
 {
     /* .-----------------------------------------------------------------------
        |

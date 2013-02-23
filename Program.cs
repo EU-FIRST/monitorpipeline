@@ -54,18 +54,18 @@ namespace MonitorPipeline
                 dfc.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(Filter);                
                 EntityRecognitionComponent erc = new EntityRecognitionComponent(ONTOLOGY_FOLDER);
                 erc.BlockSelector = "TextBlock/Content";
-                //DocumentCorpusWriterComponent dcwc = new DocumentCorpusWriterComponent(null, null, HTML_FOLDER);
                 DocumentFilterComponent snd = new DocumentFilterComponent();
-                rcv.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(delegate(Document doc, Logger log) {
+                snd.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(delegate(Document doc, Logger log) {
                     Console.WriteLine("SND " + doc.Name);
                     return true;
-                });                
+                });
+                DocumentCorpusWriterComponent dcwc = new DocumentCorpusWriterComponent();
                 zmqRcv.Subscribe(rcv);
                 rcv.Subscribe(cc);
                 cc.Subscribe(dfc);
                 dfc.Subscribe(erc);
-                //erc.Subscribe(dcwc);
                 erc.Subscribe(snd);
+                snd.Subscribe(dcwc);
                 snd.Subscribe(zmqEmt);
             }
             zmqRcv.Start();
