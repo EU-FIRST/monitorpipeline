@@ -13,6 +13,10 @@ namespace MonitorPipeline
     {
         private static string HTML_FOLDER
             = Utils.GetConfigValue("HtmlOutputFolder");
+        private static string ONTOLOGY_FOLDER
+            = Utils.GetConfigValue("OntologyFolder", ".");
+        private static int NUM_PIPES
+            = Convert.ToInt32(Utils.GetConfigValue("NumPipes", "1"));
 
         private static bool Filter(Document doc, Logger logger)
         {
@@ -28,7 +32,6 @@ namespace MonitorPipeline
         static void Main(string[] args)
         {
             Logger logger = Logger.GetRootLogger();
-            const int NUM_PIPES = 4;
             ZeroMqReceiverComponent zmqRcv = new ZeroMqReceiverComponent(delegate(string key) {
                 if (key == "MessageSendAddress" || key == "ReceiveLoadBalancingAdress" || key == "FinishPublish") { return null; } // ignore these settings
                 return ConfigurationManager.AppSettings.Get(key);
@@ -49,7 +52,7 @@ namespace MonitorPipeline
                 cc.BlockSelector = "TextBlock/Content";
                 DocumentFilterComponent dfc = new DocumentFilterComponent();
                 dfc.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(Filter);                
-                EntityRecognitionComponent erc = new EntityRecognitionComponent(Utils.GetConfigValue("EntityRecognitionOntologies", "."));
+                EntityRecognitionComponent erc = new EntityRecognitionComponent(ONTOLOGY_FOLDER);
                 erc.BlockSelector = "TextBlock/Content";
                 //DocumentCorpusWriterComponent dcwc = new DocumentCorpusWriterComponent(null, null, HTML_FOLDER);
                 DocumentFilterComponent snd = new DocumentFilterComponent();
