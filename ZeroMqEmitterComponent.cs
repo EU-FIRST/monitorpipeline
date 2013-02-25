@@ -43,29 +43,18 @@ namespace MonitorPipeline
         protected override void ConsumeData(IDataProducer sender, object data)
         {
             Utils.ThrowException(!(data is DocumentCorpus) ? new ArgumentTypeException("data") : null);
-            //StringWriter stringWriter;
-            //XmlWriterSettings xmlSettings = new XmlWriterSettings();
-            //xmlSettings.Indent = true;
-            //xmlSettings.NewLineOnAttributes = true;
-            //xmlSettings.CheckCharacters = false;
-            //XmlWriter writer = XmlWriter.Create(stringWriter = new StringWriter(), xmlSettings);
-            //((DocumentCorpus)data).WriteXml(writer, /*writeTopElement=*/true);
-            //writer.Close();
-            // send message
-            //mMessenger.sendMessage(stringWriter.ToString());
             foreach (Document doc in ((DocumentCorpus)data).Documents)
             {
-                //StringWriter stringWriter;
-                //XmlWriterSettings xmlSettings = new XmlWriterSettings();
-                //xmlSettings.Indent = true;
-                //xmlSettings.NewLineOnAttributes = true;
-                //xmlSettings.CheckCharacters = false;
-                //XmlWriter writer = XmlWriter.Create(stringWriter = new StringWriter(), xmlSettings);
-                //doc.WriteGateXml(writer);
-                //writer.Close();
-                //// send message
-                //mMessenger.sendMessage(stringWriter.ToString());
-                mMessenger.sendMessage(doc.Name);
+                StringWriter stringWriter;
+                XmlWriterSettings xmlSettings = new XmlWriterSettings();
+                xmlSettings.Indent = true;
+                xmlSettings.NewLineOnAttributes = true;
+                xmlSettings.CheckCharacters = false;
+                XmlWriter writer = XmlWriter.Create(stringWriter = new StringWriter(), xmlSettings);
+                doc.WriteGateXml(writer, /*writeTopElement=*/true, /*removeBoilerplate=*/true);
+                writer.Close();
+                // send message
+                mMessenger.sendMessage(stringWriter.ToString());
             }
         }
 

@@ -65,7 +65,7 @@ namespace MonitorPipeline
                 cc.Subscribe(dfc);
                 dfc.Subscribe(erc);
                 erc.Subscribe(snd);
-                snd.Subscribe(dcwc);
+                //snd.Subscribe(dcwc);
                 snd.Subscribe(zmqEmt);
             }
             zmqRcv.Start();
