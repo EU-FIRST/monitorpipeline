@@ -56,15 +56,29 @@ namespace MonitorPipeline
                 erc.BlockSelector = "TextBlock/Content";
                 DocumentFilterComponent snd = new DocumentFilterComponent();
                 snd.OnFilterDocument += new DocumentFilterComponent.FilterDocumentHandler(delegate(Document doc, Logger log) {
-                    Console.WriteLine("SND " + doc.Name);
+                    Console.WriteLine("SND " + doc.Name + " [" + doc.Features.GetFeatureValue("fullId") + "]");
                     return true;
                 });
                 DocumentCorpusWriterComponent dcwc = new DocumentCorpusWriterComponent();
+                GenericStreamDataProcessor mkId = new GenericStreamDataProcessor();
+                mkId.OnProcessData += new GenericStreamDataProcessor.ProcessDataHandler(delegate(IDataProducer sender, object data) {
+                    DocumentCorpus c = (DocumentCorpus)data;
+                    string corpusId = c.Features.GetFeatureValue("guid").Replace("-", "");
+                    DateTime timeEnd = DateTime.Parse(c.Features.GetFeatureValue("timeEnd"));
+                    foreach (Document d in c.Documents)
+                    {
+                        string docId = d.Features.GetFeatureValue("guid").Replace("-", "");
+                        string fullId = timeEnd.ToString("HH_mm_ss_") + corpusId + "_" + docId;
+                        d.Features.SetFeatureValue("fullId", fullId);
+                    }
+                    return data;
+                });
                 zmqRcv.Subscribe(rcv);
                 rcv.Subscribe(cc);
                 cc.Subscribe(dfc);
                 dfc.Subscribe(erc);
-                erc.Subscribe(snd);
+                erc.Subscribe(mkId);
+                mkId.Subscribe(snd);
                 //snd.Subscribe(dcwc);
                 snd.Subscribe(zmqEmt);
             }
