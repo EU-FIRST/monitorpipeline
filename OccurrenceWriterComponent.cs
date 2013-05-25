@@ -11,20 +11,20 @@
  ***************************************************************************/
 
 using System;
+using System.Data.SqlClient; 
 using Latino.Workflows.TextMining;
-using SemanticAnotation; 
+using SemanticAnotation;
 
 namespace Latino.Workflows.Persistance
 {
     public class OccurrenceWriterComponent : StreamDataConsumer
     {
-        public OccurrenceWriterComponent() : base(typeof(OccurrenceWriterComponent))
-        {
-        }
+        SqlConnection mConnection;
 
-        public static void Initialize(string connectionString)
+        public OccurrenceWriterComponent(string sqlConnectionString) : base(typeof(OccurrenceWriterComponent))
         {
-            ToDb.InitializeDatabase(connectionString);
+            mConnection = new SqlConnection(sqlConnectionString);
+            mConnection.Open();
         }
 
         protected override void ConsumeData(IDataProducer sender, object data)
@@ -62,7 +62,7 @@ namespace Latino.Workflows.Persistance
                 //******************* Document to database
                 double pumpDumpIndex = 0; // TODO
                 bool isFinancial = doc.Features.GetFeatureValue("isFinancial") == "True";
-                long docId = ToDb.DocumentToDb(title, date, pubDate, timeGet.ToString("yyyy-MM-dd HH:mm"), responseUrl, urlKey, domainName, isFinancial, pumpDumpIndex, documentId);
+                long docId = ToDb.DocumentToDb(mConnection, title, date, pubDate, timeGet.ToString("yyyy-MM-dd HH:mm"), responseUrl, urlKey, domainName, isFinancial, pumpDumpIndex, documentId);
 
                 //******************* occurrences
 
@@ -99,8 +99,8 @@ namespace Latino.Workflows.Persistance
                             //     string instClassUri = annot.Features.GetFeatureValue("instanceClassUri");
                             string term = so.Text; // takole pa dobis dejanski tekst...
                             //   Console.WriteLine("\n" + gazUri + " \t" + instUri + " \t" + instClassUri + " \t" + term);
-                            long occId = ToDb.OccurrenceToDb(date, annot.SpanStart, annot.SpanEnd, sentenceNum, blockNum, docId, instUri);
-                            ToDb.TermToDb(occId, term);
+                            long occId = ToDb.OccurrenceToDb(mConnection, date, annot.SpanStart, annot.SpanEnd, sentenceNum, blockNum, docId, instUri);
+                            ToDb.TermToDb(mConnection, occId, term);
                         }
 
                         // sentiment word
@@ -125,13 +125,13 @@ namespace Latino.Workflows.Persistance
                                 documentNeg++;
                             }
                             // Insert into SQL table SentimentWordOccurrence
-                            ToDb.SentimentWordOccurrenceToDb(date, annot.SpanStart, annot.SpanEnd, sentenceNum, blockNum, docId, instUri);
+                            ToDb.SentimentWordOccurrenceToDb(mConnection, date, annot.SpanStart, annot.SpanEnd, sentenceNum, blockNum, docId, instUri);
                         }
                     }
                     // Insert into SQL table BlockSentiment
                     if (blockNeg != 0 || blockPoz != 0)
                     {
-                        ToDb.BlockSentimentToDb(docId, blockNum, blockPoz, blockNeg, tokensPerBlock);
+                        ToDb.BlockSentimentToDb(mConnection, docId, blockNum, blockPoz, blockNeg, tokensPerBlock);
                     }
                 } 
             }
@@ -140,7 +140,7 @@ namespace Latino.Workflows.Persistance
         public new void Dispose()
         {
             base.Dispose();
-            try { ToDb.DatabaseConnectionClose(); }
+            try { mConnection.Close(); }
             catch { }
         }
     }

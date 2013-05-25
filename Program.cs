@@ -90,8 +90,6 @@ namespace MonitorPipeline
                 mkId.Subscribe(snd);
                 snd.Subscribe(zmqEmt);
             }
-            OccurrenceWriterComponent.Initialize(CONNECTION_STRING_OCCURRENCE);
-            OccurrenceWriterComponent owc = new OccurrenceWriterComponent();
             // Petra's code
             Ontology o = new Ontology(ONTOLOGY_FOLDER_BYPASS);
             o.ToDb(CONNECTION_STRING_OCCURRENCE);    // fill DB tables entity and class
@@ -101,7 +99,8 @@ namespace MonitorPipeline
                 // create components
                 EntityRecognitionComponent erc = new EntityRecognitionComponent(ONTOLOGY_FOLDER_BYPASS);
                 erc.BlockSelector = "TextBlock/Content";
-                OntologyCategorizerComponent occ = new OntologyCategorizerComponent();                
+                OntologyCategorizerComponent occ = new OntologyCategorizerComponent();
+                OccurrenceWriterComponent owc = new OccurrenceWriterComponent(CONNECTION_STRING_OCCURRENCE);
                 // build branch
                 bypass.Subscribe(erc);
                 erc.Subscribe(occ);
