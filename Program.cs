@@ -15,8 +15,14 @@ namespace MonitorPipeline
             = Utils.GetConfigValue("HtmlOutputFolder");
         private static string ONTOLOGY_FOLDER
             = Utils.GetConfigValue("OntologyFolder", ".");
+        private static string ONTOLOGY_FOLDER_BYPASS
+            = Utils.GetConfigValue("OntologyFolderBypass", ".");
         private static int NUM_PIPES
             = Convert.ToInt32(Utils.GetConfigValue("NumPipes", "1"));
+        private static int NUM_PIPES_BYPASS
+            = Convert.ToInt32(Utils.GetConfigValue("NumPipesBypass", "1"));
+        private static string CONNECTION_STRING_OCCURRENCE
+            = Utils.GetConfigValue("ConnectionStringOccurrence");
 
         private static bool Filter(Document doc, Logger logger)
         {
@@ -30,17 +36,22 @@ namespace MonitorPipeline
         }
 
         static void Main(string[] args)
-        {
+        {            
             Logger logger = Logger.GetRootLogger();
             ZeroMqReceiverComponent zmqRcv = new ZeroMqReceiverComponent(delegate(string key) {
                 if (key == "MessageSendAddress" || key == "ReceiveLoadBalancingAdress" || key == "FinishPublish") { return null; } // ignore these settings
                 return ConfigurationManager.AppSettings.Get(key);
             });
-            zmqRcv.DispatchPolicy = DispatchPolicy.BalanceLoadMax;
             ZeroMqEmitterComponent zmqEmt = new ZeroMqEmitterComponent(delegate(string key) {
                 if (key == "MessageReceiveAddress" || key == "SendLoadBalancingAddress" || key == "FinishReceive") { return null; } // ignore these settings
                 return ConfigurationManager.AppSettings.Get(key);
             });
+            PassOnComponent oldBranch = new PassOnComponent(); // first branch (goes to WP4)            
+            oldBranch.DispatchPolicy = DispatchPolicy.BalanceLoadMax;
+            PassOnComponent bypass = new PassOnComponent(); // second branch ("bypass", writes to DB)
+            bypass.DispatchPolicy = DispatchPolicy.BalanceLoadMax;
+            zmqRcv.Subscribe(oldBranch);
+            zmqRcv.Subscribe(bypass);
             for (int i = 0; i < NUM_PIPES; i++)
             {
                 DocumentFilterComponent rcv = new DocumentFilterComponent();
@@ -59,7 +70,6 @@ namespace MonitorPipeline
                     Console.WriteLine("SND " + doc.Name + " [" + doc.Features.GetFeatureValue("fullId") + "]");
                     return true;
                 });
-                DocumentCorpusWriterComponent dcwc = new DocumentCorpusWriterComponent();
                 GenericStreamDataProcessor mkId = new GenericStreamDataProcessor();
                 mkId.OnProcessData += new GenericStreamDataProcessor.ProcessDataHandler(delegate(IDataProducer sender, object data) {
                     DocumentCorpus c = (DocumentCorpus)data;
@@ -72,15 +82,27 @@ namespace MonitorPipeline
                         d.Features.SetFeatureValue("fullId", fullId);
                     }
                     return data;
-                });
-                zmqRcv.Subscribe(rcv);
+                });                
+                oldBranch.Subscribe(rcv);
                 rcv.Subscribe(cc);
                 cc.Subscribe(dfc);
                 dfc.Subscribe(erc);
                 erc.Subscribe(mkId);
                 mkId.Subscribe(snd);
-                //snd.Subscribe(dcwc);
                 snd.Subscribe(zmqEmt);
+            }
+            OccurrenceWriterComponent.Initialize(CONNECTION_STRING_OCCURRENCE);
+            for (int i = 0; i < NUM_PIPES_BYPASS; i++)
+            {
+                // create components
+                EntityRecognitionComponent erc = new EntityRecognitionComponent(ONTOLOGY_FOLDER);
+                erc.BlockSelector = "TextBlock/Content";
+                OntologyCategorizerComponent occ = new OntologyCategorizerComponent();
+                OccurrenceWriterComponent owc = new OccurrenceWriterComponent();
+                // build branch
+                bypass.Subscribe(erc);
+                erc.Subscribe(occ);
+                occ.Subscribe(owc);
             }
             zmqRcv.Start();
             logger.Info("Main", "The pipeline is running.");
