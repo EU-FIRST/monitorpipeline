@@ -1,18 +1,17 @@
 ﻿using System;
+using System.Configuration;
 using Latino;
 using Latino.Workflows;
 using Latino.Workflows.WebMining;
 using Latino.Workflows.TextMining;
 using Latino.Workflows.Semantics;
 using Latino.Workflows.Persistance;
-using System.Configuration;
+using SemanticAnotation;
 
 namespace MonitorPipeline
 {
     class Program
     {
-        private static string HTML_FOLDER
-            = Utils.GetConfigValue("HtmlOutputFolder");
         private static string ONTOLOGY_FOLDER
             = Utils.GetConfigValue("OntologyFolder", ".");
         private static string ONTOLOGY_FOLDER_BYPASS
@@ -92,18 +91,22 @@ namespace MonitorPipeline
                 snd.Subscribe(zmqEmt);
             }
             OccurrenceWriterComponent.Initialize(CONNECTION_STRING_OCCURRENCE);
+            OccurrenceWriterComponent owc = new OccurrenceWriterComponent();
+            // Petra's code
+            Ontology o = new Ontology(ONTOLOGY_FOLDER_BYPASS);
+            o.ToDb(CONNECTION_STRING_OCCURRENCE);    // fill DB tables entity and class
+            // end of Petra's code
             for (int i = 0; i < NUM_PIPES_BYPASS; i++)
             {
                 // create components
-                EntityRecognitionComponent erc = new EntityRecognitionComponent(ONTOLOGY_FOLDER);
+                EntityRecognitionComponent erc = new EntityRecognitionComponent(ONTOLOGY_FOLDER_BYPASS);
                 erc.BlockSelector = "TextBlock/Content";
-                OntologyCategorizerComponent occ = new OntologyCategorizerComponent();
-                OccurrenceWriterComponent owc = new OccurrenceWriterComponent();
+                OntologyCategorizerComponent occ = new OntologyCategorizerComponent();                
                 // build branch
                 bypass.Subscribe(erc);
                 erc.Subscribe(occ);
                 occ.Subscribe(owc);
-            }
+            }          
             zmqRcv.Start();
             logger.Info("Main", "The pipeline is running.");
         }

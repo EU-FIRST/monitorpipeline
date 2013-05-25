@@ -76,6 +76,7 @@ namespace Latino.Workflows.Persistance
                 //******************** occurrence to database
                 int documentNeg = 0, documentPoz = 0;
 
+                doc.CreateAnnotationIndex();
                 foreach (TextBlock tb in doc.GetAnnotatedBlocks(blockSelector)) //"TextBlock/Content" if rev = "1", else "TextBlock/Content/Unseen"
                 {
                     int tokensPerBlock = doc.GetAnnotatedBlocks("Token", tb.SpanStart, tb.SpanEnd).Length;

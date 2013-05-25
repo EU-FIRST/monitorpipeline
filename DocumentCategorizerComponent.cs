@@ -50,6 +50,11 @@ namespace MonitorPipeline
             mBowSpace.CutLowWeightsPerc = 0.2;
             mCategorizer = Utils.LoadDictionary<string, IModel<string>>(binReader);
             binReader.Close();
+            //using (BinarySerializer writer = new BinarySerializer(@"C:\Work\AchimPipe\DocumentCategorizerModel.bin", FileMode.Create))
+            //{
+            //    mBowSpace.Save(writer);
+            //    Utils.SaveDictionary<string, IModel<string>>(mCategorizer, writer);
+            //}
             Logger.GetLogger(typeof(DocumentCategorizerComponent)).Info("CategorizerComponent", "Done.");
         }
 
