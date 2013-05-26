@@ -2,8 +2,8 @@
  *
  *  This file is part of LATINO. See http://latino.sf.net
  *
- *  File:    PumpNDumpIndexComponent.cs
- *  Desc:    Computes pump'n'dump index
+ *  File:    PumpIndexComponent.cs
+ *  Desc:    Computes pump index
  *  Created: May-2013
  *
  *  Author:  Miha Grcar
@@ -22,30 +22,36 @@ namespace MonitorPipeline
 {
     /* .-----------------------------------------------------------------------
        |
-       |  Class PumpNDumpIndexComponent
+       |  Class PumpIndexComponent
        |
        '-----------------------------------------------------------------------
     */
-    class PumpNDumpIndexComponent : DocumentProcessor
+    class PumpIndexComponent : DocumentProcessor
     {
         private static BowSpace mBowSpace;
-        private static SvmBinaryClassifier<bool> mClassifier;
+        private static SvmBinaryClassifier<int> mClassifier;
+        private static double mAvgDistPos;
+        private static double mAvgDistNeg;
 
-        public PumpNDumpIndexComponent() : base(typeof(PumpNDumpIndexComponent))
+        public PumpIndexComponent() : base(typeof(PumpIndexComponent))
         {
             mBlockSelector = "TextBlock/Content";
         }
 
-        static PumpNDumpIndexComponent()
+        static PumpIndexComponent()
         {
-            Logger.GetLogger(typeof(PumpNDumpIndexComponent)).Info("PumpNDumpIndexComponent", "Loading model ...");
-            string fileName = Utils.GetConfigValue("PumpNDumpModel", ".\\PumpNDumpModel.bin");
+            Logger.GetLogger(typeof(PumpIndexComponent)).Info("PumpIndexComponent", "Loading model ...");
+            string fileName = Utils.GetConfigValue("PumpIndexModel", ".\\PumpIndexModel.bin");
             using (BinarySerializer reader = new BinarySerializer(fileName, FileMode.Open))
             {
                 mBowSpace = new BowSpace(reader);
-                mClassifier = new SvmBinaryClassifier<bool>(reader);
+                mClassifier = new SvmBinaryClassifier<int>(reader);
+                mAvgDistPos = reader.ReadDouble();
+                mAvgDistNeg = reader.ReadDouble();
+                //Console.WriteLine(mAvgDistPos);
+                //Console.WriteLine(mAvgDistNeg);
             }
-            Logger.GetLogger(typeof(PumpNDumpIndexComponent)).Info("PumpNDumpIndexComponent", "Done.");
+            Logger.GetLogger(typeof(PumpIndexComponent)).Info("PumpIndexComponent", "Done.");
         }
 
         public override void ProcessDocument(Document document)
@@ -58,8 +64,9 @@ namespace MonitorPipeline
                 TextBlock[] blocks = document.GetAnnotatedBlocks(mBlockSelector);
                 foreach (TextBlock block in blocks) { text.AppendLine(block.Text); }
                 SparseVector<double> bow = mBowSpace.ProcessDocument(text.ToString());
-                Prediction<bool> pred = mClassifier.Predict(bow);
-
+                Prediction<int> p = mClassifier.Predict(bow);
+                double nrmDist = p.BestScore / (2.0 * (p.BestClassLabel > 0.0 ? mAvgDistPos : mAvgDistNeg));
+                document.Features.SetFeatureValue("pumpIndex", nrmDist.ToString());
             }
             catch (Exception e)
             {

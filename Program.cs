@@ -100,11 +100,13 @@ namespace MonitorPipeline
                 EntityRecognitionComponent erc = new EntityRecognitionComponent(ONTOLOGY_FOLDER_BYPASS);
                 erc.BlockSelector = "TextBlock/Content";
                 OntologyCategorizerComponent occ = new OntologyCategorizerComponent();
+                PumpIndexComponent pic = new PumpIndexComponent();
                 OccurrenceWriterComponent owc = new OccurrenceWriterComponent(CONNECTION_STRING_OCCURRENCE);
                 // build branch
                 bypass.Subscribe(erc);
                 erc.Subscribe(occ);
-                occ.Subscribe(owc);
+                occ.Subscribe(pic);
+                pic.Subscribe(owc);
             }          
             zmqRcv.Start();
             logger.Info("Main", "The pipeline is running.");

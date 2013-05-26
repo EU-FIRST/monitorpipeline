@@ -34,7 +34,6 @@ namespace Latino.Workflows.Persistance
             {
                 short sentenceNum = 0, blockNum = 0;
                 int tokensPerDocument = 0;
-                //docNum++;
                 string documentId = doc.Features.GetFeatureValue("guid");
                 documentId = documentId.Replace("-", "");
                 //doc.Features.SetFeatureValue("fullId", corpusId + "_" + documentId);             //add feature fullId for Achim
@@ -60,7 +59,7 @@ namespace Latino.Workflows.Persistance
                 catch { } // supress errors
 
                 //******************* Document to database
-                double pumpDumpIndex = 0; // TODO
+                double pumpDumpIndex = Convert.ToDouble(doc.Features.GetFeatureValue("pumpIndex"));
                 bool isFinancial = doc.Features.GetFeatureValue("isFinancial") == "True";
                 long docId = ToDb.DocumentToDb(mConnection, title, date, pubDate, timeGet.ToString("yyyy-MM-dd HH:mm"), responseUrl, urlKey, domainName, isFinancial, pumpDumpIndex, documentId);
 

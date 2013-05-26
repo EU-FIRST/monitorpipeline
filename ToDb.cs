@@ -53,7 +53,7 @@ namespace SemanticAnotation
                 cmd.Parameters.AddWithValue("@domainName", Shorten(domainName, 255));
 
                 cmd.Parameters.AddWithValue("@isFinancial", isFinancial);
-                cmd.Parameters.AddWithValue("@pumpDumpIndex", 0);
+                cmd.Parameters.AddWithValue("@pumpDumpIndex", pumpDumpIndex);
                 cmd.Parameters.AddWithValue("@documentGuid", new Guid(documentGuid));
 
                 try
