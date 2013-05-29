@@ -110,6 +110,7 @@ CREATE TABLE [dbo].[document](
 	[is_financial] [bit] NULL,
 	[pump_dump_index] [float] NULL,
 	[document_guid] [uniqueidentifier] NULL,
+	[chunk_id] [int] NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[id] ASC

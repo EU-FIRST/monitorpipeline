@@ -36,7 +36,7 @@ namespace SemanticAnotation
         /// <summary>
         /// Inserts the data about the document document table in the semantics database.
         /// </summary>
-        public static long DocumentToDb(SqlConnection connection, string title, string date, string pubDate, string timeGet, string responseUrl, string urlKey, string domainName, bool isFinancial, double pumpDumpIndex, string documentGuid)
+        public static long DocumentToDb(SqlConnection connection, string title, string date, string pubDate, string timeGet, string responseUrl, string urlKey, string domainName, bool isFinancial, double pumpDumpIndex, Guid documentGuid)
         {
             using (SqlCommand cmd = new SqlCommand(null, connection))
             {
@@ -54,7 +54,7 @@ namespace SemanticAnotation
 
                 cmd.Parameters.AddWithValue("@isFinancial", isFinancial);
                 cmd.Parameters.AddWithValue("@pumpDumpIndex", pumpDumpIndex);
-                cmd.Parameters.AddWithValue("@documentGuid", new Guid(documentGuid));
+                cmd.Parameters.AddWithValue("@documentGuid", documentGuid);
 
                 try
                 {

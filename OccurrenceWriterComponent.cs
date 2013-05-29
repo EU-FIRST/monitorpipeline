@@ -11,7 +11,8 @@
  ***************************************************************************/
 
 using System;
-using System.Data.SqlClient; 
+using System.Data.SqlClient;
+using System.Security.Cryptography;
 using Latino.Workflows.TextMining;
 using SemanticAnotation;
 
@@ -34,8 +35,8 @@ namespace Latino.Workflows.Persistance
             {
                 short sentenceNum = 0, blockNum = 0;
                 int tokensPerDocument = 0;
-                string documentId = doc.Features.GetFeatureValue("guid");
-                documentId = documentId.Replace("-", "");
+                //string documentId = doc.Features.GetFeatureValue("guid");
+                //documentId = documentId.Replace("-", "");
                 //doc.Features.SetFeatureValue("fullId", corpusId + "_" + documentId);             //add feature fullId for Achim
 
                 string responseUrl = doc.Features.GetFeatureValue("responseUrl") ?? "";
@@ -61,6 +62,13 @@ namespace Latino.Workflows.Persistance
                 //******************* Document to database
                 double pumpDumpIndex = Convert.ToDouble(doc.Features.GetFeatureValue("pumpIndex"));
                 bool isFinancial = doc.Features.GetFeatureValue("isFinancial") == "True";
+                // compute new ID
+                Guid cGuid = new Guid(c.Features.GetFeatureValue("guid"));
+                Guid dGuid = new Guid(doc.Features.GetFeatureValue("guid"));
+                ArrayList<byte> buffer = new ArrayList<byte>();
+                buffer.AddRange(cGuid.ToByteArray());
+                buffer.AddRange(dGuid.ToByteArray());
+                Guid documentId = new Guid(MD5.Create().ComputeHash(buffer.ToArray()));
                 long docId = ToDb.DocumentToDb(mConnection, title, date, pubDate, timeGet.ToString("yyyy-MM-dd HH:mm"), responseUrl, urlKey, domainName, isFinancial, pumpDumpIndex, documentId);
 
                 //******************* occurrences
