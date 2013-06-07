@@ -104,7 +104,7 @@ namespace MonitorPipeline
                 OntologyCategorizerComponent occ = new OntologyCategorizerComponent();
                 PumpIndexComponent pic = new PumpIndexComponent();
                 OccurrenceWriterComponent owc = new OccurrenceWriterComponent(CONNECTION_STRING_OCCURRENCE);
-                DocumentWriterComponent dwc = new DocumentWriterComponent(null, XML_DATA_ROOT, null);
+                DocumentWriterComponent dwc = new DocumentWriterComponent(null, /*cmdTimeout=*/0, XML_DATA_ROOT, null);
                 // build branch
                 bypass.Subscribe(erc);
                 erc.Subscribe(occ);

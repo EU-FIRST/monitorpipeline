@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using Latino;
 
 
 namespace SemanticAnotation
@@ -58,7 +59,7 @@ namespace SemanticAnotation
 
                 try
                 {
-                    long id = Decimal.ToInt32((Decimal)cmd.ExecuteScalar());  //Execute the command, get id of the inserted document
+                    long id = Decimal.ToInt32((Decimal)cmd.ExecuteScalarRetryOnDeadlock());  //Execute the command, get id of the inserted document
                     return id;
                 }
                 catch (SqlException ex)
@@ -87,7 +88,7 @@ namespace SemanticAnotation
 
                 try
                 {
-                    Decimal tmp = (Decimal)cmd.ExecuteScalar();
+                    Decimal tmp = (Decimal)cmd.ExecuteScalarRetryOnDeadlock();
                     long id = Decimal.ToInt32(tmp);  //Execute the command, get id of the inserted document
                     return id;
                 }
@@ -118,7 +119,7 @@ namespace SemanticAnotation
 
                 try
                 {
-                    Decimal tmp = (Decimal)cmd.ExecuteScalar();
+                    Decimal tmp = (Decimal)cmd.ExecuteScalarRetryOnDeadlock();
                     long id = Decimal.ToInt32(tmp);  //Execute the command, get id of the inserted document
                     return id;
                 }
@@ -156,7 +157,7 @@ namespace SemanticAnotation
 
                 try
                 {
-                    cmd.ExecuteNonQuery(); //Execute the command
+                    cmd.ExecuteNonQueryRetryOnDeadlock(); //Execute the command
                 }
                 catch (Exception ex)
                 {
@@ -186,7 +187,7 @@ namespace SemanticAnotation
 
                 try
                 {
-                    cmd.ExecuteNonQuery(); //Execute the command
+                    cmd.ExecuteNonQueryRetryOnDeadlock(); //Execute the command
                 }
                 catch (Exception ex)
                 {
@@ -215,7 +216,7 @@ namespace SemanticAnotation
                 cmd.Parameters.AddWithValue("@polarity", polarity);
                 cmd.Parameters.AddWithValue("@tokens", noTokens);
 
-                cmd.ExecuteNonQuery();  //Execute the command
+                cmd.ExecuteNonQueryRetryOnDeadlock();  //Execute the command
             }
         }
 
@@ -234,7 +235,7 @@ namespace SemanticAnotation
                 cmd.Parameters.AddWithValue("@term", Shorten(term, 400));
                 try
                 {
-                    cmd.ExecuteNonQuery();  //Execute the command
+                    cmd.ExecuteNonQueryRetryOnDeadlock();  //Execute the command
                 }
                 catch (Exception)
                 {
